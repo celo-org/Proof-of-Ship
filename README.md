@@ -2,9 +2,13 @@
 Source of Truth for all Proof of Ship submissions
 
 
-```info
-Sign Up for Proof of Ship now on our [event platform](https://celo.lemonade.social/e/4JkhOXcD). Don't forget to claim your collectible.
-```
+> 
+> ℹ️ **Want to join?** 
+> 
+> Sign up for Proof of Ship now on our [event platform](https://celo.lemonade.social/e/4JkhOXcD). Don't forget to claim your collectible.
+> 
+
+
 
 ## Rules, Judging, Themes
 
