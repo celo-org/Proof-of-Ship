@@ -1,5 +1,13 @@
 # Project Name
 
+## Former Participation in Celo Hackathons
+
+- Link to hackathon submission
+
+## Goal for this Proof of Ship
+
+What are you planning to achieve. Be as detailed as possible. Try to break it down into weekly milestones. 
+
 ## Detailed description of the work you did during the contest
 
 - Link to PR for feature 1
@@ -11,14 +19,9 @@
 
 ## Architecture
 
-## Goal for this Proof of Ship
+## Deployed Contract Addresses on Celo
 
-## Milestones
-
-### Milestone checkin #1
-
-### Milestone checkin #2
-
+- Contracts should be verified
 
 ## Team
 

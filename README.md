@@ -1,6 +1,5 @@
-# Proof-of-Ship
+# Proof of Ship
 Source of Truth for all Proof of Ship submissions
-
 
 > 
 > ℹ️ **Want to join?** 
@@ -9,15 +8,15 @@ Source of Truth for all Proof of Ship submissions
 > 
 
 
-
-## Rules, Judging, Themes
-
-- TODO: add link to Notion
-
-
 ## How to submit your project to Proof of Ship? 
 
-1. Create a file in the folder of the contest you are participating for your project
-   1. If you participated in any former hackathon organized by Celo, please add the links tot he top of your project
-2. Update the file with your project progress each milestone checkin
-3. Post a link with the updates for each Milestone checkin on Farcaster in the /celo channel, summarizing your progress and add a link to your project file in this repository
+1. Fork the repository
+2. Create a file in the folder of the contest you are participating for your project based on the template
+3. Create a PR with your project
+4. Your PR will only be accepted, meaning you will only be officialy signed up, once you have applied and been approved through the [Hackathon Page](https://celo.lemonade.social/e/4JkhOXcD)
+
+## Rules, Judging, Themes, Timeline
+
+- Find out all details on themes, judging, timeline and who can participate on the [Proof of Ship Notion](https://celoplatform.notion.site/Build-With-Celo-Proof-of-Ship-17cd5cb803de8060ba10d22a72b549f8).
+
+
