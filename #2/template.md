@@ -4,7 +4,14 @@
 
 #### Cookies From Groupies is a decentralized application (dApp) that bridges the gap between artists and their audiences. It allows artists to build their online profiles, showcase their work, and receive support in creative ways. Fans can explore artist profiles, support them through donations, purchase NFTs, and even stake tokens to share in the yields generated. Supporters unlock exclusive content and gain access to token-gated chats with the artists they support.
 
-## Github Repo 
+## 🎯 Vision
+
+**Cookies From Groupies** aims to revolutionize how local independent artists sustain their creativity by offering them decentralized tools for financial growth and fan engagement.
+
+---
+
+## Github Repo
+
 [Cookies From Groupies 🍪🎨](https://github.com/pratiksardar/cookies-4m-groupies)
 
 ## Problem
@@ -31,9 +38,54 @@ Token-Gated Content: Access to NFTs or other content is unlocked upon providing 
 
 ## Architecture
 
+### For Artists:
+
+- **Profile Creation**: Build a customizable online presence.
+- **Monetization Options**:
+  - Accept **donations** directly from fans.
+  - Mint and sell **NFTs** representing your art.
+  - Earn from **yields** generated when supporters stake their tokens on you.
+
+### For Supporters:
+
+- **Browse Artists**: Discover and connect with independent talent.
+- **Support Creatively**: Choose how to support artists—donate, buy NFTs, or stake tokens.
+- **Unlock Exclusive Perks**:
+  - Access token-gated content, such as NFTs or special art.
+  - Engage in private token-gated chats with artists.
+
+---
+
+## 🚀 How It Works
+
+1. **Artists**:
+
+   - Sign up and create your profile.
+   - Showcase your work and set up NFT listings or donation goals.
+   - Allow supporters to stake tokens on you to generate profits.
+
+2. **Supporters**:
+   - Browse the platform and discover artists.
+   - Choose your favorite artist and provide support in various ways:
+     - Donate directly.
+     - Buy their NFTs.
+     - Stake tokens to generate yield and share profits with the artist.
+   - Unlock token-gated content and exclusive chats.
+
+---
+
+## 📌 Key Benefits
+
+- **For Artists**: A platform to monetize creativity without intermediaries and build meaningful connections with supporters.
+- **For Supporters**: An engaging way to support artists while unlocking unique content and experiences.
+
 ## Goal for this Proof of Ship
 
+---
+
 Make The project available to all people and artists, onboard more artists, tie up with local hubs, theaters and venues that host open mic, art workshops and exhibition to provide visiblity to artists directly or via fans.
+
+---
 
 ## Milestones
 
@@ -43,7 +95,20 @@ Deploy and Integrate SC with Frontend and intutive easy way of onboarding artist
 
 ### Milestone checkin #2
 
-Launch on Celo Mainnet, make Frontend reactive like a PWA for ease of use. 
+Launch on Celo Mainnet, make Frontend reactive like a PWA for ease of use.
+
+## 🛣️ Roadmap
+
+- Enhanced Artist Discovery: AI-Powered Recommendations, Geolocation-Based Discovery, Geolocation-Based Discovery
+
+- Collaborative Features: Group Support Campaigns, Collaboration Tools for Artists
+- Advanced NFT Features: Fractionalized NFTs, Dynamic NFTs
+- Community and Social Features: Token-Gated Communities, Events and Livestreams
+- Mobile and AR/VR Experiences
+- Subscription Models
+- Artist Analytics
+- Educational Resources for Artists
+- DAO Governance
 
 ## Team
 
