@@ -11,9 +11,9 @@ Source of Truth for all Proof of Ship submissions
 ## How to submit your project to Proof of Ship? 
 
 1. Fork the repository
-2. Create a file in the folder of the contest you are participating for your project based on the template
-3. Create a PR with your project
-4. Your PR will only be accepted, meaning you will only be officialy signed up, once you have applied and been approved through the [Hackathon Page](https://celo.lemonade.social/e/4JkhOXcD)
+2. Copy the template file and create a file for your project in the folder of the contest number (e.g., #1) you are participating in. 
+3. Create a PR and set @GigaHierz as reviewer
+4. Your PR will only be accepted, meaning you will only be officially signed up, once you have applied and been approved through the [Hackathon Page](https://celo.lemonade.social/e/4JkhOXcD)
 
 ## Rules, Judging, Themes, Timeline
 
