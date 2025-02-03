@@ -1,3 +1,10 @@
+> 
+> 🚨 **Please don't write in this file** 
+> 
+> Don't touch this file ----- please create a copy and name it after your project
+> 
+
+
 # Project Name
 
 ## Former Participation in Celo Hackathons
