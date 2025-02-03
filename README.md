@@ -16,19 +16,17 @@ Source of Truth for all Proof of Ship submissions
 4. Your PR will only be accepted, meaning you will only be officially signed up, once you have 
    1. applied and been approved through the [Hackathon Page](https://celo.lemonade.social/e/4JkhOXcD)
    2. filled out the README properly with your goals and milestones. This program is focused on builders that are seriously building. So, please take the time, sit down and create your ambitious (but achivable goals).
-5. You can collect extra points by submitting daily updates through the [/celo Farcaster](https://warpcast.com/~/channel/celo) channel with a valid PR.
+   3. Your project is **open source**. If you are working on a closed source project, you can develop the feature open source and showcase in a video how it would look like in your application. 
+5. You can collect extra points by submitting daily updates through the [/celo Farcaster](https://warpcast.com/~/channel/celo) channel with a unique PR.
 
 ## Rules, Judging, Themes, Timeline
 
 
 > 
-> ℹ️ **Want to join?** 
+> ℹ️ **Make sure to know the rules** 
 > 
 > Make sure you read the [rules and agenda](https://celoplatform.notion.site/Build-With-Celo-Proof-of-Ship-17cd5cb803de8060ba10d22a72b549f8) properly, to understand how to be successful in this contest.
 > 
-
-:::info
-:::
 
 - Find out all details on themes, judging, timeline and who can participate on the [Proof of Ship Notion](https://celoplatform.notion.site/Build-With-Celo-Proof-of-Ship-17cd5cb803de8060ba10d22a72b549f8).
 
