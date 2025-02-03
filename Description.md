@@ -1,0 +1,44 @@
+Project Name - "2P"
+
+GOAL:
+-To develop a decentralized, fair, and transparent two-player staking game where both players stake an entry amount, and the winner takes all while the platform deducts a 5% playing fee.
+
+Detailed Description
+-This project is a blockchain-based two-player staking game where:
+
+1. You and a friend can compete against each other by staking a predetermined amount.
+
+2. The game logic determines a winner based on predefined rules.
+
+3. The winner receives 95% of the total pot, and the platform takes a 5% fee.
+
+4. The game operates in a decentralized manner using smart contracts to ensure fairness and transparency.
+
+5. Unlike traditional online games where you play against a bot or computer, this game is all about playing against real people—your friends! This makes it more fun, competitive, and engaging.
+
+Right now, we have a simple memory card game, but in the future, we can extend this platform to various types of games, making it even more exciting.
+
+PROBLEM:
+- Trust Issues in Online Games: Many staking games require players to trust a central authority to handle funds, leading to fraud risks.
+
+- Lack of Transparency: Traditional online betting games often lack transparency in determining winners.
+
+- High Transaction Fees: Centralized gaming platforms charge high commission fees, reducing player rewards.
+
+- Slow Payment Processing: Many gaming platforms take time to process winnings, leading to withdrawal delays.
+
+SOLUTION:
+- Blockchain Smart Contracts: Ensure trustless and secure fund handling.
+
+- Transparent & Automated Execution: The game logic, winner selection, and payouts are managed through immutable smart contracts.
+
+- Lower Fees: With only a 5% fee, players retain a larger share of the winnings compared to centralized platforms.
+
+- Instant Payouts: The smart contract automatically transfers funds to the winner’s wallet, eliminating withdrawal delays.
+
+Future Scope
+- Multi-Player Mode: Expand the game to allow more than two players in staking matches.
+
+- NFT Integration: Introduce NFTs as entry tickets, rewards, or unique game boosts.
+
+- Leaderboards & Tournaments: Reward top players with exclusive incentives.
