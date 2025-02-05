@@ -1,5 +1,5 @@
 # Project Name
-CeAI - AI Utilities and Personal Payment Assistant on Celo Mini Pay
+AkiliAI - AI Utilities and Personal Payment Assistant on Celo Mini Pay
 
 ## Goal for this Proof of Ship
 Week 1:
@@ -23,7 +23,7 @@ Week 4:
 - Current solutions lack AI-powered optimization and automated payment capabilities on blockchain
 
 ## Solution
-CeAI automates utility payments using Celo's blockchain and AI:
+AkiliAI automates utility payments using Celo's blockchain and AI:
 - Automated bill payments with spending caps
 - Smart scheduling of payments
 - Cost analysis and optimization recommendations
