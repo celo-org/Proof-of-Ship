@@ -38,7 +38,7 @@ Week 5 – Fonbank API Integration (Big maybe still doing some research on how t
 
 ## Detailed description of the work you did during the contest
 
-- Link to PR for feature 1
+- PWA Implementation [https://github.com/Argusham/TaxiZip/pull/12]
 - Link to PR for feature 2
 
 ## Problem
