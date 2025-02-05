@@ -9,7 +9,7 @@ Simplifinance has not been pariticipated in any of the Celo hackathons.
 
 ## Goal for this Proof of Ship
 
-Simplifinance already owns a Web App accessible __[here](https://testnet.simplifinance.xyz)__. Sequel to research we conducted, and in a bid to reach out to more users via an intuitive easy-to-use interface, our goal is to develop a mobile-friendly AI-powered Telegram miniApp to onboard more users driving more traffic to our product. As part of our to-dos, we have set out the following tasks to help us achieve our set goal. 
+Simplifinance already owns a Web App accessible __[here](https://testnet.simplifinance.xyz)__. Sequel to research we conducted, and in a bid to reach out to more users via an intuitive easy-to-use interface, our goal is to develop a mobile-friendly AI-powered Telegram bot and miniApp (taking bot as first on the list) to onboard more users driving more traffic to our product. As part of our to-dos, we have set out the following tasks to help us achieve our set goal. 
 
 Feb.2025 | W1 | W2 | W3 | W4
 -------- | -- | -- | -- | ----
