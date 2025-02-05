@@ -1,5 +1,5 @@
 # Project Name
-Mobarter
+
 ## Former Participation in Celo Hackathons
 
 - Link to hackathon submission
@@ -16,7 +16,7 @@ What are you planning to achieve. Be as detailed as possible. Try to break it do
 ## Problem
 
 ## Solution
-An off ramping solution for Africans
+
 ## Architecture
 
 ## Deployed Contract Addresses on Celo
@@ -25,4 +25,3 @@ An off ramping solution for Africans
 
 ## Team
 
-- Eligbue Felix - CTO
