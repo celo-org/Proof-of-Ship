@@ -57,7 +57,7 @@ Taxify implements blockchain technology to ensure transparency, security, and ac
 
 ## Deployed Contract Addresses on Celo
 
-- 0x7f8EFB57b228798d2d3ec3339cD0a155EB3B0f96 [Mainnet] [Taxify]
+- 0x7f8EFB57b228798d2d3ec3339cD0a155EB3B0f96 [Mainnet] [Taxify Address]
 
 ## Team
 
