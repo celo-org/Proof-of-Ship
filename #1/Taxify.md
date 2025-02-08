@@ -2,10 +2,7 @@
 
 ## Former Participation in Celo Hackathons
 
-- Link to hackathon submission [https://github.com/Argusham/TaxiZip] - https://taxi-zip-react-app.vercel.app/
-- Link to hackathon submission [https://github.com/Argusham/MiniPay] - https://mini-pay-react-app.vercel.app/
-- Link to hackathon submission [https://github.com/Argusham/X-wave-store] - [https://x-wave-store.vercel.app/]
-- Link to hackathon submission [https://github.com/Onodwa2001/block-chain-game] - [https://662693ee8a1f4d053227de28--dulcet-conkies-0923ae.netlify.app/]
+- Link to hackathon submission [https://github.com/Argusham/TaxiZip]
 
 ## Goal for this Proof of Ship
 
@@ -57,7 +54,7 @@ Taxify implements blockchain technology to ensure transparency, security, and ac
 
 ## Deployed Contract Addresses on Celo
 
-- 0x7f8EFB57b228798d2d3ec3339cD0a155EB3B0f96 [Mainnet] [Taxify Address]
+- Contracts should be verified
 
 ## Team
 
