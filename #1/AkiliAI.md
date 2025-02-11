@@ -39,5 +39,8 @@ AkiliAI automates utility payments using Celo's blockchain and AI:
 ## Deployed Contract Addresses on Celo
 Contracts should be verified
 
+## Github Links 
+https://github.com/Olisehgenesis/AkiliAI
+
 ## Team
 Oliseh Genesis
