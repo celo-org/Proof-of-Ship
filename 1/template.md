@@ -2,12 +2,16 @@
 > 🚨 **Please don't write in this file** 
 > 
 > Don't touch this file ----- please create a copy and name it after your project
-> 
+>
 # Project Name
 
 ## Link to your project's GitHub repository 
 
 - It needs to be **Public**. This is mandatory to get approved.
+
+## Team Members GitHub username
+
+- Links to GitHub profiles of each team member
 
 ## Former Participation in Celo Hackathons
 
