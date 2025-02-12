@@ -39,7 +39,8 @@ Week 5 – Fonbank API Integration (Big maybe still doing some research on how t
 ## Detailed description of the work you did during the contest
 
 - PWA Implementation [https://github.com/Argusham/TaxiZip/pull/12]
-- Link to PR for feature 2
+- Web2/Web3 [https://github.com/Argusham/TaxiZip/pull/13]
+- Fonbnk Api []
 
 ## Problem
 
@@ -54,7 +55,7 @@ Taxify implements blockchain technology to ensure transparency, security, and ac
 
 ## Deployed Contract Addresses on Celo
 
-- Contracts should be verified
+- Contract Addresses [0x7f8EFB57b228798d2d3ec3339cD0a155EB3B0f96]
 
 ## Team
 
