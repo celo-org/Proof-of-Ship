@@ -21,9 +21,32 @@ We are getting ready to pilot our community driven platform for 3 wheelers biker
 
 
 ### Detailed description of the work you did during the contest
-- TBD
-- TBD
+#### Week 1
+1. Purchase or pre-order a 3 wheeler bike from the platform w/ offchain + onchain payment options
+   - visual foundation of the peer-to-peer 3 wheeler bike financing feature + basic repo setup(https://github.com/3-Wheeler-Bike-Club/3-wheeler-bike-club-fleet-app/commit/7634d4c1461f48f80b278b3665598ae771b59f28)
+   - complete business logic + integrated paystack payment gate + order submission to 3wb Team to complete procurement, registration & driver assignment of 3-wheeler(https://github.com/3-Wheeler-Bike-Club/3-wheeler-bike-club-fleet-app/commit/8e69fc77b62b6412346ed94b992d8906e44702fb)
 
+2. Registration of 3 wheeler w/ local government authority eg. DVLA in Ghana(offline) + Onboard the 3 wheeler bike on the platform w/ pink slip attestation
+   - TBD
+   - TBD
+
+#### Week 2
+1. Application submission to ride a 3 wheeler bike w/ KYC(offchain) 
+   - TBD
+   - TBD
+
+2. Assign a credit worthy member after in-person interview by union chairman & gurantor assurance(offchain)
+   - TBD
+   - TBD
+
+#### Week 3
+1. Initiate a hire purchase agreement between the financer & driver w/ hire purchase agreement attestation + attest all IOU invoices w/due weekly dates
+   - TBD
+   - TBD
+
+2. Payment of hire purchase receipts w/ attestation of receipt and credit scores
+   - TBD
+   - TBD
 ## Problem
 We see the opportunity to create a community where drivers contribute to a shared foundation, helping each other grow and succeed, improving the quality of work & life. This is a community that is driven by the members, for the members to root out & solve the challenges of their local communities.
 
