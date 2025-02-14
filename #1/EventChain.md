@@ -2,7 +2,13 @@
 
 EventChain
 
+## Live Demo
+
+[Demo](https://eventchain-seven.vercel.app/)
+
 ## Link to Your Repository
+
+[https://github.com/Chigozie0706/eventchain](https://github.com/Chigozie0706/eventchain)
 
 ## Goal for This Proof of Ship
 
@@ -46,10 +52,6 @@ The goal is to develop a decentralized event management platform on the Celo blo
 - Implemented event creation, listing, and deletion functionalities.
 - Ensured ownership validation for event deletion.
 - Conducted smart contract testing and deployed on Celo.
-
-## Link to PR for Feature 1
-
-## Link to PR for Feature 2
 
 ## Problem
 
