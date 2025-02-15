@@ -1,4 +1,4 @@
-# Transkat
+# Transakt
 
 ## Former Participation in Celo Hackathons
 
@@ -40,6 +40,3 @@ Stablecoin AMM with Liquidity Aggregation for the African Layer to serve develop
 ## Deployed Contract Addresses on Celo
 
 - Contracts should be verified
-
-## Team
-
