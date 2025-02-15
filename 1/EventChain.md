@@ -15,6 +15,7 @@ The goal is to develop a decentralized event management platform on the Celo blo
 - Join an event.
 - View detailed event information.
 - Delete an event (only if they are the owner).
+- Purchase tickets using Mento stablecoins (cUSD, cEUR, cCOP)
 
 ### Weekly Milestones
 
