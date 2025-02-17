@@ -3,45 +3,44 @@
 ## Overview
 A Next.js-based Web3 application that automatically mints PNG crypto asset reports called `NoFAs` as NFTs on the Celo network. The reports include market cap, news headlines, sentiment, and other information.
 
+## Solution & Vision
+Nyfa captures a moment in a cryptocurrency's lifetime, similar to what [carbon](https://carbon.now.sh/) does for code snippets. Users can generate and download shareable PNGs containing crypto asset reports, which can then be minted as NFTs.
+
+## Contract Deployment
+NoFA NFT Contract Address (Celo Alfajores): `0x7f5b1F68079b885512f6338C17466d53BC5A213C`
+
 ## Core Features
 
-### 1. Crypto API Calls
-- Select one of the over 17,000 cryptocurrencies
-- Call CoinGecko and CryptonewsAPI APIs
+### 1. Cryptocurrency Data Integration
+- Access to over 17,000 cryptocurrencies
+- Integration with CoinGecko and CryptonewsAPI
+- Real-time market data and news sentiment analysis
 
-### 2. HTML 2 Canvas 
-- Grab the generate report, a `NoFA - Not Financial Advice`
-- Generate a PNG with the said information
+### 2. Report Generation
+- Creation of `NoFA` (Not Financial Advice) reports
+- PNG generation using HTML2Canvas
+- Customizable report layouts
 
-### 3. IPFS Upload
-- Upload the generated PNG to Pinata
-- Get back a link to the IPFS-stored file `ipfs://`
+### 3. IPFS Integration
+- Seamless upload to Pinata
+- IPFS-based storage with permanent links
+- Decentralized file management
 
-### 4. Smart Contract Components
-1. ERC71URIStorage
-   - Create NFTs based on the NoFAs
-   - Link NFTs with metadata
+### 4. NFT Implementation
+- ERC721URIStorage-based smart contract
+- Metadata linking with IPFS content
+- Automated minting process
 
-
-### 5. Frontend Components
-
-#### Crypto Report Generation
-Create your NoFA
-  * Select crypto
-  * Make background API calls
-
-#### Save to Pinata
-- Button display with `Save your PNG, then create an NFT`
-- API calls to Pinata to save the image and metadata
-
-#### Wallet Integration
-- Connect wallet from `RainbowKit`
-
+### 5. User Interface
+- Intuitive crypto selection
+- Background API processing
+- Pinata integration for storage
+- RainbowKit wallet connectivity
 
 ## Technical Architecture
 
 ### Frontend Flow
-1. User Journey
+1. User Authentication
    ```
    Creator creates an account
    ↓
@@ -49,7 +48,8 @@ Create your NoFA
    ↓
    They can create a NoFA which is saved to Supabase Postgres Database
    ```
-2. NoFA Creation
+
+2. NoFA Creation Process
    ```
    Creator selects a coin
    ↓
@@ -62,21 +62,18 @@ Create your NoFA
    A user can see that information
    ```
 
-
-
 ### Smart Contract Flow
-NoFA NFT Creation
-   ```
-   Creator saves the PNG to Pinata
-   ↓
-   Pinata returns an IPFS link 
-   ↓
-   Creator creates NFT, which uses the IPFS link as metadata to the PNG
-   ```
+```
+Creator saves the PNG to Pinata
+↓
+Pinata returns an IPFS link 
+↓
+Creator creates NFT, which uses the IPFS link as metadata to the PNG
+```
 
-## Data Structures
+## Data Models
 
-### Creator Object
+### Creator
 ```typescript
 interface Creator {
     id: string;
@@ -88,55 +85,53 @@ interface Creator {
 }
 ```
 
-
-### NoFA Object
+### NoFA
 ```typescript
 interface NoFA {
-  id: string | null;
-  coinId: string
-  creatorAuthId: string | null | undefined; 
-  txnHash: string | null | undefined;
-  ipfsURI: string | null | undefined;
-  coinImageURI: string | null | undefined;
-  marketCap: number | null | undefined;
-  totalSupply: number | null | undefined;
-  circulatingSupply: number | null | undefined;
-  headlines: Headline[] | null | undefined;
-  timeCreated: string | null | undefined;
+    id: string | null;
+    coinId: string
+    creatorAuthId: string | null | undefined; 
+    txnHash: string | null | undefined;
+    ipfsURI: string | null | undefined;
+    coinImageURI: string | null | undefined;
+    marketCap: number | null | undefined;
+    totalSupply: number | null | undefined;
+    circulatingSupply: number | null | undefined;
+    headlines: Headline[] | null | undefined;
+    timeCreated: string | null | undefined;
 }
 ```
 
-### NewsItem Object
+### News Components
 ```typescript
- interface NewsItem {
+interface NewsItem {
     title: string;
     image_url: string;
     news_url: string;
-    sentiment:"Positive" | "Negative" | "Neutral";
+    sentiment: "Positive" | "Negative" | "Neutral";
 }
-```
 
-
-### Headline Object
-```typescript
 interface Headline {
-  title: string | null | undefined;
-  imageURL: string | null | undefined;
-  link: string | null | undefined;
-  sentiment: "Positive" | "Negative" | "Neutral" | null;
+    title: string | null | undefined;
+    imageURL: string | null | undefined;
+    link: string | null | undefined;
+    sentiment: "Positive" | "Negative" | "Neutral" | null;
 }
 ```
 
-## Long-Term Plan
+## Roadmap
 
-### Month 1: RainbowKit Integration and Celo Alfajores Contract Deployment
-- Move from Coinbase's `OnchainKit` to `RainbowKit`
-- Optimize for MiniPay
-- Deploy NFT contract to Celo Alfajores
+### Month 1: Wallet Integration & Testing
+- Migration from Coinbase's `OnchainKit` to `RainbowKit`
+- MiniPay optimization
+- Celo Alfajores testnet deployment
 
-### Month 2: Add Paywall
-- Charge for each NFT creation, and each NoFA generation
+### Month 2: Monetization
+- Implementation of NFT minting fees
+- NoFA generation payment system
+- Revenue model optimization
 
-### Month 3: Introduce Nyla - AI
-- Create an SDK integrate with Nyfa that will serve as an AI agent
-- Make SDK available for all to use
+### Month 3: AI Integration (Nyla)
+- Development of Nyfa SDK with AI capabilities
+- Public SDK release
+- AI-powered feature expansion
