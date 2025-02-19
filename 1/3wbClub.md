@@ -27,8 +27,9 @@ We are getting ready to pilot our community driven platform for 3 wheelers biker
    - complete business logic + integrated paystack payment gate + order submission to 3wb Team to complete procurement, registration & driver assignment of 3-wheeler(https://github.com/3-Wheeler-Bike-Club/3-wheeler-bike-club-fleet-app/commit/8e69fc77b62b6412346ed94b992d8906e44702fb)
 
 2. Registration of 3 wheeler w/ local government authority eg. DVLA in Ghana(offline) + Onboard the 3 wheeler bike on the platform w/ pink slip attestation
-   - TBD
-   - TBD
+   - remodel admin dashboard flow to receive order submission & match w/ driver submission after pink slip registration(https://github.com/3-Wheeler-Bike-Club/3-wheeler-bike-club-team-app/commit/0071009622160949bde5ab400b1ae4fe228dcba4)
+   - add procured 3-wheelers to the platform w/ basic information for DVLA registration(https://github.com/3-Wheeler-Bike-Club/3-wheeler-bike-club-team-app/commit/94811b2c02800e836f4ad9e0b2c816f2db53baed)
+   - storing offline vehicle registration data onchain w/ ethSign attestation(https://github.com/3-Wheeler-Bike-Club/3-wheeler-bike-club-team-app/commit/98961562223ad26c71921fe34e4a7f8caf32d9ed)
 
 #### Week 2
 1. Application submission to ride a 3 wheeler bike w/ KYC(offchain) 

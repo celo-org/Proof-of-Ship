@@ -130,9 +130,11 @@ TBD
 ## Team
 
 **Mitch**-  dApp Development & Project Lead  
+GitHub: https://github.com/divine-comedian
 Twitter: [https://x.com/divine_comedian](https://x.com/divine_comedian) 
 Past experience: DAO Ops Lead & Product Manager at Giveth. Junior Solidity Developer. Formerly Rewards System Lead at TEC, Project Manager at General Magic and Client Relations for Praise
 
 **Carlos**- SR Backend Engineer
+GitHub: https://github.com/CarlosQ96
 Twitter: [https://x.com/CarlosQ096](https://x.com/CarlosQ096)
 Past experience: 7 Years working as a backend developer, divided into 4 years in the web2 industry for Koombea in e-commerce and mobile applications, and 3 years building robust web3 backend integrations with the blockchain and smart contracts for Giveth and General Magic.
