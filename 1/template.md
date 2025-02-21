@@ -33,10 +33,11 @@ What are you planning to ship this month? Be as detailed as possible. Try to bre
 ## Solution	
 
 - How does your project solve that problem?	
+- What are your competitors? Why are you solving this better? Could you use their product to build something on top?
 
 ## Architecture	
 
-- What is your tech stack?	
+- What is your tech stack? Please list all Web3 libraries and protocols you are planning to use. 
 - High level overview of your project architecture	
 
 ## Deployed Contract Addresses on Celo	
