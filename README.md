@@ -16,7 +16,13 @@ Learn more about the contest [here](https://celoplatform.notion.site/Build-With-
 ## How to Submit Your Project? 
 
 1. **Fork the repository.**
-2. **Copy the template file** and create a file for your project in the folder of the contest number (e.g., #1) you are participating in. Name the file after your project. 
+   - Go to the repository page on GitHub and click the "Fork" button in the top-right corner.
+
+2. **Copy the template file** and create a file for your project in the folder of the contest number (e.g., #1) you are participating in. Name the file after your project. DON'T use the template file to write into. 
+   - Use the following command to copy the template file:
+     ```bash
+     cp path/to/template.md path/to/contest_folder/your_project_name.md
+     ```
 3. **Submit a PR** and set @GigaHierz as the reviewer.
 4. Your PR will only be accepted if:
    1. You applied and been **approved through the [event platform](https://celo.lemonade.social/e/4JkhOXcD).**
