@@ -18,9 +18,8 @@ Develop a one-click platform for token creation, bridging, and liquidity managem
 
 ### Detailed description of the work you did this month during the contest
 
-- LINK 1
-- LINK 2
-- LINK 3
+- [Link 1](https://github.com/distroinfinity/superflow/pull/17)
+- [Link 2](https://github.com/distroinfinity/superflow/pull/14)
 
 ## Problem
 
@@ -42,6 +41,10 @@ Liquidity Pool Setup (createUniswapPools.js)
 Creates Uniswap V3 pools using FactoryV3 & Non-Fungible Position Manager.
 
 ## Deployed Contract Addresses on Celo
+
+Tokens deployed on celo alfajores:
+0x05f61aEA81839B6f4E21A308b1fc70a064bca843
+0xDD42Fc42c4D5294dC14bcc06eaC50EaE0387f18F
 
 ## Real World Impact
 
