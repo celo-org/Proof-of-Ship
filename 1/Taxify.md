@@ -41,8 +41,9 @@ Week 5 – Fonbank API Integration (Big maybe still doing some research on how t
 - PWA Implementation [https://github.com/Argusham/TaxiZip/pull/12]
 - Web2/Web3 [https://github.com/Argusham/TaxiZip/pull/13]
 - Offline mode [https://github.com/Argusham/TaxiZip/pull/15]
-- Fonbnk Api [https://github.com/Argusham/TaxiZip/pull/16] (Testing Phase)
-
+- Fonbnk Api [https://github.com/Argusham/TaxiZip/pull/16]
+- Fonbnk API complete final UI and UX Changes [https://github.com/Argusham/TaxiZip/pull/20]
+- MORE to come 😁✌️
 
 ## Problem
 
