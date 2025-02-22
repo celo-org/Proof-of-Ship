@@ -43,8 +43,8 @@ Creates Uniswap V3 pools using FactoryV3 & Non-Fungible Position Manager.
 ## Deployed Contract Addresses on Celo
 
 Tokens deployed on celo alfajores:
-0x05f61aEA81839B6f4E21A308b1fc70a064bca843
-0xDD42Fc42c4D5294dC14bcc06eaC50EaE0387f18F
+- 0x05f61aEA81839B6f4E21A308b1fc70a064bca843  
+- 0xDD42Fc42c4D5294dC14bcc06eaC50EaE0387f18F  
 
 ## Real World Impact
 
