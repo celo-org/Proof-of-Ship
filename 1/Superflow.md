@@ -4,6 +4,10 @@
 ## Link to your project's GitHub repository 
 [Link](https://github.com/distroinfinity/superflow)
 
+## Superflow Social
+
+[Link](https://x.com/superflow0)
+
 ## Former Participation in Celo Hackathons
 EthGlobal Bangok Celo Track Winners.
 
