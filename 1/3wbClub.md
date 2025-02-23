@@ -33,8 +33,8 @@ We are getting ready to pilot our community driven platform for 3 wheelers biker
 
 #### Week 2
 1. Application submission to ride a 3 wheeler bike w/ KYC(offchain) 
-   - TBD
-   - TBD
+   - create membership badge attestation on init signup, submit interest to drive for in-person KYC(https://github.com/3-Wheeler-Bike-Club/3-wheeler-bike-club-members-app-pwa/commit/2902b23d8c27c66c41cda7ea80ce6d84dc20530a)
+   - upload in-person KYC documents offchain + revoke then attest new membership badge to reflect KYC passed(https://github.com/3-Wheeler-Bike-Club/3-wheeler-bike-club-team-app/commit/74adacec8d125f18ffcc8bc4953f1eb167270136)
 
 2. Assign a credit worthy member after in-person interview by union chairman & gurantor assurance(offchain)
    - TBD
