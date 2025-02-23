@@ -14,17 +14,18 @@
 
 ## Former Participation in Celo Hackathons
 
-- Links should go here if any
+- Submitted Normie.Tech as a part of the Celo SF residency
 
 ## Monthly Goal for this Proof of Ship
 
 - Build Webhooks.
-- Onboard X Customers
+- Onboarding new users
 
-### Detailed description of the work you did this month during the contest
+### Previous month work done
+Implemented paypal payment processor, replenishing tokens, other fixes and new features implemented as per users demands
 
-- Link to PR for feature 1
-- Link to PR for feature 2
+- [Paypal Integration](https://github.com/normiedottech/normie.tech/pull/48)
+- [Replenishing Tokens](https://github.com/normiedottech/normie.tech/pull/43)
 
 ## Problem
 Web3 businesses lose 85% of potential customers who want to pay with cards but can’t navigate crypto wallets, KYC hurdles, or volatile settlements.
@@ -119,7 +120,5 @@ sequenceDiagram
 ```
 ## Deployed Contract Addresses on Celo
 
-We dont have any contract addresses which deployed on chain......
-???????????????????
-- Contract Address on Celo or Celo Alfajores Testnet.
-- NOTE: Our AI Agent Judge tracks transactions on deployed contracts. Contracts are required in order to receive monthly rewards.  
+Here are the Addresses
+ - Reserve Address: ```0xF7D1D901d15BBf60a8e896fbA7BBD4AB4C1021b3```
