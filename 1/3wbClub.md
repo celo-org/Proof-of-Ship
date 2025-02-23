@@ -37,8 +37,7 @@ We are getting ready to pilot our community driven platform for 3 wheelers biker
    - upload in-person KYC documents offchain + revoke then attest new membership badge to reflect KYC passed(https://github.com/3-Wheeler-Bike-Club/3-wheeler-bike-club-team-app/commit/74adacec8d125f18ffcc8bc4953f1eb167270136)
 
 2. Assign a credit worthy member after in-person interview by union chairman & gurantor assurance(offchain)
-   - TBD
-   - TBD
+   - display all verified drivers for final approval and assignment of 3-wheeler(https://github.com/3-Wheeler-Bike-Club/3-wheeler-bike-club-team-app/commit/285d8d91b6cf252df04203f77ee34f5dd607749f)
 
 #### Week 3
 1. Initiate a hire purchase agreement between the financer & driver w/ hire purchase agreement attestation + attest all IOU invoices w/due weekly dates
