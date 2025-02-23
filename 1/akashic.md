@@ -136,12 +136,13 @@ GitHub: https://github.com/positonic
 Twitter: [positonic](https://x.com/positonic) 
 Past experience: Founder and previous CTO at Toucan, prev Tech lead at Giveth
 
-**Shikhar**- SR Backend Engineer
-GitHub: https://github.com/0xshikhar 
-Twitter: [0xshikhar ](https://x.com/0xshikhar )
-Past experience: 
-
 **Prajjawal**- SR Fullstack Engineer
 GitHub: https://github.com/Prajjawalk
 Twitter: [Prajjawalk](https://x.com/Prajjawalk) 
+Past experience: Core protocol developer at QRL
+
+
+**Shikhar**- SR Backend Engineer
+GitHub: https://github.com/0xshikhar 
+Twitter: [0xshikhar ](https://x.com/0xshikhar )
 Past experience: 
