@@ -38,15 +38,28 @@ With the increase in awareness of the potentials of artificial intelligence (AI)
 
 
 ## Architecture
-On the frontend we have a simple Next.js App (which is to be changed to use plain React), which communicates with a backend Nest.js server. 
 
-The backend houses an array of:
-   -  LLM models
-   -  API Services e.g Twitter, Celo, Lemonade, Whatsapp
-   -  Postgres Database - managing conversations memory of the agents
-   -  Privy Sever wallets service to power agents onchain transactions
-All these provides the user the ability to switch models and configure the different services to give the agent more capabilities.
+Employee.ai is composed of three main stacks
 
+1. **Frontend Stack:**
+
+   - **Next.js:** User friendly interface to enable users chat with the ai.
+   - **Privy Auth:** Used for authentication of users into the app.
+
+2. **Agent Stack:**
+
+   - **Langchain:** Manage different models and can be used to create custom agents
+   - **CDP AgentKit:** Provides the agents and a set of actions that can be plugged in to give the llm more capabilities
+
+3. **API Stack:**
+
+   - **Backend APIs:** Provides REST endpoints for frontend communication with the user's desired ai agent. Powered with Nest.js backend
+     - LLM models
+     -  API Services e.g Twitter, Celo, Lemonade, Whatsapp
+     -  Postgres Database - managing conversations memory of the agents
+     -  Privy Sever wallets service to power agents onchain transactions
+   - **Database** PostgresDB for management of conversations
+   - **Privy Server Wallets:** For AI Agent's wallet. We can fund it and ask it to perform some transactions on the wallet.
 
 
 ## Github Repo 
