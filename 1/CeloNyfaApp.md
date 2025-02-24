@@ -1,12 +1,19 @@
-# Nyfa App
+# Celo Nyfa App
 
 ## Overview
+Celo Nyfa App is an AI-powered crypto research platform generating shareable PNG reports with key market insights & sentiment analysis, with optional NFT minting on Celo. Your pocket crypto analyst. 📊🔍
+
 A Next.js-based Web3 application that automatically mints PNG crypto asset reports called `NoFAs` as NFTs on the Celo network. The reports include market cap, news headlines, sentiment, and other information.
+
+## Quick Links
+- [Project Assets](https://github.com/nyfaapp/celo-nyfa-app/tree/main/src/assets)
+- [Demo Video](...)
+- [Presentation](https://www.canva.com/design/DAGf_Y5ZUx4/wcFPojTj7t0H-zj0Ch_1pg/view?utm_content=DAGf_Y5ZUx4&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h16e8852664)
 
 ## Solution & Vision
 Nyfa captures a moment in a cryptocurrency's lifetime, similar to what [carbon](https://carbon.now.sh/) does for code snippets. Users can generate and download shareable PNGs containing crypto asset reports, which can then be minted as NFTs.
 
-## Contract Deployment
+## Deployment
 NoFA NFT Contract Address (Celo Alfajores): `0x7f5b1F68079b885512f6338C17466d53BC5A213C`
 
 ## Core Features
@@ -119,19 +126,19 @@ interface Headline {
 }
 ```
 
-## Roadmap
+## Development Roadmap
 
-### Month 1: Wallet Integration & Testing
+### Phase 1: Wallet Integration & Testing (Month 1)
 - Migration from Coinbase's `OnchainKit` to `RainbowKit`
 - MiniPay optimization
 - Celo Alfajores testnet deployment
 
-### Month 2: Monetization
+### Phase 2: Monetization (Month 2)
 - Implementation of NFT minting fees
 - NoFA generation payment system
 - Revenue model optimization
 
-### Month 3: AI Integration (Nyla)
+### Phase 3: AI Integration - Nyla (Month 3)
 - Development of Nyfa SDK with AI capabilities
 - Public SDK release
 - AI-powered feature expansion
