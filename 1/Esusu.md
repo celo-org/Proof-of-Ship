@@ -1,4 +1,5 @@
 Project Name: Esusu
+Save as a community, Grow as one.
 Former Participation in Celo Hackathons
 
     Link to hackathon submissions
