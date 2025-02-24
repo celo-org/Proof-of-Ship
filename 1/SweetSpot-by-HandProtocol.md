@@ -1,8 +1,8 @@
 # SweetSpot by HandProtocol
 
-- [SweetSpot DApp](https://sweetspot.wtf/) - The frontend for the SweetSpot DApp, currently live on the **Celo Alfajores Testnet**, with plans to launch on the **Celo Mainnet** soon.
+- [SweetSpot DApp](https://sweetspot.wtf/) - A decentralized application currently live on the **Celo Alfajores Testnet**, with plans to launch on the **Celo Mainnet** soon.
 
-- [HAND Protocol](https://handprotocol.org/) - The frontend for the **HAND Protocol** organization and the projects we are currently working with.
+- [HAND Protocol](https://handprotocol.org/) - A platform for the **HAND Protocol** organization and the projects we are currently working with.
 
 
 ## Link to your project's GitHub repository 	
@@ -16,7 +16,7 @@
 ## Team Members GitHub username	
 
 - RathodDeven (Development) : https://github.com/RathodDeven
-- Cryptokoh (Communitcations, Marketing) : https://github.com/cryptokoh
+- Cryptokoh (Designer, Communitcations, Marketing) : https://github.com/cryptokoh
 
 ## Former Participation in Celo Hackathons	
 
