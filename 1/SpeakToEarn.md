@@ -18,12 +18,36 @@ https://github.com/thealexyao
 
 ## Former Participation in Celo Hackathons
 
-- Safe Agentathon (February 2024) - Built SpeakToEarn, a decentralized marketplace for language data collection using AI agents & Celo Blockchain.
-- Project submitted under the DeFAI track.
+### Safe Agentathon (February 2024) - 48 Hour Sprint
+Built SpeakToEarn, a decentralized marketplace for language data collection using AI agents & Celo Blockchain in just 48 hours:
 
-### Celo x Safe Agentathon First Place Winner
+#### Day 1: Core Infrastructure
+- Smart contract development and deployment to Alfajores
+- AI agent implementation with GPT-4o evaluation system
+- Basic frontend setup with wallet integration
 
-Won first place in the Celo x Safe Agentathon for the DeFAI track.
+#### Day 2: Feature Completion & Launch
+- Complete evaluation pipeline with real-time verification
+- Frontend polish and user experience improvements
+- Live deployment of dApp and data commons
+- Demo video and presentation creation
+
+#### Achievement
+Won first place in the Celo x Safe Agentathon for the DeFAI track, demonstrating rapid execution and technical excellence.
+
+### Detailed description of the work completed in 48 hours
+
+Rapid development and deployment of:
+- Smart contract integration with Celo Alfajores
+- AI agent system for automated task matching and verification
+- Frontend dApp with seamless user experience
+- Backend services for real-time AI evaluation
+
+Live Results:
+- Demo: https://speaktoearn.app/
+- Data Commons: https://commons.speaktoearn.org
+- Demo Video: https://www.loom.com/share/d1473f89df58401989c134bec49f28ac
+- Project Page: https://devfolio.co/projects/yapper-9cfd
 
 #### Assets
 
@@ -35,10 +59,6 @@ Won first place in the Celo x Safe Agentathon for the DeFAI track.
 ![Screenshot 4](https://devfolio-prod.s3.ap-south-1.amazonaws.com/hackathons/f8ebb5924ab74123bbd7088731ca9ab8/projects/c69d85acc1574359a097a903ceba8ff1/6a97783d-e251-4723-be5f-d01b426bdaa4.png)
 ![Screenshot 5](https://devfolio-prod.s3.ap-south-1.amazonaws.com/hackathons/f8ebb5924ab74123bbd7088731ca9ab8/projects/c69d85acc1574359a097a903ceba8ff1/98b6c272-e0f6-4f28-a857-1ed9e58a9d62.png)
 ![Screenshot 6](https://devfolio-prod.s3.ap-south-1.amazonaws.com/hackathons/f8ebb5924ab74123bbd7088731ca9ab8/projects/c69d85acc1574359a097a903ceba8ff1/053489f7-10d4-42f9-a0f9-fea63098490a.png)
-
-- Demo video: https://www.loom.com/share/d1473f89df58401989c134bec49f28ac
-- Presentation / Devfolio project page: https://devfolio.co/projects/yapper-9cfd
-
 
 ## Monthly Goal for this Proof of Ship
 
@@ -62,6 +82,18 @@ Links to work:
 - Live demo: https://speaktoearn.app/
 - Data commons: https://commons.speaktoearn.org
 
+## Next Steps & Future Development
+
+Post-Hackathon Roadmap:
+1. Scale & Optimization
+   - Support for 10+ languages
+   - Build full AI agent evaluation pipeline
+   - Enhance real-time performance
+
+2. User Growth
+   - Launch contributor onboarding
+   - Build community features
+   - Expand task types
 
 ## Problem
 
@@ -111,7 +143,7 @@ Alfajores Testnet:
 
 ## Final Week / Monthly Work Update
 
-### 1. Detailed Description of This Month’s Work
+### 1. Detailed Description of This Month's Work
 
 **Summary:**  
 This month we built the core MVP for our crowdsourced language data platform. Our demo uses a chat-based interface where users complete two tasks—paraphrasing a financial report sentence and correcting a misstated fact—to earn crypto rewards. The system integrates an AI evaluation engine (using GPT‑4o assistant with function calling) with smart contract-based payments on the Celo Alfajores testnet. We completed the following key components:
@@ -145,23 +177,23 @@ We offer a unique, automated approach that combines:
 We designed two primary tasks for the MVP:
 - **Paraphrase Task:** Users rewrite a sentence from a financial report in their own words.  
   - *Example:*  
-    - **Original:** “According to the company's quarterly report, revenue grew by 12% compared to the previous quarter despite a downturn in global markets.”  
-    - **Expected Paraphrase:** “The quarterly report shows that revenue increased by 12% over the last quarter, even though global markets were declining.”
+    - **Original:** "According to the company's quarterly report, revenue grew by 12% compared to the previous quarter despite a downturn in global markets."  
+    - **Expected Paraphrase:** "The quarterly report shows that revenue increased by 12% over the last quarter, even though global markets were declining."
 - **Factual Verification Task:** Users review and correct a factual statement.  
   - *Example:*  
-    - **Input:** “The capital of Australia is Sydney.”  
-    - **Expected Correction:** “The capital of Australia is Canberra. Although Sydney is the largest city, Canberra is the political center.”
+    - **Input:** "The capital of Australia is Sydney."  
+    - **Expected Correction:** "The capital of Australia is Canberra. Although Sydney is the largest city, Canberra is the political center."
 
 **How It Works:**  
 1. **User Interaction:**  
-   - The chat interface welcomes the user and asks which task they’d like to perform.
+   - The chat interface welcomes the user and asks which task they'd like to perform.
    - Based on selection, the system sends detailed instructions and an example.
 2. **Submission & Evaluation:**  
    - The user submits their response as a chat message.
    - The backend calls the GPT‑4o assistant with a task-specific prompt using function calling.  
    - GPT‑4o returns a structured JSON (pass/fail, score, feedback).
 3. **Payment Trigger:**  
-   - If the response passes, the backend calls our Payment Contract’s `sendPayment` function (e.g., transferring 0.25 cUSD for a paraphrase task or 0.15 cUSD for factual correction).
+   - If the response passes, the backend calls our Payment Contract's `sendPayment` function (e.g., transferring 0.25 cUSD for a paraphrase task or 0.15 cUSD for factual correction).
    - A confirmation event is emitted and logged.
 4. **Feedback & Next Steps:**  
    - The chat displays the evaluation result and payment confirmation.
@@ -181,7 +213,7 @@ We designed two primary tasks for the MVP:
 **Backend:**  
 - **Server:** Node.js (with Express)  
 - **AI Evaluation Module:**  
-  - Uses OpenAI’s GPT‑4o assistant with function calling to evaluate submissions.  
+  - Uses OpenAI's GPT‑4o assistant with function calling to evaluate submissions.  
   - Returns structured JSON with decision, score, and feedback.
 - **Payment Integration:**  
   - Uses ethers.js to interact with our Solidity Payment Contract on Celo Alfajores.
@@ -209,3 +241,54 @@ We designed two primary tasks for the MVP:
   - Setting up local testing with Celo and simulating token transfers required extra configuration. I need to rebuild the Celo contract interactions using Viem instead of ethers.js.
 - **Overall:**  
   - The integration between AI evaluation and payment triggering is promising, though additional work is needed to handle edge cases and building out the full ai agent system.
+
+## AI Evaluation System
+
+### Prompt Engineering & Quality Verification
+
+The system uses a structured approach for AI-powered evaluation:
+
+#### System Prompt Structure
+The system prompt establishes the AI as an expert evaluator for specific task types (paraphrase/factCheck), focusing on three key metrics:
+- Accuracy
+- Clarity
+- Completeness
+
+#### Structured Evaluation Output
+The evaluation function enforces structured output with:
+- Binary decision (Pass/Fail)
+- Overall score (0-100)
+- Detailed feedback
+- Individual criteria scores:
+  - Accuracy (0-100): Factual correctness/meaning preservation
+  - Clarity (0-100): Writing quality and understandability
+  - Completeness (0-100): Coverage of required information
+
+#### Quality Thresholds
+Payment triggers only when:
+- Decision is "Pass"
+- Overall score ≥ 70
+
+#### Agent Thought Process
+The system maintains transparency by recording:
+- Evaluation reasoning
+- Step-by-step analysis plan
+- Criticism and improvement suggestions
+
+#### Example Quality Standards
+The system uses reference examples to calibrate evaluation:
+- Paraphrase task: Preserves meaning while varying structure
+- Fact check task: Clear correction with accurate information
+
+#### Error Handling
+Failed evaluations are logged with:
+- Failure reasoning
+- Improvement suggestions
+- Error context for debugging
+
+This approach ensures:
+- Consistent evaluation across submissions
+- Quantifiable quality metrics
+- Transparent decision-making
+- Actionable feedback for users
+- Auditable evaluation process
