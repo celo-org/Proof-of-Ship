@@ -1,13 +1,11 @@
 # Celo Nyfa App
 
 ## Overview
-Celo Nyfa App is an AI-powered crypto research platform generating shareable PNG reports with key market insights & sentiment analysis, with optional NFT minting on Celo. Your pocket crypto analyst. 📊🔍
-
-A Next.js-based Web3 application that automatically mints PNG crypto asset reports called `NoFAs` as NFTs on the Celo network. The reports include market cap, news headlines, sentiment, and other information.
+Celo Nyfa is a Next.js-based Web3 application that automatically generates and mints PNG crypto asset reports (called NoFAs) as NFTs on the Celo network. Acting as your pocket crypto analyst, it provides comprehensive reports including market cap, news headlines, sentiment analysis, and other key market insights, with optional NFT minting capabilities. 📊🔍
 
 ## Quick Links
 - [Project Assets](https://github.com/nyfaapp/celo-nyfa-app/tree/main/src/assets)
-- [Demo Video](...)
+- [Demo Video]()
 - [Presentation](https://www.canva.com/design/DAGf_Y5ZUx4/wcFPojTj7t0H-zj0Ch_1pg/view?utm_content=DAGf_Y5ZUx4&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h16e8852664)
 
 ## Solution & Vision
