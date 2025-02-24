@@ -3,44 +3,71 @@
 > 	
 > Don't touch this file ----- please create a copy and name it after your project	
 >	
-# Project Name	
 
-## Link to your project's GitHub repository 	
+# Project Name
 
-- It needs to be **Public**. This is mandatory to get approved.	
+## Short Description
 
-## Team Members GitHub username	
+Short description of your project that fits into a Tweet
 
-- Links to GitHub profiles of each team member	
+## Link to assets
 
-## Former Participation in Celo Hackathons	
+- This should be a folder in your repo, but in case you are building closed source, you can provide a Google Drive Link. Make sue it is publicly accessible. 
 
-- Link to hackathon submissions	
+## Link to Video
 
-## Monthly Goal for this Proof of Ship	
+- should not be longer than 4 minutes 
+- make sure you are a publicly accessible link
 
-What are you planning to ship this month? Be as detailed as possible. Try to break it down into weekly milestones. 	
+# Project Name
 
-### Detailed description of the work you did this month during the contest	
+- It needs to be **Public**. This is mandatory to get approved.	In case you are building closed source there are a few ways your project can still apply.
+  - You are only building one **feature** in public
+  - Your product is live **deployed on Mainnet** and you can showcase transactions
+  - Your product is on testnet and you are working on your **Whitepaper/ Deck** etc. You **won't** be eligible for the prize pool in this case, but you will receive your onchain builders credentials and be eligible for **future rounds** that are only accessible for continuous builders. 
 
-- Link to PR for feature 1	
-- Link to PR for feature 2	
+## Link to Video
 
-## Problem	
+- should not be longer than 4 minutes 
+- make sure you are a publicly accessible link
 
-- What problem does your project solve? 	
+## Link to Deck
 
-## Solution	
+- not more than 10 slides
 
-- How does your project solve that problem?	
-- What are your competitors? Why are you solving this better? Could you use their product to build something on top?
+- It needs to be **Public**. This is mandatory to get approved.
 
-## Architecture	
+## Team Members GitHub username
 
-- What is your tech stack? Please list all Web3 libraries and protocols you are planning to use. 
-- High level overview of your project architecture	
+- Links to GitHub profiles of each team member
 
-## Deployed Contract Addresses on Celo	
+## Former Participation in Celo Hackathons
+
+- Link to hackathon submissions
+
+## Monthly Goal for this Proof of Ship
+
+What are you planning to ship this month? Be as detailed as possible. Try to break it down into weekly milestones.
+
+### Detailed description of the work you did this month during the contest
+
+- Link to PR for feature 1
+- Link to PR for feature 2
+
+## Problem
+
+- What problem does your project solve?
+
+## Solution
+
+- How does your project solve that problem?
+
+## Architecture
+
+- What is your tech stack?
+- High level overview of your project architecture
 
 - Contract Address on Celo or Celo Alfajores Testnet.	
 - NOTE: Our AI Agent Judge tracks transactions on deployed contracts. Contracts are required in order to receive monthly rewards.  	
+
+
