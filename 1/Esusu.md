@@ -68,9 +68,9 @@ Detailed description of the work you did during the contest
 
 ## General Feedback
 
-   While building a DCA-implementing agent, I realised Celo wasnt fully supported
-   Also, Polymarket isn't supported at all by Celo
-   Deploying a fullstack fronend for an agent is quite problematic especially with older versions of celo_composer on which Esusu is currently on.
+           While building a DCA-implementing agent, I realised Celo wasnt fully supported
+           Also, Polymarket isn't supported at all by Celo
+           Deploying a fullstack fronend for an agent is quite problematic especially with older versions of celo_composer on which Esusu is currently on.
     
 
 ## Deployed Contract Addresses on Celo
