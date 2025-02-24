@@ -4,6 +4,7 @@
 Celo Nyfa: AI-powered crypto research platform generating shareable PNG reports with key market insights & sentiment analysis, with optional NFT minting on Celo. Your pocket crypto analyst. 📊🔍 #CryptoResearch #Celo
 
 ## Quick Links
+- [GitHub Repository](https://github.com/nyfaapp/celo-nyfa-app)
 - [Project Assets (Logos, Screenshots)](https://github.com/nyfaapp/celo-nyfa-app/tree/main/src/assets)
 - [Video Explaining Work](https://youtu.be/B_F259llSPo)
 - [Presentation](https://www.canva.com/design/DAGf_Y5ZUx4/wcFPojTj7t0H-zj0Ch_1pg/view?utm_content=DAGf_Y5ZUx4&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h16e8852664)
