@@ -82,6 +82,10 @@ We used the following technologies to integrate an agent into the app.
 
 __[3](https://github.com/bobeu/simplifi_proof_of_ship/commit/990ee8131843ed5bdbeca54e86207c33d0070925)__
 
+__[4](https://github.com/celo-org/Proof-of-Ship/commit/16fa2f242811958bcf8e1fdc0ff470dc5d41a2ab)__
+
+__[5](https://github.com/celo-org/Proof-of-Ship/commit/f19ca4ae3d98b47b52fd184a41e7a20e33086625)__
+
 
 ## Video
 __[Youtube](https://youtu.be/Ag4Jfwo6jHM)__
