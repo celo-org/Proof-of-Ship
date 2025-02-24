@@ -20,7 +20,7 @@ Link to Presentation: [Here](https://www.canva.com/design/DAGDFgtRRjg/rbi6dJBYbt
 
 Link to Github Repo: [Here](https://github.com/emiridbest/esusu)
 
-Goal for this Proof of Ship:
+The goal for this Proof of Ship:
 
     Build a new full-stack dApp from scratch using MERN, to deepen my knowledge of backend programming.
     Experiment the use of AI agents on the full-stack dApp
@@ -29,7 +29,7 @@ Goal for this Proof of Ship:
     Test out ideas for the Agentathon hackathon
     Also consider Ethglobal AI Agent hackathon and Safe Agentathon => Implemented DCA and streaming of funds via agents
 
-What are you planning to achieve. Be as detailed as possible. Try to break it down into weekly milestones.
+What are you planning to achieve? Be as detailed as possible. Try to break it down into weekly milestones.
 Detailed description of the work you did during the contest
 
         1. February 2 - February 6 : AI Agent Research. Fullstack application(Soccer game)
@@ -37,7 +37,7 @@ Detailed description of the work you did during the contest
         3. Februaru 12 - February 15: Safe Agenthathon
         4. February 15 - February 23: Building and testing Esusu AI Agent
 
-## Personal Proof of Ship score card
+## Personal Proof of Ship Scorecard
 ![esusu](https://github.com/user-attachments/assets/2f616ae4-63a5-4776-b55b-babc88ed878d)
 
 
@@ -68,9 +68,9 @@ Detailed description of the work you did during the contest
 
 ## General Feedback
 
-           While building a DCA-implementing agent, I realised Celo wasnt fully supported
-           Also, Polymarket isn't supported at all by Celo
-           Deploying a fullstack fronend for an agent is quite problematic especially with older versions of celo_composer on which Esusu is currently on.
+    While building a DCA-implementing agent, I realised Celo wasnt fully supported
+    Also, Polymarket isn't supported at all by Celo
+    Deploying a fullstack fronend for an agent is quite problematic especially with older versions of celo_composer on which Esusu is currently on.
     
 
 ## Deployed Contract Addresses on Celo
