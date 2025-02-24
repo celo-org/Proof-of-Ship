@@ -4,6 +4,8 @@ EventChain
 
 ## Link to Your Repository
 
+[https://github.com/Chigozie0706/eventchain](https://github.com/Chigozie0706/eventchain)
+
 ## Goal for This Proof of Ship
 
 The goal is to develop a decentralized event management platform on the Celo blockchain. The dApp will allow users to:
@@ -13,6 +15,7 @@ The goal is to develop a decentralized event management platform on the Celo blo
 - Join an event.
 - View detailed event information.
 - Delete an event (only if they are the owner).
+- Purchase tickets using Mento stablecoins (cUSD, cEUR, cCOP)
 
 ### Weekly Milestones
 
@@ -30,6 +33,7 @@ The goal is to develop a decentralized event management platform on the Celo blo
 
 **Week 3:**
 
+- Implement purchase tickets using Mento stablecoins (cUSD, cEUR, cCOP)
 - Finalize UI/UX improvements.
 - Test smart contract interactions thoroughly.
 - Deploy the dApp and verify contracts on Celo.
@@ -43,13 +47,9 @@ The goal is to develop a decentralized event management platform on the Celo blo
 
 - Developed and deployed a Solidity smart contract for event management.
 - Integrated the smart contract with a React.js front end.
-- Implemented event creation, listing, and deletion functionalities.
+- Implemented event creation, listing, deletion functionalities and ticket purchase.
 - Ensured ownership validation for event deletion.
 - Conducted smart contract testing and deployed on Celo.
-
-## Link to PR for Feature 1
-
-## Link to PR for Feature 2
 
 ## Problem
 

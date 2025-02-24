@@ -11,8 +11,8 @@ Sequel to research we conducted, in a bid to create excellent user experience vi
 Tasks | 1 | 2 | 3 | 4 | Status
 ----- | - | - | - | - | ------
 **Wk 1** | Team brainstoring session | Idea workout and finalization | Planning, technology research, and feature design | | :heavy_check_mark:
-**Wk 2** | Project setup & Restructing | Buidl and implementation | Feature serialization and Smart wallet integration | First iteration | :orange_circle: 
-**Wk 3** | AI integration | Second iteration | Code optimization| | 
+**Wk 2** | Project setup & Restructing | Buidl and implementation | Feature serialization and Smart wallet integration | First iteration | :heavy_check_mark:
+**Wk 3** | AI integration | Second iteration | Code optimization| | :orange_circle:
 **Wk 4** | Feedbacks and improvement | Rounding Up | Final iteration | Submission | 
 
 **LD**
@@ -54,3 +54,4 @@ In the future, our plan is to have Simplifinance run on multiple chains
     - __[Github](https://github.com/bobeu)__
     - __[Email](mailto:bobmatea27@gmail.com)__
     - __[LinkedIn](https://www.linkedin.com/in/isaac-j-a6764a169)__
+    - __[Project - Proof of ship](https://github.com/bobeu/simplifinance_bot_miniapp)__
