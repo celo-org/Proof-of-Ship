@@ -7,6 +7,7 @@
 
 ## Link to your project's GitHub repository 	
 
+- All Repos at : https://github.com/orgs/HandProtocol/repositories
 - TheGraph Indexer : https://github.com/HandProtocol/subgraph-indexer
 - Smart Contracts (Sweetspot & Scorer) : https://github.com/HandProtocol/contracts
 - SweetSpot (Celo Dapp) : https://github.com/HandProtocol/SweetSpot
@@ -142,7 +143,6 @@ Yes. SweetSpot could integrate with:
 Rather than replacing these platforms, SweetSpot aims to **complement and enhance** their existing solutions by creating a more **integrated and engagement-driven funding ecosystem**.
 
 ## Architecture
-Here's list of all repositories : https://github.com/orgs/HandProtocol/repositories
 
 ### **Tech Stack**
 SweetSpot leverages a combination of Web3 and traditional technologies to provide a seamless decentralized funding experience. Below are the key technologies used:
