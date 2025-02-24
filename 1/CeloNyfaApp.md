@@ -1,15 +1,35 @@
 # Celo Nyfa App
 
-## Overview
-Celo Nyfa is a Next.js-based Web3 application that automatically generates and mints PNG crypto asset reports (called NoFAs) as NFTs on the Celo network. Acting as your pocket crypto analyst, it provides comprehensive reports including market cap, news headlines, sentiment analysis, and other key market insights, with optional NFT minting capabilities. 📊🔍
+## Short Description
+Celo Nyfa: AI-powered crypto research platform generating shareable PNG reports with key market insights & sentiment analysis, with optional NFT minting on Celo. Your pocket crypto analyst. 📊🔍 #CryptoResearch #Celo
 
 ## Quick Links
-- [Project Assets](https://github.com/nyfaapp/celo-nyfa-app/tree/main/src/assets)
-- [Demo Video]()
+- [Project Assets (Logos, Screenshots)](https://github.com/nyfaapp/celo-nyfa-app/tree/main/src/assets)
+- [Video Explaining Work](https://youtu.be/B_F259llSPo)
 - [Presentation](https://www.canva.com/design/DAGf_Y5ZUx4/wcFPojTj7t0H-zj0Ch_1pg/view?utm_content=DAGf_Y5ZUx4&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h16e8852664)
+
+## Problem
+A fundamental issue in crypto investing is that many investors skip doing their own research (DYOR) due to:
+- Time constraints in analyzing multiple research platforms
+- Complexity of aggregating data from various sources (Messari, Arkham, CoinGecko, etc.)
+- Overwhelming amount of information to process
+- Lack of easy-to-digest format for quick decision making
+
+While platforms like Messari and Arkham provide excellent data, users often:
+- Don't have time to visit multiple platforms
+- Get overwhelmed by complex dashboards
+- End up making investment decisions without proper research
+- Miss critical information spread across different sources
 
 ## Solution & Vision
 Nyfa captures a moment in a cryptocurrency's lifetime, similar to what [carbon](https://carbon.now.sh/) does for code snippets. Users can generate and download shareable PNGs containing crypto asset reports, which can then be minted as NFTs.
+
+Nyfa solves the research challenge by:
+- Aggregating essential data from multiple trusted sources into one view
+- Presenting information in an easy-to-digest visual format
+- Making research shareable and verifiable through NFTs
+- Reducing the time needed for basic but comprehensive research
+- Lowering the barrier to conducting proper DYOR
 
 ## Deployment
 NoFA NFT Contract Address (Celo Alfajores): `0x7f5b1F68079b885512f6338C17466d53BC5A213C`
@@ -44,6 +64,17 @@ NoFA NFT Contract Address (Celo Alfajores): `0x7f5b1F68079b885512f6338C17466d53B
 
 ## Technical Architecture
 
+### Technology Stack
+- Frontend: Next.js, TypeScript, TailwindCSS
+- Authentication: Supabase Auth
+- Database: Supabase Postgres
+- Blockchain: Celo Network
+- Storage: IPFS (Pinata)
+- Web3: RainbowKit, ethers.js
+- APIs: CoinGecko, CryptoNewsAPI
+- Monitoring: Sentry
+- Analytics: Mixpanel
+
 ### Frontend Flow
 1. User Authentication
    ```
@@ -75,6 +106,19 @@ Pinata returns an IPFS link
 ↓
 Creator creates NFT, which uses the IPFS link as metadata to the PNG
 ```
+
+### Implementation Challenges
+1. Image Generation
+   - Challenge: HTML2Canvas library doesn't render iframes in PNG generation
+   - Solution: Exploring alternatives to replace iframe-based content display for better PNG output
+
+2. Data Provider Limitations
+   - Challenge: CryptoNewsAPI's trial period (4 days) and high pricing limiting news integration
+   - Solution: Investigating alternative news providers like CryptoPanic for more sustainable integration
+
+3. Web3 Integration
+   - Challenge: Initial issues with Coinbase's OnchainKit
+   - Solution: Migrated to RainbowKit for improved reliability and user experience
 
 ## Data Models
 
