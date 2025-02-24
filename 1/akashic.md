@@ -152,5 +152,4 @@ sequenceDiagram
 
 ## Deployed Contract Addresses on Celo	
 
-- Contract Address on Celo or Celo Alfajores Testnet.	
-- NOTE: Our AI Agent Judge tracks transactions on deployed contracts. Contracts are required in order to receive monthly rewards.  	
+- We have no new smart contract addresses this month 	
