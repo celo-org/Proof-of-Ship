@@ -1,9 +1,18 @@
 # SweetSpot by HandProtocol
 
+## Short Description
+
+A decentralized app that lets you earn and use tokens to support impactful projects. Stake, donate, and grow your impact as you complete quests and help others. 
+
+## Link to assets
+
 - [SweetSpot DApp](https://sweetspot.wtf/) - A decentralized application currently live on the **Celo Alfajores Testnet**, with plans to launch on the **Celo Mainnet** soon.
 
 - [HAND Protocol](https://handprotocol.org/) - A platform for the **HAND Protocol** organization and the projects we are currently working with.
 
+## Link to Video
+
+- [Demo Submission](https://www.youtube.com/watch?v=UDlFJG7GrK8)
 
 ## Link to your project's GitHub repository 	
 
