@@ -1,46 +1,44 @@
- 	
-> 🚨 **Please don't write in this file** 	
-> 	
-> Don't touch this file ----- please create a copy and name it after your project	
->	
-# Project Name	
+> 🚨 **Please don't write in this file**
+>
+> Don't touch this file ----- please create a copy and name it after your project
 
-## Link to your project's GitHub repository 	
+# Project Name
 
-- It needs to be **Public**. This is mandatory to get approved.	
+## Link to your project's GitHub repository
 
-## Team Members GitHub username	
+- It needs to be **Public**. This is mandatory to get approved.
 
-- Links to GitHub profiles of each team member	
+## Team Members GitHub username
 
-## Former Participation in Celo Hackathons	
+- Links to GitHub profiles of each team member
 
-- Link to hackathon submissions	
+## Former Participation in Celo Hackathons
 
-## Monthly Goal for this Proof of Ship	
+- Link to hackathon submissions
 
-What are you planning to ship this month? Be as detailed as possible. Try to break it down into weekly milestones. 	
+## Monthly Goal for this Proof of Ship
 
-### Detailed description of the work you did this month during the contest	
+What are you planning to ship this month? Be as detailed as possible. Try to break it down into weekly milestones.
 
-- Link to PR for feature 1	
-- Link to PR for feature 2	
+### Detailed description of the work you did this month during the contest
 
-## Problem	
+- Link to PR for feature 1
+- Link to PR for feature 2
 
-- What problem does your project solve? 	
+## Problem
 
-## Solution	
+- What problem does your project solve?
 
-- How does your project solve that problem?	
-- What are your competitors? Why are you solving this better? Could you use their product to build something on top?
+## Solution
 
-## Architecture	
+- How does your project solve that problem?
 
-- What is your tech stack? Please list all Web3 libraries and protocols you are planning to use. 
-- High level overview of your project architecture	
+## Architecture
 
-## Deployed Contract Addresses on Celo	
+- What is your tech stack?
+- High level overview of your project architecture
 
-- Contract Address on Celo or Celo Alfajores Testnet.	
-- NOTE: Our AI Agent Judge tracks transactions on deployed contracts. Contracts are required in order to receive monthly rewards.  	
+## Deployed Contract Addresses on Celo
+
+- Contract Address on Celo or Celo Alfajores Testnet.
+- NOTE: Our AI Agent Judge tracks transactions on deployed contracts. Contracts are required in order to receive monthly rewards.
