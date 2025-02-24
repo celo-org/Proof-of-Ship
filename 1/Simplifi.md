@@ -35,6 +35,7 @@ Tasks | 1 | 2 | 3 | 4 | Status
 - __[PR-3](https://github.com/celo-org/Proof-of-Ship/pull/27)__
 - __[PR-4](https://github.com/celo-org/Proof-of-Ship/pull/29)__
 - __[PR-4](https://github.com/celo-org/Proof-of-Ship/pull/44)__
+- __[PR-5](https://github.com/celo-org/Proof-of-Ship/pull/56)__
 
 ## Problem
 - High interest rate monopoly.
@@ -83,7 +84,7 @@ __[3](https://github.com/bobeu/simplifi_proof_of_ship/commit/990ee8131843ed5bdbe
 
 
 ## Video
-__[Youtube]()__
+__[Youtube](https://youtu.be/Ag4Jfwo6jHM)__
 
 ## Slide
 __[Google](https://docs.google.com/presentation/d/1r4jqqVc-oMhMBpJAXiN9u0VSnVNS2uC3M0hgdH1c-Bg/edit?usp=sharing https://docs.google.com/presentation/d/1r4jqqVc-oMhMBpJAXiN9u0VSnVNS2uC3M0hgdH1c-Bg/edit?usp=sharing )__
