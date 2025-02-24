@@ -145,4 +145,4 @@ Past experience: Core protocol developer at QRL
 **Shikhar**- SR Backend Engineer
 GitHub: https://github.com/0xshikhar 
 Twitter: [0xshikhar ](https://x.com/0xshikhar )
-Past experience: 
+Past experience: Polygon Guild, MinaProtocol, and DecenLabs
