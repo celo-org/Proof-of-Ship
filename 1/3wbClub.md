@@ -1,6 +1,13 @@
 # Project Name
 3 Wheeler Bike Club
 
+## Logo
+![3-Wheeler](https://i.ibb.co/1R7dngG/3-Wheeler-Logo-Horizontal-4x.png)
+
+
+## Description
+Membership Club for 3 Wheeler(TukTuk/Pragia/Keke) Bikers built on the pillars of Ownership, Community & Governance. 🛺💨
+
 ## Former Participation in Celo Hackathons
 N/A
 
@@ -57,6 +64,12 @@ A membership platform designed to create a community of Keke/Pragia/TukTuk drive
 - Vote & Propose membership pool budgets.
 - Own motorcycle after 93 weeks of micro-payments.
 
+## Demo
+https://youtu.be/N-w2wbuJPNA
+
+## Deck
+https://tinyurl.com/Deck3WB
+
 ## Architecture
 - ethSign Protocol: attestations
 - privy: authentication & wallet management
@@ -73,15 +86,15 @@ A membership platform designed to create a community of Keke/Pragia/TukTuk drive
 ## Deployed Contract Addresses on Celo
 For now we do not have any deployed contracts on celo. What we do have instead are Schemas and Attestations depolyed w/ ethSign Protocol on celo. Here is a list of the deployed schemas and attestations:
 #### KYC
-- ID Badge Schema - https://scan.sign.global/schema/onchain_evm_42220_0x8 
+- ID Badge Schema - https://scan.sign.global/schema/onchain_evm_42220_0x609 
 #### MEMBERSHIP
 - Membership Invoice Schema ( linked to ID Badge ) - https://scan.sign.global/schema/onchain_evm_42220_0x9
 - Membership Receipt Schema( linked to Invoice ) -https://scan.sign.global/schema/onchain_evm_42220_0xa
 - Membership Credit Score Badge Schema( linked to ID Badge ) - https://scan.sign.global/schema/onchain_evm_42220_0x12
 #### OWNERSHIP
-- Pink Slip Schema - https://scan.sign.global/schema/onchain_evm_42220_0x18
-- Hire Purchase Schema ( linked to ID Badge ) - https://scan.sign.global/schema/onchain_evm_42220_0xd
-- Hire Purchase Invoice Schema ( linked to Hire Purchase ) - https://scan.sign.global/schema/onchain_evm_42220_0xe
+- Pink Slip Schema - https://scan.sign.global/schema/onchain_evm_42220_0x47c
+- Hire Purchase Schema ( linked to ID Badge ) - https://scan.sign.global/schema/onchain_evm_42220_0x548
+- Hire Purchase Invoice Schema ( linked to Hire Purchase ) - https://scan.sign.global/schema/onchain_evm_42220_0x547
 - Hire Purchase Receipt Schema( linked to Hire Purchase Invoice ) - https://scan.sign.global/schema/onchain_evm_42220_0xf 
 - Ownership Credit Score Badge Schema( linked to ID Badge ) - https://scan.sign.global/schema/onchain_evm_42220_0x10
 
