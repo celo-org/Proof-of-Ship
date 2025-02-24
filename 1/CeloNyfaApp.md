@@ -64,6 +64,22 @@ NoFA NFT Contract Address (Celo Alfajores): `0x7f5b1F68079b885512f6338C17466d53B
 
 ## Technical Architecture
 
+### System Architecture Diagram
+```mermaid
+graph TD
+    A[User Interface] --> B[Authentication Layer]
+    B --> C[Data Aggregation]
+    C --> D[Report Generation]
+    D --> E[IPFS Storage]
+    E --> F[NFT Minting]
+    
+    C --> G[CoinGecko API]
+    C --> H[CryptoNewsAPI]
+    D --> I[HTML2Canvas]
+    E --> J[Pinata]
+    F --> K[Celo Network]
+```
+
 ### Technology Stack
 - Frontend: Next.js, TypeScript, TailwindCSS
 - Authentication: Supabase Auth
