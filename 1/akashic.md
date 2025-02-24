@@ -1,91 +1,117 @@
-# Akashic
+# Akashic  
 
-## Former Participation in Celo Hackathons
+## Link to your project's GitHub repository  
+[Akashic GitHub Repository](https://github.com/akashic-fund/akashic)  
 
-We are a new project on Celo.
+## Team Members GitHub username  
+- **James** - [positonic](https://github.com/positonic)  
+- **Prajjawal** - [Prajjawalk](https://github.com/Prajjawalk)  
+- **Shikhar** - [0xshikhar](https://github.com/0xshikhar)  
 
-## Goal for this Proof of Ship
+## Former Participation in Celo Hackathons  
+We are a new project on Celo.  
 
-Launch a fully functional POC allowing projects to sign up and create campaigns on Akashic.
+## Monthly Goal for this Proof of Ship  
+Our goal this month is to enhance the platform's core functionality and user experience through several key initiatives:
+
+1. **NFT Integration with Numbers Protocol**
+   - Implement NFT minting functionality
+   - Complete integration with Numbers Protocol
+
+2. **Campaign & Donation System Improvements**
+   - Upgrade campaign management features
+   - Transition from ETH to USDC for donations
+   - Enhance donation flow
+
+3. **Rounds System Development**
+   - Implement rounds-to-campaign mapping
+   - Build approval workflow for rounds
+   - Optimize rounds functionality
+
+4. **Platform Enhancement**
+   - Add search functionality
+   - Develop admin dashboard features
+   - Optimize backend queries for better performance
+
+Weekly Milestones:
+- Week 1: Deploy search functionality and admin features, optimize backend
+- Week 2: Develop rounds system and mapping
+- Week 3: Implement USDC donation flow and campaign updates
+- Week 4: Complete Numbers Protocol integration and NFT minting
 
 
-## Detailed description of the work you did during the contest
+### Detailed description of the work you did this month during the contest
 
-### Campaign & Donation Management
+*(Only PRs from approximately the last 21 days are shown)*
 
-#### Campaign Enhancements
-- Added a dedicated campaign page and improvements for campaign updates and clicks.
-- Integrated the campaign creation function with the frontend and introduced a listing feature to display campaigns.
+#### NFT & Numbers Protocol Integration
+- [#42 Feat: Minting an NFT on numbers protocol](https://github.com/Akashic-fund/akashic/pull/42)
+- [#40 Feat numbers](https://github.com/Akashic-fund/akashic/pull/40)
 
-#### Donation Flow
-- Introduced a donation flow that ties in campaign data, streamlining how users contribute.
-- Updated payment handling by switching from ETH to USDC, and added treasury address management to support financial operations.
+#### Campaign & Donation Management
+**Campaign Enhancements:**
+- [#31 feat campaign update](https://github.com/Akashic-fund/akashic/pull/31)
+
+**Donation Flow:**
+- [#38 feat change token from ETH to USDC [AXH-76]](https://github.com/Akashic-fund/akashic/pull/38)
 
 #### Rounds & Mapping
+- [#37 Add to rounds -> after approved](https://github.com/Akashic-fund/akashic/pull/37)
+- [#33 Add: rounds <> campaign mapping](https://github.com/Akashic-fund/akashic/pull/33)
+- [#32 update: rounds](link-to-pr-32)
 
-##### Rounds Functionality
-- Implemented updates to the rounds process, including a new post-approval step and refined mapping between rounds and campaigns.
-
-##### User Experience & Visual Improvements
-
-#### Search & Navigation
-- Added a search function to help users easily find campaigns or related data.
-
-#### Visual Enhancements
-- Rolled out visual fixes and design updates, including network toast notifications that provide real-time feedback.
-- Introduced a comment feature to foster interaction and engagement.
+#### User Experience & Visual Improvements
+**Search & Navigation:**
+- [#39 feat add search function [AXH-79]](https://github.com/Akashic-fund/akashic/pull/39)
 
 #### Administrative & Dashboard Features
-
-##### Admin Tools
-- Patched the admin routes and introduced an admin page to simplify backend management.
-- Fixed issues with the admin approval function for smoother operation.
-
-##### User Dashboard
-- Addressed and resolved issues in the user dashboard to enhance overall usability.
+**Admin Tools:**
+- [#36 patch /admin](https://github.com/Akashic-fund/akashic/pull/36)
 
 #### Backend & Database Improvements
-
-##### Query & Database Enhancements
-- Optimized queries for better performance.
-- Enhanced database integration by adding support for Prisma, saving campaign details, pulling images from the database, and generally improving data handling.
+- [#35 feat query & optimization [AXH-83]](https://github.com/Akashic-fund/akashic/pull/35)
 
 #### Miscellaneous Fixes
+- [#34 fix](https://github.com/Akashic-fund/akashic/pull/34)
 
-#### Code & Build Quality
-- Removed unused code, fixed build errors, and resolved various breakages to maintain a clean and stable codebase.
+##### **Miscellaneous Fixes**  
 
+###### **Code & Build Quality**  
+- Removed unused code, fixed build errors, and resolved various breakages  
 
-## Problem
+#### **Links to PRs/Commits**  
+[Add links to specific PRs/commits for the features described above]  
 
-Akashic addresses the challenge of preserving the cultural heritage and multimedia expressions of refugees and displaced communities. These communities often lose access to their cultural artifacts, oral histories, music, and artistic expressions due to forced migration, conflict, and displacement. Traditional archives may fail to capture the nuanced, multimedia nature of this cultural heritage, or they may be inaccessible to displaced individuals. Furthermore, the lack of financial support and recognition for creators from these communities exacerbates the problem.
+## Problem  
 
-**Problem We Are Solving**
+Akashic addresses the challenge of preserving the cultural heritage and multimedia expressions of refugees and displaced communities. These communities often lose access to their cultural artifacts, oral histories, music, and artistic expressions due to forced migration, conflict, and displacement.  
 
-Akashic aims to:
+Traditional archives may fail to capture the nuanced, multimedia nature of this cultural heritage, or they may be inaccessible to displaced individuals. Furthermore, the lack of financial support and recognition for creators from these communities exacerbates the problem.  
 
-•	**Preserve Culture and Identity:** By creating a decentralized archive using IPFS technology, ensuring the survival and accessibility of cultural heritage across borders and through time, which strengthens their sense of identity and cultural pride. 
+## Solution  
 
-•	**Empower creators via Income Generation, Financial Independence & Inclusion, and Communication:** Ability to generate a dignified income by monetizing and fundraising their work from a global audience, access to basic financial services via web3 wallets, including the facilitation of payment & remittances, micro-loans, digital identity, etc. Provide a platform for creators to upload, share, retain ownership and control, and monetize their work, directly connecting them to supporters, donors, talent agents, and curators. Provide skills training and workforce development opportunities that enable creators to generate income.
+We help refugees and displaced communities build financial independence and preserve their cultural heritage by providing direct access to global supporters, secure financial services, and tools for community-driven initiatives.  
 
-•	**Foster Collaboration, Community-Building, and Cross-Cultural Exchange:** Allow buyers and donors to view and directly support creators’ work while preserving cultural artifacts in a decentralized, tamper-proof manner using Web3 technologies. Enable the discovery of emerging creator talent by media & arts organizations, foundations, galleries (i.e. curators, agents). By engaging a community of global supporters, a network of creators transcend borders, allowing for collaboration, mentorship, and shared projects with other creators, curators, and agents, building a supportive, inclusive and diverse creative community that encourages cross-cultural understanding and building empathy.
+### **Key Features**  
+- **Preserve Culture and Identity:** Decentralized archive using IPFS technology to ensure cultural heritage remains accessible.  
+- **Empower Creators:** Monetization and fundraising tools, Web3 wallets, and access to financial services.  
+- **Foster Collaboration and Community Building:** Enable direct connections between creators, donors, curators, and supporters.  
 
+### **Why Akashic?**  
+- **Banking the Unbanked** - Providing financial inclusion through Web3 wallets  
+- **Last Mile Distribution** - Ensuring funds reach creators directly  
+- **Community-Driven Initiatives** - Empowering creators to control their cultural assets  
+- **Creator Economy** - Helping creators monetize their work  
+- **Decentralized Archive** - Using IPFS and blockchain for immutable preservation  
 
-## Solution
-We help refugees and displaced communities build financial independence and preserve their cultural heritage by providing direct access to global supporters, secure financial services, and tools for community-driven initiatives.
+## Architecture  
 
-### Key Features:
-- Banking the unbanked
-- Last mile distribution
-- Community Driven Initiatives
-- Creator Economy
-- Decentralized Archive
-- Web3 Wallets
+**Tech stack:**
+@numbersprotocol/nit
+Viem
+WAGMI
 
-
-
-## Architecture
-``` mermaid
+```mermaid
 sequenceDiagram
     participant pa as Protocol Admin/Deployer
     participant cc as Campaign Creator
@@ -122,27 +148,9 @@ sequenceDiagram
         aontf->>cb: claimRefund()
         cb->>cb: Refund Processed
     end
-
 ```
 
-## Deployed Contract Addresses on Celo
+## Deployed Contract Addresses on Celo	
 
-
-
-## Team
-
-**James**- Product Manager
-GitHub: https://github.com/positonic
-Twitter: [positonic](https://x.com/positonic) 
-Past experience: Founder and previous CTO at Toucan, prev Tech lead at Giveth
-
-**Prajjawal**- SR Fullstack Engineer
-GitHub: https://github.com/Prajjawalk
-Twitter: [Prajjawalk](https://x.com/Prajjawalk) 
-Past experience: Core protocol developer at QRL
-
-
-**Shikhar**- SR Backend Engineer
-GitHub: https://github.com/0xshikhar 
-Twitter: [0xshikhar ](https://x.com/0xshikhar )
-Past experience: Polygon Guild, MinaProtocol, and DecenLabs
+- Contract Address on Celo or Celo Alfajores Testnet.	
+- NOTE: Our AI Agent Judge tracks transactions on deployed contracts. Contracts are required in order to receive monthly rewards.  	
