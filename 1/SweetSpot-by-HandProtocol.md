@@ -70,7 +70,7 @@ This month, the focus will be on improving onboarding tools, expanding impact pr
 # Monthly Work Summary - Contest Month
 
 ## **Overview**
-This month, significant improvements were made to both smart contracts and frontend components of the $HAND Protocol. The updates focused on optimizing contract logic, enhancing error handling, improving documentation, and refining the user experience on SweetSpot.
+This month, significant improvements were made to both smart contracts and frontend components of the HAND Protocol. The updates focused on optimizing contract logic, enhancing error handling, improving documentation, and refining the user experience on SweetSpot.
 
 ---
 
