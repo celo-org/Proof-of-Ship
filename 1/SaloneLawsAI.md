@@ -39,18 +39,17 @@ Start
 
 ### Detailed description of the work you did this month during the contest
 
-- Link to PR for feature 1
-- Link to PR for feature 2
+No yet
 
 ## Problem
 
-- Need to know and understand easily laws for Sierra Leone peopel for example during conflicts
-- Need of lawyers to find laws of Sierra Leone and analyze them
+- General public from Sierra Leone need to know, understand easily and apply the laws of their country for example during conflicts
+- Lawyers of Sierra Leone need help in finding laws and analyzing them for their cases
 
 ## Solution
 
 - Repository of laws
-- Training AI model with them to help people and lawyers to explore and analyze it.
+- Training AI model with them to help people and lawyers to explore, analyze and use them
 
 
 ## Architecture
