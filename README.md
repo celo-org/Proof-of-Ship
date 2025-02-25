@@ -81,6 +81,7 @@ Learn more about the contest [here](https://celoplatform.notion.site/Build-With-
 - **February 26th - 28th:** JokeRace community voting is open.
 - **February 28th, 3 PM GMT:** Builders Showcase and final voting hour (this is when most people vote so this will be fun)
 - **February 28th, 4 PM GMT:** Winners Announcement
+- **March 1st - 24th:**  Submissions for Season 2 open on GitHub.
 
 
 
