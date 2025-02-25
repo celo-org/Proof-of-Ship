@@ -29,6 +29,8 @@ No yet
   - Twitter: https://x.com/VladimirTamara
   - Farcaster: 
 
+- To collect information and prepare laws and information we expect help of teachers and students of the "Mission Hope" shcool in Kabala directed by Zecharíah Conteh.
+
 ## Former Participation in Celo Hackathons
 
 None
