@@ -75,7 +75,8 @@ Detailed description of the work you did during the contest
 
 ## Deployed Contract Addresses on Celo
 
-    Esusu Celo mainnet => 0x89563f2535ad834833c0D84CF81Ee335867b8e34
+    Esusu Celo mainnet => 0xD7154A32280c31a510BF248CE35F2627162227b4
+
 
 
 ## Link To PR
