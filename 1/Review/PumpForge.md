@@ -302,3 +302,87 @@ The GitHub profile belongs to Oluwalana Ajayi, a full-stack web3 developer based
 The codebase appears to provide a basic, but functional, starting point for dApp development on Celo, with initial support for MiniPay. The smart contract is well-designed, incorporating important features for tokenomics and security. However, the project is not fully polished or feature-complete. The core template structure and deployment setup are present, but the application logic, specifically related to MiniPay integration, is rudimentary. Further development and testing are recommended to ensure the project is production-ready.
 
 ---
+
+## **Smart Contract Evaluation**
+
+# Smart Contract Analysis
+
+## PumpForgeToken Contract
+
+**Overall Score: 8.5/10**
+
+### Security (8.5/10)
+- Built on well-audited OpenZeppelin libraries (ERC20, Ownable)
+- Input validation across all public functions
+- Proper use of require statements with descriptive error messages
+- Parameter bounds checking (e.g., tax rates limited to 10%)
+- Separation of privileged operations with onlyOwner modifier
+- Clear access control for critical functions
+
+### Architecture & Design (9.0/10)
+- Well-structured contract with logical grouping of functionality
+- Clean separation of concerns (tax logic, liquidity locking, anti-bot measures)
+- Thoughtful override of the ERC20 _transfer function
+- Appropriate use of constants for fixed values (INITIAL_SUPPLY)
+- Efficient implementation of whitelist and tax exclusion mechanisms
+
+### Code Quality (8.5/10)
+- Comprehensive NatSpec documentation
+- Clear and descriptive function and variable naming
+- Consistent code style throughout
+- Well-organized event emissions for important state changes
+- Proper use of visibility modifiers
+
+### Gas Optimization (8.0/10)
+- Efficient storage layout
+- Appropriate use of mappings for O(1) lookups
+- No unnecessary storage operations
+- Minimal state changes in privileged functions
+
+### Areas for Improvement
+- Consider implementing a maximum token transfer amount for additional anti-bot protection
+- The contract doesn't include an emergency pause mechanism for critical scenarios
+- No explicit safeguards against frontrunning when setting tax rates
+- Consider adding a mechanism to recover mistakenly sent ERC20 tokens
+
+## PumpForgeFactory Contract
+
+**Overall Score: 7.0/10**
+
+### Security (7.5/10)
+- Uses ReentrancyGuard for protection against reentrancy
+- Input validation for token creation parameters
+- Clear separation of read and write operations
+
+### Architecture & Design (7.0/10)
+- Simple and straightforward implementation
+- Maintains appropriate registry of deployed tokens
+- Properly transfers ownership of deployed tokens to creators
+- Good event emission for off-chain tracking
+
+### Code Quality (6.5/10)
+- Good overall documentation
+- Clear function and variable naming
+- Consistent code structure
+- **Bug Alert**: Parameter references with asterisks (`*name`, `*symbol`) rather than underscores
+- Missing comprehensive error handling for token creation
+
+### Gas Optimization (7.0/10)
+- Efficient use of mappings and arrays for token tracking
+- View functions for data retrieval
+- No unnecessary storage operations
+
+### Areas for Improvement
+- Fix the parameter reference bugs (`*name`, `*symbol`, `*tokenImageHash` should be `_name`, etc.)
+- Consider adding a factory fee mechanism for token creation
+- Add more robust error handling during token creation
+- Consider implementing an upgradeable pattern for future enhancements
+- Add more granular access control for potential admin functions
+
+## Summary
+
+The PumpForgeToken contract is well-designed with comprehensive token functionality including customizable tax rates, liquidity locking, and anti-bot protection. It's built on reliable OpenZeppelin libraries with good security practices.
+
+The PumpForgeFactory contract provides a straightforward mechanism for deploying PumpForgeToken instances, but contains syntax errors in parameter references that would prevent it from compiling. Once fixed, it would provide a serviceable token factory with basic record-keeping.
+
+Together, these contracts form a reasonable token creation ecosystem targeted at the Celo blockchain, though the Factory contract requires fixes before deployment.

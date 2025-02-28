@@ -116,3 +116,80 @@ The project has shown progress with the inclusion of core contracts, indicating 
 
 **Final Verdict:** The project shows potential with the presence of core contracts but requires further documentation and activity for serious consideration.
 
+
+
+**# Technical Evaluation: Smart Contracts**
+
+## Contract 1: Sweetspot Contract
+
+**Overall Technical Score: 8.2/10**
+
+### Security Analysis
+- **Use of OpenZeppelin Libraries**: Implements established and audited libraries for token operations, ownership, and reentrancy protection
+- **Reentrancy Protection**: Properly implements `nonReentrant` modifier on all external functions that transfer ETH or tokens
+- **Access Control**: Implements role-based access control via onlyAdmin and onlyOwner modifiers
+- **Error Handling**: Uses custom errors and requires with descriptive messages
+- **Safe Transfers**: Uses SafeERC20 for token operations to prevent common vulnerabilities
+
+### Architecture & Design
+- **Upgradability**: Implements upgradeable pattern, allowing for future improvements without migration
+- **External Dependencies**: Well-integrated with IScorer interface for eligibility verification
+- **Storage Layout**: Efficient structure using mappings for O(1) lookups
+- **Round Management**: Clean implementation of time-bound rounds with metadata
+- **Native Token Handling**: Properly handles both ERC20 tokens and native ETH
+
+### Gas Optimization
+- **Custom Errors**: Uses custom errors for gas-efficient revert messages
+- **Tight Variable Packing**: Uses uint64 for timestamps to pack variables efficiently
+- **No Redundant Storage**: Avoids unnecessary state variables
+
+### Code Quality
+- **Function Documentation**: Well-documented with NatSpec comments
+- **Event Emission**: Appropriate events for all state changes
+- **Code Organization**: Clear separation of concerns
+- **Naming Conventions**: Consistent and descriptive naming
+
+### Improvement Areas
+- **Input Validation**: Missing zero-amount check for native token deposits
+- **Centralization Risk**: Admin and owner have significant control over funds
+- **No Emergency Functions**: Lacks emergency pause functionality for critical scenarios
+- **Fallback Function**: Could handle fallback more gracefully
+
+## Contract 2: Scorer Contract
+
+**Overall Technical Score: 8.5/10**
+
+### Security Analysis
+- **Role-Based Access Control**: Properly implements OpenZeppelin's AccessControl
+- **Upgrade Pattern**: Uses initializer pattern for secure deployment
+- **Input Validation**: Validates inputs with custom error messages
+- **Function Visibility**: Appropriate visibility modifiers for all functions
+
+### Architecture & Design
+- **Upgradability**: Implements upgradeable pattern correctly
+- **Score Management**: Efficient structure for managing different score types
+- **Score Type Maintenance**: Complete CRUD operations for score types
+- **Admin Management**: Flexible addition and removal of admin roles
+
+### Gas Optimization
+- **Custom Errors**: Implements gas-efficient custom errors
+- **O(1) Lookups**: Uses mappings for efficient data access
+- **Storage Optimization**: Uses uint128 for scores to reduce storage costs
+- **Efficient Array Handling**: Implements O(n) removal pattern with swap and pop
+
+### Code Quality
+- **Clean Code**: Well-structured and readable
+- **Documentation**: Thorough NatSpec comments
+- **Event Emission**: Proper events for all state changes
+- **Naming Conventions**: Consistent and descriptive naming 
+- **Error Handling**: Clear and specific error messages
+
+### Improvement Areas
+- **Array Iteration**: Score type removal involves O(n) operations
+- **String Comparison**: Uses keccak256 for string comparison which is gas-intensive
+- **Tight Variable Packing**: Could optimize storage layout further
+- **Missing Address Zero Check**: Optional check for zero address is commented but not implemented
+
+## Summary
+
+Both contracts demonstrate professional-level Solidity development with strong security practices, proper use of established libraries, and good architectural design. The Scorer contract scores slightly higher due to its more complete implementation of access control, efficient data structures, and thorough error handling.

@@ -299,4 +299,105 @@ This report assesses the implementation status of features described in the Tran
 The codebase demonstrates a functional application with blockchain integration, payment processing via QR codes, and user interface components for drivers and commuters. However, the codebase doesn't fully implement all features described in the README.
 
 
+## **Smart Contract Evalutation**
+
+# Smart Contract Analysis: TaxiPaymentcUSD and TaxiPayment
+
+## Overview
+This analysis provides two smart contracts for taxi payments:
+1. **TaxiPaymentcUSD**: Uses ERC20 token (cUSD)
+2. **TaxiPayment**: Uses native ETH
+
+## Technical Scores
+- **TaxiPaymentcUSD (ERC20)**: 8.0/10
+- **TaxiPayment (ETH)**: 5.6/10
+
+## Detailed Analysis
+
+### Gas Efficiency
+- **TaxiPaymentcUSD**: ⭐⭐⭐⭐⭐ (9/10)
+  - Uses mapping for O(1) lookups of unique users
+  - Efficient state tracking
+
+- **TaxiPayment**: ⭐⭐ (5/10)
+  - Uses array with O(n) search in `_isUserUnique` function
+  - Gas costs increase linearly with number of interactions
+  - Potential for gas limit issues with many users
+
+### Security
+- **TaxiPaymentcUSD**: ⭐⭐⭐⭐ (8/10)
+  - Better state management
+  - No reentrancy issues with ERC20 transfers
+  - Proper balance checks
+
+- **TaxiPayment**: ⭐⭐ (5/10)
+  - **Critical**: Potential reentrancy vulnerability in `payUser` function
+  - State changes before ETH transfers but incentive awards after
+  - Unbounded array growth in `uniqueInteractedUsers`
+  - No check if contract has sufficient balance before awarding incentives
+
+### Architecture & Design
+- **TaxiPaymentcUSD**: ⭐⭐⭐⭐ (8/10)
+  - Clear separation of concerns
+  - Well-structured user tracking
+  - Explicit functions for depositing incentive pool
+
+- **TaxiPayment**: ⭐⭐⭐ (6/10)
+  - Simpler user experience (no token approvals needed)
+  - Less structured approach to fund management
+  - Uses array instead of mapping for tracking
+
+### Features
+- **TaxiPaymentcUSD**: ⭐⭐⭐⭐ (7/10)
+  - Works with ERC20 tokens (important for Celo ecosystem)
+  - 0.2 cUSD incentive
+  - More controlled deposit mechanism
+
+- **TaxiPayment**: ⭐⭐⭐⭐ (7/10)
+  - Works with native ETH
+  - Higher incentive (0.5 ETH)
+  - Simpler receive() function for deposits
+
+## Key Improvement Recommendations
+
+### For TaxiPayment (ETH version):
+
+1. **Fix Reentrancy Vulnerability**:
+   - Implement checks-effects-interactions pattern
+   - Move all state changes before external calls
+   - Consider using ReentrancyGuard
+
+2. **Optimize User Tracking**:
+   - Replace array with mapping: `mapping(address => mapping(address => bool)) uniqueInteractions;`
+   - Eliminate O(n) search function
+
+3. **Add Balance Checks**:
+   - Verify contract has sufficient balance before awarding incentives
+   - Add proper error handling
+
+4. **Control Growth**:
+   - Consider limiting the number of unique interactions tracked
+   - Implement cleanup mechanism for unused data
+
+5. **Improve Error Handling**:
+   - Add specific error messages for different failure scenarios
+
+### For TaxiPaymentcUSD (ERC20 version):
+
+1. **Approve Mechanism**:
+   - Consider implementing increaseAllowance pattern to prevent front-running
+   - Add better documentation on approval requirements
+
+2. **Token Address Validation**:
+   - Add checks for token address in constructor (non-zero)
+
+3. **Incentive Mechanism**:
+   - Consider adding a reset mechanism for incentives
+   - Implement tiered incentives for repeat users
+
+## Conclusion
+The TaxiPaymentcUSD contract is technically superior due to its better gas efficiency, security considerations, and architectural design. The native ETH version (TaxiPayment) has several critical issues that need to be addressed before it can be considered production-ready.
+
+The ERC20 version is recommended if targeting the Celo ecosystem, while the ETH version would require significant refactoring to match the quality and security of the ERC20 implementation.
+
 
