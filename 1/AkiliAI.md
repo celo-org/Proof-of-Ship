@@ -1,7 +1,11 @@
 # AkiliAI - AI-powered Personal Payment Assistant 🚀🤖💳
 
+
+![Akili Logo](https://github.com/user-attachments/assets/e8cd702e-3a4e-4877-b213-bd205e47c377)
+
+
 <p align="center">
-  <img width="100px" src="https://github.com/celo-org/celo-composer/blob/main/images/readme/celo_isotype.svg" align="center" alt="Celo" />
+
   <h2 align="center">AkiliAI - AI-powered Personal Payment Assistant</h2>
   <p align="center">🔗 Seamlessly integrating AI & Blockchain for effortless financial transactions on Celo MiniPay! ⚡💰</p>
 </p>
