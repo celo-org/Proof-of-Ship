@@ -29,15 +29,8 @@ The goal for this Proof of Ship:
     More research on trading AI Agents.
     Maintain Farcaster streak.
 
-What are you planning to achieve? Be as detailed as possible. Try to break it down into weekly milestones.
-Detailed description of the work you did during the contest
 
-        1. February 2 - February 6 : AI Agent Research. Fullstack application(Soccer game)
-        2. February 6 - February 13: AI Agent Research. Ethglobal. Open source contribution to Coinbase
-        3. Februaru 12 - February 15: Safe Agenthathon
-        4. February 15 - February 23: Building and testing Esusu AI Agent
-
-## Personal Proof of Ship Scorecard
+## Personal Proof of Ship Scorecard for Round 1
 ![esusu](https://github.com/user-attachments/assets/2f616ae4-63a5-4776-b55b-babc88ed878d)
 
 
