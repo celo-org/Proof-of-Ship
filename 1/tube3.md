@@ -14,13 +14,13 @@
 
 ## Monthly Goal for this Proof of Ship
 
-### feb (rest of feb)
-  - familaries myself to defferent celo tools and the ecosystem
+### February (rest of the month)
+  - familiarize myself to different celo tools and the ecosystem
   - start working on the frontend 
   - get some testnet tokens
 ### mar
 #### week 1
-  - contribute to celo Dapps to make them mobile first while learning how the frontend intergrates with the blockchain in these various apps
+  - contribute to celo Dapps to make them mobile first while learning how the frontend integrates with the blockchain in these various apps
 #### week 2  
 
 <!-- ### Detailed description of the work you did this month during the contest
@@ -31,8 +31,8 @@
 ## Problem
 
 - expensive cost for businesses to advertise
-- expensive costs for creatives to promote there creation to a target audience
-- expliotation of social platform users
+- expensive costs for creatives to promote their creation to a target audience
+- exploitation of social platform users
 
 
 
