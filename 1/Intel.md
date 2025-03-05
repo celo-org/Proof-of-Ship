@@ -18,7 +18,7 @@
 
 ### 1st Month Goals
 
- - Identify and integrate a tool that fetches all available staking pools on Celo.
+ - Identify and integrate a tool to retrieve all available staking pools on Celo.
 
  - Develop a mechanism to evaluate and select the most profitable staking pool.
  

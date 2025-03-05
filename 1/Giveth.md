@@ -3,7 +3,7 @@
 
 ## Short Description
 
-The goal is to develop and integrate a Donation Handler Smart Contract into Giveth’s donation flow on Celo. This contract will serve as an intermediary between donors and project wallets, enabling on-chain tracking, automation, and improved reporting.
+The goal is to develop and integrate a Donation Handler Smart Contract into Giveth’s donation flow on Celo. This contract acts as an intermediary between donors and project wallets, enabling on-chain tracking, automation, and better reporting.
 
 ## Link to GitHub repository
 
@@ -67,7 +67,7 @@ Giveth’s backend is 5 years old, making it outdated and inefficient.
 
 * Relies on centralized back-end service to track donation data and maintain state
 * Donations appear as regular token transfers, making them hard to track
-* Not suited for external teams to make donations or query donation data 
+* Not designed for external teams to make donations or query donation data. 
 * RPC or other infra outages cause massive headaches and lost donations
 
 A Donation Handler Smart Contract modernizes this flow, making it flexible, low overhead, transparent, and scalable.
@@ -78,7 +78,7 @@ The Donation Handler Smart Contract solves these issues by:
 * Allowing donations to be clearly tracked and indexed on-chain
 * Reducing reliance on centralized back-end service
 * Enabling AI-based donations, opening up design space for new funding mechanism experimentation
-* Allowing external transactions, so donations can be made outside Giveth’s UI.
+* Supporting external transactions, enabling donations outside Giveth’s UI.
 * Increasing reliability of donation verification, lowering risks of missing donation data
 * Increasing transparency of donation activity by making it distinguishable on-chain
 
