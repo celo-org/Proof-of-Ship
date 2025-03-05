@@ -63,7 +63,7 @@ Github Repo : [Cookies 4m Groupies](https://github.com/pratiksardar/cookies-4m-g
 
 ## Problem
 
-- Accelerate visiblity increase popularity and fame for local artists that are underdogs and not very well to do but has amzing talent.
+- Accelerate visibility increase popularity and fame for local artists that are underdogs and not very well to do but has amazing talent.
 
 **Cookies From Groupies** aims to revolutionize how local independent artists sustain their creativity by offering them decentralized tools for financial growth and fan engagement.
 
@@ -74,7 +74,7 @@ Cookies From Groupies is a decentralized application (dApp) that bridges the gap
 
 ## Architecture
 
-- What is out tech stack?
+- What is our tech stack?
 - **Frontend**: React & Nouns UI for a seamless user experience.  
 - **Blockchain**: Scroll, Hedera, Polygon zkEVM  , Morph, Mantel and Flow networks
 - **Explorer**: Blockscout
@@ -86,10 +86,10 @@ Cookies From Groupies is a decentralized application (dApp) that bridges the gap
 
 - High level overview of our project [architecture](https://excalidraw.com/#json=e68VKGPBgvljUWrGZolnh,29zpsV3wPEdTXRBk3O-j5A)
 ## 🛣️ Roadmap
--  Enhanced Artist Discovery: AI-Powered Recommendations, Geolocation-Based Discovery, Geolocation-Based Discovery
+-  Enhanced Artist Discovery: AI-Powered Recommendations, Geolocation-Based Discovery.
 
 - Collaborative Features: Group Support Campaigns, Collaboration Tools for Artists
-- Advanced NFT Features: Fractionalized NFTs, Dynamic NFTs
+- Advanced NFT Features: Geolocation-Based Discovery
 - Community and Social Features: Token-Gated Communities, Events and Livestreams
 - Mobile and AR/VR Experiences
 - Subscription Models
