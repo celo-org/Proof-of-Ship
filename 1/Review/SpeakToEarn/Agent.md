@@ -172,7 +172,7 @@ While the project shows initial promise with its blockchain and AI integration, 
 - **Username**: TheAlexYao
 - **Location**: Mexico City, Mexico
 - **Personal Website**: [Website](https://www.thealexyao.com)
-- **Twitter**: [@TheAlexYao](https://twitter.com/TheAlexYao)
+- **Twitter**: [@TheAlexYao](https://x.com/TheAlexYao)
 - **GitHub Joined**: October 8, 2014
 - **Total Owned Repositories**: 25
 - **Total Forked Repositories**: 25
@@ -233,7 +233,7 @@ The GitHub profile belongs to Alex Yao, a developer based in Mexico City, Mexico
 
 - **Location**: Mexico City, Mexico
 - **Personal Website**: [Website](https://www.thealexyao.com)
-- **Twitter Handle**: [@TheAlexYao](https://twitter.com/TheAlexYao)
+- **Twitter Handle**: [@TheAlexYao](https://x.com/TheAlexYao)
 - **Followers**: 5
 - **Owned Repositories**: 25
 - **Forked Repositories**: 25

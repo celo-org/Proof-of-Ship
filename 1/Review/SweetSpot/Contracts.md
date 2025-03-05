@@ -17,7 +17,7 @@
 - **Name:** Rathod Deven
 - **GitHub:** RathodDeven
 - **Company:** @bloomerstv
-- **Twitter:** [@devenrathodrd](https://twitter.com/devenrathodrd)
+- **Twitter:** [@devenrathodrd](https://x.com/devenrathodrd)
 
 **Contributor Activity**
 

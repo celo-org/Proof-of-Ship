@@ -28,7 +28,7 @@
 | 🐱 GitHub         | pratiksardar                 |
 | 🏢 Company        | No Data                      |
 | 📍 Location       | Bangalore                    |
-| 🐦 Twitter        | [@pratik_sardar](https://twitter.com/pratik_sardar) |
+| 🐦 Twitter        | [@pratik_sardar](https://x.com/pratik_sardar) |
 
 ## Contributor Activity
 
@@ -145,7 +145,7 @@ The project represents an interesting concept in the art and web3 space but requ
 - **Location:** Bangalore | Bhuj
 - **Profile Created:** August 15, 2018
 - **Personal Website:** [Website](https://pratiksardar.github.io)
-- **Twitter:** [@pratik_sardar](https://twitter.com/pratik_sardar)
+- **Twitter:** [@pratik_sardar](https://x.com/pratik_sardar)
 
 ### 🏆 GitHub Health Score: MEDIUM
 
@@ -217,7 +217,7 @@ The GitHub profile belongs to Pratik, a Quality Assurance and Test Automation En
 - Commits Last Week: 4
 - Commits Last Day: 3
 
-**Twitter Handle:** [@pratik_sardar](https://twitter.com/pratik_sardar)
+**Twitter Handle:** [@pratik_sardar](https://x.com/pratik_sardar)
 **Personal Blog:** [Website](https://pratiksardar.github.io)
 
 ### Risk Assessment

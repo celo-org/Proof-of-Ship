@@ -22,7 +22,7 @@
 - **GitHub:** [0xshikhar](https://github.com/0xshikhar)
 - **Company:** No Data
 - **Location:** onchain
-- **Twitter:** [@0xShikhar](https://twitter.com/0xShikhar)
+- **Twitter:** [@0xShikhar](https://x.com/0xShikhar)
 
 ## Contributor Activity
 
@@ -191,7 +191,7 @@ The GitHub profile belongs to Shikhar Singh (0xshikhar), a Full Stack Web3 Engin
 - **Professional Focus:** Web3 Engineering
 - **Background:** CSE (Computer Science Engineering) from IIIT
 - **Location:** "onchain"
-- **Twitter:** [@0xShikhar](https://twitter.com/0xShikhar) (Verified)
+- **Twitter:** [@0xShikhar](https://x.com/0xShikhar) (Verified)
 
 ### GitHub Statistics
 

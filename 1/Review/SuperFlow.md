@@ -28,7 +28,7 @@
 | 🐱 GitHub | daemon1024 |
 | 🏢 Company | @accuknox |
 | 📍 Location | /dev/tty |
-| 🐦 Twitter | [@daemon1024](https://twitter.com/daemon1024) |
+| 🐦 Twitter | [@daemon1024](https://x.com/daemon1024) |
 
 ## Contributor Activity
 
@@ -148,7 +148,7 @@ The project shows promise in automating blockchain token generation and cross-ch
 - **Bio:** Cloud Native | Systems | FOSS
 - **Location:** /dev/tty
 - **Personal Website:** [barun.cc](http://barun.cc)
-- **Twitter:** [@daemon1024](https://twitter.com/daemon1024)
+- **Twitter:** [@daemon1024](https://x.com/daemon1024)
 
 ## 🌟 GitHub Health Score: MEDIUM
 
@@ -210,7 +210,7 @@ The provided statistics are for a GitHub user named Barun Acharya, who appears t
 - **Professional Affiliation:** @accuknox
 - **Professional Focus:** Cloud Native, Systems, FOSS
 - **Personal Website:** [barun.cc](http://barun.cc)
-- **Twitter Handle:** [@daemon1024](https://twitter.com/daemon1024)
+- **Twitter Handle:** [@daemon1024](https://x.com/daemon1024)
 
 ## Risk Assessment
 

@@ -190,5 +190,5 @@
 
 ## 📞 Contact
 
-🐦 Twitter: [@olisehgenesis](https://twitter.com/illmindofbanana)  
+🐦 Twitter: [@olisehgenesis](https://x.com/illmindofbanana)  
 💬 Discord: [Celo Community](https://discord.com/invite/celo)  

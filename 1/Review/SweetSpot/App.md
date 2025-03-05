@@ -28,7 +28,7 @@
 | 🐱 GitHub         | [RathodDeven](https://github.com/RathodDeven)|
 | 🏢 Company        | @bloomerstv                                   |
 | 📍 Location       | No Data                                      |
-| 🐦 Twitter        | [@devenrathodrd](https://twitter.com/devenrathodrd) |
+| 🐦 Twitter        | [@devenrathodrd](https://x.com/devenrathodrd) |
 
 ## Contributor Activity
 
@@ -141,7 +141,7 @@ While the project shows potential with a modern tech stack and basic infrastruct
 - **Bio**: Full Stack Dev, WebGL, Game Dev & Mobile Dev
 - **Company**: @bloomerstv
 - **Blog**: [bloomers.tv](https://bloomers.tv)
-- **Twitter**: [@devenrathodrd](https://twitter.com/devenrathodrd)
+- **Twitter**: [@devenrathodrd](https://x.com/devenrathodrd)
 - **Account Created**: August 13, 2020
 
 ### 🏆 Developer's GitHub Health Score: MEDIUM
@@ -207,7 +207,7 @@ The GitHub profile belongs to Rathod Deven, a Full Stack Developer with expertis
 - **Name**: Rathod Deven
 - **Professional Focus**: Full Stack Development, WebGL, Game Dev, Mobile Dev
 - **Company**: @bloomerstv
-- **Twitter**: [@devenrathodrd](https://twitter.com/devenrathodrd)
+- **Twitter**: [@devenrathodrd](https://x.com/devenrathodrd)
 - **GitHub Account Created**: August 13, 2020
 
 ### Risk Assessment
