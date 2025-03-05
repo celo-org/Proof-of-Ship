@@ -10,7 +10,7 @@
 
 ## Goal for this Proof of Ship
 
-Develop a cutting-edge platform where users can bet on the virality of memes. Utilizing AI, the platform predicts meme virality based on trends and user engagement. The project is structured into weekly milestones to ensure timely delivery.
+Develop a cutting-edge platform where users can bet on the meme virality. Utilizing AI, the platform forecasts meme virality based on trends and user engagement. The project is structured into weekly milestones to ensure timely delivery.
 
 ## Detailed Description of the Work Done During the Contest
 
@@ -24,7 +24,7 @@ Monetizing memes, a cornerstone of internet culture, remains a challenge.
 ## Solution
 
 
-Bet-a-Meme empowers users to engage in meme virality as investors and participants, not just creators.
+Bet-a-Meme enables users to participate in meme virality as investors and contributors, not just creators.
 
 
 ## Architecture
@@ -52,7 +52,7 @@ Bet-a-Meme empowers users to engage in meme virality as investors and participan
 ## Deployed Contract Addresses on Celo
 
 
-- Contracts should be verified
+- Smart contracts are deployed on the Celo blockchain and should be verified for transparency.
 
 
 ## Team
@@ -74,13 +74,13 @@ Bet-a-Meme empowers users to engage in meme virality as investors and participan
 
 - **Leaderboard**: Showcases top predictors and viral memes.
 
-- **Community Features**: Fosters a community for meme discussion and sharing.
+- **Community Features**: Encourages community discussions and meme sharing.
 
 
 ## AI Agents
 
 
-The platform uses AI to predict which memes are likely to go viral based on current trends and user engagement. AI analyzes data from social media platforms like Twitter, Instagram, TikTok, and Farcaster to provide insights into meme virality.
+The platform leverages AI to analyze trends and user engagement, predicting which memes have the highest potential to go viral. AI analyzes data from social media platforms like Twitter, Instagram, TikTok, and Farcaster to provide insights into meme virality.
 
 
 ## Future Enhancements

@@ -38,7 +38,7 @@ highly repetitive, making them ideal for automation using AI agents.
 
 ## Solution
 
-We are building AgentFlow, a no-code AI agent platform that provides fast, 24/7 customer support on multiple platforms, including Telegram and Twitter.
+We are building AgentFlow, a no-code AI agent-based platform that provides fast, 24/7 customer support on multiple platforms, including Telegram and Twitter.
 
 ### Key Features:
 - AI agents autonomously handle common support queries.
