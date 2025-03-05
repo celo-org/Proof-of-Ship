@@ -28,7 +28,7 @@
 | 🐱 GitHub         | Muhindo-Galien                                                           |
 | 🏢 Company        | No Data                                                                  |
 | 📍 Location       | Remote                                                                   |
-| 🐦 Twitter        | [@GalienMuhindo](https://twitter.com/GalienMuhindo)                      |
+| 🐦 Twitter        | [@GalienMuhindo](https://x.com/GalienMuhindo)                      |
 
 ## Contributor Activity
 
@@ -88,7 +88,7 @@ This analysis covers a GitHub project by Muhindo Galien, a Blockchain Tech Lead 
 - Professional blockchain and AI background
 - Diverse technological expertise
 - Active since 2020
-- Twitter presence ([@GalienMuhindo](https://twitter.com/GalienMuhindo))
+- Twitter presence ([@GalienMuhindo](https://x.com/GalienMuhindo))
 
 **Concerns:**
 
@@ -151,7 +151,7 @@ An interesting project with potential, but currently in an uncertain state of de
 
 **Twitter/Social Connection:**
 
-- ✅ Has Twitter account ([@GalienMuhindo](https://twitter.com/GalienMuhindo))
+- ✅ Has Twitter account ([@GalienMuhindo](https://x.com/GalienMuhindo))
 - Sub-score: GREEN
 
 **Commit Activity:**
@@ -212,7 +212,7 @@ The GitHub profile belongs to Muhindo Galien, a CTO and Blockchain Tech Lead wit
 - **Name:** Galien Codes
 - **Role:** CTO & Blockchain Tech Lead @quarilabs
 - **Expertise:** Blockchain, AI, Multiple Programming Languages
-- **Twitter:** [@GalienMuhindo](https://twitter.com/GalienMuhindo)
+- **Twitter:** [@GalienMuhindo](https://x.com/GalienMuhindo)
 - **Account Created:** November 17, 2020
 - **Followers:** 55
 - **Following:** 63

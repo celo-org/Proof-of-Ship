@@ -18,13 +18,13 @@ Week 2 – PWA Implementation
 
 Implement key PWA features:  responsive layouts,
 Ensure cross-platform and cross-browser compatibility.
-Conduct initial testing on different devices.
+Conduct initial testingg on different devices.
 
 Week 3 – Web3 Integration (for Web2 Access)
 
 Integrate a Web3 wallet provider (e.g., MetaMask or WalletConnect).
 Set up secure interaction flows between the PWA and the blockchain.
-Begin testin (transactions, contract reads) from a typical Web2 browser interface.
+Begin testingg (transactions, contract reads) from a typical Web2 browser interface.
 
 Week 4 – Easy Onboarding
 
@@ -32,7 +32,7 @@ Implement simple flows that guide users through wallet creation or linking.
 Polish the UX/UI to reduce friction for first-time users.
 Test user flows, gather feedback, and refine the onboarding process.
 
-Week 5 – Fonbank API Integration (Big maybe still doing some research on how to onboard faster and locally in south africa)
+Week 5 – Fonbank API Integration (A big maybe—still researching how to onboard users faster and locally in South Africa.)
 
 
 
@@ -41,8 +41,8 @@ Week 5 – Fonbank API Integration (Big maybe still doing some research on how t
 - PWA Implementation [https://github.com/Argusham/TaxiZip/pull/12]
 - Web2/Web3 [https://github.com/Argusham/TaxiZip/pull/13]
 - Offline mode [https://github.com/Argusham/TaxiZip/pull/15]
-- Fonbnk Api [https://github.com/Argusham/TaxiZip/pull/16]
-- Fonbnk API complete final UI and UX Changes [https://github.com/Argusham/TaxiZip/pull/20]
+- Fonbank Api [https://github.com/Argusham/TaxiZip/pull/16]
+- Fonbank API complete final UI and UX Changes [https://github.com/Argusham/TaxiZip/pull/20]
 - MORE to come 😁✌️
 
 ## Problem

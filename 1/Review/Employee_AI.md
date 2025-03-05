@@ -28,7 +28,7 @@
 | 🐱 GitHub | philix27 |
 | 🏢 Company | Philix |
 | 📍 Location | Nigeria |
-| 🐦 Twitter | [@philixbob](https://twitter.com/philixbob) |
+| 🐦 Twitter | [@philixbob](https://x.com/philixbob) |
 
 ## Contributor Activity
 
@@ -145,7 +145,7 @@ While the project has interesting potential, it requires significant development
 - **Location:** Nigeria
 - **Professional Focus:** Web3 developer
 - **Personal Website:** [philix.vercel.app](https://philix.vercel.app/)
-- **Twitter:** [@philixbob](https://twitter.com/philixbob)
+- **Twitter:** [@philixbob](https://x.com/philixbob)
 
 ## 📊 GitHub Health Score: MEDIUM
 
@@ -208,7 +208,7 @@ Philix is a GitHub profile owned by a Web3 developer based in Nigeria. The profi
 - **Location:** Nigeria
 - **Professional Focus:** Web3 Developer
 - **Personal Website:** [philix.vercel.app](https://philix.vercel.app/)
-- **Twitter Handle:** [@philixbob](https://twitter.com/philixbob)
+- **Twitter Handle:** [@philixbob](https://x.com/philixbob)
 - **Followers:** 22
 - **Following:** 70
 - **Total Repositories:**

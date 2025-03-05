@@ -19,7 +19,7 @@ Short description of your project that fits into a Tweet
 
 ## Link to Video
 
-- should not be longer than 4 minutes 
+- should not exceed 4 minutes 
 - make sure you are a publicly accessible link
 
 
@@ -31,11 +31,11 @@ Short description of your project that fits into a Tweet
 
 ## Link to assets
 
-- This should be a folder in your repo, but in case you are building closed source, you can provide a Google Drive Link. Make sue it is publicly accessible. 
+- This should be a folder in your repo, but in case you are building closed source, you can provide a Google Drive Link. make sure it is publicly accessible. 
 
 ## Team Members GitHub username
 
-- List each teammember
+- List each team member
   - skill
   - GitHub
   - Twitter

@@ -28,7 +28,7 @@
 | 🐱 GitHub | bobeu |
 | 🏢 Company | @SimpliFinance |
 | 📍 Location | Africa |
-| 🐦 Twitter | [@bobman7000](https://twitter.com/bobman7000) |
+| 🐦 Twitter | [@bobman7000](https://x.com/bobman7000) |
 
 ## Contributor Activity
 
