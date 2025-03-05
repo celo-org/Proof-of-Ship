@@ -2,7 +2,7 @@
 
 ## Former Participation in Celo Hackathons
 
-- Transakt project has not being used in any hackathon and wont be used for a hackathon
+- Transakt project has not been used in any hackathon and won't be used for a hackathon
 
 ## Goal for this Proof of Ship
 
@@ -12,7 +12,7 @@ Our mainnet launch and liquidity aggregation build focuses on four key milestone
 
     1. Liquidity Provision Partnership Growth
 
-    2. Internal Team Growth to handle the next phase regarding liqudity provisioning
+    2. Internal Team Growth to handle the next phase regarding liquidity provisioning
 
     3. Launch of our first stablecoin in Ghana and release of our Stablecoin Manifesto White paper detailing our Stablecoin initiative with the launch of the coin 
 
@@ -26,10 +26,10 @@ Our mainnet launch and liquidity aggregation build focuses on four key milestone
 - Link to PR for feature 2
 
 ## Problem
-Lack of african stablecoins that are truly for the African Layer with no abstractions and allows for free exchange of african currencies with each other 
+Lack of African stablecoins that are truly for the African Layer with no abstractions and allows for free exchange of african currencies with each other 
 
 ## Solution
-Stablecoin AMM with Liquidity Aggregation for the African Layer to serve developers and business as well as  users 
+Stablecoin AMM with Liquidity Aggregation for the African Layer to serve developers and business as well as users 
 
 ## Architecture
 
