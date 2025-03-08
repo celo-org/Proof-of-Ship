@@ -37,11 +37,7 @@ https://github.com/andrewkimjoseph/canvassing-participant/tree/main/assets
 
 ## Monthly Goal for this Proof of Ship
 
-What are you planning to ship this month? Be as detailed as possible. Try to break it down into weekly milestones.
-
-### Detailed description of the work you did this month during the contest
-
-- to be complete upon completion of all milestones
+https://gap.karmahq.xyz/project/canvassing/grants/0x5b0f752718f3595bd2c9d32fc1837fab9890aa243c690a72606a610758609244/milestones-and-updates
 
 ## Problem
 
