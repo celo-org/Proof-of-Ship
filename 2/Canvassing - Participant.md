@@ -63,7 +63,7 @@ Canvassing is built using Next.js for the frontend and Firebase for backend serv
 - **Backend**: Firebase (Authentication, Firestore)
 - **Forms**: Tally Forms
 - **Blockchain**: Solidity Smart Contracts
-- **Web3 Integration**: ethers.js
+- **Web3 Integration**: viem.js
 
 ### Flow Diagram
 
@@ -126,5 +126,3 @@ sequenceDiagram
 ## Contracts on Celo
 
 - to be deployed upon completion of Milestone 4
-
-
