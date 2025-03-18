@@ -5,16 +5,16 @@
 online surveys that reward participants for answering questions, built on Celo
 
 ## Link to GitHub repository
-https://github.com/andrewkimjoseph/canvassing-participant.git
+[GitHub](https://github.com/andrewkimjoseph/canvassing-participant.git)
 
 ## Link to Video
-- to be updated upon completion of video demo creation
+[Video](https://www.youtube.com/watch?v=nK_TJN7ecOc)
 
 ## Link to Deck
-- to be updated upon completion pitch deck creation
+[Deck](https://www.figma.com/deck/7Nb7XGL4JGT6mFF72YnyGy/Canvassing-Pitchdeck?node-id=12-1885&t=gYZybnBbnuf8x2L7-1)
 
 ## Link to assets
-https://github.com/andrewkimjoseph/canvassing-participant/tree/main/assets
+[Assets](https://github.com/andrewkimjoseph/canvassing-participant/tree/main/assets)
 
 ## Team Members GitHub username
 
@@ -37,7 +37,7 @@ https://github.com/andrewkimjoseph/canvassing-participant/tree/main/assets
 
 ## Monthly Goal for this Proof of Ship
 
-https://gap.karmahq.xyz/project/canvassing/grants/0x5b0f752718f3595bd2c9d32fc1837fab9890aa243c690a72606a610758609244/milestones-and-updates
+[Monthly Goal](https://gap.karmahq.xyz/project/canvassing/grants/0x5b0f752718f3595bd2c9d32fc1837fab9890aa243c690a72606a610758609244/milestones-and-updates)
 
 ## Problem
 
@@ -125,4 +125,17 @@ sequenceDiagram
 
 ## Contracts on Celo
 
-- to be deployed upon completion of Milestone 4
+### Contracts on Celo Alfajores
+- [0x409cbf13fbd3b98e61f1f77b3a4cef1f39a2c49a](https://alfajores.celoscan.io/address/0x409cbf13fbd3b98e61f1f77b3a4cef1f39a2c49a) 
+- [0x63bdeb2840349878b99ede9ddd6e5754dd575c10](https://alfajores.celoscan.io/address/0x63bdeb2840349878b99ede9ddd6e5754dd575c10) 
+- [0x8f0c3451baf5646a9e22210828a111bb9e289d67](https://alfajores.celoscan.io/address/0x8f0c3451baf5646a9e22210828a111bb9e289d67) 
+- [0x462a8a53debe19f62a15930b0b176090f97c4a23](https://alfajores.celoscan.io/address/0x462a8a53debe19f62a15930b0b176090f97c4a23) 
+- [0xcb30123c469023a0bf3c8d01cf3779d651477171](https://alfajores.celoscan.io/address/0xcb30123c469023a0bf3c8d01cf3779d651477171) 
+- [0x104f45f325b103d850768a8ac5bfc31aa593e3e5](https://alfajores.celoscan.io/address/0x104f45f325b103d850768a8ac5bfc31aa593e3e5) 
+- [0xe3c57abf12f39fd1822c24aa8d8131081744034a](https://alfajores.celoscan.io/address/0xe3c57abf12f39fd1822c24aa8d8131081744034a)  
+- [0xC99AD405822d40B2d195b442E8AA0D61E0C50492](https://alfajores.celoscan.io/address/0xC99AD405822d40B2d195b442E8AA0D61E0C50492)  
+- [0xfCEaAB2aDbb971B87C8AFB5170e39ec854619405](https://alfajores.celoscan.io/address/0xfCEaAB2aDbb971B87C8AFB5170e39ec854619405)  
+
+### Contracts on Celo Mainnet
+- [0x87C8FcB7A80e11a5954697622a653907adF4a42e](https://celoscan.io/address/0x87C8FcB7A80e11a5954697622a653907adF4a42e)  
+- [0x18bd5146ee12d3ae3c1f5114678bd6b1de46bb56](https://celoscan.io/address/0x18bd5146ee12d3ae3c1f5114678bd6b1de46bb56)  
