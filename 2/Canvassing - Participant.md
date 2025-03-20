@@ -137,6 +137,7 @@ sequenceDiagram
 - [0xfCEaAB2aDbb971B87C8AFB5170e39ec854619405](https://alfajores.celoscan.io/address/0xfCEaAB2aDbb971B87C8AFB5170e39ec854619405)
 - [0x259C9cBA61F599Fe18e7F9f0459aec960c4fa6E9](https://celo-alfajores.blockscout.com/address/0x259C9cBA61F599Fe18e7F9f0459aec960c4fa6E9)
 - [0x402faddf7578b081b8b4b7e826699f4e33770e5b](https://alfajores.celoscan.io/address/0x402faddf7578b081b8b4b7e826699f4e33770e5b)
+- [0xC79dddc191d84711Aaf5cACFDe935E1090652E0b](https://alfajores.celoscan.io/address/0xC79dddc191d84711Aaf5cACFDe935E1090652E0b)
 
 ### Contracts on Celo Mainnet
 - [0x87C8FcB7A80e11a5954697622a653907adF4a42e](https://celoscan.io/address/0x87C8FcB7A80e11a5954697622a653907adF4a42e)  
