@@ -1,75 +1,78 @@
+ 	
+> 🚨 **Please don't write in this file** 	
+> 	
+> Don't touch this file ----- please create a copy and name it after your project	
+>	
 
-
-# Project Name - Superflow
+# Project Name - <add your Project name here>
 
 ## Short Description
-One-Click Token Creation and Liquidity Management
+
+Short description of your project that fits into a Tweet
 
 ## Link to GitHub repository
 
-[Link](https://github.com/distroinfinity/superflow)
+- It needs to be **Public**. This is mandatory to get approved.	In case you are building closed source there are a few ways your project can still apply.
+  - You are only building one **feature** in public
+  - Your product is live **deployed on Mainnet** and you can showcase transactions
+  - Your product is on testnet and you are working on your **Whitepaper/ Deck** etc. You **won't** be eligible for the prize pool in this case, but you will receive your onchain builders credentials and be eligible for **future rounds** that are only accessible for continuous builders. 
 
 ## Link to Video
 
+- should not be longer than 4 minutes 
+- make sure you are a publicly accessible link
 
 
 ## Link to Deck
 
+- not more than 10 slides
+
+- It needs to be **Public**. This is mandatory to get approved.
 
 ## Link to assets
 
-
+- This should be a folder in your repo, but in case you are building closed source, you can provide a Google Drive Link. Make sue it is publicly accessible. 
 
 ## Team Members GitHub username
-[yeah-ssh](https://github.com/yeah-ssh)
-[distroinfinty](https://github.com/distroinfinity)
+
+- List each teammember
+  - skill
+  - GitHub
+  - Twitter
+  - Farcaster
 
 ## Former Participation in Celo Hackathons
 
- Celo Proof-Of-Ship Seaason1.  
- Eth Bangkok Celo Best Open Source Project.
+- Link to hackathon submissions
 
 ## Monthly Goal for this Proof of Ship
-I will be actively participating in Proof-of-Ship Season 2 this month, focusing on:
 
-- Extensive testing of our product on Celo Alfajores to ensure stability and performance.   
-- Leveraging access to Alfajores Uniswap V3 contracts for seamless integration and improved functionality.   
-- Implementing key enhancements from ScoutsGame to streamline contributions and maintain a smooth workflow.    
-- Restructuring the folder architecture to improve organization and remove unnecessary clutter.   
-- Developing a lightweight frontend to enhance the usability of our currently terminal-based tool.   
-
+What are you planning to ship this month? Be as detailed as possible. Try to break it down into weekly milestones.
 
 ### Detailed description of the work you did this month during the contest
- 
+
+- Link to PR for feature 1
+- Link to PR for feature 2
 
 ## Problem
 
-- Launching tokens and managing liquidity across multiple chains is highly complex, time-intensive, and risky. Projects struggle with security vulnerabilities, fragmented tooling, and inefficient workflows that slow adoption.
-
+- What problem does your project solve?
 
 ## Solution
 
-- SuperFlow removes these barriers by providing an all-in-one, automated solution for:
-
-- Token Generation – One-click ERC20 deployment with secure, audited contracts.  
-- Cross-Chain Liquidity – Instant bridging of Celo tokens to major EVM chains.  
-- DEX Liquidity Management – Automated pool creation for seamless trading.  
-
+- How does your project solve that problem?
 
 ## Architecture
 
-Token Deployment (newToken.js)
-- Deploys new ERC-20 tokens using Hardhat & Ethers.js.
-Liquidity Pool Setup (createUniswapPools.js)
-- Pairs the deployed token with a collateral token.
-Creates Uniswap V3 pools using FactoryV3 & Non-Fungible Position Manager.
-- Frontend will be built using Reactjs or Nextjs.
+- What is your tech stack?
+- High level overview of your project architecture
 
-## Contracts on Celo Alfajores
+## Contracts on Celo
 
-- UniswapV3Factory: 0x229Fd76DA9062C1a10eb4193768E192bdEA99572
-- NonfungiblePositionManager: 0x0eC9d3C06Bc0A472A80085244d897bb604548824
-
-
+- Link to Contract Address on Celo or Celo Alfajores Testnet (celoscan)	
+- Contracts need to be **verified**
+- Please use a smart contract framework like hardhat or Foundry in your project. For building continuously, a deployment script should be used. This is crucial for more complex smart contracts and testing. This will be added to your technical score.
+- Adding **tests** to your project should be a **standard** and is not complicated to write using AI. 
+- **NOTE**: Our AI Agent Judge tracks transactions on deployed contracts. Contracts are required in order to receive monthly rewards.  	
 
 
