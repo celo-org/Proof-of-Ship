@@ -9,14 +9,10 @@ One-Click Token Creation and Liquidity Management
 
 ## Link to Video
 
-
+[Link](https://drive.google.com/file/d/1vgnueGK1hXpUkMS8Ie1Kr8RRspXKvAok/view?usp=sharing)
 
 ## Link to Deck
-
-
-## Link to assets
-
-
+[Link](https://docs.google.com/presentation/d/1rg7ntFY998qA8J8tca5-rC5TvWiSEBQtFxDEW3imLoQ/edit?usp=sharing)
 
 ## Team Members GitHub username
 [yeah-ssh](https://github.com/yeah-ssh)
@@ -38,7 +34,11 @@ I will be actively participating in Proof-of-Ship Season 2 this month, focusing 
 
 
 ### Detailed description of the work you did this month during the contest
- 
+
+- Extensive Testing on Uniswap Contrcat Address for CeloAlfajores and making the project terminal ready for Celo.
+- Encorporating incoming contributions through platforms like ScoutsGame.
+- Making a React Frontend for Deploying tokens.
+- React Frontend for Deploying Liquidity Pool on uniswap in in progress.
 
 ## Problem
 
