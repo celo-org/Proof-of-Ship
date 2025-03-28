@@ -1,0 +1,1129 @@
+[
+    {
+        "project": {
+            "createdAt": "2024-09-13T06:22:16.000Z",
+            "description": "ESUSU is a decentralized application (DApp) built on the Celo Mainnet that facilitates stablecoin contributions through a collective savings model known as Esusu in many African communities as well as individual time-locking of funds. The DApp allows users to create and join campaigns, contribute funds, and track campaign details transparently on the blockchain.\n\nEsusu is a 3 in 1 solution to solving issues related to financial inclusion and poor savings trend. the sections are\n\n    Esusu thrift contribution: 5 users join a contribution campaign where they pool their funds every month for 5 months. For every month a unique user takes home the total contribution giving everyone access to bulk money which naturally they couldn't have saved up. This also eliminates the need to borrow money to fund big projects.\n\n    Esusu piggy box => Funds are locked up over time so that users no longer have access to them. They earn MST tokens for locking up funds but lose these tokens if they decide to break the lock.\n\n    Esusu pay bills => Users can pay for their utility and also make donations to their various projects",
+            "imageURL": "",
+            "title": "Esusu",
+            "links": {
+                "discord": "emiri",
+                "github": "https://github.com/emiridbest/esusu",
+                "linkedin": "https://www.linkedin.com/company/esusu-inc",
+                "twitter": "https://twitter.com/emiridbest",
+                "website": "https://esusu-one.vercel.app/",
+                "pitchDeck": "https://www.canva.com/design/DAGDFgtRRjg/rbi6dJBYbt1rEjKQW0tWgQ/view?utm_content=DAGDFgtRRjg&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=ha4a02222aa",
+                "demoVideo": "https://youtu.be/Q3E4Posc2g0",
+                "farcaster": "https://warpcast.com/emiridbest"
+            },
+            "externals": {
+                "network_addresses": [
+                    "celo:0xD7154A32280c31a510BF248CE35F2627162227b4",
+                    "celo:0x4f2823A3AACa8eA1B427ABC5750Ccb3D4E8C4AC7"
+                ],
+                "github": [
+                    "https://github.com/emiridbest/esusu"
+                ]
+            },
+            "slug": "esusu"
+        },
+        "grant": {
+            "createdAt": "2025-03-19T22:43:02.000Z",
+            "proposalURL": "",
+            "title": "Proof of Ship - Season 2"
+        },
+        "totalMilestones": 11,
+        "totalMilestonesCompleted": 11,
+        "milestones": "Milestone 1:\n  Title: Pubblish a report on the milestones\n  Details: The report on the milestones and feedback report on X, Linkedin and Farcaster.\nThere will be daily updates on Farcaster and then at least one report on LinkedIn and on X.\n  Due date: 2025-03-28T00:00:00.000Z\n  Update: I have been posting daily updates on farcaster for the past 17 days via the /Celo channel\n  Completed At: Wed Mar 19 2025 22:40:47 GMT+0000 (Coordinated Universal Time)\n  Proof: I have been posting daily updates on farcaster for the past 17 days via the /Celo channel\n\nMilestone 2:\n  Title: Redesign UI\n  Details: An integral part of building trust in decentralised applications is having frontends with good UI/UX experience which streamlines usage and boosts the confidence of the users on the dev team.\n\nFor this reason, we will be redesigning Esusu, giving it a new look with info sections to help users understand what each session stands for.\n  Due date: 2025-03-19T00:00:00.000Z\n  Update: Milestone has been completed.\n  Completed At: Wed Mar 19 2025 22:33:10 GMT+0000 (Coordinated Universal Time)\n  Proof: Milestone has been completed.\n\nMilestone 3:\n  Title: User Feedback on UI/UX\n  Details: As a community-based solution we will be collecting feedback from the community on what they think about the UI and the various changes they would want to see.\n  Due date: 2025-03-26T00:00:00.000Z\n  Update: \n  Completed At: Sun Mar 23 2025 21:35:31 GMT+0000 (Coordinated Universal Time)\n  Proof: \n\nMilestone 4:\n  Title: Actively Implement Feedback Request\n  Details: We will be implementing the UI/UX improvement as suggested by the community in real time.\n  Due date: 2025-03-25T00:00:00.000Z\n  Update: The initial set of user feedback revealed redundancy in our smart contract logic which involved the breaktimelock function. We this immediately so testing is done and to ensure the final production contract don't inherit the vulnerability\n  Completed At: Sat Mar 22 2025 10:09:38 GMT+0000 (Coordinated Universal Time)\n  Proof: The initial set of user feedback revealed redundancy in our smart contract logic which involved the breaktimelock function. We this immediately so testing is done and to ensure the final production contract don't inherit the vulnerability\n\nMilestone 5:\n  Title: Create a business Linkedin page\n  Details: \n  Due date: 2025-03-24T00:00:00.000Z\n  Update: \n  Completed At: Sun Mar 23 2025 21:29:03 GMT+0000 (Coordinated Universal Time)\n  Proof: \n\nMilestone 6:\n  Title: Make a post on linkedin about Esusu\n  Details: Put Esusu out there without fear.\n  Due date: 2025-03-24T00:00:00.000Z\n  Update: This is a landmark achievement as it kinda felt out of place posting about what we are building to a larger community.\n  Completed At: Sun Mar 23 2025 21:31:19 GMT+0000 (Coordinated Universal Time)\n  Proof: This is a landmark achievement as it kinda felt out of place posting about what we are building to a larger community.\n\nMilestone 7:\n  Title: Post user feedback update on linkedin\n  Details: \n  Due date: 2025-03-24T00:00:00.000Z\n  Update: \n  Completed At: Sun Mar 23 2025 21:38:54 GMT+0000 (Coordinated Universal Time)\n  Proof: \n\nMilestone 8:\n  Title: Post user feedback update on twitter\n  Details: \n  Due date: 2025-03-24T00:00:00.000Z\n  Update: \n  Completed At: Sun Mar 23 2025 21:51:01 GMT+0000 (Coordinated Universal Time)\n  Proof: \n\nMilestone 9:\n  Title: Implement major UI/UX feedback from the community\n  Details: \n  Due date: 2025-03-24T00:00:00.000Z\n  Update: We were able to implement user feedback over 2 pull requests.\n\nhttps://github.com/emiridbest/esusu/pull/6\n\nhttps://github.com/emiridbest/esusu/pull/5\n  Completed At: Sun Mar 23 2025 23:38:30 GMT+0000 (Coordinated Universal Time)\n  Proof: We were able to implement user feedback over 2 pull requests.\n\nhttps://github.com/emiridbest/esusu/pull/6\n\nhttps://github.com/emiridbest/esusu/pull/5\n\nMilestone 10:\n  Title: Make presentation slides for the Proof of Ship - 2\n  Details: \n  Due date: 2025-03-24T00:00:00.000Z\n  Update: \n  Completed At: Mon Mar 24 2025 00:00:22 GMT+0000 (Coordinated Universal Time)\n  Proof: \n\nMilestone 11:\n  Title: Make presentation video for the Proof of Ship - 2\n  Details: \n  Due date: 2025-03-24T00:00:00.000Z\n  Update: \n  Completed At: Mon Mar 24 2025 03:42:45 GMT+0000 (Coordinated Universal Time)\n  Proof: ",
+        "updates": ""
+    },
+    {
+        "project": {
+            "createdAt": "2025-03-08T07:50:14.000Z",
+            "description": "Canvassing is a dApp that leverages stablecoins to pay out participants for answering surveys questions. Once a user is on the dApp, they tap on any available survey, book it on-chain and proceed to answer. Once done, they claim the reward, which triggers our smart contract to transfer funds from itself to the requesting participant.",
+            "imageURL": "",
+            "title": "Canvassing",
+            "links": {
+                "discord": "andrewkimjoseph",
+                "github": "https://github.com/andrewkimjoseph",
+                "linkedin": "https://www.linkedin.com/company/thecanvassing/",
+                "twitter": "https://x.com/thecanvassing",
+                "website": "https://thecanvassing.xyz",
+                "pitchDeck": "https://www.figma.com/deck/7Nb7XGL4JGT6mFF72YnyGy/Canvassing-Pitchdeck?node-id=12-1885&t=gYZybnBbnuf8x2L7-1",
+                "demoVideo": "https://www.youtube.com/watch?v=nK_TJN7ecOc",
+                "farcaster": ""
+            },
+            "externals": {
+                "github": [
+                    "https://github.com/andrewkimjoseph/canvassing-participant"
+                ],
+                "network_addresses": [
+                    "celo:0x18bd5146ee12d3ae3c1f5114678bd6b1de46bb56",
+                    "celo:0x87C8FcB7A80e11a5954697622a653907adF4a42e"
+                ]
+            },
+            "slug": "canvassing"
+        },
+        "grant": {
+            "createdAt": "2025-03-08T08:39:44.000Z",
+            "proposalURL": "",
+            "title": "Proof of Ship - Season 2"
+        },
+        "totalMilestones": 11,
+        "totalMilestonesCompleted": 11,
+        "milestones": "Milestone 1:\n  Title: 1. Update our smart contract (ClosedSurveyV5.sol)\n  Details: [smart-contract] Update our smart contract (ClosedSurveyV5.sol) to restrict open booking via the [screenParticipant] function (Monday, 10th March) [ANDREW KIM].\n  Due date: 2025-03-09T21:00:00.000Z\n  Update: Update 1:\n[screenParticipant] can be accessed by anyone who has our contract address, making it vulnerable to DDoS attacks. This update renames the signatures functions and specifies them for “Claiming”, which will give distinction once the right modifier for signature-checking the screening comes about. Link to PR: https://github.com/andrewkimjoseph/canvassing-participant/pull/198\nUpdate 2:\n[screenParticipant] can now only be successfully called if the owner of the survey provides a valid signature. We’ve created a new **ClosedSurveyV6.sol** to handle any reward token that follows the ERC-20 standard, meaning that you can deploy the contract and fund it with a token like GoodDollar(G$), and the distribution will work well. Link to PR: https://github.com/andrewkimjoseph/canvassing-participant/pull/200\n  Completed At: Mon Mar 10 2025 08:00:41 GMT+0000 (Coordinated Universal Time)\n  Proof: Update 1:\n[screenParticipant] can be accessed by anyone who has our contract address, making it vulnerable to DDoS attacks. This update renames the signatures functions and specifies them for “Claiming”, which will give distinction once the right modifier for signature-checking the screening comes about. Link to PR: https://github.com/andrewkimjoseph/canvassing-participant/pull/198\nUpdate 2:\n[screenParticipant] can now only be successfully called if the owner of the survey provides a valid signature. We’ve created a new **ClosedSurveyV6.sol** to handle any reward token that follows the ERC-20 standard, meaning that you can deploy the contract and fund it with a token like GoodDollar(G$), and the distribution will work well. Link to PR: https://github.com/andrewkimjoseph/canvassing-participant/pull/200\n\nMilestone 2:\n  Title: 2. Rewrite Hardhat tests for ClosedSurveyV5.sol\n  Details: [smart-contract] Rewrite Hardhat tests for ClosedSurveyV5.sol (Tuesday, 11th March) [ANDREW KIM].\n  Due date: 2025-03-10T21:00:00.000Z\n  Update: We had outdated Hardhat tests, and since we updated our contract, we needed to update our TypeScript tests. We have since accomplished that, see link to PR; the main test is ClosedSurveyV6Extended.ts. Here are the 7 contracts that we deployed during the testing iterations, all on Celo Alfajores testnet:\n\n1. https://alfajores.celoscan.io/address/0x409cbf13fbd3b98e61f1f77b3a4cef1f39a2c49a\n2. https://alfajores.celoscan.io/address/0x63bdeb2840349878b99ede9ddd6e5754dd575c10\n3. https://alfajores.celoscan.io/address/0x8f0c3451baf5646a9e22210828a111bb9e289d67\n4. https://alfajores.celoscan.io/address/0x462a8a53debe19f62a15930b0b176090f97c4a23\n5. https://alfajores.celoscan.io/address/0xcb30123c469023a0bf3c8d01cf3779d651477171\n6. https://alfajores.celoscan.io/address/0x104f45f325b103d850768a8ac5bfc31aa593e3e5\n7. https://alfajores.celoscan.io/address/0xe3c57abf12f39fd1822c24aa8d8131081744034a\n  Completed At: Tue Mar 11 2025 17:03:03 GMT+0000 (Coordinated Universal Time)\n  Proof: We had outdated Hardhat tests, and since we updated our contract, we needed to update our TypeScript tests. We have since accomplished that, see link to PR; the main test is ClosedSurveyV6Extended.ts. Here are the 7 contracts that we deployed during the testing iterations, all on Celo Alfajores testnet:\n\n1. https://alfajores.celoscan.io/address/0x409cbf13fbd3b98e61f1f77b3a4cef1f39a2c49a\n2. https://alfajores.celoscan.io/address/0x63bdeb2840349878b99ede9ddd6e5754dd575c10\n3. https://alfajores.celoscan.io/address/0x8f0c3451baf5646a9e22210828a111bb9e289d67\n4. https://alfajores.celoscan.io/address/0x462a8a53debe19f62a15930b0b176090f97c4a23\n5. https://alfajores.celoscan.io/address/0xcb30123c469023a0bf3c8d01cf3779d651477171\n6. https://alfajores.celoscan.io/address/0x104f45f325b103d850768a8ac5bfc31aa593e3e5\n7. https://alfajores.celoscan.io/address/0xe3c57abf12f39fd1822c24aa8d8131081744034a\n\nMilestone 3:\n  Title: 3. Add switch button for cUSD and G$\n  Details: [front-end] Add switch button for cUSD (Celo Dollar) and G$ (GoodDollar) (Wednesday, 12th March)[ANDREW KIM].\n  Due date: 2025-03-11T21:00:00.000Z\n  Update: To ensure that we enable both cUSD and G$, we first need to render the UI. This update gives a slight facelift to our “/” route to include a switch button.\n  Completed At: Wed Mar 12 2025 13:09:48 GMT+0000 (Coordinated Universal Time)\n  Proof: To ensure that we enable both cUSD and G$, we first need to render the UI. This update gives a slight facelift to our “/” route to include a switch button.\n\nMilestone 4:\n  Title: 4. Update surveys store filter\n  Details: [front-end] Update surveys store filter to distinguish between cUSD-rewarded surveys and G$-rewarded surveys (Thursday, 13th March) [ANDREW KIM].\n  Due date: 2025-03-12T21:00:00.000Z\n  Update: Once the switch button in the “/” route is clicked and switched to G$, participants are able to see the available surveys that are rewarded in G$. This update updates the survey store filter and calls the respective survey contract to get the reward token contract address. With the fetched address, the filter compares as in the following snippet:\n>>>\n```\nconst rewardToken = await getRewardTokenForSurvey({\n_surveyContractAddress: survey.contractAddress,\n_chainId: chainId\n});\nsurvey.rewardToken = rewardToken;\n```\n<<<\n\nThe [RewardToken] enum looks like this - \n>>>\n```\nexport enum RewardToken {\nceloDollar = \"celoDollar\",\ngoodDollar = \"goodDollar\"\n};\n```\n<<<\n  Completed At: Thu Mar 13 2025 07:35:10 GMT+0000 (Coordinated Universal Time)\n  Proof: Once the switch button in the “/” route is clicked and switched to G$, participants are able to see the available surveys that are rewarded in G$. This update updates the survey store filter and calls the respective survey contract to get the reward token contract address. With the fetched address, the filter compares as in the following snippet:\n>>>\n```\nconst rewardToken = await getRewardTokenForSurvey({\n_surveyContractAddress: survey.contractAddress,\n_chainId: chainId\n});\nsurvey.rewardToken = rewardToken;\n```\n<<<\n\nThe [RewardToken] enum looks like this - \n>>>\n```\nexport enum RewardToken {\nceloDollar = \"celoDollar\",\ngoodDollar = \"goodDollar\"\n};\n```\n<<<\n\nMilestone 5:\n  Title: 5. Create a single survey, deploy its contract\n  Details: [technical, general] Create a single survey, deploy its contract, and send G$ to it (Thursday, 13th March)[ANDREW KIM].\n  Due date: 2025-03-12T21:00:00.000Z\n  Update: This update creates a new survey on our database, and deploys a new contract. We have sent 150,000 G$, and we are ready to run the survey.\n  Completed At: Thu Mar 13 2025 10:03:46 GMT+0000 (Coordinated Universal Time)\n  Proof: This update creates a new survey on our database, and deploys a new contract. We have sent 150,000 G$, and we are ready to run the survey.\n\nMilestone 6:\n  Title: 6. Create charts and draft a single report\n  Details: [technical, general] Create charts and draft a single report on both Celo Forum and Medium from the data collected from the single survey (starts Friday, 21st March, ends Monday, 24th March at 11 AM) [ANDREW KIM].\n  Due date: 2025-03-23T21:00:00.000Z\n  Update: After conducting the survey and rewarding participants using a smart contract, we get the responses in a CSV file. We then have a conversation with Claude AI to generate different artifacts. See our conversation with the AI here:\n\nhttps://claude.ai/share/1a89b332-d806-4a33-a831-dbe00b57a039\n\nThe AI summarizes our work, provides data and insights, and helps us put together a Medium blog and a Forum post. We offer these to the Celo ecosystem as public goods. We also create beautiful charts to visualize the data via Canva, and we use the charts in the report.\n  Completed At: Mon Mar 24 2025 07:03:50 GMT+0000 (Coordinated Universal Time)\n  Proof: After conducting the survey and rewarding participants using a smart contract, we get the responses in a CSV file. We then have a conversation with Claude AI to generate different artifacts. See our conversation with the AI here:\n\nhttps://claude.ai/share/1a89b332-d806-4a33-a831-dbe00b57a039\n\nThe AI summarizes our work, provides data and insights, and helps us put together a Medium blog and a Forum post. We offer these to the Celo ecosystem as public goods. We also create beautiful charts to visualize the data via Canva, and we use the charts in the report.\n\nMilestone 7:\n  Title: 7. Finish wireframing the Android dApp\n  Details: [design] Finish wireframing the Android dApp (Wednesday, 19th March) [BENEDICTORS OGADA].\n  Due date: 2025-03-18T21:00:00.000Z\n  Update: As part of our roadmap, we have an Android dApp on the pipeline, which has been in the prototyping stage. Check the link to see how the Figma design looks!\n  Completed At: Wed Mar 19 2025 13:14:20 GMT+0000 (Coordinated Universal Time)\n  Proof: As part of our roadmap, we have an Android dApp on the pipeline, which has been in the prototyping stage. Check the link to see how the Figma design looks!\n\nMilestone 8:\n  Title: 8. Promote the survey to our Early Adopters\n  Details: [community] Promote the survey to our Early Adopters via our WhatsApp forum (Friday, 14th March) [BENEDICTORS OGADA, ANDREW KIM].\n  Due date: 2025-03-13T21:00:00.000Z\n  Update: Shared with our small community via WhatsApp, check the X post out.\n  Completed At: Fri Mar 14 2025 12:53:41 GMT+0000 (Coordinated Universal Time)\n  Proof: Shared with our small community via WhatsApp, check the X post out.\n\nMilestone 9:\n  Title: 9. Socialize the drafted reports on X\n  Details: [community] Socialize the drafted reports on X (Monday, 24th March) [BENEDICTORS OGADA, ANDREW KIM].\n  Due date: 2025-03-23T21:00:00.000Z\n  Update: Once we are done publishing the reports, we socialize them on X via a thread. See the link:\n\nhttps://x.com/thecanvassing/status/1904058871267619090\n  Completed At: Mon Mar 24 2025 07:06:25 GMT+0000 (Coordinated Universal Time)\n  Proof: Once we are done publishing the reports, we socialize them on X via a thread. See the link:\n\nhttps://x.com/thecanvassing/status/1904058871267619090\n\nMilestone 10:\n  Title: 10. [front-end] Improve UI\n  Details: [front-end] Improve UI to render the app both on desktop and mobile, regardless of the MiniPay context. This will also make it easy for judges to test the dApp without having to be on MiniPay.\n  Due date: 2025-03-13T21:00:00.000Z\n  Update: # Combined Security and Compatibility Update\n\nThis update enhances both platform compatibility and security controls:\n\n- **Cross-Platform Support**: Extends functionality beyond MiniPay to support standard browsers with improved desktop rendering that maintains the mobile design integrity without UI elements misalignment\n- **Automatic Wallet Connection**: Implements automatic Metamask connection prompting without prematurely exposing app functionality\n- **Anti-Sybil Protection**: Prevents multiple account creation by implementing auth state verification before account creation\n  - Addresses previous vulnerability where users could create multiple accounts by signing out of MiniPay and registering with new phone numbers\n  - Protects against token reward depletion through duplicate accounts (an issue that affected previous survey rounds)\n- **Code Cleanup**: Removes unused code and implements targeted fixes for identified issues\n\nhttps://github.com/andrewkimjoseph/canvassing-participant/pull/200 \nhttps://github.com/andrewkimjoseph/canvassing-participant/pull/201\n  Completed At: Fri Mar 14 2025 11:59:56 GMT+0000 (Coordinated Universal Time)\n  Proof: # Combined Security and Compatibility Update\n\nThis update enhances both platform compatibility and security controls:\n\n- **Cross-Platform Support**: Extends functionality beyond MiniPay to support standard browsers with improved desktop rendering that maintains the mobile design integrity without UI elements misalignment\n- **Automatic Wallet Connection**: Implements automatic Metamask connection prompting without prematurely exposing app functionality\n- **Anti-Sybil Protection**: Prevents multiple account creation by implementing auth state verification before account creation\n  - Addresses previous vulnerability where users could create multiple accounts by signing out of MiniPay and registering with new phone numbers\n  - Protects against token reward depletion through duplicate accounts (an issue that affected previous survey rounds)\n- **Code Cleanup**: Removes unused code and implements targeted fixes for identified issues\n\nhttps://github.com/andrewkimjoseph/canvassing-participant/pull/200 \nhttps://github.com/andrewkimjoseph/canvassing-participant/pull/201\n\nMilestone 11:\n  Title: Prepare pitch deck, 10 - 12 slides\n  Details: [design] Prepare pitch deck, 10 - 12 slides (Friday, 21st March) [BENEDICTORS OGADA].\n  Due date: 2025-03-20T21:00:00.000Z\n  Update: As part of our first month in Proof of Ship, we have put together a pitch deck that tells our story. \n\nUpdate 1: Content Development✔️\nUsing our own data, We conducted in-depth research to draft the content for our pitch deck. The data gathered played a crucial role in shaping the key sections of the deck, which include:\nThe Problem – Clearly defining the challenges our target audience(researcher and users) faces.\nThe Solution – Showcasing how Canvassing addresses these challenges.\nMarket Opportunity – Highlighting the potential for growth and adoption.\nHow Canvassing Works – Outlining the step-by-step process of using the dApp( from onboarding to doing surveys).\nCompetitive Analysis – Comparing our solution with existing alternatives.\nProof of Concept – Showcasing our recognition in the industry, including hackathons we’ve won and the funding received from Prezenti grants. This section also highlights key user insights and strategic partnerships that validate our product.\nRoadmap – Mapping out our past achievements and future goals.\nMilestones for March 2025 (Proof of Ship) – Showcasing our latest development progress.\nStrategic Alliances – Highlighting key partnerships that support our growth.\nThe Team – Introducing the people behind Canvassing.\nAfter drafting the content, I submitted it for review and refinement. Minor adjustments were made, and the final version was fully edited and approved.\n\n\nUpdate 2: Designing the Pitch Deck✔️\nDesigned the pitch deck from the ground up, ensuring it aligned with our brand identity. This included:\nVisual Enhancements – Incorporating high-quality images and a clean, professional layout.\nBrand Consistency – Choosing colors that reflect our brand identity.\nCelo Branding – Adding the \"Built with Celo\" tag to reinforce our ecosystem alignment.\nAdditional Slides – Including an introductory page to set the stage and a thank you page featuring our contact details and a QR code for easy access to our dApp.\n\nLINK:\nhttps://www.figma.com/deck/7Nb7XGL4JGT6mFF72YnyGy/Canvassing-Pitchdeck?node-id=17-300&t=gYZybnBbnuf8x2L7-1\n  Completed At: Mon Mar 24 2025 11:42:52 GMT+0000 (Coordinated Universal Time)\n  Proof: As part of our first month in Proof of Ship, we have put together a pitch deck that tells our story. \n\nUpdate 1: Content Development✔️\nUsing our own data, We conducted in-depth research to draft the content for our pitch deck. The data gathered played a crucial role in shaping the key sections of the deck, which include:\nThe Problem – Clearly defining the challenges our target audience(researcher and users) faces.\nThe Solution – Showcasing how Canvassing addresses these challenges.\nMarket Opportunity – Highlighting the potential for growth and adoption.\nHow Canvassing Works – Outlining the step-by-step process of using the dApp( from onboarding to doing surveys).\nCompetitive Analysis – Comparing our solution with existing alternatives.\nProof of Concept – Showcasing our recognition in the industry, including hackathons we’ve won and the funding received from Prezenti grants. This section also highlights key user insights and strategic partnerships that validate our product.\nRoadmap – Mapping out our past achievements and future goals.\nMilestones for March 2025 (Proof of Ship) – Showcasing our latest development progress.\nStrategic Alliances – Highlighting key partnerships that support our growth.\nThe Team – Introducing the people behind Canvassing.\nAfter drafting the content, I submitted it for review and refinement. Minor adjustments were made, and the final version was fully edited and approved.\n\n\nUpdate 2: Designing the Pitch Deck✔️\nDesigned the pitch deck from the ground up, ensuring it aligned with our brand identity. This included:\nVisual Enhancements – Incorporating high-quality images and a clean, professional layout.\nBrand Consistency – Choosing colors that reflect our brand identity.\nCelo Branding – Adding the \"Built with Celo\" tag to reinforce our ecosystem alignment.\nAdditional Slides – Including an introductory page to set the stage and a thank you page featuring our contact details and a QR code for easy access to our dApp.\n\nLINK:\nhttps://www.figma.com/deck/7Nb7XGL4JGT6mFF72YnyGy/Canvassing-Pitchdeck?node-id=17-300&t=gYZybnBbnuf8x2L7-1",
+        "updates": ""
+    },
+    {
+        "project": {
+            "createdAt": "2025-03-10T18:56:11.000Z",
+            "description": "An automated cUSD staking platform that uses AI to monitor and optimize yield farming strategies across liquidity pools.",
+            "imageURL": "",
+            "title": "Intel",
+            "links": {
+                "discord": "",
+                "github": "https://github.com/jeffIshmael/Intel",
+                "linkedin": "",
+                "twitter": "",
+                "website": "intel-mocha.vercel.app",
+                "pitchDeck": "https://www.canva.com/design/DAGgYGkgeDM/lhAEsILi3xlFC83l8pDeEg/edit?utm_content=DAGgYGkgeDM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+                "demoVideo": "https://www.loom.com/share/6deb4d5e09334255a1e5d154655fe437?sid=4edcf07e-36c4-434e-bbc3-78d6d10ad5db",
+                "farcaster": ""
+            },
+            "externals": {
+                "github": [
+                    "https://github.com/jeffIshmael/Intel"
+                ],
+                "network_addresses": [
+                    "celo:0x95DEca6A1604A4D3aB29332AD26fc0caF0dE15FA"
+                ]
+            },
+            "slug": "intel-1"
+        },
+        "grant": {
+            "createdAt": "2025-03-24T09:24:06.000Z",
+            "proposalURL": "",
+            "title": "Proof of Ship - Season 2"
+        },
+        "totalMilestones": 9,
+        "totalMilestonesCompleted": 7,
+        "milestones": "Milestone 1:\n  Title: Mainnet deployment\n  Details: This milestone comes after security auditing of the smart contract, and it involves deploying the smart contract to celo mainnet.\n  Due date: 2025-03-20T21:00:00.000Z\n  Update: The contract is deployed on mainnet with the following address - 0x95DEca6A1604A4D3aB29332AD26fc0caF0dE15FA\n  Completed At: Mon Mar 24 2025 08:39:37 GMT+0000 (Coordinated Universal Time)\n  Proof: The contract is deployed on mainnet with the following address - 0x95DEca6A1604A4D3aB29332AD26fc0caF0dE15FA\n\nMilestone 2:\n  Title: Uniswap-V3 alfajores\n  Details: The objectives of this milestone are:\n\n- To understand how uniswap-V3 works using the uniswap-v3 Alfajores\n- Handle uniswap-v3 staking on our deployed smartcontract.\n- Integrate staking on Uniswap-V3 celo mainnet staking pools\n  Due date: 2025-03-20T21:00:00.000Z\n  Update: \n  Completed At: \n  Proof: \n\nMilestone 3:\n  Title: Smart contract deployment\n  Details: The objective of this milestone is to ensure that we design, deploy and test a smart contract that effectively manages staking in staking pools.\n  Due date: 2025-03-20T21:00:00.000Z\n  Update: Done  contract address - 0x95DEca6A1604A4D3aB29332AD26fc0caF0dE15FA\n  Completed At: Mon Mar 24 2025 08:40:45 GMT+0000 (Coordinated Universal Time)\n  Proof: Done  contract address - 0x95DEca6A1604A4D3aB29332AD26fc0caF0dE15FA\n\nMilestone 4:\n  Title: Smart contract audit\n  Details: The objective of the milestone is to test the security of the smart contract to ensure that it is secure enough. A lot of testing will take place.\n  Due date: 2025-03-20T21:00:00.000Z\n  Update: Done contract Address - 0x95DEca6A1604A4D3aB29332AD26fc0caF0dE15FA\n  Completed At: Mon Mar 24 2025 08:41:55 GMT+0000 (Coordinated Universal Time)\n  Proof: Done contract Address - 0x95DEca6A1604A4D3aB29332AD26fc0caF0dE15FA\n\nMilestone 5:\n  Title: Real-time notification\n  Details: The objective of this milestone is to make sure the user gets real time notification to their emails showing any activity that the AI agent has done.\n  Due date: 2025-03-21T21:00:00.000Z\n  Update: Done\n  Completed At: Mon Mar 24 2025 08:44:55 GMT+0000 (Coordinated Universal Time)\n  Proof: Done\n\nMilestone 6:\n  Title: Unstaking & reallocation\n  Details: The objective of this milestone is to ensure that the AI agent can automatically unstake the funds from a currently staked pool and stake to a newly found staking pool.\n  Due date: 2025-03-14T21:00:00.000Z\n  Update: \n  Completed At: \n  Proof: \n\nMilestone 7:\n  Title: Account Abstraction\n  Details: The objective of this milestone is to make sure that the user is able to pay gas fees in cUSD.\n  Due date: 2025-03-21T21:00:00.000Z\n  Update: I used viem to pay gas fees in cUSD\n  Completed At: Mon Mar 24 2025 08:37:50 GMT+0000 (Coordinated Universal Time)\n  Proof: I used viem to pay gas fees in cUSD\n\nMilestone 8:\n  Title: AI optimization decision\n  Details: The objectives of this milestone are:\n\n- Ensure that the AI agent is making the right decision while choosing the best staking pool. e.g make sure that it considers proper risk management.\n- Ensure that we are contantly checking for best pools real-time. e.g Setting a cron functions thst constantly fetches real-time pools data.\n  Due date: 2025-03-14T21:00:00.000Z\n  Update: I'm using nebula AI to determine the best pool\n  Completed At: Mon Mar 24 2025 08:43:15 GMT+0000 (Coordinated Universal Time)\n  Proof: I'm using nebula AI to determine the best pool\n\nMilestone 9:\n  Title: Real-time notification\n  Details: The objective of this milestone is to make sure the user gets real time notification to their emails showing any activity that the AI agent has done.\n  Due date: 2025-03-28T21:00:00.000Z\n  Update: I used the nodemailer library to send email to the users\n  Completed At: Mon Mar 24 2025 08:36:30 GMT+0000 (Coordinated Universal Time)\n  Proof: I used the nodemailer library to send email to the users",
+        "updates": ""
+    },
+    {
+        "project": {
+            "createdAt": "2025-03-14T17:43:42.000Z",
+            "description": "<https://stable-sl.pdJ.app>\n\nMaking easy for Sierra Leone people to manage stable crypto coins.",
+            "imageURL": "",
+            "title": "stable-sl",
+            "links": {
+                "discord": "vltamara",
+                "github": "pasosdeJesus",
+                "linkedin": "https://www.linkedin.com/in/vtamara/",
+                "twitter": "PasosdeJesus",
+                "website": "https://stable-sl.pdJ.app",
+                "pitchDeck": "",
+                "demoVideo": "",
+                "farcaster": ""
+            },
+            "externals": {
+                "github": [
+                    "https://github.com/pasosdeJesus/stable-sl"
+                ],
+                "network_addresses": [
+                    "celo:0x6B3BC1b55b28380193733a2FD27f2639d92f14be"
+                ]
+            },
+            "slug": "stable-sl"
+        },
+        "grant": {
+            "createdAt": "2025-03-24T19:45:53.000Z",
+            "proposalURL": "",
+            "title": "Proof of Ship - Season 2"
+        },
+        "totalMilestones": 7,
+        "totalMilestonesCompleted": 3,
+        "milestones": "Milestone 1:\n  Title: Develop the application that uses FonBnk.\n  Details: A simple webapp that uses the FonBnk widget as well as Divvi ID if possible.\n  Due date: 2025-03-31T04:00:00.000Z\n  Update: \n  Completed At: \n  Proof: \n\nMilestone 2:\n  Title: Create educational content to invite users\n  Details: Videos to explain how to:\n1. Start a wallet (maybe OKX Wallet or MiniPay --but Minipay have not answered us up to now)\n2. Use the application and FonBnk to change SLE for stable crypto\n3. Use the application and FonBnk to change stable crypto for SLE\n  Due date: 2025-03-31T04:00:00.000Z\n  Update: \n  Completed At: \n  Proof: \n\nMilestone 3:\n  Title: Campaign to invite users to use the application\n  Details: Do campaign for example in Facebook to invite people of Sierra Leone to use the application.\n  Due date: 2025-03-31T04:00:00.000Z\n  Update: \n  Completed At: \n  Proof: \n\nMilestone 4:\n  Title: Understand CELO L2 blockchain and improve\n  Details: * Write an article about the upcoming L2 infrastructure and my experiment running a validator on my platform with\n* Improve the tools of the repository https://github.com/celo-org/celo-l2-node-docker-compose to use my platform adJ/OpenBSD 7.6\n  Due date: 2025-03-13T04:00:00.000Z\n  Update: - Two pull requests accepted and integrated in the CELO repository of the upcomming L2 infrastructure see https://github.com/celo-org/celo-l2-node-docker-compose/pull/24 and https://github.com/celo-org/celo-l2-node-docker-compose/pull/33 \n- Tool `just` ported to OpenBSD/adJ. See https://github.com/casey/just/pull/2497\n-  Fix for test with PR integrated in go-ethereum, see https://github.com/ethereum/go-ethereum/pull/31357\n- Validator node run and working with alfajores and after in baklava as reported in discord, see https://discord.com/channels/600834479145353243/1329506592290246768/1347617981462609960\n- Article https://github.com/vtamara/celo-l2-node-docker-compose/blob/outside-docker/README-without-Docker.md shared on several Telegram groups (see for example https://t.me/celocol/1094) and on the Discord of CELO (see https://discord.com/channels/600834479145353243/783326878806048819/1351189637720440944).\n  Completed At: Thu Mar 20 2025 00:12:25 GMT+0000 (Coordinated Universal Time)\n  Proof: - Two pull requests accepted and integrated in the CELO repository of the upcomming L2 infrastructure see https://github.com/celo-org/celo-l2-node-docker-compose/pull/24 and https://github.com/celo-org/celo-l2-node-docker-compose/pull/33 \n- Tool `just` ported to OpenBSD/adJ. See https://github.com/casey/just/pull/2497\n-  Fix for test with PR integrated in go-ethereum, see https://github.com/ethereum/go-ethereum/pull/31357\n- Validator node run and working with alfajores and after in baklava as reported in discord, see https://discord.com/channels/600834479145353243/1329506592290246768/1347617981462609960\n- Article https://github.com/vtamara/celo-l2-node-docker-compose/blob/outside-docker/README-without-Docker.md shared on several Telegram groups (see for example https://t.me/celocol/1094) and on the Discord of CELO (see https://discord.com/channels/600834479145353243/783326878806048819/1351189637720440944).\n\nMilestone 5:\n  Title: Improve infrastructure to create web3 app\n  Details: Update and improve the repository https://github.com/celo-org/celo-composer and use it to start a project on my platform adJ/OpenBSD\n  Due date: 2025-03-17T04:00:00.000Z\n  Update: * We proposed a pull requests that closes a highly critical vulnerability in a dependency and that updates all the dependencies: https://github.com/celo-org/celo-composer/pull/349\n* We informed other developers in discord and Telegram: https://discord.com/channels/600834479145353243/783326878806048819/1352430256144912414\n  Completed At: Sat Mar 22 2025 16:27:33 GMT+0000 (Coordinated Universal Time)\n  Proof: * We proposed a pull requests that closes a highly critical vulnerability in a dependency and that updates all the dependencies: https://github.com/celo-org/celo-composer/pull/349\n* We informed other developers in discord and Telegram: https://discord.com/channels/600834479145353243/783326878806048819/1352430256144912414\n\nMilestone 6:\n  Title: Try to be P2P partners of FonBnk in Sierra Leone\n  Details: We would do it from the Mission Hope School lead by pastor Zechariah Conteh with Isatu Mansary as operator with a phone and a simcard dedicated for this.\n  Due date: 2025-03-31T04:00:00.000Z\n  Update: * Since FonBnk doesn't work in Sierra Leone in a first meeting on March 17th we proposed Christian Duffus to be their P2P partner in that country from the Mission Hope School in Kabala with one person to  operate and with a simcard a phone for that.\n* On March 20th  he told us that they already had a different P2P partner in Sierra Leone and just need testing. \n* We will have meeting on March 24th to test, but it is clear we cannot be their partners in Sierra Leone.\n  Completed At: Sat Mar 22 2025 16:38:28 GMT+0000 (Coordinated Universal Time)\n  Proof: * Since FonBnk doesn't work in Sierra Leone in a first meeting on March 17th we proposed Christian Duffus to be their P2P partner in that country from the Mission Hope School in Kabala with one person to  operate and with a simcard a phone for that.\n* On March 20th  he told us that they already had a different P2P partner in Sierra Leone and just need testing. \n* We will have meeting on March 24th to test, but it is clear we cannot be their partners in Sierra Leone.\n\nMilestone 7:\n  Title: Application on testnet with the sandbox of FonBnk\n  Details: We had to start a test using Nigeria as country with NGN as currency, with paymnt methods of Nigeria for the lack of support of Sierra Leone.  We are requesting FonBnk to support Sierra Leone in their sandbox.\n  Due date: 2025-03-26T04:00:00.000Z\n  Update: \n  Completed At: \n  Proof: ",
+        "updates": ""
+    },
+    {
+        "project": {
+            "createdAt": "2025-03-11T15:33:18.000Z",
+            "description": "### Sweetspot.wtf\n\nSweetspot is a decentralized app that streamlines impact funding, grant distribution, and community incentives. Built on Celo, it enables bulk token allocation, round creation, and transparent fund distribution with minimal gas fees. \n\n**Features:**\n- **Bulk Allocation** – Efficiently distribute funds to multiple addresses.\n- **Rounds & Sweetverse** – Create and manage funding rounds, explore past rounds, and discover ecosystem projects.\n- **Dashboard** – Track active rounds and claimable tokens.\n- **Admin Panel** – Manage rounds, treasury, and wallet scoring.\n\nBy leveraging smart contract automation and an intuitive UI, Sweetspot makes Web3 funding seamless, transparent, and cost-efficient.",
+            "imageURL": "",
+            "title": "Sweetspot.wtf",
+            "links": {
+                "discord": "https://discord.handprotocol.org/",
+                "github": "https://github.com/HandProtocol/SweetSpot",
+                "linkedin": "",
+                "twitter": "https://x.com/Hand_Protocol",
+                "website": "https://sweetspot.wtf",
+                "pitchDeck": "https://docs.google.com/presentation/d/e/2PACX-1vR0phSQcRZtveD95U9CmG_1ccuXg-E57BAlbM7tctzTP3IHkq6k_IFTMgFXqHBDEw5uRrxOzsSb9JGC/pub?start=false&loop=false&delayms=3000",
+                "demoVideo": "https://youtu.be/8tTAyyMRE3o",
+                "farcaster": "https://warpcast.com/handprotocol"
+            },
+            "externals": {
+                "github": [
+                    "https://github.com/HandProtocol/SweetSpot",
+                    "https://github.com/HandProtocol/contracts",
+                    "https://github.com/HandProtocol/subgraph-indexer",
+                    "https://github.com/HandProtocol/LandingPage"
+                ],
+                "network_addresses": [
+                    "celo:0x517082d63bE128bAF9413C898a957d79E3A3A452",
+                    "celo:0xeC6D8F428a1e97d0988744BDeD2AE1e4b8D97344"
+                ]
+            },
+            "slug": "sweetspotwtf"
+        },
+        "grant": {
+            "createdAt": "2025-03-13T11:59:50.000Z",
+            "proposalURL": "",
+            "title": "Proof of Ship - Season 2"
+        },
+        "totalMilestones": 6,
+        "totalMilestonesCompleted": 4,
+        "milestones": "Milestone 1:\n  Title: Mainnet Launch & Community Kickoff\n  Details: Deploy SweetSpot.wtf to mainnet and initiate a community-driven launch, onboarding users and projects to start staking and supporting impact initiatives.\n  Due date: 2025-03-12T18:30:00.000Z\n  Update: SweetSpot.wtf is now live on **Celo Mainnet**! 🎉 We’ve successfully deployed the **Scorer Proxy** and **SweetSpot Proxy**, making the platform fully operational. Alongside this, a new **subgraph** has been launched to support real-time data queries. The community launch has begun on **Discord** ([Join here](https://discord.handprotocol.org)), where users and projects can now stake, donate, and grow their impact.  \n\n🔗 **Key Deployments:**  \n- **Scorer Proxy:** [View on CeloScan](https://celoscan.io/address/0x517082d63bE128bAF9413C898a957d79E3A3A452#writeProxyContract)  \n- **SweetSpot Proxy:** [View Contracts & Graph](https://celoscan.io/address/0xeC6D8F428a1e97d0988744BDeD2AE1e4b8D97344#writeProxyContract)  \n- **Subgraph for Mainnet:** [View on The Graph](https://thegraph.com/studio/subgraph/hand-prod/)  \n\nThis milestone marks a major step forward in making SweetSpot.wtf fully functional for real-world use! 🚀\n  Completed At: Sun Mar 23 2025 13:25:26 GMT+0000 (Coordinated Universal Time)\n  Proof: SweetSpot.wtf is now live on **Celo Mainnet**! 🎉 We’ve successfully deployed the **Scorer Proxy** and **SweetSpot Proxy**, making the platform fully operational. Alongside this, a new **subgraph** has been launched to support real-time data queries. The community launch has begun on **Discord** ([Join here](https://discord.handprotocol.org)), where users and projects can now stake, donate, and grow their impact.  \n\n🔗 **Key Deployments:**  \n- **Scorer Proxy:** [View on CeloScan](https://celoscan.io/address/0x517082d63bE128bAF9413C898a957d79E3A3A452#writeProxyContract)  \n- **SweetSpot Proxy:** [View Contracts & Graph](https://celoscan.io/address/0xeC6D8F428a1e97d0988744BDeD2AE1e4b8D97344#writeProxyContract)  \n- **Subgraph for Mainnet:** [View on The Graph](https://thegraph.com/studio/subgraph/hand-prod/)  \n\nThis milestone marks a major step forward in making SweetSpot.wtf fully functional for real-world use! 🚀\n\nMilestone 2:\n  Title: Frontend Enhancements & Bulk Allocation\n  Details: Implement features to remove allocated users mid-round and introduce bulk allocation to optimize gas fees, improving efficiency for large-scale distributions.\n  Due date: 2025-03-19T18:30:00.000Z\n  Update: # Bulk Allocation & Removal of Allotted Amount  \n\n## Updates  \n\n### Contracts  \n- Added bulk allocation functionality in the smart contract.  \n- Modified `bulkAllowedAmount` to accept tokens as an input array.  \n- Enabled the removal of allotted amounts.  \n\n🔗 **Contract PR**: [#8](https://github.com/HandProtocol/contracts/pull/8)  \n\n### GraphQL & Frontend  \n- Updated GraphQL to support the removal of allotted amounts.  \n- Created a frontend component for staging allocation tokens before confirmation.  \n\n🔗 **Frontend PR**: [#4](https://github.com/HandProtocol/SweetSpot/pull/4)\n  Completed At: Sun Mar 23 2025 13:33:06 GMT+0000 (Coordinated Universal Time)\n  Proof: # Bulk Allocation & Removal of Allotted Amount  \n\n## Updates  \n\n### Contracts  \n- Added bulk allocation functionality in the smart contract.  \n- Modified `bulkAllowedAmount` to accept tokens as an input array.  \n- Enabled the removal of allotted amounts.  \n\n🔗 **Contract PR**: [#8](https://github.com/HandProtocol/contracts/pull/8)  \n\n### GraphQL & Frontend  \n- Updated GraphQL to support the removal of allotted amounts.  \n- Created a frontend component for staging allocation tokens before confirmation.  \n\n🔗 **Frontend PR**: [#4](https://github.com/HandProtocol/SweetSpot/pull/4)\n\nMilestone 3:\n  Title: UI/UX Redesign & Platform Optimization\n  Details: Redesign the entire application with an improved user experience, making interactions smoother, more intuitive, and visually engaging.\n  Due date: 2025-03-20T18:30:00.000Z\n  Update: # UI/UX Redesign & Enhancements  \n\n## Updates  \n\n### Platform Redesign  \n- Revamped and upgraded the UI/UX of almost every component.  \n- **Exception**: Some components related to the settings score page, which might be removed.  \n- The platform now looks more visually appealing—check out the **Home Page, Leaderboard, and Current Round**.  \n\n### Token Updates  \n- Added **Glo Dollar** to the `CELO_TOKENS` allowlist.  \n  🔗 **PR**: [#5](https://github.com/HandProtocol/SweetSpot/pull/5)  \n\n### UI/UX Improvements  \n- Improved **23 components** across **9 commits**.  \n  🔗 **PR**: [#6](https://github.com/HandProtocol/SweetSpot/pull/6)\n  Completed At: Sun Mar 23 2025 13:36:01 GMT+0000 (Coordinated Universal Time)\n  Proof: # UI/UX Redesign & Enhancements  \n\n## Updates  \n\n### Platform Redesign  \n- Revamped and upgraded the UI/UX of almost every component.  \n- **Exception**: Some components related to the settings score page, which might be removed.  \n- The platform now looks more visually appealing—check out the **Home Page, Leaderboard, and Current Round**.  \n\n### Token Updates  \n- Added **Glo Dollar** to the `CELO_TOKENS` allowlist.  \n  🔗 **PR**: [#5](https://github.com/HandProtocol/SweetSpot/pull/5)  \n\n### UI/UX Improvements  \n- Improved **23 components** across **9 commits**.  \n  🔗 **PR**: [#6](https://github.com/HandProtocol/SweetSpot/pull/6)\n\nMilestone 4:\n  Title: 0xSplits Integration & Fund Distribution\n  Details: Integrate 0xSplits or a similar mechanism to enhance automated fund distribution, ensuring fair and transparent allocation of rewards.\n  Due date: 2025-03-22T18:30:00.000Z\n  Update: \n  Completed At: \n  Proof: \n\nMilestone 5:\n  Title: Final Testing & Full Deployment\n  Details: Conduct comprehensive testing of all new features, finalize optimizations, and roll out the fully upgraded version of SweetSpot.wtf to the community\n  Due date: 2025-03-24T18:30:00.000Z\n  Update: # SweetSpot Deployment & Final Fixes  \n\n## Updates  \n\n### Deployment  \n- Fixed final errors for deployment.  \n- Successfully deployed the new version of **SweetSpot** on production at 🌐 [SweetSpot.wtf](https://SweetSpot.wtf).  \n\n### Code & UI Fixes  \n- Fixed minor ESLint typos.  \n- Resolved some Tailwind theme issues.  \n  🔗 **PR**: [#7](https://github.com/HandProtocol/SweetSpot/pull/7)\n  Completed At: Sun Mar 23 2025 13:37:16 GMT+0000 (Coordinated Universal Time)\n  Proof: # SweetSpot Deployment & Final Fixes  \n\n## Updates  \n\n### Deployment  \n- Fixed final errors for deployment.  \n- Successfully deployed the new version of **SweetSpot** on production at 🌐 [SweetSpot.wtf](https://SweetSpot.wtf).  \n\n### Code & UI Fixes  \n- Fixed minor ESLint typos.  \n- Resolved some Tailwind theme issues.  \n  🔗 **PR**: [#7](https://github.com/HandProtocol/SweetSpot/pull/7)\n\nMilestone 6:\n  Title: Multiple Rounds + Project Pools (optional)\n  Details: Enable multiple rounds to run simultaneously and allow separate project pools instead of a single admin-managed pool. This will give more flexibility to projects and participants, decentralizing impact funding even further.\n  Due date: 2025-03-18T18:30:00.000Z\n  Update: \n  Completed At: \n  Proof: ",
+        "updates": ""
+    },
+    {
+        "project": {
+            "createdAt": "2025-03-07T19:46:28.000Z",
+            "description": "# Mobarter\n\n### A Decentralized P2P Trading & Payment Platform*\n## Overview\nMobarter is a P2P trading platform enabling users to buy, sell cryptocurrencies, and supports on/off ramping for fiat conversion. It also integrates crypto payments for easier transactions, focusing on security, decentralization, and user-friendliness. Mobarter aims to empower Africans with cross-border payment solutions using blockchain technology.\n\n\n## Features\n\n- **P2P Exchange:**  \n  Onchain agents can help you carryout onchain actions such as buying a token, creating an NFT and lauching a smart contract.\n\n- **Cryptocurrency Swap:**  \n  Create wallets for various specific use case with ease. Powered by Privy Server Wallets\n\n- **Locked Savings:**  \n  Tweets can also be created and published\n\n- **Settle local bills:**  \n  Tweets can also be created and published\n\n## Architecture\n\n1. **Frontend Stack:**\n\n   - **React Native:** A mobile app with a friendly interface.\n  \n\n2. **Backend Stack:**\n\n   - **Privy Auth:** Used for issue wallet to users.\n   - **APIs:** Provides Graphql endpoints for frontend communication\n   - **Viem:** Used to manage onchain transactions on the backend\n\n3. **Smart Contract**\n   - An escrow smart contract to manage p2p exchange\n\n\n## How It Works\n\nMobarter is built with **React Native** for a smooth mobile experience, **Privy Auth** for secure wallet issuance, **GraphQL APIs** for efficient communication, and **Viem** for on-chain transaction management. It leverages blockchain technology to provide a decentralized and user-friendly financial solution for Africa.",
+            "imageURL": "",
+            "title": "Mobarter",
+            "links": {
+                "discord": "",
+                "github": "Philix27",
+                "linkedin": "https://www.linkedin.com/company/105072988/admin/dashboard/",
+                "twitter": "https://x.com/mobarter_com",
+                "website": "https://www.mobarter.com",
+                "pitchDeck": "https://www.canva.com/design/DAGK7-8pyv0/VNAVbB-9enu6IYmKQCZWaA/edit?utm_content=DAGK7-8pyv0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+                "demoVideo": "",
+                "farcaster": ""
+            },
+            "externals": {
+                "github": [
+                    "https://github.com/philix27/mobarter-2025"
+                ],
+                "network_addresses": [
+                    "celo:0xEb95F9f94086072ea41ee665c8eB3CE9eB484AbF"
+                ]
+            },
+            "slug": "mobarter"
+        },
+        "grant": {
+            "createdAt": "2025-03-22T14:39:23.000Z",
+            "proposalURL": "",
+            "title": "Proof of Ship - Season 2"
+        },
+        "totalMilestones": 6,
+        "totalMilestonesCompleted": 5,
+        "milestones": "Milestone 1:\n  Title: Authenticate user\n  Details: Users should be able to create an account and login into the app.\n\n\n**On the backend**\n1. Create account\n2. Verify email via otp\n3. Login\n4. Reset password\n\n**On the frontend**\n1. UI for the above steps\n  Due date: 2025-03-14T23:00:00.000Z\n  Update: \n  Completed At: Sun Mar 23 2025 13:48:06 GMT+0000 (Coordinated Universal Time)\n  Proof: \n\nMilestone 2:\n  Title: Issue Server Wallets\n  Details: Server wallets are to be issued after a user signs up.\n\nTask\n- Create server wallet managed by Privy\n- Display wallets on the frontend\n- Display balance of wallets for various assets on Celo, Base, Optimism and Arbitrum chain\n  Due date: 2025-03-14T23:00:00.000Z\n  Update: Server wallets are issued upon account creation\n\nhttps://github.com/philix27/mobarter-2025/pull/11\n  Completed At: Sun Mar 23 2025 13:55:56 GMT+0000 (Coordinated Universal Time)\n  Proof: Server wallets are issued upon account creation\n\nhttps://github.com/philix27/mobarter-2025/pull/11\n\nMilestone 3:\n  Title: Send and Receive crypto assets\n  Details: \n  Due date: 2025-03-21T23:00:00.000Z\n  Update: \n  Completed At: \n  Proof: \n\nMilestone 4:\n  Title: Develop Escrow smart contract for P2P\n  Details: Develop a ptototype Escrow smart contract for P2P\n  Due date: 2025-03-28T23:00:00.000Z\n  Update: \n  Completed At: Mon Mar 24 2025 03:39:21 GMT+0000 (Coordinated Universal Time)\n  Proof: \n\nMilestone 5:\n  Title: UI designs - User Settings\n  Details: Develop the user settings page, and display the autheticated users credentials\n  Due date: 2025-03-21T23:00:00.000Z\n  Update: \n  Completed At: Mon Mar 24 2025 03:47:45 GMT+0000 (Coordinated Universal Time)\n  Proof: \n\nMilestone 6:\n  Title: Presentation slides for the Proof of Ship - 2\n  Details: \n  Due date: 2025-03-22T23:00:00.000Z\n  Update: Using Canva to develope a presentation slide for Season 2 of Proof of shipment\n  Completed At: Mon Mar 24 2025 03:54:20 GMT+0000 (Coordinated Universal Time)\n  Proof: Using Canva to develope a presentation slide for Season 2 of Proof of shipment",
+        "updates": ""
+    },
+    {
+        "project": {
+            "createdAt": "2025-03-07T13:17:45.000Z",
+            "description": "MovieMeter or MM recommends movies based on on-chain votes from fellow movie enthusiasts.\n\nUsers can cast their votes for their favorite films and explore what others have voted for",
+            "imageURL": "",
+            "title": "MovieMeter",
+            "links": {
+                "discord": "",
+                "github": "https://github.com/GideonNut/Moviemeter",
+                "linkedin": "",
+                "twitter": "",
+                "website": "https://v0-celo-deployment-issues.vercel.app/",
+                "pitchDeck": "https://docs.google.com/presentation/d/1oDej97uhQnNJgZoBkYLJlQV2NutWNYb0/edit?usp=drivesdk&ouid=113329594760365143931&rtpof=true&sd=true",
+                "demoVideo": "",
+                "farcaster": ""
+            },
+            "externals": {
+                "github": [
+                    "https://github.com/GideonNut/Moviemeter"
+                ],
+                "network_addresses": [
+                    "celo:0x7d9cbfc9290ca41b4b08ac9593575dd4dd5e9809",
+                    "celo:0x3eD5D4A503999C5aEB13CD71Eb1d395043368723"
+                ]
+            },
+            "slug": "moviemeter"
+        },
+        "grant": {
+            "createdAt": "2025-03-24T03:55:40.000Z",
+            "proposalURL": "",
+            "title": "Proof of Ship - Season 2"
+        },
+        "totalMilestones": 6,
+        "totalMilestonesCompleted": 5,
+        "milestones": "Milestone 1:\n  Title: Presentation & Documentation\n  Details: - Create a structured 8-page interactive slide deck about MovieMeter.\n\n- Include sections on Introduction, Voting Mechanism, Problem & Solution, Security, and Roadmap.\n\n- Draft comprehensive user and developer documentation.\n\n- Design a favicon and embed our logo into MovieMeter.\n  Due date: 2025-03-31T07:00:00.000Z\n  Update: - [ ] Designed an 8 page slide deck for MovieMeter\n\n- [ ] Designed a favicon and embedded into the project\n  Completed At: Mon Mar 24 2025 03:09:35 GMT+0000 (Coordinated Universal Time)\n  Proof: - [ ] Designed an 8 page slide deck for MovieMeter\n\n- [ ] Designed a favicon and embedded into the project\n\nMilestone 2:\n  Title: Backend Optimization\n  Details: - Improve indexing of votes for faster retrieval.\n\n- Implement caching strategies to enhance performance.\n  Due date: 2025-03-31T07:00:00.000Z\n  Update: - [ ] Improved indexing of votes for faster retrieval\n\n- [ ] Implemented caching strategies to enhance performance\n  Completed At: Mon Mar 24 2025 03:31:15 GMT+0000 (Coordinated Universal Time)\n  Proof: - [ ] Improved indexing of votes for faster retrieval\n\n- [ ] Implemented caching strategies to enhance performance\n\nMilestone 3:\n  Title: Deployment\n  Details: Deploy the project on vercel\n  Due date: 2025-03-31T07:00:00.000Z\n  Update: Successfully deployed to Vercel\n  Completed At: Mon Mar 24 2025 03:25:50 GMT+0000 (Coordinated Universal Time)\n  Proof: Successfully deployed to Vercel\n\nMilestone 4:\n  Title: Farcaster Frames Integration\n  Details: - Convert MovieMeter into an interactive Farcaster Frame.\n\n- Allow users to vote directly from their Farcaster feed.\n  Due date: 2025-03-31T07:00:00.000Z\n  Update: \n  Completed At: \n  Proof: \n\nMilestone 5:\n  Title: Refining User Interface & Experience(Stretch Goal)\n  Details: - Enhance UI for better responsiveness across devices.\n\n- Improve vote count updates for instant feedback after submission.\n\n- Optimize design for a seamless mobile experience.\n  Due date: 2025-03-31T07:00:00.000Z\n  Update: - [ ] Introduced a search button for users to easily search for movies\n\n- [ ] Improved vote count updates for instant feedback after submission.\n  Completed At: Mon Mar 24 2025 03:36:55 GMT+0000 (Coordinated Universal Time)\n  Proof: - [ ] Introduced a search button for users to easily search for movies\n\n- [ ] Improved vote count updates for instant feedback after submission.\n\nMilestone 6:\n  Title: Fix Errors\n  Details: Fix all errors to get a working dapp\n  Due date: 2025-03-31T07:00:00.000Z\n  Update: Voting well and working\n  Completed At: Mon Mar 24 2025 03:33:10 GMT+0000 (Coordinated Universal Time)\n  Proof: Voting well and working",
+        "updates": ""
+    },
+    {
+        "project": {
+            "createdAt": "2025-03-21T18:33:32.000Z",
+            "description": "Treekipedia is an open-source, AI-enhanced database developed by Silvi that consolidates global tree knowledge into a unified, structured platform. It integrates species data, reforestation methodologies, and ecological insights from diverse sources, including institutional archives, peer-reviewed studies, and community contributions. By leveraging AI research agents and blockchain-verified data provenance, Treekipedia ensures transparent, reliable, and accessible tree intelligence for stewards, researchers, and citizen scientists worldwide.",
+            "imageURL": "",
+            "title": "Treekipedia",
+            "links": {
+                "twitter": "https://x.com/SilviProtocol",
+                "github": "https://github.com/SilviProtocol/silvi-open",
+                "discord": "",
+                "website": "https://www.treekipedia.silvi.earth/",
+                "linkedin": "https://www.linkedin.com/company/92956443",
+                "pitchDeck": "",
+                "demoVideo": "",
+                "farcaster": ""
+            },
+            "externals": {
+                "github": [
+                    "https://github.com/SilviProtocol/silvi-open/tree/master/treekipedia-new"
+                ]
+            },
+            "slug": "treekipedia"
+        },
+        "grant": {
+            "createdAt": "2025-03-25T02:10:59.000Z",
+            "proposalURL": "",
+            "title": "Proof of Ship - Season 2"
+        },
+        "totalMilestones": 5,
+        "totalMilestonesCompleted": 1,
+        "milestones": "Milestone 1:\n  Title: Deploy CELO contracts for Contreebution NFTs\n  Details: \n  Due date: 2025-03-31T11:00:00.000Z\n  Update: Treekipedia is working toward incentivizing tree species research with the Contreebution NFT, an ERC-721 compliant smart contract. We’ve made progress by deploying the contract on Celo mainnet, but it’s not yet integrated into the platform. \n\nWhat We've Accomplished: Smart Contract Deployment: The Contreebution NFT contract is live on Celo mainnet (0x5Ed6240fCC0B2A231887024321Cc9481ba07f3c6), a key step in our blockchain efforts. \n\nWhat We Haven’t Done Yet: Integration: The contract is not yet connected to Treekipedia’s backend or frontend. Users cannot mint NFTs through the platform at this time. \n\nTesting: Beyond deployment, we haven’t completed testing or confirmed full functionality in a live environment. Next Steps: Begin integrating the smart contract with Treekipedia’s backend to link it to the research funding process. Develop the frontend so users can mint NFTs using their Celo wallets. Test the entire system to ensure it works securely and smoothly. The deployment is a milestone, but we’re still early in the process. Full integration is pending, and we’re committed to making this feature a reality for the Celo Proof of Ship event.\n  Completed At: Tue Mar 25 2025 18:55:29 GMT+0000 (Coordinated Universal Time)\n  Proof: Treekipedia is working toward incentivizing tree species research with the Contreebution NFT, an ERC-721 compliant smart contract. We’ve made progress by deploying the contract on Celo mainnet, but it’s not yet integrated into the platform. \n\nWhat We've Accomplished: Smart Contract Deployment: The Contreebution NFT contract is live on Celo mainnet (0x5Ed6240fCC0B2A231887024321Cc9481ba07f3c6), a key step in our blockchain efforts. \n\nWhat We Haven’t Done Yet: Integration: The contract is not yet connected to Treekipedia’s backend or frontend. Users cannot mint NFTs through the platform at this time. \n\nTesting: Beyond deployment, we haven’t completed testing or confirmed full functionality in a live environment. Next Steps: Begin integrating the smart contract with Treekipedia’s backend to link it to the research funding process. Develop the frontend so users can mint NFTs using their Celo wallets. Test the entire system to ensure it works securely and smoothly. The deployment is a milestone, but we’re still early in the process. Full integration is pending, and we’re committed to making this feature a reality for the Celo Proof of Ship event.\n\nMilestone 2:\n  Title: Complete Frontend Updates for Celo Integration\n  Details: Update Treekipedia’s frontend to fully support Celo, including integration with Celo wallet connections (e.g., via Wagmi) and the display of Celo-specific features like chain selection and transaction prompts. This ensures users can seamlessly interact with the platform using their Celo wallets.\n  Due date: 2025-04-01T16:00:00.000Z\n  Update: \n  Completed At: \n  Proof: \n\nMilestone 3:\n  Title: Deploy Treekipedia MVP on Celo Testnet\n  Details: Launch the Treekipedia MVP on Celo’s Alfajores testnet to test core features, including species search, research funding capabilities, and preliminary NFT minting functionality. This step allows for testing and refinement in a controlled environment before mainnet deployment.\n  Due date: 2025-04-08T16:00:00.000Z\n  Update: \n  Completed At: \n  Proof: \n\nMilestone 4:\n  Title: Deploy EAS Attestations on Celo Mainnet\n  Details: Deploy the Ethereum Attestation Service (EAS) on Celo mainnet to enable verification of contributions to Treekipedia. This will allow the platform to create and manage attestations for research entries and data updates, ensuring transparency and credibility.\n  Due date: 2025-04-13T16:00:00.000Z\n  Update: \n  Completed At: \n  Proof: \n\nMilestone 5:\n  Title: Deploy Treekipedia MVP on Celo Mainnet\n  Details: Deploy the fully integrated Treekipedia MVP on Celo mainnet incorporating all core features such as species search, research funding, Contreebution NFT minting, and EAS attestations on Celo's anniversary, Earth Day! This milestone marks the platform’s official launch on the live Celo network, making it accessible to users for real-world interaction.\n  Due date: 2025-04-21T16:00:00.000Z\n  Update: \n  Completed At: \n  Proof: ",
+        "updates": "Grant update 1: Treekipedia is working toward incentivizing tree species research with the Contreebution NFT, an ERC-721 compliant smart contract. We’ve made progress by deploying the contract on Celo mainnet, but it’s not yet integrated into the platform. Here’s where we stand:\n\n**What We've Accomplished:**\n\nSmart Contract Deployment: The Contreebution NFT contract is live on Celo mainnet (0x5Ed6240fCC0B2A231887024321Cc9481ba07f3c6), a key step in our blockchain efforts.\n\n**What We Haven’t Done Yet:**\n\nIntegration: The contract is not yet connected to Treekipedia’s backend or frontend. Users cannot mint NFTs through the platform at this time.\n\nTesting: Beyond deployment, we haven’t completed testing or confirmed full functionality in a live environment.\n\n**Next Steps:**\n\nBegin integrating the smart contract with Treekipedia’s backend to link it to the research funding process.\nDevelop the frontend so users can mint NFTs using their Celo wallets.\nTest the entire system to ensure it works securely and smoothly.\nThe deployment is a milestone, but we’re still early in the process. Full integration is pending, and we’re committed to making this feature a reality for the Celo Proof of Ship event."
+    },
+    {
+        "project": {
+            "createdAt": "2025-03-24T12:54:38.000Z",
+            "description": "Sovereign Seas is a decentralized voting and funding platform built on the Celo blockchain that empowers communities to collectively support innovative projects. Our platform enables transparent democratic decision-making where users can vote on their favorite projects using native CELO tokens.\n\nThe platform features customizable vote multipliers (1-5× per token), themed funding campaigns, and flexible distribution models (both linear and quadratic). Project creators can easily submit their ideas, while campaign administrators manage the approval process and voting parameters.\n\nWith an economic structure that includes a 15% platform fee and adjustable admin fees set by campaign creators, Sovereign Seas ensures that the majority of funds are distributed directly to winning projects. The entire process is handled through secure smart contracts that provide complete transparency and fairness.\n\nSovereign Seas democratizes project funding by removing traditional barriers, ensuring on-chain transparency, empowering communities, and creating meaningful waves of change in how projects receive support.\n\n*Where the ocean decides, and the vote rules the tides* 🌊",
+            "imageURL": "",
+            "title": "Sovereign Seas",
+            "links": {
+                "twitter": "illmindofbanana",
+                "github": "olisehgenesis",
+                "discord": "olisehug",
+                "website": "sovseas.xyz",
+                "linkedin": "",
+                "pitchDeck": "",
+                "demoVideo": "",
+                "farcaster": ""
+            },
+            "externals": {},
+            "slug": "sovereign-seas"
+        },
+        "grant": {
+            "createdAt": "2025-03-24T13:02:13.000Z",
+            "proposalURL": "",
+            "title": "Proof of Ship - Season 2"
+        },
+        "totalMilestones": 5,
+        "totalMilestonesCompleted": 3,
+        "milestones": "Milestone 1:\n  Title: Sea of Innovation (Completed)\n  Details: Successfully developed robust smart contracts implementing both traditional and quadratic voting mechanisms to ensure fair fund distribution\nIntegrated advanced security features to protect voter funds and prevent manipulation of results\nDesigned and implemented a flexible campaign framework allowing for customizable voting parameters and distribution models\nCreated project submission and approval workflows with comprehensive verification processes\nConducted thorough contract audits to ensure security, efficiency, and gas optimization\n  Due date: 2025-03-17T21:00:00.000Z\n  Update: Successfully developed robust smart contracts implementing both traditional and quadratic voting mechanisms to ensure fair fund distribution Integrated advanced security features to protect voter funds and prevent manipulation of results Designed and implemented a flexible campaign framework allowing for customizable voting parameters and distribution models\n  Completed At: Mon Mar 24 2025 13:03:58 GMT+0000 (Coordinated Universal Time)\n  Proof: Successfully developed robust smart contracts implementing both traditional and quadratic voting mechanisms to ensure fair fund distribution Integrated advanced security features to protect voter funds and prevent manipulation of results Designed and implemented a flexible campaign framework allowing for customizable voting parameters and distribution models\n\nMilestone 2:\n  Title: Sea of Interface (Completed)\n  Details: Crafted an intuitive, user-friendly interface that simplifies complex blockchain interactions for users of all technical backgrounds\nImplemented seamless Web3 wallet integration supporting multiple providers including MetaMask, WalletConnect, and Celo Wallet\nDesigned responsive layouts ensuring perfect functionality across desktop, tablet, and mobile devices\nCreated interactive dashboards displaying real-time voting statistics and campaign progress metrics\n  Due date: 2025-03-20T21:00:00.000Z\n  Update: completed\n  Completed At: Mon Mar 24 2025 13:04:53 GMT+0000 (Coordinated Universal Time)\n  Proof: completed\n\nMilestone 3:\n  Title: Sea of Deployment (Completed)\n  Details: Successfully deployed the platform on Celo Alfajores testnet for extensive user testing and feedback collection\nPerformed rigorous stress testing to ensure platform stability under various load conditions\nMigrated to Celo mainnet with zero downtime and complete data integrity\nImplemented robust monitoring systems to track platform performance and quickly address any issues\nOptimized gas consumption for all contract interactions to minimize transaction costs for users\nEstablished secure CI/CD pipelines for seamless updates and feature additions\n  Due date: 2025-03-23T21:00:00.000Z\n  Update: deployed contrcat to celo 0x7409a371c705d41a53E1d9F262b788B7C7e168D7\nand site to sovseas.xyz\n  Completed At: Mon Mar 24 2025 13:10:53 GMT+0000 (Coordinated Universal Time)\n  Proof: deployed contrcat to celo 0x7409a371c705d41a53E1d9F262b788B7C7e168D7\nand site to sovseas.xyz\n\nMilestone 4:\n  Title: Sea of Intelligence (In Progress)\n  Details: Developing sophisticated AI assistants to help users craft compelling project descriptions and campaign strategies\nCreating an intuitive conversational interface allowing project creators to build submissions through natural language\nBuilding comprehensive analytics dashboards providing insights into voting patterns, fund distribution, and campaign performance\nImplementing smart recommendation systems to match voters with projects aligned to their interests and previous voting behavior\nDesigning automated quality assessment tools to evaluate project submissions and provide improvement suggestions\n  Due date: 2025-04-24T21:00:00.000Z\n  Update: \n  Completed At: \n  Proof: \n\nMilestone 5:\n  Title: Sea of Expansion (Planned)\n  Details: Engineering cross-chain compatibility to support Ethereum, Polygon, and Avalanche networks while maintaining a unified user experience\nDeveloping a token bridge allowing seamless movement of funds between supported blockchains\nImplementing support for multiple voting tokens beyond CELO to increase accessibility and user options\nCreating a governance token with staking mechanisms to decentralize platform decision-making\nBuilding cross-campaign discovery features to help successful projects find additional funding opportunities\nDeveloping localization systems supporting multiple languages and regional payment methods\nRetryClaude can make mistakes. Please double-check responses. 3.7 SonnetCho\n  Due date: 2025-05-30T21:00:00.000Z\n  Update: \n  Completed At: \n  Proof: ",
+        "updates": ""
+    },
+    {
+        "project": {
+            "createdAt": "2025-03-18T18:04:20.000Z",
+            "description": "An AI Agent that makes it easy to deploy and manage memecoins on Celo with streamlined token creation automated liquidity provision and real-time insights.",
+            "imageURL": "",
+            "title": "Jazmeen",
+            "links": {
+                "website": "",
+                "twitter": "",
+                "github": "https://github.com/gabrieltemtsen/jazmeen"
+            },
+            "externals": {
+                "github": [
+                    "https://github.com/gabrieltemtsen/jazmeen"
+                ],
+                "network_addresses": [
+                    "celo:0xe13F9c2C819001fd5D345b32Cf2D4Be67105c4D4"
+                ]
+            },
+            "slug": "jazmeen"
+        },
+        "grant": {
+            "createdAt": "2025-03-24T01:50:20.000Z",
+            "proposalURL": "",
+            "title": "Proof of Ship - Season 2"
+        },
+        "totalMilestones": 5,
+        "totalMilestonesCompleted": 5,
+        "milestones": "Milestone 1:\n  Title: Jazmeen factory and Token Deployment\n  Details: Built JazmeenToken and JazmeenFactory to deploy tokens on Celo, minting 1M tokens to the agent.\n  Due date: 2025-03-19T23:00:00.000Z\n  Update: Deployed and Verified the Factory contract\n  Completed At: Mon Mar 24 2025 01:34:20 GMT+0000 (Coordinated Universal Time)\n  Proof: Deployed and Verified the Factory contract\n\nMilestone 2:\n  Title: Agent & Initiator Setup\n  Details: Added initiatorFid to track Farcaster users, fixed supply, and ensured tokens deploy via the bot.\n\nIntegrated token deployment with Next.js via /api/deploy, enabling backend token creation.\n  Due date: 2025-03-19T23:00:00.000Z\n  Update: Token creation via Agent, successful\n  Completed At: Mon Mar 24 2025 01:36:45 GMT+0000 (Coordinated Universal Time)\n  Proof: Token creation via Agent, successful\n\nMilestone 3:\n  Title: Token Explorer\n  Details: Created a token explorer with HomeCard and /[id] pages, showing token details (name, symbol, image).\n  Due date: 2025-03-19T23:00:00.000Z\n  Update: Built and deployed the token explorer\n  Completed At: Mon Mar 24 2025 01:40:25 GMT+0000 (Coordinated Universal Time)\n  Proof: Built and deployed the token explorer\n\nMilestone 4:\n  Title: OpenAI & Farcaster Bot\n  Details: Added OpenAI to parse Farcaster casts, deploy tokens, and reply with Jazmeen’s flirty personality.\n  Due date: 2025-03-19T23:00:00.000Z\n  Update: \n  Completed At: Mon Mar 24 2025 01:43:06 GMT+0000 (Coordinated Universal Time)\n  Proof: \n\nMilestone 5:\n  Title: Fixed Bot Spam & Duplicates\n  Details: Stopped bot reply loops and duplicate deployments by filtering casts and tracking processed hashes.\n  Due date: 2025-03-19T23:00:00.000Z\n  Update: \n  Completed At: Mon Mar 24 2025 01:38:35 GMT+0000 (Coordinated Universal Time)\n  Proof: ",
+        "updates": ""
+    },
+    {
+        "project": {
+            "createdAt": "2025-03-20T20:37:25.000Z",
+            "description": "RevenuID is a blockchain-powered tax compliance DApp that automates tax withholding, identity verification, and on-chain tax receipt storage for gig workers, employers, and hackathon winners. Built on Self Protocol, RevenuID ensures that individuals and organizations meet tax obligations seamlessly.",
+            "imageURL": "",
+            "title": "RevenuID",
+            "links": {
+                "twitter": "",
+                "github": "",
+                "discord": "",
+                "website": "https://kyc-harmony-checker.vercel.app/",
+                "linkedin": ""
+            },
+            "externals": {
+                "github": [
+                    "https://github.com/eben619/kyc-harmony-checker"
+                ],
+                "network_addresses": [
+                    "celo:0xb3dd69acdcdef43257f96bb10de2a2fa799b129f",
+                    "celo:0x41423c857a68a2f77a1c7f7f3b0ca522c410447a",
+                    "celo:0x032ec96525574d7024b1d040351b60888a12df56"
+                ]
+            },
+            "slug": "revenuid"
+        },
+        "grant": {
+            "createdAt": "2025-03-20T21:04:15.000Z",
+            "proposalURL": "",
+            "title": "Proof of Ship - Season 2"
+        },
+        "totalMilestones": 5,
+        "totalMilestonesCompleted": 0,
+        "milestones": "Milestone 1:\n  Title: Basic Frontend Dashboard\n  Details: Create a simple UI for users to verify identity, view tax receipts, and track deductions.\n  Due date: 2025-03-31T00:00:00.000Z\n  Update: \n  Completed At: \n  Proof: \n\nMilestone 2:\n  Title: KYC Integration\n  Details: Implement Self Protocol for identity verification using DIDs and VCs.\n  Due date: 2025-04-07T00:00:00.000Z\n  Update: \n  Completed At: \n  Proof: \n\nMilestone 3:\n  Title: Tax Deduction Logic & Onchain Receipts\n  Details: Develop automated tax calculations for various earnings (gig work, hackathons, freelance) based on their respective countries and build the tax withholding and on-chain receipt contracts.\n  Due date: 2025-04-20T00:00:00.000Z\n  Update: \n  Completed At: \n  Proof: \n\nMilestone 4:\n  Title: Pilot Test with Gig Platforms & Hackathons\n  Details: Partner with select gig platforms  and hackathons to test tax deductions.\n  Due date: 2025-09-15T00:00:00.000Z\n  Update: \n  Completed At: \n  Proof: \n\nMilestone 5:\n  Title: Public Launch\n  Details: Open RevenuID for full public use.\n  Due date: 2025-09-22T00:00:00.000Z\n  Update: \n  Completed At: \n  Proof: ",
+        "updates": ""
+    },
+    {
+        "project": {
+            "createdAt": "2025-03-11T17:32:28.000Z",
+            "description": "Membership Club for 3 Wheeler(TukTuk/Pragia/Keke) Bikers built on the pillars of Ownership, Community & Governance. A community driven platform for 3 wheelers bikers with membership payment & credit score features, and P2P finance feature for buying or adding 3wheeler bikes to the platform with hire purchase agreements. 🛺💨",
+            "imageURL": "",
+            "title": "3 Wheeler Bike Club",
+            "links": {
+                "discord": "",
+                "github": "https://github.com/3-Wheeler-Bike-Club",
+                "linkedin": "",
+                "twitter": "https://x.com/3wbClub",
+                "website": "https://3wb.club/",
+                "pitchDeck": "https://tinyurl.com/Deck3WB",
+                "demoVideo": "https://youtu.be/0kwJwTuVwQ4",
+                "farcaster": "https://warpcast.com/3wbclub"
+            },
+            "externals": {
+                "github": [
+                    "https://github.com/3-Wheeler-Bike-Club/3-wheeler-bike-club-invoice-distro",
+                    "https://github.com/3-Wheeler-Bike-Club/3-wheeler-bike-club-fleet-app",
+                    "https://github.com/3-Wheeler-Bike-Club/3-wheeler-bike-club-team-app",
+                    "https://github.com/3-Wheeler-Bike-Club/3-wheeler-bike-club-members-app-pwa",
+                    "https://github.com/3-Wheeler-Bike-Club/3-wheeler-bike-club-attester-whitelist-hook-contract"
+                ],
+                "network_addresses": [
+                    "celo:0x26ff34E01C06AFAa1A8130E4Ffc3e98eEAb39A29"
+                ]
+            },
+            "slug": "3-wheeler-bike-club"
+        },
+        "grant": {
+            "createdAt": "2025-03-19T13:37:50.000Z",
+            "proposalURL": "",
+            "title": "Proof of Ship - Season 2"
+        },
+        "totalMilestones": 5,
+        "totalMilestonesCompleted": 5,
+        "milestones": "Milestone 1:\n  Title: Redeploy Schema w/ Hook Contract for Attestations\n  Details: Create & Deploy to celo mainnet a hook contract to secure Schema and Attestation integrity, only owner can make send Attestation to a recipient.\n  Due date: 2025-03-24T00:00:00.000Z\n  Update: Deploy Whitelist Hook Contract and update sign protocol schema IDs in all relevant repos:\n\n- https://github.com/3-Wheeler-Bike-Club/3-wheeler-bike-club-team-app/commit/29c91c811e32dc840f5ccda645b3b024103189e1\n- https://github.com/3-Wheeler-Bike-Club/3-wheeler-bike-club-members-app-pwa/commit/e897ddffd21c68716b26a902abf410ec69195fb4\n- https://github.com/3-Wheeler-Bike-Club/3-wheeler-bike-club-invoice-distro/commit/63d39192cadabdaa516c765c4046b5f594d4d7f1\n  Completed At: Sun Mar 23 2025 20:35:45 GMT+0000 (Coordinated Universal Time)\n  Proof: Deploy Whitelist Hook Contract and update sign protocol schema IDs in all relevant repos:\n\n- https://github.com/3-Wheeler-Bike-Club/3-wheeler-bike-club-team-app/commit/29c91c811e32dc840f5ccda645b3b024103189e1\n- https://github.com/3-Wheeler-Bike-Club/3-wheeler-bike-club-members-app-pwa/commit/e897ddffd21c68716b26a902abf410ec69195fb4\n- https://github.com/3-Wheeler-Bike-Club/3-wheeler-bike-club-invoice-distro/commit/63d39192cadabdaa516c765c4046b5f594d4d7f1\n\nMilestone 2:\n  Title: Initiate a hire purchase agreement\n  Details: Initiate a hire purchase agreement between the financer & driver w/ hire purchase agreement attestation + attest all IOU invoices w/due weekly dates\n  Due date: 2025-03-24T00:00:00.000Z\n  Update: Upload hire purchase agreement & generate due dates + issue IOU invoices to cover duration of micro payment( attest then store data offchain)\n  Completed At: Thu Mar 20 2025 10:30:34 GMT+0000 (Coordinated Universal Time)\n  Proof: Upload hire purchase agreement & generate due dates + issue IOU invoices to cover duration of micro payment( attest then store data offchain)\n\nMilestone 3:\n  Title: Payment of hire purchase receipts\n  Details: Payment of hire purchase receipts w/ attestation of receipt and credit scores\n  Due date: 2025-03-24T00:00:00.000Z\n  Update: Display hire purchase invoices + integrate local PSP to accept micro payment & attest receipt information + assign & track credit scores for micro payments\n  Completed At: Thu Mar 20 2025 22:06:20 GMT+0000 (Coordinated Universal Time)\n  Proof: Display hire purchase invoices + integrate local PSP to accept micro payment & attest receipt information + assign & track credit scores for micro payments\n\nMilestone 4:\n  Title: Register 3 wheelers @ DVLA\n  Details: Registration of Pilot 3-Wheelers at the Local Driver & Vehicle License Authority + Attest on platform prior to Pilot Launch\n  Due date: 2025-03-24T00:00:00.000Z\n  Update: Offchain milestone Pilot tuktuks were registered at DVLA during the month\n  Completed At: Mon Mar 24 2025 08:43:05 GMT+0000 (Coordinated Universal Time)\n  Proof: Offchain milestone Pilot tuktuks were registered at DVLA during the month\n\nMilestone 5:\n  Title: Display fleet information to P2P financers\n  Details: Show details on registered 3 wheelers & hire purchase details & payments\n  Due date: 2025-03-24T00:00:00.000Z\n  Update: display fleet in a carousel with basic information about vehicle including vin, license plate & queue to drive. After car hits the road it show details on when hire purchase started and how many micro payments have been sent\n  Completed At: Thu Mar 20 2025 12:03:44 GMT+0000 (Coordinated Universal Time)\n  Proof: display fleet in a carousel with basic information about vehicle including vin, license plate & queue to drive. After car hits the road it show details on when hire purchase started and how many micro payments have been sent",
+        "updates": ""
+    },
+    {
+        "project": {
+            "createdAt": "2025-03-14T19:57:51.000Z",
+            "description": "CeloMΔIND is an AI-powered DeFi web and telegram interface that simplifies access to the Celo blockchain ecosystem. Our platform uses AI and Agent Orchestration to provide users with personalized investment strategies, Delta Neutral strategies, real-time market insights, and optional automated portfolio management. With CeloMΔIND, users can easily navigate the complexities of DeFi and make informed investment decisions.",
+            "imageURL": "",
+            "title": "CeloMΔIND",
+            "links": {
+                "discord": "0xoucanxxx",
+                "github": "0xOucan",
+                "linkedin": "",
+                "twitter": "0xoucan",
+                "website": "https://drive.google.com/file/d/14yzFTQcXak0wl_eSFargA9vEm6X6aQ6r/view?usp=sharing",
+                "pitchDeck": "https://www.canva.com/design/DAGimgYBbvA/iVNAw-cF8Q2zNa-_kBjo_Q/view?utm_content=DAGimgYBbvA&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hfc0495d1c9",
+                "demoVideo": "https://drive.google.com/file/d/1ftouj6pt38KL6cUxwZF8sOlGA2_NNoTv/view?usp=sharing",
+                "farcaster": ""
+            },
+            "externals": {
+                "github": [
+                    "https://github.com/0xOucan/celo-mind-dn"
+                ],
+                "network_addresses": [
+                    "celo:0x9c77c6fafc1eb0821F1De12972Ef0199C97C6e45"
+                ]
+            },
+            "slug": "celomind"
+        },
+        "grant": {
+            "createdAt": "2025-03-14T20:31:01.000Z",
+            "proposalURL": "",
+            "title": "Proof of Ship - Season 2"
+        },
+        "totalMilestones": 5,
+        "totalMilestonesCompleted": 5,
+        "milestones": "Milestone 1:\n  Title: Detailed Architecture\n  Details: Read documentation for CELO, AI agents, and possible protocol integration.\n  Due date: 2025-03-16T05:00:00.000Z\n  Update: This is the github repo \n\nhttps://github.com/0xOucan/celo-mind-dn\n\nand its diagram, with a simple but detailed architecture \n\n\nhttps://gitdiagram.com/0xOucan/celo-mind-dn\n\n![image](https://drive.google.com/file/d/1-LPit_g58p2XL_E5E1nrZUOkP3mnjmXt/view?usp=sharing)\n\nhttps://drive.google.com/file/d/1-LPit_g58p2XL_E5E1nrZUOkP3mnjmXt/view?usp=sharing\n  Completed At: Wed Mar 19 2025 16:21:22 GMT+0000 (Coordinated Universal Time)\n  Proof: This is the github repo \n\nhttps://github.com/0xOucan/celo-mind-dn\n\nand its diagram, with a simple but detailed architecture \n\n\nhttps://gitdiagram.com/0xOucan/celo-mind-dn\n\n![image](https://drive.google.com/file/d/1-LPit_g58p2XL_E5E1nrZUOkP3mnjmXt/view?usp=sharing)\n\nhttps://drive.google.com/file/d/1-LPit_g58p2XL_E5E1nrZUOkP3mnjmXt/view?usp=sharing\n\nMilestone 2:\n  Title: Starting the repo and first tests\n  Details: Starting the repo on github, start with raw testing\n  Due date: 2025-03-19T05:00:00.000Z\n  Update: this is the repo \n\nhttps://github.com/0xOucan/celo-mind-dn\n\nscreenshots of the first tests on mainnet \n\nhttps://drive.google.com/file/d/1DUsUF2TPsOEFyXsI2WJPcZOqLc8hXwSV/view?usp=drive_link\n\n\nhttps://drive.google.com/file/d/12nNbschy0a2KURSF6yaefazQ0soOPSsy/view?usp=drive_link\n\nhttps://drive.google.com/file/d/1ghylXDf5Q7F4UwP_dsoxhMrN4g1twy11/view?usp=drive_link\n\n\nthis is the tx link  as proof of mainnent interaction \n\nhttps://celoscan.io/tx/0x2c413930b52e6a64265575c56186112c9cae78ae39b4ca9ffe61291495305cd4\n  Completed At: Wed Mar 19 2025 16:45:27 GMT+0000 (Coordinated Universal Time)\n  Proof: this is the repo \n\nhttps://github.com/0xOucan/celo-mind-dn\n\nscreenshots of the first tests on mainnet \n\nhttps://drive.google.com/file/d/1DUsUF2TPsOEFyXsI2WJPcZOqLc8hXwSV/view?usp=drive_link\n\n\nhttps://drive.google.com/file/d/12nNbschy0a2KURSF6yaefazQ0soOPSsy/view?usp=drive_link\n\nhttps://drive.google.com/file/d/1ghylXDf5Q7F4UwP_dsoxhMrN4g1twy11/view?usp=drive_link\n\n\nthis is the tx link  as proof of mainnent interaction \n\nhttps://celoscan.io/tx/0x2c413930b52e6a64265575c56186112c9cae78ae39b4ca9ffe61291495305cd4\n\nMilestone 3:\n  Title: Simple Demo\n  Details: Polish bugs and details on the first version and record a simple demo.\n  Due date: 2025-03-22T05:00:00.000Z\n  Update: Here you have the proof of a simple demo \n\nhttps://drive.google.com/file/d/182XmlC1OHThAwY9oYh9iiP-eHGf5R9wJ/view?usp=sharing\n\n\nworking smoothly!\n  Completed At: Mon Mar 24 2025 01:52:15 GMT+0000 (Coordinated Universal Time)\n  Proof: Here you have the proof of a simple demo \n\nhttps://drive.google.com/file/d/182XmlC1OHThAwY9oYh9iiP-eHGf5R9wJ/view?usp=sharing\n\n\nworking smoothly!\n\nMilestone 4:\n  Title: Telegram Interface\n  Details: Provide a functional telegram interface.\n  Due date: 2025-03-25T05:00:00.000Z\n  Update: now you can interact with celo using telegram !!\n\nhttps://drive.google.com/file/d/14yzFTQcXak0wl_eSFargA9vEm6X6aQ6r/view?usp=sharing\n  Completed At: Mon Mar 24 2025 02:03:08 GMT+0000 (Coordinated Universal Time)\n  Proof: now you can interact with celo using telegram !!\n\nhttps://drive.google.com/file/d/14yzFTQcXak0wl_eSFargA9vEm6X6aQ6r/view?usp=sharing\n\nMilestone 5:\n  Title: Web app interface.\n  Details: Provide a web interface, record demos of  0.0.01 version telegram and web interface.\n  Due date: 2025-03-28T05:00:00.000Z\n  Update: I feel kinda sad, i have been very busy  so there is not web interface, but you know? no problemo, now you can use the telegram interface, and  fully interact with 3 protocols\n\n\nAAVE yes les than 1 month and we are the first celo ai agent  with a telegram interface for monitoring all your aave positions and request a borrow\n\nMentoSwap, native stablecoins with only one command in natural language!!\n\nwant to profit on deFi strategies?? ICHI vaults are one of the options!!\n\nhttps://drive.google.com/file/d/14yzFTQcXak0wl_eSFargA9vEm6X6aQ6r/view?usp=sharing\n  Completed At: Mon Mar 24 2025 02:08:35 GMT+0000 (Coordinated Universal Time)\n  Proof: I feel kinda sad, i have been very busy  so there is not web interface, but you know? no problemo, now you can use the telegram interface, and  fully interact with 3 protocols\n\n\nAAVE yes les than 1 month and we are the first celo ai agent  with a telegram interface for monitoring all your aave positions and request a borrow\n\nMentoSwap, native stablecoins with only one command in natural language!!\n\nwant to profit on deFi strategies?? ICHI vaults are one of the options!!\n\nhttps://drive.google.com/file/d/14yzFTQcXak0wl_eSFargA9vEm6X6aQ6r/view?usp=sharing",
+        "updates": ""
+    },
+    {
+        "project": {
+            "createdAt": "2025-03-12T17:28:53.000Z",
+            "description": "Siimplifinance provides users access to expandable near-limitless equity-based crypto loans through a peer-funding mechanism with competitive or zero interest rates. We provide you with the ground with multiple loan faucets that give you full control of your liquidity and maximize capital efficiency. Our MVP - FlexPool is a customized liquidity pool for short-term crypto loan services focusing on all categories of users. Its design emphasizes true decentralization, user control, and healthy loan competition to accommodate lower-class to middle-class users.",
+            "imageURL": "",
+            "title": "Simplifinance",
+            "links": {
+                "discord": "",
+                "github": "https://github.com/simplifinance/simplifi/",
+                "linkedin": "",
+                "twitter": "Sim_pliFi",
+                "website": "https://simplifinance.xyz",
+                "pitchDeck": "https://docs.google.com/presentation/d/1r4jqqVc-oMhMBpJAXiN9u0VSnVNS2uC3M0hgdH1c-Bg/edit?usp=sharing",
+                "demoVideo": "https://youtu.be/2huZ2onFBb0",
+                "farcaster": ""
+            },
+            "externals": {
+                "github": [
+                    "https://github.com/simplifinance/simplifi/"
+                ],
+                "network_addresses": [
+                    "celo:0xb4cc1e6605430631d87709c06e437ac31cc0eCBe"
+                ]
+            },
+            "slug": "simplifinance"
+        },
+        "grant": {
+            "createdAt": "2025-03-12T21:53:17.000Z",
+            "proposalURL": "",
+            "title": "Proof of Ship - Season 2"
+        },
+        "totalMilestones": 5,
+        "totalMilestonesCompleted": 5,
+        "milestones": "Milestone 1:\n  Title: Project restructuring\n  Details: We noticed the current project repository has some bugs we detected earlier this week. Our goal for the set period is to reconfigure the project to enhance smooth integration with the Celo network using the Celo composer.\n  Due date: 2025-03-13T23:00:00.000Z\n  Update: We have reconfigure the project's user interface.\n  Completed At: Sat Mar 15 2025 11:35:50 GMT+0000 (Coordinated Universal Time)\n  Proof: We have reconfigure the project's user interface.\n\nMilestone 2:\n  Title: Merging Agent\n  Details: We will merge the agent repository with the main project so the interface can reflect the options.\n  Due date: 2025-03-18T23:00:00.000Z\n  Update: Considering the backlog of activities on our schedules, we decided to suspend integrating the AI agent into the app. Our target for this month through the proof of ship program is captured in the highlights on the milestones next to this one.\n  Completed At: Sat Mar 15 2025 11:53:36 GMT+0000 (Coordinated Universal Time)\n  Proof: Considering the backlog of activities on our schedules, we decided to suspend integrating the AI agent into the app. Our target for this month through the proof of ship program is captured in the highlights on the milestones next to this one.\n\nMilestone 3:\n  Title: Smart contracts adjustment, and redeployment\n  Details: The smart contracts were altered during AI integration. This time, we will perform a rollback and make some adjustments to revert to and improve on the initial behavior.\n  Due date: 2025-03-17T23:00:00.000Z\n  Update: - Adjusted smart contracts but not completed [Commit](https://github.com/simplifinance/simplifi/commit/1d971c75b9e0420f204ddb4cd26c5c931ee1c268)\n- Reconfigured UI and added Shadcn, light and dark theme modes [Commit](https://github.com/simplifinance/simplifi/commit/1d971c75b9e0420f204ddb4cd26c5c931ee1c268)\n- Reconfigured contracts ABIs, typechains-types and deployment files to auto sync to frontend [Commit](https://github.com/simplifinance/simplifi/commit/d3c51c36452595d9472640710c04fd478e33041b)\n  Completed At: Tue Mar 18 2025 21:42:55 GMT+0000 (Coordinated Universal Time)\n  Proof: - Adjusted smart contracts but not completed [Commit](https://github.com/simplifinance/simplifi/commit/1d971c75b9e0420f204ddb4cd26c5c931ee1c268)\n- Reconfigured UI and added Shadcn, light and dark theme modes [Commit](https://github.com/simplifinance/simplifi/commit/1d971c75b9e0420f204ddb4cd26c5c931ee1c268)\n- Reconfigured contracts ABIs, typechains-types and deployment files to auto sync to frontend [Commit](https://github.com/simplifinance/simplifi/commit/d3c51c36452595d9472640710c04fd478e33041b)\n\nMilestone 4:\n  Title: Extensive smart contract testing\n  Details: \n  Due date: 2025-03-20T23:00:00.000Z\n  Update: We have completed the smart contracts redesign and deployed them on the Celo Alfajores network for testing. \nWe completed the testing suite up to 50% being part of the next milestone. See [commit](https://github.com/simplifinance/simplifi/commit/b746d7dc9c840e50e322882b831526778740ddc6).\n\n**Smart contracts**\n\n- Factory - [0x885a9F1077B02CeBc384217B18bd6ca2B8D957B1]()\n- Attorney - [0x5Be0fA900F3488eF4282417afEfaC57d71Cb2EAa]()\n- Escape - [0xbf6928a7B98118CF8A86754D68862ea7343f3441]()\n- Reserve - [0x12dFb47DA38787d9c80c3680dc73bc347Ca3fcCB]()\n- Distributor - [0x2993871C97b80914Bb4580CE89e3cD5cC463aEbF]()\n- CollateralAsset - [0x90395731cb1DE69f4DF80208c572EedbaE84986a]()\n- Ownership - [0xF5aE8bE0B39FA81A89C410d0D764C692d368758f]()\n- SafeFactory - [0x6F71385f7d423ac843693A5CDD1223687fc8Be05]()\n- TestAssetBase - [0xbdAE8eB1417979E6a95c74BB771bFBb5C52ff27a]()\n\n**Note**: These contracts are available on the Celo Alfajores network, tentative, and currently undergoing constant changes.\n  Completed At: Mon Mar 24 2025 00:31:05 GMT+0000 (Coordinated Universal Time)\n  Proof: We have completed the smart contracts redesign and deployed them on the Celo Alfajores network for testing. \nWe completed the testing suite up to 50% being part of the next milestone. See [commit](https://github.com/simplifinance/simplifi/commit/b746d7dc9c840e50e322882b831526778740ddc6).\n\n**Smart contracts**\n\n- Factory - [0x885a9F1077B02CeBc384217B18bd6ca2B8D957B1]()\n- Attorney - [0x5Be0fA900F3488eF4282417afEfaC57d71Cb2EAa]()\n- Escape - [0xbf6928a7B98118CF8A86754D68862ea7343f3441]()\n- Reserve - [0x12dFb47DA38787d9c80c3680dc73bc347Ca3fcCB]()\n- Distributor - [0x2993871C97b80914Bb4580CE89e3cD5cC463aEbF]()\n- CollateralAsset - [0x90395731cb1DE69f4DF80208c572EedbaE84986a]()\n- Ownership - [0xF5aE8bE0B39FA81A89C410d0D764C692d368758f]()\n- SafeFactory - [0x6F71385f7d423ac843693A5CDD1223687fc8Be05]()\n- TestAssetBase - [0xbdAE8eB1417979E6a95c74BB771bFBb5C52ff27a]()\n\n**Note**: These contracts are available on the Celo Alfajores network, tentative, and currently undergoing constant changes.\n\nMilestone 5:\n  Title: Season2 Demo\n  Details: I made a project update video.\n  Due date: 2025-03-23T23:00:00.000Z\n  Update: \n  Completed At: Mon Mar 24 2025 04:22:20 GMT+0000 (Coordinated Universal Time)\n  Proof: ",
+        "updates": ""
+    },
+    {
+        "project": {
+            "createdAt": "2025-03-08T11:08:59.000Z",
+            "description": "SubPay is a decentralized finance (DeFi) protocol built on the Celo blockchain that enables automated, recurring subscription payments using stablecoins (cUSD/cEUR). The protocol bridges the gap between traditional subscription-based businesses and Web3 by providing a decentralized, trustless payment solution.\n\nThrough AI-driven risk assessment, fraud detection, and payment optimization, SubPay ensures reliability and efficiency in recurring payments. The protocol is designed with a mobile-first approach, leveraging Celo’s fast, low-cost transactions to support global users, including those in underbanked regions.\n\nSubPay allows businesses to create flexible subscription models (monthly, quarterly, annual) with automated billing, while users retain full control over their payment authorizations. By eliminating intermediaries and utilizing stablecoins, SubPay reduces costs, increases financial accessibility, and streamlines subscription-based transactions in the decentralized economy.",
+            "imageURL": "",
+            "title": "SubPay",
+            "links": {
+                "discord": "",
+                "github": "https://github.com/Kanasjnr/Subpay",
+                "linkedin": "",
+                "twitter": "Kanasjnr",
+                "website": "https://subpay-brown.vercel.app/",
+                "pitchDeck": "https://subpay-p80nk1c.gamma.site/",
+                "demoVideo": "https://youtu.be/xqlpGN4L31o",
+                "farcaster": ""
+            },
+            "externals": {
+                "github": [
+                    "https://github.com/Kanasjnr/Subpay"
+                ],
+                "network_addresses": [
+                    "celo:0x1D0CB90Feb6eb94AeCC3aCBF9C958D3409916831",
+                    "celo:0x089D37C1Ca872221E37487c1F2D006907561B1fd"
+                ]
+            },
+            "slug": "subpay"
+        },
+        "grant": {
+            "createdAt": "2025-03-08T11:39:09.000Z",
+            "proposalURL": "",
+            "title": "Proof of Ship - Season 2"
+        },
+        "totalMilestones": 5,
+        "totalMilestonesCompleted": 3,
+        "milestones": "Milestone 1:\n  Title: Research & System Architecture\n  Details: - Conduct research on DeFi-based subscription payment models.\n- Define the architecture for smart contract-based subscription management.\n- Outline AI integration for credit risk assessment and fraud detection.\n- Draft a whitepaper detailing CeloSubPay’s functionalities and implementation.\n  Due date: 2025-03-09T23:00:00.000Z\n  Update: \n  Completed At: Mon Mar 10 2025 00:23:49 GMT+0000 (Coordinated Universal Time)\n  Proof: \n\nMilestone 2:\n  Title: Smart Contract Development & Initial Testing\n  Details: - Develop smart contracts for handling subscription payments and user authorizations.\n- Implement payment authorization logic and dispute resolution mechanisms.\n- Conduct unit tests on smart contract functionalities.\n- Deploy the contracts on a local blockchain for initial testing.\n  Due date: 2025-03-16T23:00:00.000Z\n  Update: The SubPay smart contracts have been successfully developed, deployed on the Alfajores Testnet, and verified on the block explorer. The contracts handle subscription payments, user authorizations, and dispute resolution, with payment authorization logic fully implemented and unit-tested\n  Completed At: Sat Mar 15 2025 12:31:38 GMT+0000 (Coordinated Universal Time)\n  Proof: The SubPay smart contracts have been successfully developed, deployed on the Alfajores Testnet, and verified on the block explorer. The contracts handle subscription payments, user authorizations, and dispute resolution, with payment authorization logic fully implemented and unit-tested\n\nMilestone 3:\n  Title: Frontend & Business Dashboard Development\n  Details: - Build the frontend for user subscription management.\n- Develop a business dashboard for merchants to track payments and manage subscriptions.\n- Integrate Celo stablecoins (cUSD/cEUR) as the primary payment method.\n- Implement real-time transaction tracking features.\n  Due date: 2025-03-29T23:00:00.000Z\n  Update: Developed the frontend for user subscription management, enabling users to create, modify, and track their subscriptions seamlessly. Additionally, I built a business dashboard for merchants to monitor payments, manage subscriber data, and oversee active subscriptions. The platform integrates Celo stablecoins (cUSD/cEUR) as the primary payment method, ensuring low-cost, efficient transactions. Real-time transaction tracking has also been implemented to enhance transparency and user experience\n  Completed At: Sun Mar 23 2025 15:20:33 GMT+0000 (Coordinated Universal Time)\n  Proof: Developed the frontend for user subscription management, enabling users to create, modify, and track their subscriptions seamlessly. Additionally, I built a business dashboard for merchants to monitor payments, manage subscriber data, and oversee active subscriptions. The platform integrates Celo stablecoins (cUSD/cEUR) as the primary payment method, ensuring low-cost, efficient transactions. Real-time transaction tracking has also been implemented to enhance transparency and user experience\n\nMilestone 4:\n  Title: AI Integration & Security Enhancements\n  Details: - Integrate AI models for fraud detection and credit risk assessment.\n- Optimize smart contracts for gas efficiency and security.\n- Conduct internal security audits and implement necessary fixes.\n- Deploy contracts on a Celo testnet for further testing.\n  Due date: 2025-04-09T23:00:00.000Z\n  Update: \n  Completed At: \n  Proof: \n\nMilestone 5:\n  Title: Beta Testing & Community Feedback\n  Details: - Launch a beta version of CeloSubPay for public testing.\n- Gather user feedback on subscription flows and payment processing.\n- Identify bugs and areas for improvement.\n- Engage early adopters and business partners for testing.\n  Due date: 2025-04-29T23:00:00.000Z\n  Update: \n  Completed At: \n  Proof: ",
+        "updates": "Grant update 1: Successfully deployed smart contracts and completed unit testing using Hardhat. Ensured contract functionality with comprehensive test coverage, validating core features and security aspects. Optimized Solidity code for gas efficiency and deployed on Alfajores testnet\nGrant update 2: Designed and developed a fully functional landing page, ensuring a user-friendly layout, responsive design, and optimized performance. Integrated key elements such as engaging visuals, and clear messaging to enhance user experience and conversions."
+    },
+    {
+        "project": {
+            "createdAt": "2025-03-23T23:53:35.000Z",
+            "description": "Regen Sonic Lab is a cultural and educational project that explores the intersection of collective music-making, local cultural practices, and Web3 tools.\n\nEvery week, artists and musicians gather to create, listen, and collaborate in a music workshop. Every two weeks, a public event is held in an open venue to welcome new participants and share the collective energy of music in motion.\n\nUsing the Celo ecosystem, RegenSonic Lab documents its process with POAPs (Proof of Attendance), sound NFTs, poetic reflections, and a living digital archive.\n\nThe project shares tangible cultural deliverables — not just as products, but as fragments of lived memory, vibration, and community.",
+            "imageURL": "",
+            "title": "Regen Sonic Lab",
+            "links": {
+                "discord": "",
+                "github": "https://github.com/Regen-Sonic-Lab",
+                "linkedin": "https://www.linkedin.com/in/athus-linhares-a905a917a/",
+                "twitter": "Atskotzen",
+                "website": "",
+                "pitchDeck": "",
+                "demoVideo": "",
+                "farcaster": "https://warpcast.com/athus"
+            },
+            "externals": {},
+            "slug": "regen-sonic-lab"
+        },
+        "grant": {
+            "createdAt": "2025-03-24T03:19:25.000Z",
+            "proposalURL": "",
+            "title": "Proof of Ship - Season 2"
+        },
+        "totalMilestones": 4,
+        "totalMilestonesCompleted": 1,
+        "milestones": "Milestone 1:\n  Title: Phase 1 — Rooting (March 2025)\n  Details: Phase 1 — Rooting (March 2025)\n\n**Objective:**  \nTo consolidate the conceptual, technical, and public foundations of the project, creating a visible and documented base for the development of Regen Sonic Lab.\n\n**Continuous Cycle:**\n\n- Conceptual reflection on the mission, identity, and language of the project  \n- Weekly music creation workshops + listening sessions + documentation  \n- First public on-chain records (POAPs + sound NFTs)  \n- Monthly updates on KarmaGAP  \n- Regular posts on social media (Instagram, Twitter, Farcaster)  \n\n**Deliverables for this phase:**\n\n - Creation of the Regen Sonic Lab GitHub organization repository  \n - Development and publication of the project’s initial documentation  \n -  Definition and registration of the core concept: \"education and onboarding into Web3 through culture and music\"  \n - Submission and activation of the project on KarmaGAP  \n - First round of in-person workshops and listening events  \n - Issuance of the first POAPs on the Celo network  \n - First collection of sound fragments for NFTs\n  Due date: 2025-03-31T03:00:00.000Z\n  Update: 🚢 Regen Sonic Lab — Proof-of-Ship Update #1 (Phase 1 — Rooting)\n\nIn this first stage, we completed the core foundational milestones of the project:\n\n✅ Created the official GitHub repository with the initial project structure.  \n→ [https://github.com/Regen-Sonic-Lab]\n\n✅ Developed and published the full project documentation (`README.md`), including mission, problem, solution, and roadmap.  \n→ [https://github.com/Regen-Sonic-Lab/sonic-lab-core]\n\n✅ Registered the project on KarmaGAP and began tracking milestones.  \n→ [https://gap.karmahq.xyz/project/regen-sonic-lab]\n\n✅ Defined the core concept of the project:  \n*\"Education and onboarding into Web3 through culture and music.\"*\n\n\nNext steps:\n - Onboard the founding members, including wallet creation and a practical introduction to the Celo ecosystem.  \n→ [Link to evidence, screenshots, or wallet addresses (optional)]\n\n - Issue the first POAPs for founding members as proof of presence.  \n→ [Link to POAPs or screenshots]\n\n - Start collecting sound fragments from weekly workshops to serve as the base for the project’s first sound NFTs.  \n→ [Link to audio material, if available]\n  Completed At: Mon Mar 24 2025 04:17:39 GMT+0000 (Coordinated Universal Time)\n  Proof: 🚢 Regen Sonic Lab — Proof-of-Ship Update #1 (Phase 1 — Rooting)\n\nIn this first stage, we completed the core foundational milestones of the project:\n\n✅ Created the official GitHub repository with the initial project structure.  \n→ [https://github.com/Regen-Sonic-Lab]\n\n✅ Developed and published the full project documentation (`README.md`), including mission, problem, solution, and roadmap.  \n→ [https://github.com/Regen-Sonic-Lab/sonic-lab-core]\n\n✅ Registered the project on KarmaGAP and began tracking milestones.  \n→ [https://gap.karmahq.xyz/project/regen-sonic-lab]\n\n✅ Defined the core concept of the project:  \n*\"Education and onboarding into Web3 through culture and music.\"*\n\n\nNext steps:\n - Onboard the founding members, including wallet creation and a practical introduction to the Celo ecosystem.  \n→ [Link to evidence, screenshots, or wallet addresses (optional)]\n\n - Issue the first POAPs for founding members as proof of presence.  \n→ [Link to POAPs or screenshots]\n\n - Start collecting sound fragments from weekly workshops to serve as the base for the project’s first sound NFTs.  \n→ [Link to audio material, if available]\n\nMilestone 2:\n  Title: Phase 2 — Open Pulse (April 2025)\n  Details: ## 🔊 Phase 2 — Open Pulse (April 2025)\n\n**Objective:**  \nTo expand cultural production and strengthen public on-chain records.\n\n**Continuous Cycle:**\n- POAP issuance at each session  \n- Creation of sound NFTs  \n- Events with guest artists and collaborators  \n- Audio and visual documentation of interactions  \n\n**Deliverables for this phase:**\n- Publication of the first sound archive\n- Deployment of the first smart contract on the Alfajores Testnet  \n- Visual development of the Lab’s identity  \n- Issuance of the first sound NFTs\n  Due date: 2025-04-30T03:00:00.000Z\n  Update: \n  Completed At: \n  Proof: \n\nMilestone 3:\n  Title: Phase 3 — Regenerative Expansion (May 2025)\n  Details: ## 🪴 Phase 3 — Regenerative Expansion (May 2025)\n\n**Objective:**  \nTo encourage the adoption of Celo by local businesses and strengthen the Web3 ecosystem within the territory.\n\n**Continuous Cycle:**\n- Workshops with local merchants on using crypto as a form of payment  \n- Events featuring Celo-based transactions for cultural products and experiences  \n- Audio and visual documentation of the interactions  \n\n**Deliverables for this phase:**\n- Partnerships with at least 2 local businesses  \n- Real-world payment tests using Celo  \n- Collection of feedback regarding Web3 adoption  \n- Creation of the \"Regen Onboarding Kit\" for artists and merchants\n  Due date: 2025-05-31T03:00:00.000Z\n  Update: \n  Completed At: \n  Proof: \n\nMilestone 4:\n  Title: Phase 4 — Harvest and Celebration (June)\n  Details: ### 🌸 Phase 4 — Harvest and Celebration (June)\n\n**Objective:**  \nTo share the journey, celebrate the presences, and prepare for the next cycles.\n\n**Continuous Cycle:**\n- Collective listening sessions of the created NFTs  \n- Collaborative selection of cycle highlights  \n- Preparation of a public showcase  \n\n**Deliverables for this phase:**\n- Public event with artists and special guests  \n- Collective NFT featuring the final composition of the season  \n- Connection with new cultural partnerships\n  Due date: 2025-06-30T03:00:00.000Z\n  Update: \n  Completed At: \n  Proof: ",
+        "updates": ""
+    },
+    {
+        "project": {
+            "createdAt": "2025-03-24T02:48:50.000Z",
+            "description": "DARVS is an advanced intelligent agent designed to optimize DeFi strategies, providing support for both new users and experienced investors. Its goal is to maximize returns on decentralized finance strategies, offering a comprehensive and efficient experience.\n\nFor new users, DARVS allows the seamless creation of fully custodial wallets, providing a secure entry point into the DeFi ecosystem. Additionally, it facilitates the fast and reliable transfer of CELO or ERC-20 tokens to other users.\n\nExperienced users can leverage DARVS to monitor and manage their DeFi positions in detail, enabling strategic decision-making based on real-time data to optimize their profitability.\n\nDARVS is continuously expanding its DeFi capabilities, adding new features that empower users to stay ahead in the evolving decentralized finance landscape. With DARVS, managing assets and DeFi strategies becomes accessible, secure, and efficient for both beginners and seasoned veterans in decentralized finance.",
+            "imageURL": "",
+            "title": "DARVS",
+            "links": {
+                "twitter": "",
+                "github": "",
+                "discord": "",
+                "website": "",
+                "linkedin": "",
+                "pitchDeck": "",
+                "demoVideo": "https://www.loom.com/share/b4166780ea1b41ae9219996e82259770?sid=f51711f4-39cb-4abf-9896-6e2e1adeeedd",
+                "farcaster": ""
+            },
+            "externals": {
+                "github": [
+                    "https://github.com/SergioFinix/DARVS_CELO"
+                ]
+            },
+            "slug": "darvs"
+        },
+        "grant": {
+            "createdAt": "2025-03-24T03:23:05.000Z",
+            "proposalURL": "",
+            "title": "Proof of Ship - Season 2"
+        },
+        "totalMilestones": 3,
+        "totalMilestonesCompleted": 0,
+        "milestones": "Milestone 1:\n  Title: DeFi Functionality Integration\n  Details: 1.- DeFi Position Management: Allows users to check their positions in DeFi strategies within the Celo network, helping them track and make informed investment decisions.\n2.- Performance Optimization: Uses AI to recommend optimizations for DeFi strategies, such as suggesting rebalancing or adjustments to maximize returns and minimize risks.\n3.- DeFi Trend Monitoring: Integrates data sources about trends and changes in the DeFi ecosystem, helping the agent provide recommendations based on real-time information.\n  Due date: 2025-03-28T06:00:00.000Z\n  Update: \n  Completed At: \n  Proof: \n\nMilestone 2:\n  Title: External Services Integration\n  Details: 1.- DeFi Oracle Integration: Integrates oracles to retrieve accurate data on exchange rates, token prices, and other financial indicators, enabling the agent to make updated and data-driven recommendations.\n\n2.- Support for Multiple Tokens: Enables interaction with various ERC-20 tokens and other assets within the Celo blockchain, expanding investment options and the agent’s flexibility.\n  Due date: 2025-04-11T06:00:00.000Z\n  Update: \n  Completed At: \n  Proof: \n\nMilestone 3:\n  Title: Security Implementation\n  Details: 1.- Data Encryption: Ensures sensitive data, such as private keys and user balances, is encrypted to prevent unauthorized access and maintain security.\n2.- Security Audits: Conducts regular security audits of the infrastructure and smart contracts to ensure the system is robust and protected against vulnerabilities.\n  Due date: 2025-04-18T06:00:00.000Z\n  Update: \n  Completed At: \n  Proof: ",
+        "updates": ""
+    },
+    {
+        "project": {
+            "createdAt": "2025-03-23T19:02:39.000Z",
+            "description": "TLDR: Delta neutral funding fee strategy automation on EVM, SVM and Hyperliquid L1.\n\nPerpFlow is developing a delta-neutral yield platform that adopts the architectural principles of DeFi Saver for effective DeFi management and automation. Our platform systematically collects and indexes historical funding fee data across EVM, SVM, and Hyperliquid chains, providing users with comprehensive visibility into yield patterns that inform strategic decision-making. This historical data foundation enables users to identify optimal entry and exit points based on empirical performance rather than speculation.\n\nThe platform coordinates complex cross-chain operations through a unified interface that handles position sizing, liquidity sourcing, and slippage management. When capital is deployed, the system allocates USDC efficiently across chains, manages necessary asset bridging, and executes complementary spot and futures positions with appropriate leverage parameters. Our position management system monitors funding rates and maintains delta neutrality, adjusting as market conditions change. By addressing the technical complexities of cross-chain delta-neutral strategies, PerpFlow makes sophisticated yield generation accessible to users who have USDC but lack specialized trading expertise or the time for manual position management across multiple platforms.",
+            "imageURL": "",
+            "title": "Perpflow",
+            "links": {
+                "twitter": "https://x.com/perpflow",
+                "github": "",
+                "discord": "https://discord.gg/kJQK42A76S",
+                "website": "https://perpflow.xyz/",
+                "linkedin": "",
+                "pitchDeck": "",
+                "demoVideo": "https://www.youtube.com/watch?v=w4IIB0xFrIk",
+                "farcaster": ""
+            },
+            "externals": {
+                "github": [
+                    "https://github.com/vaniiiii/anon-integration-guide"
+                ]
+            },
+            "slug": "perpflow"
+        },
+        "grant": {
+            "createdAt": "2025-03-23T19:39:45.000Z",
+            "proposalURL": "",
+            "title": "Proof of Ship - Season 2"
+        },
+        "totalMilestones": 3,
+        "totalMilestonesCompleted": 0,
+        "milestones": "Milestone 1:\n  Title: Multi chain support\n  Details: Enable users to buy spot-side assets for funding fee strategies and deposit USDC from any EVM/SVM chain including Celo Network.\n  Due date: 2025-03-28T23:00:00.000Z\n  Update: \n  Completed At: \n  Proof: \n\nMilestone 2:\n  Title: loopedHYPE support\n  Details: Enable users to boost their HYPE spot strategies by utilizing loopedHYPE's looping mechanism, boosting yield even further.\n  Due date: 2025-03-27T23:00:00.000Z\n  Update: \n  Completed At: \n  Proof: \n\nMilestone 3:\n  Title: Add Hyperliquid support to HeyAnon\n  Details: Complete the integration of Hyperliquid into HeyAnon AI assistant. https://heyanon.ai/\n  Due date: 2025-03-24T23:00:00.000Z\n  Update: \n  Completed At: \n  Proof: ",
+        "updates": ""
+    },
+    {
+        "project": {
+            "createdAt": "2025-03-17T11:17:47.000Z",
+            "description": "Cross Pay is an innovative and seamless payment solution built on the Celo MiniPay ecosystem, designed to make asset transfers effortless, fast, and cost-effective. By leveraging USDT, Cross Pay allows users to send and receive payments instantly with near-zero fees, eliminating the barriers of traditional banking systems and expensive blockchain transactions.\n\nWhat sets Cross Pay apart is its unique rewards system—every transaction earns users exclusive NFT collectibles, creating a more engaging and incentivized payment experience. These NFTs can be traded, used for discounts, or simply collected as digital assets.\n\nWith a mobile-first approach, Cross Pay prioritizes accessibility, ensuring that both crypto-savvy users and those new to digital payments can benefit from its simplicity and efficiency. Whether you're a freelancer, a business owner, or someone making everyday transactions, Cross Pay provides a frictionless way to move assets while unlocking additional value through rewards.",
+            "imageURL": "",
+            "title": "Cross Pay",
+            "links": {
+                "discord": "ibrahimabdulkarim",
+                "github": "https://github.com/aliveevie/cross-pay",
+                "linkedin": "https://www.linkedin.com/in/ibrahim193/",
+                "twitter": "",
+                "website": "https://cross-pay.vercel.app/",
+                "pitchDeck": "https://docs.google.com/presentation/d/1oHNfv2DWva9S5kjH5Krf_gGyD4YpPpF2/edit?usp=sharing&ouid=107437468054413232555&rtpof=true&sd=true",
+                "demoVideo": "https://streamable.com/emka9i",
+                "farcaster": ""
+            },
+            "externals": {
+                "github": [
+                    "https://github.com/aliveevie/cross-pay"
+                ]
+            },
+            "slug": "cross-pay"
+        },
+        "grant": {
+            "createdAt": "2025-03-19T15:31:28.000Z",
+            "proposalURL": "",
+            "title": "Proof of Ship - Season 2"
+        },
+        "totalMilestones": 3,
+        "totalMilestonesCompleted": 1,
+        "milestones": "Milestone 1:\n  Title: Built UI\n  Details: This second stage is to built a UI that will interact with a smart contract on celo network\n  Due date: 2025-03-21T23:00:00.000Z\n  Update: \n  Completed At: \n  Proof: \n\nMilestone 2:\n  Title: Project Initialization\n  Details: Add this stage my target was to set up the project using the celo composer and start building\n  Due date: 2025-03-20T23:00:00.000Z\n  Update: Project Successfully initiazed using celo composer\n  Completed At: Thu Mar 20 2025 09:14:43 GMT+0000 (Coordinated Universal Time)\n  Proof: Project Successfully initiazed using celo composer\n\nMilestone 3:\n  Title: Deploy a testnet smart contract\n  Details: At this point, I want to deploy a testnet smart contract and make it interact with the celo network\n  Due date: 2025-03-22T23:00:00.000Z\n  Update: \n  Completed At: \n  Proof: ",
+        "updates": ""
+    },
+    {
+        "project": {
+            "createdAt": "2025-03-11T15:25:58.000Z",
+            "description": "A decentralized application that bridges the gap between artists and their audiences allowing artists to build profiles showcase work and receive support through donations NFTs and token staking.",
+            "imageURL": "",
+            "title": "Cookies 4m groupies",
+            "links": {
+                "website": "",
+                "twitter": "",
+                "github": "https://github.com/pratiksardar/cookies-4m-groupies"
+            },
+            "externals": {
+                "github": [
+                    "https://github.com/pratiksardar/cookies-4m-groupies"
+                ]
+            },
+            "slug": "cookies-4m-groupies"
+        },
+        "grant": {
+            "createdAt": "2025-03-19T10:31:07.000Z",
+            "proposalURL": "",
+            "title": "Proof of Ship - Season 2"
+        },
+        "totalMilestones": 3,
+        "totalMilestonesCompleted": 0,
+        "milestones": "Milestone 1:\n  Title: Deploy SC to Celo Testnet\n  Details: Deploy NFT Factory , Artist and other SC to Celo Testnet\n  Due date: 2025-03-30T18:30:00.000Z\n  Update: \n  Completed At: \n  Proof: \n\nMilestone 2:\n  Title: Integrate SC to Frontend and Backend\n  Details: Integrate SC to Frontend and save transactions in backend\n  Due date: 2025-03-30T18:30:00.000Z\n  Update: \n  Completed At: \n  Proof: \n\nMilestone 3:\n  Title: Design Strategy to onboard first 10 members\n  Details: Onboard Actual Artists to the platform or add 10 local artists platform\n  Due date: 2025-03-30T18:30:00.000Z\n  Update: \n  Completed At: \n  Proof: ",
+        "updates": ""
+    },
+    {
+        "project": {
+            "createdAt": "2025-03-14T15:57:56.000Z",
+            "description": "FreelaCelo is a decentralized freelancing platform built on the CELO blockchain, designed to connect clients with skilled professionals in a secure, transparent, and trustless environment. By leveraging smart contracts and decentralized payment systems, FreelaCelo eliminates the need for intermediaries, ensuring fair and fast transactions. FreelaCelo stands as a beacon of reliability in the decentralized marketplace.",
+            "imageURL": "",
+            "title": "FreelaCelo",
+            "links": {
+                "twitter": "",
+                "github": "blockend-dev",
+                "discord": "",
+                "website": "",
+                "linkedin": ""
+            },
+            "externals": {
+                "github": [
+                    "https://github.com/blockend-dev/FreelaCelo"
+                ]
+            },
+            "slug": "freelacelo"
+        },
+        "grant": {
+            "createdAt": "2025-03-20T14:45:04.000Z",
+            "proposalURL": "",
+            "title": "Proof of Ship - Season 2"
+        },
+        "totalMilestones": 3,
+        "totalMilestonesCompleted": 2,
+        "milestones": "Milestone 1:\n  Title: Core Smart Contract development\n  Details: \n  Due date: 2025-03-15T23:00:00.000Z\n  Update: Completed smart Contract development and next is to proceed to efficient unit testing of the contracts\n  Completed At: Tue Mar 18 2025 23:29:15 GMT+0000 (Coordinated Universal Time)\n  Proof: Completed smart Contract development and next is to proceed to efficient unit testing of the contracts\n\nMilestone 2:\n  Title: Smart contracts testing\n  Details: \n  Due date: 2025-03-19T23:00:00.000Z\n  Update: Wrote and completed unit test with 100% passed to ensure the contract functions as expected.\n  Completed At: Fri Mar 21 2025 11:40:28 GMT+0000 (Coordinated Universal Time)\n  Proof: Wrote and completed unit test with 100% passed to ensure the contract functions as expected.\n\nMilestone 3:\n  Title: Deployment and frontend Integration\n  Details: \n  Due date: 2025-03-25T23:00:00.000Z\n  Update: \n  Completed At: \n  Proof: ",
+        "updates": ""
+    },
+    {
+        "project": {
+            "createdAt": "2025-03-06T17:59:05.000Z",
+            "description": "",
+            "imageURL": "",
+            "title": "PumpForge",
+            "links": {
+                "website": "",
+                "twitter": "",
+                "github": "https://github.com/lanacreates/PumpForge"
+            },
+            "externals": {
+                "github": [
+                    "https://github.com/lanacreates/PumpForge"
+                ]
+            },
+            "slug": "pumpforge"
+        },
+        "grant": {
+            "createdAt": "2025-03-13T23:30:21.000Z",
+            "proposalURL": "",
+            "title": "Proof of Ship - Season 2"
+        },
+        "totalMilestones": 3,
+        "totalMilestonesCompleted": 0,
+        "milestones": "Milestone 1:\n  Title: Integrate IPFS Image Uploads\n  Details: We will implement direct IPFS image upload functionality in PumpForge so that each newly minted token can include a custom image stored on IPFS. This milestone covers:\n\nCreating an upload button on the front end to store images on IPFS.\nStoring the returned IPFS CID in the PumpForgeToken metadata.\nEnsuring the user experience is seamless and mobile-friendly.\n  Due date: 2025-03-15T23:00:00.000Z\n  Update: \n  Completed At: \n  Proof: \n\nMilestone 2:\n  Title: Implement Basic Liquidity Management\n  Details: We will develop a straightforward UI for creating and managing liquidity pools on Ubeswap or Mobius. Key tasks include:\n\nIntegrating the DEX router to pair newly minted tokens with CELO or cUSD.\nProviding a one-click approach for users to add initial liquidity.\nLaying the groundwork for optional liquidity locks, enhancing security and trust.\n  Due date: 2025-03-18T23:00:00.000Z\n  Update: \n  Completed At: \n  Proof: \n\nMilestone 3:\n  Title: Integrate AI-Driven Analytics\n  Details: We will enhance PumpForge with AI Agents that provide real-time insights and recommendations. This milestone includes:\n\nTracking trading volume, holder distribution, and suspicious activity via an automated analytics engine.\nImplementing dynamic anti-bot suggestions (e.g., short cooldowns for flagged wallets) to boost security.\nOffering intelligent tax logic suggestions, helping token creators optimize buy/sell tax rates based on historical data.\n  Due date: 2025-03-18T23:00:00.000Z\n  Update: \n  Completed At: \n  Proof: ",
+        "updates": ""
+    },
+    {
+        "project": {
+            "createdAt": "2025-03-07T13:12:35.000Z",
+            "description": "**EventChain: Decentralized Event Management on Celo**  \n\n**EventChain** is a decentralized event management platform built on the Celo blockchain, designed to provide secure, transparent, and trustless ticketing through smart contracts and an escrow system. It enables users to create, manage, and attend events, leveraging Mento stablecoins (cUSD, cEUR, cCOP, etc) for seamless payments and ensuring fair transactions via blockchain-based escrow mechanisms.  \n\n**Key Features**  \n\n1. **Decentralized Event Creation & Management**  \n   - Users can create events with details such as date, time, location, and ticket price.  \n   - Events are stored on-chain, ensuring immutability and transparency.  \n\n2. **Trustless Ticketing with Mento Stablecoins**  \n   - Event tickets are purchased using Mento stable assets (cUSD, cEUR, cCOP, etc), ensuring low volatility and predictable pricing.  \n   - Payments are handled without intermediaries, reducing transaction costs.  \n\n3. **Escrow Mechanism for Secure Transactions**  \n   - Ticket payments are held in escrow within a smart contract until event conditions are met.  \n   - If an event is canceled or fails to meet specified criteria, ticket buyers automatically receive refunds in the same Mento token used for purchase.  \n   - This prevents fraud and ensures fair ticketing policies for both organizers and attendees.  \n\n4. **On-Chain Ownership & Verification**  \n   - Each ticket is represented as a blockchain-based asset, ensuring ownership verification and preventing counterfeiting.  \n   - Smart contracts enforce ticket transfer rules, allowing secure resales or transfers.  \n\n5. **Low Transaction Fees & Global Accessibility**  \n   - Built on Celo, a mobile-first blockchain with ultra-low gas fees, making EventChain accessible to users worldwide.  \n   - Users can interact with smart contracts via mobile-friendly wallets like Valora and MetaMask.",
+            "imageURL": "",
+            "title": "EventChain",
+            "links": {
+                "discord": "chigoziejacob",
+                "github": "https://github.com/Chigozie0706/eventchain",
+                "linkedin": "https://www.linkedin.com/in/chigozie-jacob-8a4300191/",
+                "twitter": "",
+                "website": "https://eventchain-git-main-chigozie0706s-projects.vercel.app/",
+                "pitchDeck": "https://www.canva.com/design/DAGf-vn5bL4/GpTakYkJ6L9RTarjzrD4vg/view?utm_content=DAGf-vn5bL4&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h596c558439",
+                "demoVideo": "https://www.loom.com/share/880161f18a684914ad2033e5c72ef5c5",
+                "farcaster": "https://warpcast.com/chigz/0xf5b88e08"
+            },
+            "externals": {
+                "github": [
+                    "https://github.com/Chigozie0706/eventchain"
+                ],
+                "network_addresses": [
+                    "celo:0xBa26366767eA843A656853d348c763c41f9D67Ca",
+                    "celo:0xC152EF3B6Ac036F312bfFC1881CF23e496884e16",
+                    "celo:0x8e8Cd6dc1e9486C018AC14b216c3808575Edcba6",
+                    "celo:0x556875cd1681947F2dd71f6BAC20b09c0deD5186",
+                    "celo:0x89B92c64bCB1d8Da79fAda1a84653D208E51Cea7"
+                ]
+            },
+            "slug": "eventchain"
+        },
+        "grant": {
+            "createdAt": "2025-03-11T21:43:48.000Z",
+            "proposalURL": "",
+            "title": "Proof of Ship - Season 2"
+        },
+        "totalMilestones": 3,
+        "totalMilestonesCompleted": 3,
+        "milestones": "Milestone 1:\n  Title: Expanded Wallet and Payment Support\n  Details: Stablecoin Flexibility: In addition to cUSD, support other Mento stablecoins (cEUR, cCOP) so users have multiple payment options. \n\nRead-Only vs. Signer-Based Instances: Keep the read-only provider for fetching event data without a wallet connection and require a wallet connection only for write operations.\n  Due date: 2025-03-19T23:00:00.000Z\n  Update: \n  Completed At: Fri Mar 21 2025 09:50:33 GMT+0000 (Coordinated Universal Time)\n  Proof: \n\nMilestone 2:\n  Title: Improved User Experience (UX/UI)\n  Details: - Polished\n\n Frontend: Refine the Next.js UI using a modern design system, Tailwind CSS for a cleaner look. Add real-time notifications (using react-hot-toast) for transactions, event creation, and ticket purchases. Mobile \n\n- Responsiveness:\n\n Ensure the application works seamlessly on mobile devices. Dynamic Routing: Implement dynamic routes for event details pages so users can easily view detailed information for each event.\n  Due date: 2025-03-19T23:00:00.000Z\n  Update: \n  Completed At: Thu Mar 20 2025 15:06:54 GMT+0000 (Coordinated Universal Time)\n  Proof: \n\nMilestone 3:\n  Title: Enhanced Ticketing and Refund Mechanism\n  Details: The milestone focuses on enhancing the ticketing and refund mechanism by implementing an escrow system, refund policies, and a structured funds release process. \n\nThe escrow system ensures that ticket payments are securely held in the smart contract until the event occurs or is canceled. Ticket funds are only released to the event owner after the event starts, preventing premature access.  \n\nFor canceled events, organizers can mark an event as canceled, allowing users to request refunds processed directly from the escrow.\n  Due date: 2025-03-20T23:00:00.000Z\n  Update: \n  Completed At: Fri Mar 21 2025 09:31:11 GMT+0000 (Coordinated Universal Time)\n  Proof: ",
+        "updates": ""
+    },
+    {
+        "project": {
+            "createdAt": "2025-03-10T03:47:14.000Z",
+            "description": "A one-click platform for token creation bridging and liquidity management on Celo.",
+            "imageURL": "",
+            "title": "Superflow",
+            "links": {
+                "discord": "",
+                "github": "https://github.com/distroinfinity/superflow",
+                "linkedin": "",
+                "twitter": "superflow0",
+                "website": "",
+                "pitchDeck": "https://docs.google.com/presentation/d/1rg7ntFY998qA8J8tca5-rC5TvWiSEBQtFxDEW3imLoQ/edit?usp=sharing",
+                "demoVideo": "https://drive.google.com/file/d/1vgnueGK1hXpUkMS8Ie1Kr8RRspXKvAok/view?usp=sharing",
+                "farcaster": ""
+            },
+            "externals": {
+                "github": [
+                    "https://github.com/distroinfinity/superflow"
+                ],
+                "network_addresses": [
+                    "celo:0x229Fd76DA9062C1a10eb4193768E192bdEA99572",
+                    "celo:0x0eC9d3C06Bc0A472A80085244d897bb604548824"
+                ]
+            },
+            "slug": "superflow"
+        },
+        "grant": {
+            "createdAt": "2025-03-11T12:35:57.000Z",
+            "proposalURL": "",
+            "title": "Proof of Ship - Season 2"
+        },
+        "totalMilestones": 3,
+        "totalMilestonesCompleted": 3,
+        "milestones": "Milestone 1:\n  Title: Extensive testing of our product on Celo Alfajores\n  Details: With access to the Celo Alfajores Uniswap V3 contracts, they will undergo thorough testing to assess gas estimation, transaction fees, and ensure all functionalities are working as expected.\n  Due date: 2025-03-23T18:30:00.000Z\n  Update: - Tested our project on Celo Alfajores and toook use of UniswapV3 contract address for Alfajores.  \n- Various ERC20 tokens deployed using wallet address :  0xbe66842C517c6DAc6693b0EFB17294cbb8Eb81B4 \n- \n- Exammple:\n- Base ERC20 Token : 0x36Da2732a33d2E9A2422E0814f009FA08D07245c\n- Colllateral Token : 0x0D3F7b21D545612245c700D51a3982c146C0175d\n- Pool Address: 0x5080546E4E20bD1C984e096d249Fb866Dbe6A7B6\n  Completed At: Sat Mar 22 2025 17:51:18 GMT+0000 (Coordinated Universal Time)\n  Proof: - Tested our project on Celo Alfajores and toook use of UniswapV3 contract address for Alfajores.  \n- Various ERC20 tokens deployed using wallet address :  0xbe66842C517c6DAc6693b0EFB17294cbb8Eb81B4 \n- \n- Exammple:\n- Base ERC20 Token : 0x36Da2732a33d2E9A2422E0814f009FA08D07245c\n- Colllateral Token : 0x0D3F7b21D545612245c700D51a3982c146C0175d\n- Pool Address: 0x5080546E4E20bD1C984e096d249Fb866Dbe6A7B6\n\nMilestone 2:\n  Title: Implementing key enhancements from ScoutsGame\n  Details: Effectively integrating the changes from ScoutsGame while ensuring proper maintenance and organization of the repository.\n  Due date: 2025-03-23T18:30:00.000Z\n  Update: Effectively incorporated the contributions made to our projects through ScoutsGame, ensuring seamless integration and smooth, error-free functionality, while enhancing overall project performance\n\n- https://github.com/distroinfinity/superflow/pull/19\n\n- https://github.com/distroinfinity/superflow/pull/18\n  Completed At: Sat Mar 22 2025 17:56:11 GMT+0000 (Coordinated Universal Time)\n  Proof: Effectively incorporated the contributions made to our projects through ScoutsGame, ensuring seamless integration and smooth, error-free functionality, while enhancing overall project performance\n\n- https://github.com/distroinfinity/superflow/pull/19\n\n- https://github.com/distroinfinity/superflow/pull/18\n\nMilestone 3:\n  Title: Developing a lightweight frontend .\n  Details: Developing a lightweight frontend for our project to enhance user experience, ensuring seamless and intuitive interaction.\n  Due date: 2025-03-23T18:30:00.000Z\n  Update: Was able to create ERC-20 tokens using the UI. The UI for deploying liquidity pools has been a bit challenging and is currently a work in progress.\n  Completed At: Mon Mar 24 2025 07:58:20 GMT+0000 (Coordinated Universal Time)\n  Proof: Was able to create ERC-20 tokens using the UI. The UI for deploying liquidity pools has been a bit challenging and is currently a work in progress.",
+        "updates": ""
+    },
+    {
+        "project": {
+            "createdAt": "2025-03-10T08:11:16.000Z",
+            "description": "Clixpesa is an effort to build a borderless, customer-centric, all in one platform to serve as a trusted \ncompanion to manage money while giving back control to our users. By simplifying web3 for the less \ntech and financial savvy, we intend to increase utilization of financial products across sub-saharan Africa.\n\nThis project (Mint Contracts V2) focuses on simplifying the user experience through smart accounts with fully sponsored transactions for Clixpesa users, introducing and overdraft feature to enable users overdraw their accounts to a given limit. We also introduce a minimal typescript SDK to make integration easy for all our contracts.",
+            "imageURL": "",
+            "title": "Clixpesa",
+            "links": {
+                "discord": "",
+                "github": "clixpesa",
+                "linkedin": "https://linkedin.com/company/clixpesa",
+                "twitter": "clixpesa",
+                "website": "https://clixpesa.com",
+                "pitchDeck": "https://drive.google.com/file/d/1BQffiE4742AhPBatOkSPzP-A3btxTQgN/view?usp=sharing",
+                "demoVideo": "https://youtu.be/qSMWPKkGVGk",
+                "farcaster": ""
+            },
+            "externals": {
+                "github": [
+                    "https://github.com/clixpesa/mint-contracts"
+                ]
+            },
+            "slug": "clixpesa"
+        },
+        "grant": {
+            "createdAt": "2025-03-24T08:44:05.000Z",
+            "proposalURL": "",
+            "title": "Proof of Ship - Season 2"
+        },
+        "totalMilestones": 3,
+        "totalMilestonesCompleted": 3,
+        "milestones": "Milestone 1:\n  Title: Simple SDK Demo\n  Details: React native sdk to interact with our contracts\n  Due date: 2025-03-21T21:00:00.000Z\n  Update: Create a basic typescript SDK to user smart account and the overdraft feature.\nAs a dev you can just import the sdk components, create a smart account and enjoy the overdraft feature in simple lines of code. All transactions are also gasless.\n  Completed At: Sun Mar 23 2025 21:26:25 GMT+0000 (Coordinated Universal Time)\n  Proof: Create a basic typescript SDK to user smart account and the overdraft feature.\nAs a dev you can just import the sdk components, create a smart account and enjoy the overdraft feature in simple lines of code. All transactions are also gasless.\n\nMilestone 2:\n  Title: Account Abstraction\n  Details: Allow user to interact with a our contract without paying gas and have all their tx sponsored\n  Due date: 2025-03-12T21:00:00.000Z\n  Update: **Change from Meta transactions to full smart accounts.**\nChange from Meta Transactions to smart accounts, to have full support of gasless and sponsored transactions. This way user can make tx with totaly new wallet or wallet with zero balance. This is also possible without the loosing the signer like was the case with meta txs.\n[Proof of ship](https://github.com/clixpesa/mint-contracts/pull/1)\n\n**Smart accounts implimentation**\nImplementing the smart account and testing out gasless transaction on celo Alfajores.\nAdopted the smart account to permissionless with a toClixpesaSmartContractAccount with custom account factory and using Pimlico's hosted bundler\n[Proof of ship](https://github.com/clixpesa/mint-contracts/pull/2)\n  Completed At: Thu Mar 13 2025 20:56:36 GMT+0000 (Coordinated Universal Time)\n  Proof: **Change from Meta transactions to full smart accounts.**\nChange from Meta Transactions to smart accounts, to have full support of gasless and sponsored transactions. This way user can make tx with totaly new wallet or wallet with zero balance. This is also possible without the loosing the signer like was the case with meta txs.\n[Proof of ship](https://github.com/clixpesa/mint-contracts/pull/1)\n\n**Smart accounts implimentation**\nImplementing the smart account and testing out gasless transaction on celo Alfajores.\nAdopted the smart account to permissionless with a toClixpesaSmartContractAccount with custom account factory and using Pimlico's hosted bundler\n[Proof of ship](https://github.com/clixpesa/mint-contracts/pull/2)\n\nMilestone 3:\n  Title: Overdraft\n  Details: Enable a user to overdraw their transaction. Have the user transact on low balance\n  Due date: 2025-03-17T21:00:00.000Z\n  Update: Users can now spend more than their account holds and repay whenever they receive supported tokens.\n\nWhen a user wants to transfer a token or interact with a contract that requires more tokens than they have, they can opt to use the overdraft feature where they will be supplied with the token deficit to complete the tx. The overdraft is payable within 30days otherwise a interest is charged.\n  Completed At: Tue Mar 18 2025 17:02:15 GMT+0000 (Coordinated Universal Time)\n  Proof: Users can now spend more than their account holds and repay whenever they receive supported tokens.\n\nWhen a user wants to transfer a token or interact with a contract that requires more tokens than they have, they can opt to use the overdraft feature where they will be supplied with the token deficit to complete the tx. The overdraft is payable within 30days otherwise a interest is charged.",
+        "updates": ""
+    },
+    {
+        "project": {
+            "createdAt": "2025-03-06T10:48:35.000Z",
+            "description": "Tranzit is a mobile-first web 3 application used to make paymentsand track your transportation spending and cost.",
+            "imageURL": "",
+            "title": "Tranzit",
+            "links": {
+                "discord": "",
+                "github": "https://github.com/Argusham",
+                "linkedin": "",
+                "twitter": "https://x.com/ArgusMbogo",
+                "website": ""
+            },
+            "externals": {
+                "network_addresses": [
+                    "celo:0x7f8EFB57b228798d2d3ec3339cD0a155EB3B0f96",
+                    "celo:0xf86ae66b74cb1f06edef18bcdc38469b6a064df8"
+                ],
+                "github": [
+                    "https://github.com/Argusham/TaxiZip"
+                ]
+            },
+            "slug": "tranzit"
+        },
+        "grant": {
+            "createdAt": "2025-03-06T11:07:30.000Z",
+            "proposalURL": "",
+            "title": "Proof of Ship - Season 2"
+        },
+        "totalMilestones": 3,
+        "totalMilestonesCompleted": 3,
+        "milestones": "Milestone 1:\n  Title: Use imbeded wallets instead of EOA's\n  Details: Replace traditional externally owned accounts (EOAs) with smart wallets via (Privy / Thirdweb) wallet abstraction, making wallet management more intuitive.\n  Due date: 2025-03-06T22:00:00.000Z\n  Update: \n  Completed At: Sat Mar 15 2025 11:15:06 GMT+0000 (Coordinated Universal Time)\n  Proof: \n\nMilestone 2:\n  Title: Seamless Transactions\n  Details: Enable users to pay gas fees in either stablecoin or through meta transactions, ensuring predictable, hassle-free costs.\n  Due date: 2025-03-30T22:00:00.000Z\n  Update: Gasfree transaction enabled with thirdweb\n  Completed At: Wed Mar 19 2025 20:44:52 GMT+0000 (Coordinated Universal Time)\n  Proof: Gasfree transaction enabled with thirdweb\n\nMilestone 3:\n  Title: Intelligent Interaction\n  Details: Integrate AI-driven problem-solving with Nebula to provide proactive, adaptive support, onboarding, and effortless guidance to users.\n  Due date: 2025-03-30T22:00:00.000Z\n  Update: \n  Completed At: Thu Mar 20 2025 08:54:52 GMT+0000 (Coordinated Universal Time)\n  Proof: ",
+        "updates": ""
+    },
+    {
+        "project": {
+            "createdAt": "2025-03-10T03:43:54.000Z",
+            "description": "A decentralized video sharing platform that shares revenue with all its users.",
+            "imageURL": "",
+            "title": "Tube 3.0",
+            "links": {
+                "discord": "",
+                "github": "https://github.com/mwanjeronie/Proof-of-Ship",
+                "linkedin": "",
+                "twitter": "",
+                "website": "https://tube-3-0-celo.vercel.app/",
+                "pitchDeck": "https://docs.google.com/presentation/d/1RW8xEWvDUV7Z2OGjmowHxXoxx5j3VEQFSZRhiY5dKkM/edit?slide=id.g3432d685aba_0_11#slide=id.g3432d685aba_0_11",
+                "demoVideo": "https://www.youtube.com/watch?v=EGJz9X47ceA",
+                "farcaster": ""
+            },
+            "externals": {
+                "github": [
+                    "https://github.com/mwanjeronie/Tube-3.0-celo-"
+                ],
+                "network_addresses": [
+                    "celo:0x5bAAa3B46AAd35e205738E29ce86582D35e08DCA"
+                ]
+            },
+            "slug": "tube-30"
+        },
+        "grant": {
+            "createdAt": "2025-03-24T18:41:38.000Z",
+            "proposalURL": "",
+            "title": "Proof of Ship - Season 2"
+        },
+        "totalMilestones": 2,
+        "totalMilestonesCompleted": 0,
+        "milestones": "Milestone 1:\n  Title: create template code for the mini app from scratch\n  Details: \n  Due date: 2025-03-23T21:00:00.000Z\n  Update: \n  Completed At: \n  Proof: \n\nMilestone 2:\n  Title: ui/ frontend finished\n  Details: \n  Due date: 2025-03-23T21:00:00.000Z\n  Update: \n  Completed At: \n  Proof: ",
+        "updates": ""
+    },
+    {
+        "project": {
+            "createdAt": "2025-03-24T16:53:23.000Z",
+            "description": "PAG Armak",
+            "imageURL": "",
+            "title": "PAG Armak",
+            "links": {
+                "twitter": "",
+                "github": "",
+                "discord": "",
+                "website": "",
+                "linkedin": "",
+                "pitchDeck": "",
+                "demoVideo": "",
+                "farcaster": ""
+            },
+            "externals": {},
+            "slug": "pag-armak"
+        },
+        "grant": {
+            "createdAt": "2025-03-24T17:22:18.000Z",
+            "proposalURL": "",
+            "title": "Proof of Ship - Season 2"
+        },
+        "totalMilestones": 2,
+        "totalMilestonesCompleted": 0,
+        "milestones": "Milestone 1:\n  Title: Milestone 1\n  Details: Milestone 1\n  Due date: 2025-03-29T03:00:00.000Z\n  Update: \n  Completed At: \n  Proof: \n\nMilestone 2:\n  Title: Milestone 2\n  Details: Milestone 2Milestone 2\n  Due date: 2025-03-26T03:00:00.000Z\n  Update: \n  Completed At: \n  Proof: ",
+        "updates": ""
+    },
+    {
+        "project": {
+            "createdAt": "2025-03-19T10:37:55.000Z",
+            "description": "CeloSphere is a decentralized social network built on Celo, integrating AI agents to revolutionize digital interactions. It empowers users with AI-driven content curation, autonomous engagement, and smart reputation systems, all while ensuring privacy, transparency, and user ownership through blockchain technology.",
+            "imageURL": "",
+            "title": "CeloSphere",
+            "links": {
+                "twitter": "",
+                "github": "fourways",
+                "discord": "",
+                "website": "",
+                "linkedin": ""
+            },
+            "externals": {},
+            "slug": "celosphere"
+        },
+        "grant": {
+            "createdAt": "2025-03-19T10:43:55.000Z",
+            "proposalURL": "",
+            "title": "Proof of Ship - Season 2"
+        },
+        "totalMilestones": 1,
+        "totalMilestonesCompleted": 1,
+        "milestones": "Milestone 1:\n  Title: Building the smart contract and deployment\n  Details: Building the smart contract using celo composer and write error-free testing to ensure the contracts works as expected. In the end, a deployment of the smart contracts to Celo alfajores testnet.\n  Due date: 2025-03-22T23:00:00.000Z\n  Update: \n  Completed At: Sun Mar 23 2025 12:53:06 GMT+0000 (Coordinated Universal Time)\n  Proof: ",
+        "updates": ""
+    },
+    {
+        "project": {
+            "createdAt": "2025-03-10T00:17:39.000Z",
+            "description": "This is a test project to test Karma GAP !",
+            "imageURL": "",
+            "title": "Sophia's test project",
+            "links": {
+                "twitter": "sodofi_",
+                "github": "sodofi",
+                "discord": "sodofi",
+                "website": "sophiadew.com",
+                "linkedin": "https://www.linkedin.com/in/sophiadew/"
+            },
+            "externals": {
+                "github": [
+                    "https://github.com/sodofi/proof-of-ship"
+                ]
+            },
+            "slug": "sophias-test-project"
+        },
+        "grant": {
+            "createdAt": "2025-03-10T00:35:14.000Z",
+            "proposalURL": "",
+            "title": "Proof of Ship - Season 2"
+        },
+        "totalMilestones": 1,
+        "totalMilestonesCompleted": 0,
+        "milestones": "Milestone 1:\n  Title: Test the onboarding\n  Details: Will text the UX of KarmaGAP\n  Due date: 2025-03-11T07:00:00.000Z\n  Update: \n  Completed At: \n  Proof: ",
+        "updates": ""
+    },
+    {
+        "project": {
+            "createdAt": "2025-03-07T19:37:45.000Z",
+            "description": "**ZeroTx: Enabling Gasless Transactions on Celo**\n\nZeroTx is a developer toolkit and relayer service that empowers dApps to offer gasless transactions on the Celo network. By abstracting away gas fees, ZeroTx removes a major barrier to entry for users, especially in underserved regions where access to cryptocurrencies is limited. Built on ERC-2771 and optimized for Celo’s mobile-first ecosystem, ZeroTx enables seamless, cost-free transaction making blockchain accessible to everyone.\n\nWith ZeroTx, developers can easily integrate gasless transactions into their dApps, while users enjoy a frictionless experience without needing to hold CELO tokens. By lowering barriers to adoption, ZeroTx aligns with Celo’s mission of financial inclusion and helps bring the benefits of blockchain to billions of people worldwide.",
+            "imageURL": "",
+            "title": "ZeroTx",
+            "links": {
+                "twitter": "",
+                "github": "",
+                "discord": "",
+                "website": "",
+                "linkedin": ""
+            },
+            "externals": {
+                "github": [
+                    "https://github.com/fraolb/ZeroTx"
+                ]
+            },
+            "slug": "zerotx"
+        },
+        "grant": {
+            "createdAt": "2025-03-07T20:15:15.000Z",
+            "proposalURL": "",
+            "title": "Proof of Ship - Season 2"
+        },
+        "totalMilestones": 1,
+        "totalMilestonesCompleted": 0,
+        "milestones": "Milestone 1:\n  Title: Launch ZeroTx MVP on Celo Alfajores Testnet\n  Details: Deploy a Minimum Viable Product (MVP) of ZeroTx on Celo’s Alfajores testnet, enabling gasless transactions for a sample dApp.\n  Due date: 2025-03-30T21:00:00.000Z\n  Update: \n  Completed At: \n  Proof: ",
+        "updates": ""
+    },
+    {
+        "project": {
+            "createdAt": "2025-03-04T20:21:49.000Z",
+            "description": "Automate the whole process except the judging of the videos, idea and milestone updates.",
+            "imageURL": "",
+            "title": "Celo - Proof of Ship - Hackathon Judge AI Agent",
+            "links": {
+                "twitter": "GigaHierz",
+                "github": "GigaHierz",
+                "discord": "GigaHierz",
+                "website": "",
+                "linkedin": ""
+            },
+            "externals": {},
+            "slug": "celo---proof-of-ship---hackathon-judge-ai-agent"
+        },
+        "grant": {
+            "createdAt": "2025-03-04T20:34:51.000Z",
+            "proposalURL": "",
+            "title": "Proof of Ship - Season 2"
+        },
+        "totalMilestones": 1,
+        "totalMilestonesCompleted": 0,
+        "milestones": "Milestone 1:\n  Title: some\n  Details: asd\n  Due date: 2025-03-12T00:00:00.000Z\n  Update: \n  Completed At: \n  Proof: ",
+        "updates": ""
+    },
+    {
+        "project": {
+            "createdAt": "2025-03-10T00:17:39.000Z",
+            "description": "This is a test project to test Karma GAP !",
+            "imageURL": "",
+            "title": "Sophia's test project",
+            "links": {
+                "twitter": "sodofi_",
+                "github": "sodofi",
+                "discord": "sodofi",
+                "website": "sophiadew.com",
+                "linkedin": "https://www.linkedin.com/in/sophiadew/"
+            },
+            "externals": {
+                "github": [
+                    "https://github.com/sodofi/proof-of-ship"
+                ]
+            },
+            "slug": "sophias-test-project"
+        },
+        "grant": {
+            "createdAt": "2025-03-14T16:30:46.000Z",
+            "proposalURL": "",
+            "title": "Proof of Ship - Season 2"
+        },
+        "totalMilestones": 0,
+        "totalMilestonesCompleted": 0,
+        "milestones": "",
+        "updates": ""
+    },
+    {
+        "project": {
+            "createdAt": "2025-03-06T06:39:05.000Z",
+            "description": "**AkiliAI Protocol** is an AI-powered financial automation protocol built on **Celo MiniPay**, enabling developers to seamlessly integrate **AI-driven payments, smart contracts, and decentralized transactions** into their products. It provides a **scalable** and **secure** foundation for launching AI-powered financial tools, ensuring **automated spending insights, utility payments, and user-controlled AI interactions**. AkiliAI simplifies AI-driven finance, making it more **accessible and efficient** for users and developers alike. 🚀",
+            "imageURL": "",
+            "title": "AkiliAI Protocal",
+            "links": {
+                "twitter": "illmindofbanana",
+                "github": "olisehgenesis",
+                "discord": "olisehug",
+                "website": "",
+                "linkedin": ""
+            },
+            "externals": {},
+            "slug": "akiliai-protocal"
+        },
+        "grant": {
+            "createdAt": "2025-03-06T06:52:05.000Z",
+            "proposalURL": "",
+            "title": "Proof of Ship - Season 2"
+        },
+        "totalMilestones": 0,
+        "totalMilestonesCompleted": 0,
+        "milestones": "",
+        "updates": ""
+    }
+]
