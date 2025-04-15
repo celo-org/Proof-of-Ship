@@ -1,8 +1,5 @@
 # Analysis Report: SilviProtocol/silvi-open
 
-Generated: 2025-04-10 12:24:50
-
-```markdown
 ## Project Scores
 
 | Criteria | Score (0-10) | Justification |
@@ -145,4 +142,3 @@ Generated: 2025-04-10 12:24:50
 - Add more comprehensive documentation, including API documentation, usage examples, and contribution guidelines.
 - Implement a more sophisticated authentication and authorization mechanism, such as JWT or OAuth.
 - Containerize the application using Docker to simplify deployment and ensure consistency across different environments.
-```
