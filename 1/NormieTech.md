@@ -3,7 +3,7 @@
 
 ## GitHub repository 
 
-**[Normie.Tech Github](https://github.com/normiedottech/normie.tech)**
+**[Normie.Tech Github](https://github.com/normiedottech/Normie-tech-docs)**
 
 ## Team Members GitHub username
 **[dipanshuhappy](https://github.com/dipanshuhappy)**
