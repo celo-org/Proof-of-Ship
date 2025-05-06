@@ -1,6 +1,6 @@
 # Analysis Report: simplifinance/simplifi
 
-Generated: 2025-04-30 20:03:50
+Generated: 2025-05-05 16:19:02
 
 
 ## Error
@@ -12,6 +12,6 @@ Error: 429 You exceeded your current quota. Go to https://aistudio.google.com/ap
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
 , retry_delay {
-  seconds: 10
+  seconds: 59
 }
 ]

@@ -1,6 +1,6 @@
 # Analysis Report: 3-Wheeler-Bike-Club/3-wheeler-bike-club-members-app-pwa
 
-Generated: 2025-04-30 19:48:13
+Generated: 2025-05-05 15:05:38
 
 Okay, here is the comprehensive assessment of the `3-wheeler-bike-club-members-app-pwa` GitHub project based on the provided code digest and metrics.
 
@@ -8,167 +8,197 @@ Okay, here is the comprehensive assessment of the `3-wheeler-bike-club-members-a
 
 | Criteria                      | Score (0-10) | Justification                                                                                                                               |
 | :---------------------------- | :----------- | :------------------------------------------------------------------------------------------------------------------------------------------ |
-| Security                      | 6.5/10       | Uses Privy for auth. Secrets defined via env vars, but management in deployment is unclear. Internal API auth relies on a shared key.       |
-| Functionality & Correctness | 7.0/10       | Core features (PWA, Auth, Dashboard, Payments, Attestations) seem implemented. Error handling is basic. Crucially lacks automated tests.     |
-| Readability & Understandability | 8.0/10       | Consistent style (TypeScript, Shadcn/ui). Good structure (App Router, feature folders). Excellent README, but lacks inline comments/docs dir. |
-| Dependencies & Setup          | 7.5/10       | Uses `npm` with clear setup in README. Modern stack. Requires significant env var setup; example file missing. No CI/CD or containerization. |
-| Evidence of Technical Usage   | 7.5/10       | Good use of Next.js 14, Server Actions, Privy, Wagmi, Sign Protocol, Shadcn/ui. PWA setup included. Blockchain interactions are complex.      |
-| **Overall Score**             | **7.3/10**   | Weighted average (Sec: 20%, Func: 25%, Read: 20%, Dep: 15%, Tech: 20%)                                                                     |
+| Security                      | 6.5/10       | Uses Privy for auth, `.env` for secrets. API key auth for internal APIs. Lacks robust input validation on server actions/APIs (beyond Zod types) and explicit authorization checks. |
+| Functionality & Correctness | 7.0/10       | Core features (auth, profile, membership/ownership views, attestations) seem partially implemented. Missing tests make correctness hard to verify. Basic error handling exists. |
+| Readability & Understandability | 7.5/10       | Good structure (Next.js App Router), consistent style (TypeScript/React), good naming. README provides overview. Lacks inline comments and detailed docs. |
+| Dependencies & Setup          | 8.0/10       | Clear setup instructions in README. Uses `npm ci`. Dependency list is reasonable. Missing license and contribution guidelines.                    |
+| Evidence of Technical Usage   | 7.5/10       | Good use of Next.js 14, Privy, Wagmi, Sign Protocol, React Query, Shadcn UI. Server Actions pattern implemented. PWA setup is present. Lacks testing, advanced performance tuning. |
+| **Overall Score**             | **7.3/10**   | Simple average. Solid foundation using modern tech, good structure, but lacks testing, robust security checks, and community engagement elements. |
 
 ## Repository Metrics
 
-*   **Stars**: 0
-*   **Watchers**: 1
-*   **Forks**: 0
-*   **Open Issues**: 0
-*   **Total Contributors**: 1
-*   **Created**: 2024-09-29T10:37:37+00:00
-*   **Last Updated**: 2025-04-27T23:18:16+00:00 (Note: This date is in the future, likely a typo in the provided metrics. Assuming it means 2024-04-27 based on "Active development (updated within the last month)")
-*   **Open PRs**: 0
-*   **Closed PRs**: 0
-*   **Merged PRs**: 0
-*   **Total PRs**: 0
-*   **GitHub Repository**: https://github.com/3-Wheeler-Bike-Club/3-wheeler-bike-club-members-app-pwa
-*   **Owner Website**: https://github.com/3-Wheeler-Bike-Club
+-   **Stars:** 0
+-   **Watchers:** 1
+-   **Forks:** 0
+-   **Open Issues:** 0
+-   **Total Contributors:** 1
+-   **Created:** 2024-09-29T10:37:37+00:00
+-   **Last Updated:** 2025-04-27T23:18:16+00:00
+-   **Open PRs:** 0
+-   **Closed PRs:** 0
+-   **Merged PRs:** 0
+-   **Total PRs:** 0
+-   **Repository Link:** https://github.com/3-Wheeler-Bike-Club/3-wheeler-bike-club-members-app-pwa
+-   **Owner Website:** https://github.com/3-Wheeler-Bike-Club
+
+*(Note: The low stars, watchers, forks, issues, and PRs indicate limited community engagement or that the project is potentially new or private.)*
 
 ## Top Contributor Profile
 
-*   **Name**: Tickether
-*   **Github**: https://github.com/Tickether
-*   **Company**: N/A
-*   **Location**: N/A
-*   **Twitter**: N/A
-*   **Website**: N/A
+-   **Name:** Tickether
+-   **Github:** https://github.com/Tickether
+-   **Company:** N/A
+-   **Location:** N/A
+-   **Twitter:** N/A
+-   **Website:** N/A
+
+*(Note: Single contributor project, common for personal or early-stage projects.)*
 
 ## Language Distribution
 
-*   **TypeScript**: 98.84%
-*   **CSS**: 1.04%
-*   **JavaScript**: 0.13%
+-   **TypeScript:** 98.84%
+-   **CSS:** 1.04%
+-   **JavaScript:** 0.13%
+
+*(Note: Primarily a TypeScript project, leveraging its benefits for type safety.)*
 
 ## Codebase Breakdown
 
-*   **Strengths**:
-    *   Active development (recently updated).
-    *   Comprehensive README documentation providing a good overview and setup instructions.
-    *   Modern tech stack (Next.js 14 App Router, TypeScript, Tailwind CSS, Shadcn/ui).
-    *   Clear project structure.
-    *   Integration with relevant Web3 technologies (Privy, Celo, Sign Protocol).
-*   **Weaknesses**:
-    *   Limited community adoption/contribution (single contributor, low engagement metrics).
-    *   No dedicated documentation directory beyond the README.
-    *   Missing contribution guidelines.
-    *   Missing license file (though README mentions MIT - discrepancy noted).
-    *   Complete lack of automated tests (unit, integration, e2e).
-    *   No CI/CD configuration for automated builds, tests, or deployments.
-*   **Missing or Buggy Features**:
-    *   Test suite implementation.
-    *   CI/CD pipeline integration.
-    *   Configuration file examples (`.env.example`).
-    *   Containerization (e.g., Dockerfile).
-    *   Robust error handling and user feedback mechanisms.
+-   **Strengths:**
+    -   Active development (updated recently).
+    -   Comprehensive README documentation outlining features, tech stack, setup, and structure.
+    -   Modern tech stack (Next.js 14 App Router, TypeScript, React 18, Privy, Wagmi, Sign Protocol).
+    -   Clear project structure following Next.js conventions.
+    -   PWA features implemented.
+-   **Weaknesses:**
+    -   Limited community adoption/collaboration (single contributor, no stars/forks/PRs).
+    -   No dedicated documentation directory beyond the README.
+    -   Missing contribution guidelines.
+    -   Missing license information (README mentions MIT, but no LICENSE file found in digest).
+    -   Missing tests (critical for verifying functionality and preventing regressions).
+    -   No CI/CD configuration.
+-   **Missing or Buggy Features (based on metrics):**
+    -   Test suite implementation.
+    -   CI/CD pipeline integration.
+    -   Configuration file examples (beyond `.env.local` structure).
+    -   Containerization (e.g., Dockerfile).
 
 ## Project Summary
 
-*   **Primary purpose/goal**: To provide a Progressive Web App (PWA) for members of the "3 Wheeler Bike Club" (3WB) to manage their interactions with the club.
-*   **Problem solved**: Centralizes member activities like managing memberships, tracking lease-to-own payments for bikes, viewing on-chain credit scores, and potentially participating in governance.
-*   **Target users/beneficiaries**: Members of the 3 Wheeler Bike Club, likely focused on regions like Africa where such transport is common and integrating digital payments/identity (including crypto) offers benefits.
+-   **Primary purpose/goal:** To provide a Progressive Web App (PWA) for members of the "3WB" (3-Wheeler Bike Club) to manage their memberships, track lease-to-own payments, view on-chain credit scores, and potentially participate in treasury governance.
+-   **Problem solved:** Centralizes member information, payment processing (on-chain and off-chain), and interaction with blockchain-based attestations (badges, receipts, credit scores) related to membership and vehicle ownership within the club.
+-   **Target users/beneficiaries:** Members of the 3-Wheeler Bike Club.
 
 ## Technology Stack
 
-*   **Main programming languages identified**: TypeScript (dominant), CSS, JavaScript.
-*   **Key frameworks and libraries visible**:
-    *   Framework: Next.js 14 (App Router)
-    *   UI: React 18, Tailwind CSS, Radix UI (via Shadcn/ui), Framer Motion
-    *   State/Data Management: React Context API, React Hooks (`useState`, `useEffect`, custom hooks), React Query (`@tanstack/react-query`), Zod (validation)
-    *   PWA: `@ducanh2912/next-pwa`, Workbox
-    *   Authentication: Privy (`@privy-io/react-auth`, `@privy-io/server-auth`)
-    *   Payments: CashRamp, Paystack (mentioned in README, key in env), Stripe (mentioned in README)
-    *   Blockchain: Viem, Wagmi, Ethers.js, Sign Protocol (`@ethsign/sp-sdk`)
-    *   HTTP Client: Axios (for CashRamp API), native `fetch` (for internal API via Server Actions)
-    *   Styling Utils: `clsx`, `tailwind-merge`
-*   **Inferred runtime environment(s)**: Node.js (for Next.js server), Web Browser (including Service Worker for PWA).
+-   **Main programming languages identified:** TypeScript (dominant), CSS, JavaScript (minimal).
+-   **Key frameworks and libraries visible in the code:**
+    -   **Framework:** Next.js 14 (App Router)
+    -   **UI:** React 18, Tailwind CSS, Radix UI, Shadcn UI (`components.json`, `components/ui`), Framer Motion
+    -   **PWA:** `@ducanh2912/next-pwa`
+    -   **State/Data Fetching:** React Query (`@tanstack/react-query`), React Context (`providers/`), `useState`
+    -   **Forms & Validation:** React Hook Form (`react-hook-form`), Zod (`zod`, `@hookform/resolvers`)
+    -   **Authentication:** Privy (`@privy-io/react-auth`, `@privy-io/server-auth`)
+    -   **Payments:** CashRamp (`cashramp`), Paystack (mentioned in README, key in `.env`), Stripe (mentioned in README, but no code evidence)
+    -   **Blockchain:** Sign Protocol (`@ethsign/sp-sdk`), Wagmi (`wagmi`), Viem (`viem`), Ethers (`ethers`)
+    -   **Utilities:** Axios (`axios`), clsx (`clsx`), tailwind-merge (`tailwind-merge`)
+-   **Inferred runtime environment(s):** Node.js (for Next.js backend/server actions), Web Browser (for frontend PWA).
 
 ## Architecture and Structure
 
-*   **Overall project structure observed**: Monorepo structure typical for a Next.js application using the App Router. Code is organized into `app`, `components`, `hooks`, `lib`, `providers`, `public`, `utils`.
-*   **Key modules/components and their roles**:
-    *   `app/`: Core application routing (pages, API routes - though API routes not shown), layout, PWA manifest, Server Actions.
-    *   `components/`: Reusable React components, structured by feature (dashboard, membership, etc.) and shared UI (`ui/` - Shadcn).
-    *   `hooks/`: Custom React hooks for abstracting logic like data fetching, attestation decoding, and mobile detection.
-    *   `lib/`: Shared utility functions (e.g., `cn` for classnames).
-    *   `providers/`: React Context providers (Privy, Wagmi, custom Sidebar state).
-    *   `public/`: Static assets, icons, service worker.
-    *   `utils/`: Utility functions for specific domains like blockchain interactions (attestations, client setup), payment provider integrations (CashRamp), constants, and general helpers.
-    *   `app/actions/`: Next.js Server Actions providing server-side logic callable from client components, primarily fetching data from internal APIs or interacting with external services/SDKs.
-*   **Code organization assessment**: Logical and follows Next.js conventions. Separation of concerns is generally good (UI components, hooks for logic, utils for helpers, actions for server logic). Feature-based slicing within `components` and `app` enhances modularity.
+-   **Overall project structure observed:** Follows standard Next.js App Router conventions.
+    -   `app/`: Contains routing (pages), API routes (inferred), layout, PWA manifest. Server Actions are located here (`app/actions/`).
+    -   `components/`: Reusable UI components, including Shadcn UI components (`components/ui`). Organized by feature (dashboard, landing, membership, etc.).
+    -   `hooks/`: Custom React hooks for data fetching (attestations, currency rates, etc.) and potentially other logic.
+    -   `lib/`: Utility functions (`utils.ts`).
+    -   `providers/`: React Context providers for managing global state/config (Privy, Wagmi, Sidebar).
+    -   `public/`: Static assets, PWA icons, service worker (`sw.js`).
+    -   `utils/`: Utility functions, configuration (`config.ts`), constants, blockchain interaction helpers (attestation, cashramp).
+-   **Key modules/components and their roles:**
+    -   **`app/`:** Core application routing, layout, server-side logic (actions).
+    -   **`components/`:** UI building blocks, feature-specific views (e.g., `membership/authorized.tsx`, `ownership/invoice.tsx`).
+    -   **`hooks/`:** Encapsulate data fetching and state logic related to attestations, payments, user data.
+    -   **`providers/`:** Setup and manage contexts for authentication (Privy), wallet connection (Wagmi), and UI state (Sidebar).
+    -   **`utils/`:** Shared helper functions, blockchain interaction logic (attestation signing/decoding/revoking), constants, third-party service interactions (CashRamp).
+    -   **`app/actions/`:** Server Actions handling backend operations like fetching/posting attestations, managing payments, updating user metadata.
+-   **Code organization assessment:** The structure is logical and follows Next.js best practices. Separation of concerns is generally good (UI components, hooks for logic, providers for context, utils for helpers, actions for server logic). Feature-based organization within `components` and `app` (e.g., `membership`, `ownership`) is clear.
 
 ## Security Analysis
 
-*   **Authentication & authorization mechanisms**:
-    *   Authentication: Primarily handled by Privy, supporting email login and managing embedded wallets. Seems robust.
-    *   Authorization: Client-side checks using `usePrivy` (`authenticated`, `user.customMetadata`) control UI visibility. Server Actions implicitly authorize based on the authenticated user session when calling Privy server SDK. Internal API calls from Server Actions use a static API key (`WHEELER_API_KEY`) in headers; the security of the API endpoints themselves is not visible but needs proper protection.
-*   **Data validation and sanitization**:
-    *   Client-side: Uses `react-hook-form` and `zod` for profile form validation (`components/profile/profile.tsx`). Coverage across other inputs is unclear.
-    *   Server-side: Not directly visible in API routes or actions, but crucial. Zod could be used here too. Relies on types provided by TypeScript.
-*   **Potential vulnerabilities**:
-    *   Secret Management: Relies on environment variables (`.env.local`). Storing private keys (`PRIVATE_KEY`, `ATTEST_PRIVATE_KEY`) directly in env vars is highly discouraged; a secrets manager is recommended for production. Exposure of `NEXT_PUBLIC_` keys is expected, but sensitive keys like `PRIVY_APP_SECRET`, `CASHRAMP_SECRET_KEY` must be kept server-side only.
-    *   API Security: If internal `/api/...` routes are exposed, relying solely on a static API key from Server Actions is insufficient. They need robust auth checks.
-    *   Dependency Vulnerabilities: Needs regular checks (`npm audit`).
-*   **Secret management approach**: Defined in `environment.d.ts`, expected in `.env.local` via `README.md`. Production strategy is not specified but critical.
+-   **Authentication & authorization mechanisms:**
+    -   Authentication is handled by Privy (`@privy-io/react-auth`), supporting email login and managing embedded wallets. `usePrivy()` hook is used to access user state.
+    -   Authorization seems basic, primarily checking `authenticated` status from Privy (`components/dashboard/wrapper.tsx`, etc.). Some server actions seem to rely only on the caller providing a valid `address`.
+    -   Internal API calls initiated by Server Actions use an API key (`x-api-key` header in `app/actions/*`) for protection, which is a reasonable approach for server-to-server communication if the key is kept secret.
+-   **Data validation and sanitization:**
+    -   Zod is used for environment variable typing (`environment.d.ts`) and form validation (`components/profile/profile.tsx`).
+    -   Server Actions receive parameters (like `address`, `score`, `vin`). It's unclear if robust validation beyond basic type checking (implied by TypeScript) occurs within the actions or the internal API they call. Potential risk if unvalidated data is processed.
+-   **Potential vulnerabilities:**
+    -   **Authorization:** Server Actions might be vulnerable if they don't properly verify that the authenticated user (via Privy session, ideally verified server-side within the action) is authorized to perform the action on the provided `address` or resource ID. Relying solely on the `address` passed from the client is risky.
+    -   **Input Validation:** Lack of explicit, robust server-side validation in actions/APIs for all inputs could lead to unexpected behavior or vulnerabilities.
+    -   **Secret Exposure:** `NEXT_PUBLIC_` variables are exposed to the client; care must be taken that only non-sensitive keys are public. Server secrets (`PRIVY_APP_SECRET`, `PRIVATE_KEY`, etc.) seem correctly handled via `process.env` in server-side contexts (actions, inferred API routes).
+-   **Secret management approach:** Uses environment variables (`.env.local` recommended in README). `environment.d.ts` provides type safety for these variables. Secrets are accessed via `process.env` in server-side code (actions). Standard practice for Next.js.
 
 ## Functionality & Correctness
 
-*   **Core functionalities implemented**:
-    *   User Authentication (Privy).
-    *   Profile Creation/Management (First/Last name, Country).
-    *   PWA capabilities (Installable, manifest, service worker via `next-pwa`).
-    *   Dashboard overview.
-    *   Membership Dues viewing/payment flow (integrates attestations, likely CashRamp/Paystack/Celo).
-    *   Ownership financing application and payment tracking (integrates attestations, CashRamp).
-    *   Attestation management (Member Badge, Receipts, Credit Scores via Sign Protocol).
-    *   Celo Wallet Integration (via Privy/Wagmi/Viem).
-    *   Sponsorship section (appears less developed, placeholder UI).
-*   **Error handling approach**: Primarily basic `try...catch` blocks in Server Actions and custom hooks, often just logging errors to the console (`console.error`, `console.log`). Some actions re-throw errors, others don't explicitly return error states to the client. User-facing error feedback seems limited in the provided snippets.
-*   **Edge case handling**: Limited visibility. PWA offline state handling depends on the Workbox strategy (NetworkFirst/NetworkOnly in dev). Payment flow edge cases (e.g., CashRamp iframe errors, network issues during payment) need robust handling. Attestation revocation logic exists but needs thorough testing. Score calculation logic (`utils/attestation/calculate.ts`) exists but correctness depends on requirements.
-*   **Testing strategy**: No evidence of automated testing (unit, integration, E2E) in the codebase or `package.json`. This is a significant gap, impacting confidence in correctness and maintainability. Confirmed by GitHub metrics.
+-   **Core functionalities implemented:** User login/profile management (Privy), dashboard navigation, viewing/managing membership (invoices, receipts, credit score), viewing/managing ownership (application, invoices, receipts, credit score), interacting with Celo attestations (fetching, creating, revoking via Sign Protocol), off-chain payments (CashRamp integration visible). Sponsorship section seems placeholder (`construction.svg`).
+-   **Error handling approach:** Basic `try...catch` blocks are used in server actions (`app/actions/*`) and some hooks/components. Errors are typically logged to the console (`console.error`, `console.log`) or sometimes re-thrown. No user-facing error messages or centralized error handling strategy is apparent from the digest. Some actions check `res.ok` but might not handle all failure scenarios gracefully.
+-   **Edge case handling:** Loading states are handled in various components using state variables (`loading`, `ready`) and conditional rendering (e.g., `components/dashboard/wrapper.tsx`, `components/membership/authorized.tsx`). Empty data states are also handled (e.g., showing messages when no invoices/receipts exist). More complex edge cases (network errors during multi-step operations like attestation + revoke + attest) are likely not fully handled.
+-   **Testing strategy:** No evidence of testing (unit, integration, e2e). This is a significant weakness, confirmed by the provided metrics ("Missing tests"). Correctness cannot be reliably verified without tests.
 
 ## Readability & Understandability
 
-*   **Code style consistency**: High consistency, aided by TypeScript and likely linters/formatters (basic ESLint config present). Follows standard React/Next.js patterns.
-*   **Documentation quality**: `README.md` is comprehensive and well-structured. Inline code comments are minimal. No dedicated documentation directory (confirmed by metrics). Type definitions (`environment.d.ts`, interfaces in hooks/actions) improve understanding.
-*   **Naming conventions**: Generally clear and descriptive for components, hooks, functions, and variables. Follows community standards (PascalCase for components, camelCase for functions/variables).
-*   **Complexity management**: Handled reasonably well through component composition, custom hooks, context providers, and Server Actions. Some components like `components/ownership/authorized.tsx` have high conditional rendering complexity that could potentially be refactored. Blockchain/attestation logic is inherently complex but encapsulated in `utils` and `hooks`.
+-   **Code style consistency:** Generally consistent, follows typical TypeScript/React conventions. Uses functional components and hooks. Formatting seems standard (likely enforced by Prettier implicitly via Next.js defaults). ESLint config (`.eslintrc.json`) is basic.
+-   **Documentation quality:** `README.md` is comprehensive and well-structured, explaining purpose, setup, tech stack, and project structure. Inline code comments are minimal. No dedicated documentation site or directory.
+-   **Naming conventions:** Variable, function, component, and hook names are generally descriptive and follow common practices (e.g., `useGetMemberBadgeAttestation`, `Authorized`, `RootLayout`).
+-   **Complexity management:** The project is broken down into modules (components, hooks, providers, utils, actions). Components seem reasonably sized. Hooks abstract data fetching logic well (e.g., `useGetMemberInvoiceAttestations`). Context providers manage global state effectively. Server Actions help separate frontend from backend logic. Complexity seems manageable for the features shown.
 
 ## Dependencies & Setup
 
-*   **Dependencies management approach**: Uses `npm`. Dependencies are listed in `package.json`. Uses modern and relevant libraries.
-*   **Installation process**: Clearly documented in `README.md` (`git clone`, `npm ci`). Straightforward for a Node.js project.
-*   **Configuration approach**: Heavily reliant on environment variables, defined in `environment.d.ts` and expected in `.env.local`. Lacks an example file (`.env.example`), making setup slightly harder for new contributors (confirmed by metrics). Configuration for Next.js, PWA, Tailwind, TypeScript, ESLint is standard.
-*   **Deployment considerations**: Standard Next.js build (`npm run build`, `npm run start`). PWA setup is included. No CI/CD pipeline, containerization (Docker), or specific deployment scripts are present. Secret management is a critical deployment concern.
+-   **Dependencies management approach:** Uses `npm` (as indicated by `package.json` and `npm ci` in README). `package.json` lists dependencies clearly. Versions are specified, some using caret (`^`) allowing minor updates.
+-   **Installation process:** Clearly documented in `README.md` (clone, `npm ci`). Straightforward.
+-   **Configuration approach:** Relies on environment variables defined in `.env.local`, as documented in `README.md`. `environment.d.ts` provides type definitions for these variables, which is good practice. `components.json` configures Shadcn UI.
+-   **Deployment considerations:** PWA setup (`@ducanh2912/next-pwa`, `manifest.json`, `sw.js`) indicates deployment as a PWA is a goal. Standard Next.js build (`npm run build`) and start (`npm start`) commands are provided. No CI/CD, containerization, or specific hosting platform details are mentioned or evident.
 
 ## Evidence of Technical Usage
 
-1.  **Framework/Library Integration (8/10)**: Demonstrates proficient use of Next.js 14 App Router, Server Actions, and React 18 features. Integrates Privy, Wagmi, Viem for Web3 auth and wallet interactions correctly. Leverages Sign Protocol SDK for attestations. Uses Shadcn/ui effectively built on Radix UI and Tailwind CSS. Integrates `next-pwa` for PWA features.
-2.  **API Design and Implementation (7/10)**: Uses Server Actions as a primary way to interact with the backend, simplifying client-side logic. Internal API routes (`/api/...`) are implied but not shown; their design quality is unknown. Interacts with external GraphQL API (CashRamp) using Axios. No explicit API versioning seen. Request/response handling in actions is basic.
-3.  **Database Interactions (N/A)**: No direct database interactions are visible in the digest. Data persistence seems handled by external services (Privy), internal APIs (backend not shown), and on-chain attestations (Sign Protocol/Celo).
-4.  **Frontend Implementation (8/10)**: Well-structured UI components using Shadcn/ui. Feature-based organization. State management uses React hooks and context, suitable for the app's apparent complexity. Responsive design implemented via Tailwind CSS. Accessibility relies on underlying Radix UI components but needs specific auditing. Uses custom local fonts.
-5.  **Performance Optimization (7/10)**: Leverages Next.js built-in optimizations. Server Actions reduce client bundle size for data fetching logic. React Query (if used in hooks) provides client-side caching. PWA service worker provides basic offline caching. No advanced performance techniques (e.g., detailed image optimization, complex code-splitting beyond Next.js defaults, advanced caching layers) are evident.
+1.  **Framework/Library Integration (8/10):**
+    *   Correct use of Next.js 14 App Router, React 18 features.
+    *   Effective integration of Privy for authentication and embedded wallets.
+    *   Wagmi/Viem used for Celo interactions alongside Privy.
+    *   Sign Protocol SDK (`@ethsign/sp-sdk`) integrated for attestation creation/revocation/querying.
+    *   React Query (`@tanstack/react-query`) used appropriately in custom hooks for data fetching and caching.
+    *   Shadcn UI/Radix UI/Tailwind CSS used effectively for UI development, following configuration in `components.json` and `tailwind.config.ts`.
+    *   PWA setup using `@ducanh2912/next-pwa` seems correctly configured in `next.config.mjs`.
+    *   Server Actions (`app/actions/*`) are used as the primary method for frontend-backend communication, aligning with modern Next.js patterns.
 
-*   **Overall Technical Usage Score Justification**: The project effectively utilizes a modern stack (Next.js, TypeScript, Privy, Wagmi, Sign Protocol, Shadcn) following generally accepted practices for these technologies. Server Actions are well-used. Blockchain interactions are implemented. Areas for improvement include robustness of internal API design (if applicable) and more advanced performance considerations.
+2.  **API Design and Implementation (7/10):**
+    *   No traditional REST/GraphQL API exposed directly to the outside world is visible.
+    *   Internal communication relies on Next.js Server Actions calling internal API endpoints (inferred from `fetch` calls within actions like `getMemberBadgeAttestationAction`).
+    *   These internal endpoints seem protected by an API key (`x-api-key`), which is a basic form of server-to-server security.
+    *   Server Actions provide a type-safe interface between client and server.
+
+3.  **Database Interactions (N/A):**
+    *   No direct database interaction code is present in the digest. This logic is likely encapsulated within the internal API endpoints called by the Server Actions. Cannot assess ORM usage, query optimization, or data modeling based on the digest.
+
+4.  **Frontend Implementation (8/10):**
+    *   Component-based architecture using React. Shadcn UI provides well-structured UI components (`components/ui`).
+    *   State management uses a mix of local state (`useState`), context (`providers/`), and server state caching (React Query via custom hooks).
+    *   Responsive design is configured in Tailwind (`tailwind.config.ts`), but visual verification isn't possible.
+    *   Accessibility mentioned in README, but implementation details (e.g., ARIA attributes beyond what Radix provides) are not evident.
+    *   Use of custom hooks (`hooks/`) effectively separates data-fetching logic.
+
+5.  **Performance Optimization (6.5/10):**
+    *   React Query provides caching for fetched data, reducing redundant requests.
+    *   Next.js App Router enables React Server Components, potentially improving initial load performance.
+    *   PWA features (`sw.js`, `workbox`) enable offline caching via `NetworkFirst` and `NetworkOnly` strategies (though the `dev` cache uses `NetworkOnly`, which might not be ideal for production assets).
+    *   Use of Server Actions can reduce client-side bundle size for data fetching logic.
+    *   No evidence of advanced techniques like code splitting beyond Next.js defaults, image optimization specifics, or complex caching strategies.
+
+*(Overall Technical Usage Score reflects the average of the applicable sub-sections)*
 
 ## Suggestions & Next Steps
 
-1.  **Implement Automated Testing**: Introduce a testing framework (e.g., Jest, Vitest, React Testing Library, Playwright/Cypress). Add unit tests for utilities (especially score calculations, attestation data deconstruction), hook logic, and potentially component rendering. Integration/E2E tests are crucial for auth, payment, and attestation flows. This is the most critical missing piece.
-2.  **Enhance Error Handling & User Feedback**: Improve error handling in Server Actions and hooks to provide meaningful feedback to the user (e.g., using toast notifications or specific error messages in the UI) instead of just logging to the console. Handle potential errors from external APIs (Privy, CashRamp, Sign Protocol) gracefully.
-3.  **Refactor Complex Components**: Analyze components with high conditional logic (e.g., `components/ownership/authorized.tsx`) and consider refactoring into smaller, more focused components or using state machines to manage complex UI states more clearly.
-4.  **Improve Secret Management**: For production, move sensitive keys (especially `PRIVATE_KEY`, `ATTEST_PRIVATE_KEY`, `PRIVY_APP_SECRET`) from environment variables to a dedicated secrets management solution (e.g., AWS Secrets Manager, GCP Secret Manager, HashiCorp Vault). Provide a `.env.example` file for easier developer setup.
-5.  **Establish CI/CD Pipeline**: Set up a CI/CD pipeline (e.g., GitHub Actions) to automate linting, testing, building, and potentially deploying the application. This improves code quality and development velocity.
+1.  **Implement Comprehensive Testing:** Introduce unit tests (e.g., using Jest/Vitest and React Testing Library) for components, hooks, and utility functions. Add integration tests for server actions and key user flows. This is crucial for ensuring correctness and preventing regressions.
+2.  **Enhance Security:** Implement robust server-side authorization checks within Server Actions or the underlying API. Ensure that the authenticated user (verified server-side using Privy's server SDK or similar) has the permission to access/modify the requested data (e.g., check if the requested `address` belongs to the logged-in user). Add more thorough input validation/sanitization in actions/APIs beyond basic types.
+3.  **Improve Error Handling:** Implement more user-friendly error handling instead of just logging to the console. Display informative messages to the user on failure. Consider a centralized error reporting service (e.g., Sentry). Handle potential failures in multi-step processes (like revoke + attest) more gracefully.
+4.  **Add Project Metadata:** Include a `LICENSE` file (e.g., MIT as mentioned in README) and `CONTRIBUTING.md` guidelines to encourage collaboration and clarify usage rights.
+5.  **Setup CI/CD:** Implement a CI/CD pipeline (e.g., using GitHub Actions) to automate linting, testing, building, and potentially deployment on code pushes/merges.
 
-*   **Potential Future Development Directions**:
-    *   Expand Sponsorship/Governance features.
-    *   Implement push notifications logic (mentioned in README features but not seen in code).
-    *   Develop offline capabilities beyond basic PWA caching (e.g., offline data viewing/syncing).
-    *   Add internationalization (i18n) support if targeting multiple language regions.
-    *   Build out the "Settings" section.
-    *   Add comprehensive user guides or a dedicated documentation site.
+**Potential Future Development Directions:**
+
+*   Flesh out the Sponsorship/Governance features.
+*   Implement detailed views for attestations (Badges, Receipts).
+*   Integrate push notifications for payment reminders (mentioned in README).
+*   Develop more sophisticated credit scoring logic based on on-chain and off-chain activity.
+*   Add internationalization (i18n) support if the club operates in multiple language regions.
+*   Containerize the application using Docker for easier deployment and environment consistency.
