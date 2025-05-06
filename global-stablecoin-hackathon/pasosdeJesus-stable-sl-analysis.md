@@ -1,6 +1,6 @@
 # Analysis Report: pasosdeJesus/stable-sl
 
-Generated: 2025-04-30 20:08:13
+Generated: 2025-05-05 16:23:01
 
 Okay, here is the comprehensive assessment of the `stable-sl` GitHub project based on the provided code digest and metrics.
 
@@ -8,154 +8,167 @@ Okay, here is the comprehensive assessment of the `stable-sl` GitHub project bas
 
 | Criteria                      | Score (0-10) | Justification                                                                 |
 | :---------------------------- | :----------- | :---------------------------------------------------------------------------- |
-| Security                      | 2.0/10       | No security mechanisms (auth, input validation, secrets mgmt) visible.        |
-| Functionality & Correctness | 3.5/10       | Basic Android PoC exists, but core crypto functionality seems missing/unproven. |
-| Readability & Understandability | 5.5/10       | README is clear; Kotlin code is readable; lacks comments, tests, docs dir.  |
-| Dependencies & Setup          | 6.0/10       | Standard dependency management; basic setup instructions; lacks config/deploy details. |
-| Evidence of Technical Usage   | 4.5/10       | Basic Android/Compose/OkHttp usage shown; React/Hardhat usage inferred.       |
-| **Overall Score**             | **4.3/10**   | Simple average; reflects a project in early stages with significant gaps.     |
-
-## Project Summary
-
-*   **Primary purpose/goal:** To simplify the management of stable cryptocurrencies for people in Sierra Leone.
-*   **Problem solved:** Addresses the low adoption of crypto wallets/exchanges in Sierra Leone, the lack of support from platforms like FonBnk (at the time of writing), and the need for tools and education around Web3 savings/investment opportunities.
-*   **Target users/beneficiaries:** People in Sierra Leone interested in using stablecoins and Web3 financial tools.
+| Security                      | 2.5/10       | Prototype stage; relies on weak auth concepts (quoteId, shared secret without implementation details), inherent risks with SMS/USSD gateway, missing validation. |
+| Functionality & Correctness   | 3.0/10       | Basic prototype demonstrating partial on-ramp flow. Key integrations (Orange Money, quote API) and off-ramp are missing. Testnet only. |
+| Readability & Understandability | 6.0/10       | Monorepo structure is logical. Code (Kotlin seen) is reasonably clear. Good README overview. Lack of comments, loose TS config (`strict: false`). |
+| Dependencies & Setup          | 5.0/10       | Standard tools (Yarn, Gradle). Setup requires manual steps (Nginx, APK build). Missing config examples and containerization. Renovate is used. |
+| Evidence of Technical Usage   | 4.5/10       | Basic use of relevant tech (Kotlin/Compose, OkHttp, Coroutines, Celo testnet). Lacks advanced patterns, optimization, robust API design, or testing. |
+| **Overall Score**             | **4.2/10**   | Weighted average reflects a very early-stage prototype with significant gaps in security, functionality, testing, and setup simplicity. |
 
 ## Repository Metrics
 
-*   Stars: 0
-*   Watchers: 1
-*   Forks: 0
-*   Open Issues: 0
-*   Total Contributors: 1
-*   Created: 2025-03-17T15:33:49+00:00
-*   Last Updated: 2025-04-29T04:24:31+00:00
-*   Open Prs: 0
-*   Closed Prs: 0
-*   Merged Prs: 0
-*   Total Prs: 0
+*   **Stars:** 0
+*   **Watchers:** 1
+*   **Forks:** 0
+*   **Open Issues:** 0
+*   **Total Contributors:** 1
+*   **Created:** 2025-03-17T15:33:49+00:00 (Note: Year seems futuristic, likely a typo in input, assuming 2024/2023)
+*   **Last Updated:** 2025-05-04T22:13:11+00:00 (Note: Year seems futuristic, assuming 2024/2023 - indicates recent activity)
+*   **Open Prs:** 0
+*   **Closed Prs:** 0
+*   **Merged Prs:** 0
+*   **Total Prs:** 0
+*   **Repository Link:** https://github.com/pasosdeJesus/stable-sl
 
 ## Top Contributor Profile
 
-*   Name: Vladimir Támara Patiño
-*   Github: https://github.com/vtamara
-*   Company: Pasos de Jesús
-*   Location: Bogotá, Colombia
-*   Twitter: VladimirTamara
-*   Website: http://vtamara.pasosdeJesus.org
+*   **Name:** Vladimir Támara Patiño
+*   **Github:** https://github.com/vtamara
+*   **Company:** Pasos de Jesús
+*   **Location:** Bogotá, Colombia
+*   **Twitter:** VladimirTamara
+*   **Website:** http://vtamara.pasosdeJesus.org
+*   **Note:** The project is primarily driven by a single contributor.
 
 ## Language Distribution
 
-*   TypeScript: 83.52%
-*   Kotlin: 12.1%
-*   JavaScript: 2.31%
-*   CSS: 1.45%
-*   Solidity: 0.57%
-*   Makefile: 0.05%
+*   **TypeScript:** 83.45%
+*   **Kotlin:** 11.93%
+*   **JavaScript:** 2.3%
+*   **CSS:** 1.43%
+*   **Solidity:** 0.56%
+*   **Shell:** 0.23%
+*   **Makefile:** 0.09%
+*   **Note:** Confirms the multi-component architecture (Kotlin for Android, TS likely for backend/frontend, Solidity for potential smart contracts).
+
+## Project Summary
+
+*   **Primary purpose/goal:** To provide an easy way for people in Sierra Leone to buy and sell stable cryptocurrencies (initially cUSD, currently USDC on testnet).
+*   **Problem solved:** Addresses the lack of accessible crypto on-ramp/off-ramp solutions and financial tools supporting Sierra Leone's currency (SLE) and local payment methods like Orange Money. Aims to provide tools and education for Web3 savings/investment.
+*   **Target users/beneficiaries:** Individuals in Sierra Leone seeking access to stablecoins and Web3 financial opportunities.
 
 ## Technology Stack
 
-*   **Main programming languages identified:** TypeScript, Kotlin, JavaScript, Solidity
+*   **Main programming languages identified:** TypeScript, Kotlin, JavaScript, Solidity.
 *   **Key frameworks and libraries visible in the code:**
-    *   Frontend (Inferred): React (from `packages/react-app` and scripts)
-    *   Smart Contracts (Inferred): Hardhat (from `packages/hardhat` and scripts)
-    *   Mobile (Android): Kotlin, Jetpack Compose, OkHttp, Android SDK
-    *   Build/Tooling: Yarn, Gradle, Node.js (inferred)
-*   **Inferred runtime environment(s):** Web Browser (for React app), Android (for gateway app), Node.js (for build/backend), EVM (for Solidity contracts).
+    *   Android: Kotlin, Jetpack Compose (UI), OkHttp (Networking), Coroutines (Async).
+    *   Backend/Frontend (Inferred): Node.js runtime (from TS/JS usage), React (from `react-app` package), Hardhat (from `hardhat` package, for Solidity).
+    *   Blockchain: Celo (specifically Alfajores testnet mentioned), ethers.js/web3.js (likely, via Hardhat/React app, but not seen).
+*   **Inferred runtime environment(s):** Android Runtime (for gateway app), Node.js (for backend coordinator and frontend build/dev server).
 
 ## Architecture and Structure
 
-*   **Overall project structure observed:** The project appears to be a monorepo managed by Yarn workspaces (indicated by root `package.json` scripts referencing `packages/*`), containing sub-packages for `react-app` and `hardhat`. Additionally, there's a separate Android project (`gatewaySmsUssd`) at the root level.
-*   **Key modules/components and their roles:**
-    *   `packages/react-app`: Likely the main web frontend for user interaction. (Code not provided)
-    *   `packages/hardhat`: Intended for Ethereum/EVM smart contract development and deployment. (Code not provided)
-    *   `gatewaySmsUssd`: An Android application acting as a proof-of-concept gateway for interacting with SMS/USSD and potentially a backend API.
-    *   Root: Contains configuration files (`tsconfig.json`, `.eslintrc.json`, `package.json`) and the Android project.
-*   **Code organization assessment:** The separation into `packages` for web/blockchain and a distinct Android app is logical. However, having the Android project at the root alongside Node.js/TypeScript config files feels slightly unconventional compared to placing it within `packages` or keeping it entirely separate. The structure supports distinct development workflows for web, smart contracts, and mobile.
-
-## Codebase Breakdown
-
-*   **Strengths:**
-    *   Active development (updated recently).
-    *   Properly licensed (ISC/MIT).
-    *   Clear project goal outlined in README.
-    *   Uses modern Android development practices (Kotlin, Jetpack Compose, `libs.versions.toml`).
-*   **Weaknesses:**
-    *   Limited community adoption/engagement (0 stars/forks).
-    *   No dedicated documentation directory (`docs/`).
-    *   Missing contribution guidelines (`CONTRIBUTING.md`).
-    *   Missing automated tests (unit, integration, e2e).
-    *   No CI/CD configuration visible (`.github/workflows/`, `.gitlab-ci.yml`, etc.).
-*   **Missing or Buggy Features:**
-    *   Comprehensive test suite implementation.
-    *   CI/CD pipeline integration for automated builds, tests, and deployments.
-    *   Configuration file examples (e.g., `.env.example`).
-    *   Containerization setup (e.g., `Dockerfile`).
-    *   Core crypto functionality (wallet interactions, transactions) is not evident in the provided digest.
+*   **Overall project structure observed:** Monorepo containing distinct packages/applications:
+    1.  `gatewaySmsUssd`: Android application (Kotlin) acting as a gateway for SMS/USSD interactions, likely with Orange Money.
+    2.  `packages/coordinator` (Inferred): Backend service (likely TypeScript/Node.js) handling logic, database interaction, Celo blockchain communication, and API endpoints.
+    3.  `packages/react-app` (Inferred): Frontend web application (React/TypeScript), potentially adaptable for MiniPay.
+    4.  `packages/hardhat` (Inferred): Smart contract development environment (Solidity/TypeScript).
+*   **Key modules/components and their roles:** As described above, separating concerns between mobile gateway, backend logic, user interface, and smart contracts.
+*   **Code organization assessment:** The monorepo structure is a logical choice for managing interconnected components. Separation into `gatewaySmsUssd`, `packages/coordinator`, `packages/react-app`, and `packages/hardhat` is clear. The structure supports independent development while keeping related code together. However, it's still in an early stage.
 
 ## Security Analysis
 
-*   **Authentication & authorization mechanisms:** No evidence of any authentication or authorization mechanisms in the provided code digest (neither web nor mobile). This is a critical omission for a financial application.
-*   **Data validation and sanitization:** No explicit input validation or sanitization logic is visible in the `gatewaySmsUssd` code beyond basic type handling in UI components. Potential risks exist when handling user input like phone numbers or SMS content, or interacting with USSD codes.
+*   **Authentication & authorization mechanisms:**
+    *   User <-> Coordinator: `README.md` suggests using a `quoteId` as a randomly generated auth token. This is unconventional and likely insecure without further hardening (e.g., short expiry, association with user session). No implementation details provided.
+    *   Coordinator <-> Gateway: `README.md` mentions using a shared secret for encrypting messages. The management and rotation of this secret are not specified. Implementation details are missing.
+*   **Data validation and sanitization:** No evidence of input validation or output encoding in the provided code digest (Android app focuses on permissions and basic I/O). The backend's handling of data from the frontend or gateway is unknown but critical, especially given the SMS/USSD interface. The use of `strict: false` and `noImplicitAny: false` in `tsconfig.json` increases the risk of type-related errors and potential vulnerabilities.
 *   **Potential vulnerabilities:**
-    *   Lack of input validation could lead to crashes or unexpected behavior (e.g., malformed USSD codes, invalid phone numbers).
-    *   Improper handling of Android permissions could lead to denial of service for features.
-    *   If backend interactions are not secured (HTTPS assumed but not enforced in code, no auth), data could be intercepted or manipulated.
-    *   General web vulnerabilities (XSS, CSRF, etc.) in the `react-app` (code not visible).
-    *   Smart contract vulnerabilities in `hardhat` (code not visible).
-*   **Secret management approach:** No evidence of any secret management (e.g., API keys, private keys). Secrets should not be hardcoded. The Android app makes API calls, implying potential need for API keys.
+    *   SMS/USSD Gateway: Handling financial transactions via SMS/USSD on a standard Android phone is inherently risky (SIM swap attacks, physical device security, malware intercepting SMS).
+    *   Lack of Robust Auth: The proposed authentication mechanisms appear weak.
+    *   Missing Input Validation: Potential for injection attacks if backend/frontend inputs are not properly sanitized.
+    *   Dependency Security: Relies on external dependencies managed by Yarn/Gradle; regular audits needed (Renovate helps).
+*   **Secret management approach:** Mentioned shared secret, but no details on how it's stored, provisioned, or rotated. No use of environment variables, `.env` files, or a secrets manager is evident from the digest.
 
 ## Functionality & Correctness
 
 *   **Core functionalities implemented:**
-    *   The `gatewaySmsUssd` Android app demonstrates:
-        *   Basic UI using Jetpack Compose.
-        *   Displaying logs within the app.
-        *   Requesting necessary Android permissions (Call, SMS, Internet).
-        *   Initiating USSD calls.
-        *   Receiving and displaying incoming SMS messages (via BroadcastReceiver).
-        *   Initiating sending SMS messages (via Intent).
-        *   Making GET and POST requests to external APIs using OkHttp and Kotlin Coroutines.
-    *   The core functionality related to stablecoin management (wallet creation/import, balance checks, transactions) is not visible in the digest.
-*   **Error handling approach:** Basic `try-catch` blocks are used for network operations in `MainActivity.kt`, logging error messages to the in-app log display. This is rudimentary and lacks robustness for production use (e.g., user feedback, retry mechanisms).
-*   **Edge case handling:** Minimal evidence of edge case handling. Permission request rationale is included, which is good, but handling for denied permissions or specific API error codes isn't detailed. The `addLog` function has basic size limiting.
-*   **Testing strategy:** No functional tests are visible beyond the boilerplate Android unit and instrumented tests (`ExampleUnitTest.kt`, `ExampleInstrumentedTest.kt`). The GitHub metrics explicitly state tests are missing. Functionality appears to be tested manually via the UI buttons in the Android app.
+    *   Basic Android gateway UI with buttons to test logging, SMS sending/receiving (requires permissions), USSD dialing, and API GET/POST requests.
+    *   Partial on-ramp flow demonstrated conceptually (as per `README.md`).
+    *   Ability to make a testnet USDC payment on Celo Alfajores (mentioned in `README.md`).
+*   **Error handling approach:** Basic `try/catch` blocks observed in the Android app (`MainActivity.kt`) for API calls. No comprehensive error handling strategy is apparent across the system. The `README.md` notes issues with `app.mento.org` on Alfajores, indicating some awareness of external dependencies failing.
+*   **Edge case handling:** Unlikely to be robust at this prototype stage. Focus seems to be on the primary success path.
+*   **Testing strategy:** Critically lacking. GitHub metrics explicitly state "Missing tests". Only boilerplate test files (`ExampleUnitTest.kt`, `ExampleInstrumentedTest.kt`) are present in the Android app digest. No evidence of unit, integration, or end-to-end tests for any component. Mocha configured but no tests shown.
 
 ## Readability & Understandability
 
-*   **Code style consistency:** The Kotlin code in `gatewaySmsUssd` appears reasonably formatted and follows standard conventions. Root configuration files (`.eslintrc.json`, `tsconfig.json`) suggest an intent for style consistency in the TypeScript parts, but the code itself isn't visible.
-*   **Documentation quality:** The main `README.md` provides a good high-level overview of the project's goals and problem statement. The `gatewaySmsUssd/README.md` briefly describes its PoC features. Code comments are sparse in the visible Kotlin files. No dedicated documentation directory exists.
-*   **Naming conventions:** Variable and function names in `MainActivity.kt` and `Common.kt` are generally clear and follow Kotlin conventions (e.g., `ussdToDial`, `fetchApiData`, `addLog`).
-*   **Complexity management:** The `gatewaySmsUssd` app is relatively simple. The overall project involves multiple technologies (Web, Mobile, Blockchain), which inherently adds complexity, especially for a single contributor. The monorepo structure helps manage this separation.
+*   **Code style consistency:** The Kotlin code in `MainActivity.kt` and `Common.kt` appears reasonably consistent. ESLint/Prettier setup for TS/JS suggests an intention for consistency there too.
+*   **Documentation quality:** The main `README.md` is quite good, providing context, problem statement, proposed solution, architecture diagrams, and setup instructions. The `gatewaySmsUssd/README.md` is minimal. Inline code comments are sparse in the provided Kotlin files. No dedicated documentation directory exists.
+*   **Naming conventions:** Variable and function names in the Kotlin code (`addLog`, `ussdToDial`, `fetchApiData`) are generally clear and follow conventions.
+*   **Complexity management:** The current complexity is relatively low due to the prototype nature. The architecture separates concerns well. However, the lack of strict typing in TypeScript (`strict: false`) can hinder long-term understandability and maintainability.
 
 ## Dependencies & Setup
 
-*   **Dependencies management approach:** Uses Yarn for the Node.js/TypeScript parts (root, `react-app`, `hardhat`) with a `package.json` in each relevant directory. Uses Gradle for the Android project (`gatewaySmsUssd`), leveraging `libs.versions.toml` for centralized version management, which is a best practice. `renovate.json` is present, suggesting automated dependency updates are configured.
-*   **Installation process:** The root `README.md` provides basic instructions (`cd packages/react-app`, `yarn`, `yarn dev`) for running the React app. Setup for the Android app would follow standard Android development procedures (Gradle sync, run on device/emulator). Setup for Hardhat is not explicitly documented but implied by the scripts.
-*   **Configuration approach:** No central configuration management (e.g., `.env` files) is evident in the digest. Configuration seems limited to build/lint files (`tsconfig.json`, `.eslintrc.json`, Gradle files). The Android app hardcodes API endpoints for testing.
-*   **Deployment considerations:** The `README.md` mentions the app is running at `https://stable-sl.pdJ.app`, indicating some deployment mechanism exists, but no configuration (e.g., Dockerfile, CI/CD pipeline definition) is present in the code digest.
+*   **Dependencies management approach:** Uses Yarn for the Node.js parts (likely with workspaces, inferred from scripts) and Gradle for the Android application. `renovate.json` indicates automated dependency updates are configured via RenovateBot.
+*   **Installation process:** `README.md` provides high-level steps for running in development mode, involving compiling the Android app, setting up the coordinator (likely backend), and the frontend, explicitly mentioning the need for Nginx proxies for SSL even in development. This adds significant setup complexity compared to a simpler `docker-compose` or script-based approach.
+*   **Configuration approach:** No clear configuration management system (like `.env` files or dedicated config files) is evident. How API keys, shared secrets, or Celo node URLs are managed is unclear. Missing configuration examples noted in metrics.
+*   **Deployment considerations:** Production and development instances are mentioned, suggesting manual deployment. The requirement for Nginx implies specific infrastructure needs. No CI/CD pipeline is configured. No containerization (e.g., Docker) is mentioned or evident, which would simplify deployment and setup.
 
 ## Evidence of Technical Usage
 
 1.  **Framework/Library Integration:**
-    *   Android: Uses Jetpack Compose for UI, correctly requesting permissions, using Intents for SMS/Calls, BroadcastReceiver for incoming SMS, OkHttp with Coroutines (`Dispatchers.IO`) for non-blocking network calls. Follows basic Android patterns. (Score: 6/10)
-    *   React/Hardhat: Usage inferred from structure and scripts, cannot assess quality.
+    *   Android: Basic usage of Jetpack Compose for UI, OkHttp for HTTP calls, Coroutines for asynchronous operations. Follows standard practices for requesting permissions. (Score: 5/10)
 2.  **API Design and Implementation:**
-    *   Minimal evidence. The Android app consumes a public example API (`/photos`) and posts to a specific endpoint (`/api/webhooks`) on the project's domain, suggesting a backend API exists but its design is unknown. No versioning or structured request/response handling visible. (Score: 3/10)
+    *   A backend API exists (`/api/webhooks` called by gateway). Design (e.g., RESTful) is unclear. Use of `quoteId` as auth token is weak. Minimal evidence. (Score: 3/10)
 3.  **Database Interactions:**
-    *   No evidence of database interaction in the provided digest. (Score: N/A)
+    *   A database is mentioned as part of the coordinator, but no schema, ORM usage, or query code is provided in the digest. (Score: N/A - Insufficient data)
 4.  **Frontend Implementation:**
-    *   Android: Basic Jetpack Compose UI with `Column`, `Row`, `Button`, `TextField`, `Text`. State management uses `remember` and `mutableStateOf`, suitable for simple cases. No evidence of advanced UI patterns, responsive design, or accessibility focus. (Score: 5/10)
-    *   React: Code not visible.
+    *   React app exists (`packages/react-app`) but no code provided. MiniPay integration is a goal. (Score: N/A - Insufficient data)
 5.  **Performance Optimization:**
-    *   Uses Kotlin Coroutines with `Dispatchers.IO` for network calls in Android, preventing UI thread blocking. No other optimizations (caching, algorithm efficiency, resource loading) are evident. (Score: 4/10)
+    *   Use of Kotlin Coroutines in the Android app for network calls is good practice for avoiding blocking the main thread. No other specific performance optimizations (caching, etc.) are evident. (Score: 4/10)
 
-*(Overall Technical Usage Score reflects an average of applicable sub-scores)*
+*   **Overall Technical Usage Score:** Averaging the applicable scores gives a sense of basic, early-stage implementation without advanced techniques. (Weighted towards visible code: ~4.5/10)
+
+## Codebase Breakdown
+
+*   **Strengths:**
+    *   Clear problem statement and goal articulated in the README.
+    *   Logical monorepo architecture separating concerns (Gateway, Coordinator, Frontend, Contracts).
+    *   Uses relevant modern technologies (Kotlin/Compose, TypeScript/React, Celo).
+    *   Actively developed (based on last update timestamp).
+    *   Properly licensed (though slight inconsistency between ISC/MIT noted).
+    *   Uses Renovate for dependency management.
+*   **Weaknesses:**
+    *   Very early prototype stage with core functionality missing (Orange Money integration, reliable Celo interaction beyond basic testnet transfer, quote API).
+    *   Significant security concerns (weak auth concepts, SMS/USSD risks, lack of validation evidence, loose TS config).
+    *   Critically missing test coverage across all components.
+    *   Complex manual setup involving Nginx proxies.
+    *   Lack of configuration examples and clear secret management.
+    *   No CI/CD pipeline for automated testing or deployment.
+    *   Limited community engagement and single contributor dependency.
+    *   Sparse inline code documentation.
+*   **Missing or Buggy Features (as noted in metrics & analysis):**
+    *   Comprehensive test suite (unit, integration, e2e).
+    *   CI/CD pipeline.
+    *   Configuration file examples / robust configuration management.
+    *   Containerization (Docker/Docker Compose).
+    *   Full implementation of on-ramp/off-ramp logic, especially Orange Money automation.
+    *   Robust authentication and authorization.
+    *   Input validation and sanitization.
+    *   Error handling strategy.
+    *   Contribution guidelines (`CONTRIBUTING.md`).
 
 ## Suggestions & Next Steps
 
-1.  **Implement Core Functionality:** Prioritize building the actual stablecoin management features (wallet interaction, balance display, send/receive) in both the web (`react-app`) and potentially smart contract (`hardhat`) components.
-2.  **Add Comprehensive Testing:** Introduce unit tests (Jest/Vitest for TS, JUnit for Kotlin), integration tests (React Testing Library, Espresso), and potentially e2e tests (Cypress/Playwright) to ensure correctness and prevent regressions. Test smart contracts thoroughly using Hardhat's testing tools.
-3.  **Establish CI/CD Pipeline:** Set up GitHub Actions (or similar) to automate linting, testing, building, and potentially deploying the React app, backend (if separate), and smart contracts. This improves consistency and development velocity.
-4.  **Bolster Security:** Implement authentication/authorization (e.g., wallet connect for web, secure storage for mobile keys if needed), add robust input validation on both frontend and backend, manage secrets securely (e.g., environment variables, secrets manager), and conduct security audits, especially for smart contracts.
-5.  **Improve Documentation & Contribution:** Create a `CONTRIBUTING.md`, add more detailed setup instructions, document the architecture (especially API and smart contracts), and add inline code comments explaining complex logic. Consider adding example configuration files.
+1.  **Prioritize Security Hardening:**
+    *   Re-evaluate the authentication mechanisms. Avoid using potentially guessable or easily leaked IDs (`quoteId`) as primary tokens. Consider standard session management or JWTs for user-backend auth.
+    *   Implement robust handling and rotation for the coordinator-gateway shared secret, storing it securely (e.g., environment variables injected at runtime, secrets manager).
+    *   Thoroughly validate and sanitize *all* inputs, especially those coming from the frontend and the SMS/USSD gateway.
+    *   Assess and mitigate risks associated with the SMS/USSD gateway approach.
+2.  **Implement Comprehensive Testing:** Introduce unit tests (Kotlin/JUnit, TS/Jest/Mocha), integration tests (testing interactions between coordinator, gateway, Celo), and potentially end-to-end tests covering the main user flows. This is crucial before handling real funds.
+3.  **Establish CI/CD Pipeline:** Set up GitHub Actions (or similar) to automatically build, lint, and run tests on every commit/PR. Automate deployment to staging/production environments.
+4.  **Complete Core Functionality & Refine:** Focus on implementing the missing pieces: reliable Orange Money integration (if possible automate, otherwise clearly document manual steps and risks), integrate a real price quote API, implement the off-ramp flow, and ensure robust Celo transaction handling (error checking, retries, status monitoring). Switch from testnet to mainnet requires careful planning.
+5.  **Improve Developer Experience & Maintainability:**
+    *   Enable strict TypeScript settings (`"strict": true`, `"noImplicitAny": true`) in `tsconfig.json` and refactor code to comply.
+    *   Add inline code comments explaining complex logic or non-obvious decisions.
+    *   Simplify setup: Provide Docker/Docker Compose files for easy local environment setup, including Nginx if required. Add configuration examples (`.env.example`).
+    *   Add contribution guidelines (`CONTRIBUTING.md`) if collaboration is desired.

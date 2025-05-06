@@ -1,175 +1,182 @@
 # Analysis Report: 3-Wheeler-Bike-Club/3-wheeler-bike-club-minipay-fleet-app
 
-Generated: 2025-04-30 19:53:02
+Generated: 2025-05-05 15:10:28
 
 Okay, here is the comprehensive assessment of the `3-wheeler-bike-club-minipay-fleet-app` GitHub project based on the provided code digest and metrics.
 
 ## Project Scores
 
-| Criteria                      | Score (0-10) | Justification                                                                                                                               |
-| :---------------------------- | :----------- | :------------------------------------------------------------------------------------------------------------------------------------------ |
-| Security                      | 4.0/10       | Presence of `PRIVATE_KEY` in env types is a major concern. Relies on WAGMI/VIEM for contract calls. Unlimited token approvals used.           |
-| Functionality & Correctness | 7.0/10       | Core features (viewing/buying fleets, wallet connect) seem implemented. Basic error handling via toasts. Lacks tests and robust edge case handling. |
-| Readability & Understandability | 7.5/10       | Good structure (Next.js App Router, Shadcn), TypeScript usage, consistent naming. Some components have complex data fetching logic.        |
-| Dependencies & Setup          | 8.5/10       | Uses standard package management (`npm`/`yarn`). Clear setup instructions in README. Modern dependencies. Requires `.env.local` setup.        |
-| Evidence of Technical Usage   | 7.5/10       | Good use of Next.js, WAGMI/VIEM, TanStack Query, Shadcn UI. Follows common patterns for dApp frontend development. Performance relies on query invalidation. |
-| **Overall Score**             | **6.9/10**   | Weighted average (Security: 0.25, Functionality: 0.25, Readability: 0.15, Dependencies: 0.15, Technical Usage: 0.20)                    |
-
-## Project Summary
-
--   **Primary purpose/goal**: To provide a decentralized frontend application for investors to manage and invest (fractionally or fully) in lease-to-own three-wheeler fleets on the Celo blockchain using the MiniPay wallet.
--   **Problem solved**: Creates a user interface for interacting with the `fleetOrderBook` smart contract, simplifying the process of investing in and monitoring 3-wheeler fleets for potential ROI.
--   **Target users/beneficiaries**: Investors interested in fractional or full ownership of 3-wheeler fleets operating within the 3-Wheeler Bike Club ecosystem, specifically targeting Celo MiniPay users.
-
-## Technology Stack
-
--   **Main programming languages identified**: TypeScript (95.16%), CSS (4.75%), JavaScript (0.09%)
--   **Key frameworks and libraries visible in the code**: Next.js 15 (App Router), React 19, Tailwind CSS, Shadcn UI, Radix UI, WAGMI, VIEM, TanStack React Query, Embla Carousel, Framer Motion, Sonner (toasts), Vaul (drawer).
--   **Inferred runtime environment(s)**: Node.js (v18+ for development/build), Web Browser (for running the application).
-
-## Architecture and Structure
-
--   **Overall project structure observed**: Standard Next.js App Router project structure. Code is organized into `app/` for routes/pages, `components/` for UI elements (further categorized by feature like `landing`, `fleet`, and `ui` primitives), `context/` for React context providers, `hooks/` for custom hooks, `lib/` for general utilities, and `utils/` for blockchain-specific configuration (ABI, clients, constants, WAGMI config).
--   **Key modules/components and their roles**:
-    -   `app/`: Defines application routes (`/`, `/fleet`, `/fleet/buy`).
-    -   `components/`: Contains reusable UI components built with Shadcn UI and custom logic.
-        -   `landing/wrapper.tsx`: Landing page UI and logic.
-        -   `fleet/wrapper.tsx`: Fleet dashboard UI, displays owned fleets using a carousel (`Id.tsx`).
-        -   `fleet/buy/wrapper.tsx`: Fleet purchasing UI and logic, handles approvals and contract calls.
-        -   `fleet/history.tsx`: (WIP) Drawer for transaction history using `useGetLogs`.
-        -   `ui/`: Shadcn UI primitives.
-    -   `context/`: Provides global state/config (WAGMI, MiniApp connection attempt).
-    -   `hooks/`: Custom React hooks (`useGetLogs`).
-    -   `utils/`: Blockchain interaction setup (ABI, addresses, WAGMI/VIEM config).
--   **Code organization assessment**: The structure is logical and follows Next.js conventions. Separation of concerns seems reasonable (UI components, hooks, utils, context). The use of feature-specific subdirectories within `components` (`landing`, `fleet`) is good practice.
+| Criteria                        | Score (0-10) | Justification                                                                                                                               |
+| :------------------------------ | :----------- | :------------------------------------------------------------------------------------------------------------------------------------------ |
+| Security                        | 4.5/10       | Uses environment variables for secrets, but hardcoded contract addresses in README. Relies on frontend validation/wallet security. No backend. |
+| Functionality & Correctness     | 7.0/10       | Core frontend features (wallet connect, view fleet, buy) seem implemented using Wagmi/Viem. Lacks testing and explicit edge case handling.     |
+| Readability & Understandability | 8.0/10       | Good structure (Next.js App Router), TypeScript usage, consistent component pattern (Shadcn UI), reasonable naming. README provides overview. |
+| Dependencies & Setup            | 7.5/10       | Standard Node.js/npm setup. Clear instructions in README. Uses modern libraries. Missing license file despite mention in README.             |
+| Evidence of Technical Usage     | 7.5/10       | Demonstrates good use of Next.js 15, React 19, Wagmi, Viem, Shadcn UI, and TypeScript for a DApp frontend.                                    |
+| **Overall Score**               | **6.9/10**   | Weighted average (Security: 0.2, Functionality: 0.3, Readability: 0.2, Dependencies: 0.1, Technical Usage: 0.2)                             |
 
 ## Repository Metrics
 
--   Stars: 0
--   Watchers: 0
--   Forks: 0
--   Open Issues: 0
--   Total Contributors: 1
--   Created: 2025-04-14T11:51:06+00:00 (Note: Year seems incorrect, likely 2024)
--   Last Updated: 2025-04-29T23:50:48+00:00 (Note: Year seems incorrect, likely 2024 - but indicates recent activity)
--   Open Prs: 0
--   Closed Prs: 0
--   Merged Prs: 0
--   Total Prs: 0
+*   Stars: 0
+*   Watchers: 0
+*   Forks: 0
+*   Open Issues: 0
+*   Total Contributors: 1
+*   Created: 2025-04-14T11:51:06+00:00
+*   Last Updated: 2025-05-02T16:03:57+00:00
+*   Open Prs: 0
+*   Closed Prs: 0
+*   Merged Prs: 0
+*   Total Prs: 0
 
 ## Top Contributor Profile
 
--   Name: Tickether
--   Github: https://github.com/Tickether
--   Company: N/A
--   Location: N/A
--   Twitter: N/A
--   Website: N/A
+*   Name: Tickether
+*   Github: https://github.com/Tickether
+*   Company: N/A
+*   Location: N/A
+*   Twitter: N/A
+*   Website: N/A
 
 ## Language Distribution
 
--   TypeScript: 95.16%
--   CSS: 4.75%
--   JavaScript: 0.09%
+*   TypeScript: 95.5%
+*   CSS: 4.42%
+*   JavaScript: 0.08%
+
+## Project Summary
+
+*   **Primary purpose/goal**: To provide a decentralized application (DApp) frontend for investors to interact with a smart contract on the Celo blockchain, enabling fractional or full ownership of three-wheeler vehicle fleets for investment purposes.
+*   **Problem solved**: Creates a user-friendly interface for investors to participate in a specific asset-backed investment opportunity (three-wheeler fleets) using the Celo MiniPay wallet, abstracting direct blockchain interactions.
+*   **Target users/beneficiaries**: Investors interested in fractional or full ownership of lease-to-own three-wheeler fleets on the Celo network, specifically users of the Celo MiniPay wallet.
+
+## Technology Stack
+
+*   **Main programming languages identified**: TypeScript (dominant), CSS, JavaScript (minimal).
+*   **Key frameworks and libraries visible in the code**:
+    *   Framework: Next.js 15 (App Router)
+    *   UI/UX: React 19, Tailwind CSS, Shadcn UI, Radix UI, Embla Carousel, Framer Motion, Lucide Icons, Vaul (Drawer), Sonner (Toasts)
+    *   Blockchain/Web3: Wagmi, Viem
+    *   State Management: Implied use of React state and potentially `@tanstack/react-query` (dependency present, `useQueryClient` used).
+*   **Inferred runtime environment(s)**: Node.js (for development/build), Web Browser (for execution).
+
+## Architecture and Structure
+
+*   **Overall project structure observed**: Standard Next.js App Router project structure. Code is organized into `app/` (routing/pages), `components/` (reusable UI elements, including Shadcn UI primitives and feature-specific components), `context/` (Wagmi, MiniApp setup), `hooks/` (custom hooks for blockchain data), `lib/` (utility functions), `public/` (static assets), and `utils/` (ABI, constants, config, client setup).
+*   **Key modules/components and their roles**:
+    *   `app/`: Defines application routes (`/`, `/fleet`, `/fleet/buy`).
+    *   `components/`: Contains UI logic, broken down into `landing`, `fleet`, `top`, `ui`. Feature components like `fleet/id.tsx` encapsulate logic for displaying fleet details. `fleet/buy/wrapper.tsx` handles the purchase flow.
+    *   `context/`: Provides global Wagmi configuration and MiniPay auto-connection logic.
+    *   `hooks/`: Custom hooks like `useGetLogs` and `useGetBlockTime` abstract blockchain data fetching.
+    *   `utils/`: Centralizes ABI definitions (`fleetOrderBookAbi`), contract addresses, Viem client setup (`publicClient`), Wagmi config, and helper functions (`shortenTxt`).
+*   **Code organization assessment**: The organization is logical and follows Next.js conventions. Separation of concerns is generally good (UI components, hooks, utils, context). The use of feature-based subdirectories within `components` (e.g., `components/fleet/buy`) is effective.
 
 ## Codebase Breakdown
 
--   **Strengths**:
-    -   Utilizes modern tech stack (Next.js 15, React 19, TypeScript, WAGMI v2).
-    -   Comprehensive README providing setup and usage instructions.
-    -   Clear project structure following Next.js conventions.
-    -   Leverages established UI library (Shadcn UI) for consistency.
-    -   Active development (based on last updated date).
-    -   Direct integration with Celo blockchain via WAGMI/VIEM.
--   **Weaknesses**:
-    -   Major potential security risk with `PRIVATE_KEY` defined in environment types.
-    -   Lack of automated tests (unit, integration, e2e).
-    -   No CI/CD pipeline configured.
-    -   Missing formal LICENSE file (despite mention in README).
-    -   Missing CONTRIBUTING guidelines.
-    -   Limited community engagement (metrics indicate single contributor, no stars/forks).
-    -   No dedicated documentation directory beyond README.
--   **Missing or Buggy Features (as per provided metrics & analysis)**:
-    -   Test suite implementation.
-    -   CI/CD pipeline integration.
-    -   Configuration file examples (though `.env.local` structure is shown).
-    -   Containerization (e.g., Dockerfile).
-    -   Robust error handling beyond basic toasts.
-    -   Completed History feature (marked as WIP).
+*   **Strengths**:
+    *   **Modern Tech Stack**: Utilizes current versions of Next.js (15), React (19), TypeScript (5), and popular Web3 libraries (Wagmi v2, Viem v2).
+    *   **Component-Based UI**: Leverages Shadcn UI and Radix UI for a structured and maintainable component system.
+    *   **Clear Setup**: README provides good instructions for getting started.
+    *   **Active Development**: Recent updates indicate the project is actively maintained (as per GitHub metrics).
+    *   **TypeScript Usage**: Enhances code safety and maintainability.
+    *   **Context Abstraction**: Wagmi and MiniPay setup are nicely abstracted in context providers.
+*   **Weaknesses**:
+    *   **Missing Tests**: Lack of automated tests (unit, integration, e2e) significantly increases the risk of regressions and bugs.
+    *   **Limited Error Handling**: Error handling seems primarily focused on transaction success/failure toasts (`sonner`). More granular error handling (e.g., UI states for loading/error, handling specific contract reverts) appears limited.
+    *   **Potential Security Issues**: Hardcoded contract addresses in README could be problematic if updates are needed. Lack of visible input sanitization beyond basic types.
+    *   **No CI/CD**: Missing continuous integration and deployment pipelines hinders development velocity and quality assurance.
+    *   **Documentation Gaps**: No dedicated documentation directory, missing contribution guidelines, missing license file (despite MIT mention in README).
+    *   **Limited Community**: Low engagement metrics (stars, forks, contributors) suggest it's primarily a solo project with limited external validation or contribution.
+*   **Missing or Buggy Features**:
+    *   Test suite implementation.
+    *   CI/CD pipeline integration.
+    *   Configuration file examples (beyond `.env.local` structure).
+    *   Containerization (e.g., Dockerfile) for easier deployment/environment consistency.
+    *   The "History Drawer" is marked as WIP in the README.
 
 ## Security Analysis
 
--   **Authentication & authorization mechanisms**: Authentication is handled via wallet connection (Celo MiniPay via WAGMI `injected` connector). Authorization is implicitly managed by the connected wallet address for on-chain actions (checking ownership, initiating transactions). Contract-level access control is assumed but not visible in the frontend code.
--   **Data validation and sanitization**: No explicit client-side input validation is visible beyond basic type checking provided by TypeScript and UI controls (e.g., amount increment/decrement limits). Relies on WAGMI/VIEM and the smart contract for validating transaction parameters.
--   **Potential vulnerabilities**:
-    -   **Critical**: `PRIVATE_KEY` defined in `environment.d.ts`. If this key is ever bundled in the client-side code or committed to the repository (even if only in `.env`), it represents a severe security risk, potentially compromising funds. Its presence, even just in type definitions, is concerning and suggests potential misuse.
-    -   **Medium**: Use of `maxUint256` for token approvals (`approveUSDT`, `approveCeloUSD`). While common, it grants the contract unlimited spending power indefinitely, increasing risk if the contract has vulnerabilities.
-    -   **Low**: Lack of robust input validation on the frontend could lead to failed transactions if unexpected values bypass UI controls, but the primary validation should occur on-chain.
--   **Secret management approach**: Uses environment variables (`.env.local`) for configuration like `ALCHEMY_RPC_URL`. The presence of `PRIVATE_KEY` in `environment.d.ts` suggests secrets might not be handled securely; private keys should *never* be exposed to the frontend or stored in version control.
+*   **Authentication & authorization mechanisms**: Authentication is handled via wallet connection (Celo MiniPay via Wagmi/Injected connector). Authorization is implicitly managed by the connected wallet address's ownership/permissions on the smart contract.
+*   **Data validation and sanitization**: Relies heavily on TypeScript for type safety. Explicit input validation or sanitization beyond basic types (e.g., ensuring amounts are positive integers before contract calls) is not apparent in the provided frontend code. Smart contract likely performs critical validation.
+*   **Potential vulnerabilities**:
+    *   **Frontend Reliance**: Security heavily depends on the smart contract's robustness, as the frontend seems to pass user inputs directly.
+    *   **Lack of Input Sanitization**: Potential for unexpected behavior if inputs aren't validated strictly before contract interaction (though Wagmi/Viem might offer some protection).
+    *   **Hardcoded Addresses**: Contract addresses in `README.md` and `utils/constants/addresses.tsx`. If these need to change, it requires code modification and redeployment. Using environment variables might be safer for easier updates or different environments.
+    *   **Reentrancy**: While the contract itself isn't shown, the frontend code doesn't add specific reentrancy guards (this is primarily a smart contract concern, but noted).
+*   **Secret management approach**: Uses `.env.local` for environment variables like `ALCHEMY_RPC_URL`, which is standard practice for Next.js. The `environment.d.ts` file correctly types these variables. `PRIVATE_KEY` is listed in `environment.d.ts` which is highly insecure if intended for frontend use or committed; it should *never* be exposed client-side. Assuming it's for a backend process not shown or a mistake.
 
 ## Functionality & Correctness
 
--   **Core functionalities implemented**:
-    -   Wallet connection (Celo MiniPay via WAGMI).
-    -   Displaying user's owned fleet IDs (`getFleetOwned`).
-    -   Displaying details for each fleet (status, ownership type, shares, capital) using contract reads (`Id.tsx`).
-    -   Purchasing full 3-wheelers (`orderMultipleFleet`, `orderFleet` with 50 shares).
-    -   Purchasing fractional shares of 3-wheelers (`orderFleet`).
-    -   Handling token approvals (USDT, cUSD) before purchase.
-    -   Switching between fractional and full purchase modes.
--   **Error handling approach**: Primarily uses `sonner` (toast notifications) to inform the user about success or failure of asynchronous operations (approvals, purchases). `try...catch` blocks are used in transaction functions (`buy/wrapper.tsx`). Error messages seem generic ("Something went wrong").
--   **Edge case handling**: Basic loading states are present (`loadingUSDT`, `loadingCeloUSD`, `allowanceDollarLoading`). Disabling buttons during operations prevents double-clicks. Handles minimum/maximum amounts for purchases in the UI. Deeper edge cases (network errors, RPC failures, insufficient gas, specific contract reverts beyond insufficient allowance/balance) likely lack specific handling beyond a generic error toast.
--   **Testing strategy**: No evidence of automated testing (unit, integration, E2E) found in the digest or metrics. This is a significant gap for ensuring correctness and preventing regressions.
+*   **Core functionalities implemented**:
+    *   Wallet connection (MiniPay via Wagmi).
+    *   Displaying owned fleet assets (fetching data via `useReadContract`).
+    *   Displaying fleet details (ID, status, ownership type, shares).
+    *   Calculating and displaying ROI based on ownership.
+    *   Initiating fleet purchase (full or fractional) via `useWriteContract`.
+    *   Handling multiple token approvals (USDT, cUSD) and purchases.
+    *   Displaying transaction history (fetching logs via `useGetLogs`).
+*   **Error handling approach**: Primarily uses `sonner` toasts to provide user feedback on the success or failure of blockchain transactions (`approve`, `orderFleet`, `orderFleetFraction`). Loading states are handled (e.g., `loadingUSDT`, `loadingCeloUSD`, buttons disabled). More comprehensive error state management within components seems limited.
+*   **Edge case handling**: Basic handling exists (e.g., disabling buttons during loading, preventing amounts < 1). Handling for network errors, insufficient funds *before* transaction submission, specific contract revert reasons, or complex state interactions is not explicitly shown. Relies on Wagmi/Viem defaults for many blockchain interaction edge cases.
+*   **Testing strategy**: No evidence of automated testing (`Codebase Weaknesses` confirms missing tests). Manual testing is implied.
 
 ## Readability & Understandability
 
--   **Code style consistency**: Appears generally consistent, likely aided by TypeScript and potentially a linter (like the `lint` script in `package.json`). Use of Shadcn UI also promotes consistency.
--   **Documentation quality**: Good `README.md` covering setup, features, and configuration. Inline comments are sparse. No dedicated documentation site or extensive code comments observed. The ABI file (`utils/abi.ts`) is provided.
--   **Naming conventions**: Generally clear and descriptive names for components (`Fleet`, `Buy`, `Id`, `History`), hooks (`useGetLogs`), variables, and functions. Follows typical TypeScript/React conventions.
--   **Complexity management**: Simple components are well-managed. Components involving significant state and data fetching (`fleet/id.tsx`, `fleet/buy/wrapper.tsx`) show increasing complexity, especially with multiple `useEffect` hooks tied to `blockNumber` for query invalidation. This could potentially be simplified using TanStack Query's features more effectively or custom hook refactoring.
+*   **Code style consistency**: Generally consistent, aided by TypeScript and likely Prettier/ESLint (though config files aren't shown). Use of `cn` utility standardizes Tailwind class merging.
+*   **Documentation quality**: The `README.md` is comprehensive, explaining features, tech stack, setup, and configuration. Inline comments are sparse. No dedicated `/docs` folder or extensive code-level documentation (JSDoc/TSDoc).
+*   **Naming conventions**: Mostly clear and conventional (e.g., `Wrapper`, `Id`, `Log`, `useGetLogs`, `fleetOrderBookAbi`). Some abbreviations like `shortenTxt` are acceptable. Component prop names are generally understandable.
+*   **Complexity management**: Components are reasonably sized and focused. Logic is broken down into hooks (`useGetLogs`, `useGetBlockTime`) and utility functions. State management within components seems localized. The `buy/wrapper.tsx` component has significant logic but is manageable. React Query invalidation via `useEffect` and `blockNumber` watching is a bit verbose but functional.
 
 ## Dependencies & Setup
 
--   **Dependencies management approach**: Uses `npm` or `yarn` via `package.json`. Dependencies are explicitly listed with versions. Includes modern libraries like Next.js 15, React 19, WAGMI v2.
--   **Installation process**: Clearly documented in the README: clone repo, install dependencies (`npm install`), create `.env.local` with `ALCHEMY_RPC_URL`. Straightforward for developers familiar with Node.js/React.
--   **Configuration approach**: Uses environment variables (`.env.local`) for runtime configuration (e.g., Alchemy RPC URL). Blockchain addresses are hardcoded in `utils/constants/addresses.tsx`, which is acceptable for frontend interaction with known contracts. `components.json` configures Shadcn UI.
--   **Deployment considerations**: Can be built using `npm run build` and started with `npm start`. Suitable for deployment on platforms like Vercel, Netlify, or self-hosting with Node.js. Requires environment variables to be set in the deployment environment. No Dockerfile or specific deployment scripts provided.
+*   **Dependencies management approach**: Uses `npm` (or `yarn`) and `package.json` for managing dependencies. Versions are reasonably up-to-date.
+*   **Installation process**: Clearly documented in the `README.md` using standard `git clone` and `npm install`.
+*   **Configuration approach**: Uses a `.env.local` file for environment-specific variables (e.g., RPC URL), as documented in the README. `environment.d.ts` provides type safety.
+*   **Deployment considerations**: Basic build (`npm run build`) and start (`npm start`) commands are provided. No specific platform deployment instructions (Vercel, Netlify, Docker) or CI/CD setup is mentioned or present.
 
 ## Evidence of Technical Usage
 
-1.  **Framework/Library Integration (8/10)**
-    -   Correct usage of Next.js 15 App Router, React 19 features (implicit), WAGMI/VIEM for wallet connection and contract interaction, TanStack Query for server state management.
-    -   Leverages Shadcn UI effectively for building the interface.
-    -   Architecture follows standard Next.js patterns with contexts and hooks.
-2.  **API Design and Implementation (N/A)**
-    -   This is a frontend application consuming a smart contract API, not providing its own backend API. Interactions are via blockchain RPC calls.
-3.  **Database Interactions (N/A)**
-    -   No traditional database interactions are evident. State is managed client-side or derived from the blockchain. `MONGO` and `WHEELER_API_KEY` in `environment.d.ts` hint at potential backend interactions not shown in the digest, but the core functionality relies on Celo.
-4.  **Frontend Implementation (7.5/10)**
-    -   Component structure based on Shadcn UI is good. Uses `Carousel` for fleet display.
-    -   State management uses React state (`useState`) and TanStack Query for blockchain data.
-    -   Uses Tailwind CSS for styling, likely responsive (`max-md:` classes seen). Basic light/dark theme support via `globals.css`.
-    -   Accessibility considerations are minimal, relying mostly on default Shadcn UI behavior.
-5.  **Performance Optimization (6.5/10)**
-    -   Uses TanStack Query for caching blockchain data, reducing redundant RPC calls.
-    -   The strategy of invalidating multiple queries on *every* new block (`useBlockNumber({ watch: true })` + `useEffect` + `invalidateQueries`) in `Id.tsx` and `buy/wrapper.tsx` might be overly aggressive and lead to excessive background RPC calls, potentially impacting performance and RPC provider limits. More targeted invalidation or refetch strategies could be better.
-    -   Uses Next.js with Turbopack (`--turbopack` flag in `dev` script) for development speed. Production build (`next build`) includes standard Next.js optimizations.
+1.  **Framework/Library Integration (8/10)**:
+    *   Correct use of Next.js 15 App Router, React 19 features (implied by versions).
+    *   Effective integration of Wagmi hooks (`useReadContract`, `useWriteContract`, `useAccount`, `useBlockNumber`) for blockchain interaction.
+    *   Proper setup of Wagmi context (`WagmiContext`) and React Query (`QueryClientProvider`).
+    *   Good use of Shadcn UI/Radix UI components following their patterns.
+    *   Tailwind CSS is used effectively for styling.
+    *   `useQueryClient().invalidateQueries` triggered by `blockNumber` changes is a viable, albeit potentially inefficient, way to keep blockchain data fresh.
 
-**Overall Technical Usage Score Justification**: The project demonstrates competent use of modern frontend and web3 libraries (Next.js, WAGMI, TanStack Query, Shadcn). The implementation follows common patterns. The main area for improvement is potentially optimizing the blockchain data fetching/invalidation strategy.
+2.  **API Design and Implementation (N/A)**:
+    *   This is a frontend application consuming a smart contract API (ABI). No backend API is designed or implemented within this codebase.
+
+3.  **Database Interactions (N/A)**:
+    *   No traditional database interactions are present. State is managed client-side and on the blockchain.
+
+4.  **Frontend Implementation (7.5/10)**:
+    *   **UI Component Structure**: Well-structured using reusable components (`components/ui`, feature components).
+    *   **State Management**: Primarily local component state (`useState`) and blockchain state via Wagmi/React Query. Simple context for global config. Sufficient for the current scope.
+    *   **Responsive Design**: Implied through Tailwind CSS usage and responsive component examples (e.g., drawer breakpoints `max-md`).
+    *   **Accessibility**: Basic accessibility is provided by Radix UI components, but no explicit custom accessibility considerations are evident. `sr-only` tags are used correctly in some places (e.g., carousel buttons).
+
+5.  **Performance Optimization (6/10)**:
+    *   Next.js with Turbopack (`--turbopack` flag in `dev` script) provides good baseline performance.
+    *   Code splitting is handled automatically by Next.js.
+    *   Frequent query invalidation based on `blockNumber` (`useEffect` in `Id.tsx` and `buy/wrapper.tsx`) could lead to excessive RPC calls if not carefully managed or debounced, potentially impacting performance and RPC costs.
+    *   No explicit caching strategies beyond React Query defaults or resource loading optimizations are visible.
+    *   Asynchronous operations (wallet interactions, contract calls) are handled using `async/await` and Wagmi's hooks.
+
+**Overall Technical Usage Score**: 7.5/10 - The project demonstrates competent use of modern frontend and Web3 technologies for building a DApp interface. The main areas for improvement are around performance optimization (query invalidation strategy) and potentially more sophisticated state management if complexity grows.
 
 ## Suggestions & Next Steps
 
-1.  **Address Security Immediately**: Remove the `PRIVATE_KEY` definition from `environment.d.ts`. Ensure no private keys are ever used in the frontend code or committed to the repository. If server-side operations requiring a key are needed, they must be handled by a separate, secure backend service, not the Next.js frontend directly.
-2.  **Implement Automated Testing**: Introduce unit tests (e.g., with Vitest/Jest and React Testing Library) for components and hooks, especially those involving complex logic or state management (`buy/wrapper.tsx`, `Id.tsx`). Add integration tests for user flows (connecting wallet, buying fleet). E2E tests (e.g., with Playwright/Cypress) would further increase confidence.
-3.  **Optimize Blockchain Data Fetching**: Review the strategy of invalidating queries on every block number change in `Id.tsx` and `buy/wrapper.tsx`. Consider using TanStack Query's `refetchOnWindowFocus`, `staleTime`, or more targeted invalidation triggers (e.g., after successful transactions) to reduce RPC load while keeping data reasonably fresh.
-4.  **Enhance Error Handling**: Provide more specific user feedback for different error scenarios (e.g., insufficient funds, user rejected transaction, network issues, specific contract errors) instead of generic "Something went wrong" toasts.
-5.  **Formalize Project Standards**: Add a `LICENSE` file (e.g., MIT as mentioned in README), create `CONTRIBUTING.md` guidelines, and potentially set up CI/CD (e.g., GitHub Actions) for linting, testing, and building on commits/PRs.
+1.  **Implement Automated Testing**: Introduce unit tests (e.g., Vitest/Jest) for hooks and utility functions, and integration/e2e tests (e.g., Playwright/Cypress) for user flows like connecting wallet, viewing fleet, and purchasing. This is crucial for ensuring correctness and preventing regressions.
+2.  **Enhance Error Handling & User Feedback**: Provide more specific error messages to the user based on contract revert reasons or network issues. Implement more robust loading states across the UI, not just on buttons during transactions. Consider using React Query's error states.
+3.  **Refine Blockchain Data Fetching**: Review the `useEffect` hooks that invalidate queries on every `blockNumber` change. This can be inefficient. Consider invalidating queries more selectively (e.g., only after successful transactions) or using Wagmi's event listeners if appropriate for real-time updates.
+4.  **Improve Security Posture**: Remove hardcoded contract addresses from the README and potentially load them from environment variables for flexibility. Strictly avoid committing any private keys (`PRIVATE_KEY` in `environment.d.ts` is a major red flag if used/committed). Add input validation/sanitization where necessary before contract calls, even if the contract also validates.
+5.  **Establish CI/CD Pipeline**: Set up a basic CI/CD pipeline (e.g., using GitHub Actions) to automate linting, testing, and potentially deployment (e.g., to Vercel/Netlify) on commits or merges. This improves development workflow and ensures code quality checks are enforced.
 
 **Potential Future Development Directions**:
 
--   Complete the "History" drawer functionality.
--   Add more detailed analytics or ROI tracking visualizations.
--   Integrate notifications for fleet status changes (e.g., assignment, operational updates).
--   Expand support for other wallets or networks if relevant.
--   Develop governance features if applicable to the 3WB Club.
--   Explore backend integration for off-chain data or operations if needed (addressing the hints in `environment.d.ts`).
+*   Implement the "History Drawer" feature fully.
+*   Add features for managing existing fleet investments (e.g., viewing detailed ROI history, potential withdrawal mechanisms if supported by the contract).
+*   Develop governance features if applicable to the "3 Wheeler Bike Club".
+*   Expand support for other wallets or networks if needed.
+*   Build out backend services if off-chain data processing or more complex operations are required.
+*   Add internationalization (i18n) support.

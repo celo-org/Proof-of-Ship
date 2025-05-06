@@ -1,19 +1,19 @@
 # Analysis Report: 3-Wheeler-Bike-Club/3-wheeler-bike-club-fleet-app
 
-Generated: 2025-04-30 19:44:39
+Generated: 2025-05-05 15:02:35
 
 Okay, here is the comprehensive assessment of the `3-wheeler-bike-club-fleet-app` GitHub project based on the provided code digest and metrics.
 
 ## Project Scores
 
-| Criteria                      | Score (0-10) | Justification                                                                                                |
-| :---------------------------- | :----------- | :----------------------------------------------------------------------------------------------------------- |
-| Security                      | 5.0/10       | Uses Privy for auth; secrets in `.env`. API key usage requires care. Lacks input validation evidence & tests.  |
-| Functionality & Correctness | 6.0/10       | Core features outlined. Basic error handling present. Relies on external API. **Critically lacks tests.**        |
-| Readability & Understandability | 7.5/10       | Good structure (Next.js App Router, Shadcn), TypeScript, custom hooks, clear naming. README helps.         |
-| Dependencies & Setup          | 7.0/10       | Standard npm setup, clear README instructions. Relies on `.env.local`. Modern dependencies.                  |
-| Evidence of Technical Usage   | 7.0/10       | Good integration of Next.js, Privy, Wagmi, Shadcn, React Query. Server actions pattern used. Basic Paystack. |
-| **Overall Score**             | **6.6/10**   | Weighted average reflects solid frontend structure but significant gaps in testing and security hardening.   |
+| Criteria                        | Score (0-10) | Justification                                                                                                                               |
+| :------------------------------ | :----------- | :------------------------------------------------------------------------------------------------------------------------------------------ |
+| Security                        | 5.5/10       | Uses Privy for auth. Secrets defined via env vars; `PRIVATE_KEY` usage needs scrutiny. Basic API key auth for internal calls. Needs hardening. |
+| Functionality & Correctness     | 6.5/10       | Core features seem implemented (UI, actions, wallet/payment). Lacks tests and robust error handling/edge case consideration.                 |
+| Readability & Understandability | 8.0/10       | Good structure, consistent style, clear naming, detailed README. Use of hooks/components aids understanding. Lacks inline comments.          |
+| Dependencies & Setup            | 8.5/10       | Standard dependency management (npm/yarn). Excellent README for setup. `.env.local` for config. Missing containerization/prod deployment info. |
+| Evidence of Technical Usage     | 7.5/10       | Good use of Next.js 14, TS, React Query, Wagmi, Privy, Shadcn. Server Actions pattern is sound. Needs improvement in testing & error handling. |
+| **Overall Score**               | **7.2/10**   | Simple average of the criteria scores.                                                                                                      |
 
 ## Repository Metrics
 
@@ -22,11 +22,8 @@ Okay, here is the comprehensive assessment of the `3-wheeler-bike-club-fleet-app
 *   Forks: 0
 *   Open Issues: 0
 *   Total Contributors: 1
-*   Created: 2025-02-07T01:14:50+00:00 (Note: Future date likely a placeholder/error in source data)
-*   Last Updated: 2025-04-28T00:30:31+00:00 (Note: Future date likely a placeholder/error in source data)
-
-## Repository Links
-
+*   Created: 2025-02-07T01:14:50+00:00
+*   Last Updated: 2025-04-28T00:30:31+00:00
 *   Github Repository: https://github.com/3-Wheeler-Bike-Club/3-wheeler-bike-club-fleet-app
 *   Owner Website: https://github.com/3-Wheeler-Bike-Club
 
@@ -54,123 +51,147 @@ Okay, here is the comprehensive assessment of the `3-wheeler-bike-club-fleet-app
 
 ## Codebase Breakdown
 
-*   **Strengths:**
-    *   Active development (based on update timestamp, though future-dated).
-    *   Comprehensive README documentation outlining purpose, features, stack, and setup.
-    *   Modern Tech Stack (Next.js 14, TypeScript, React 18, Tailwind CSS, Shadcn UI, Wagmi/Viem, Privy).
-    *   Clear project structure following Next.js App Router conventions.
-    *   Use of established UI component library (Shadcn UI).
-    *   Integration with Celo blockchain via Wagmi/Viem.
-    *   Authentication handled by Privy.
-    *   State management using React Query.
-*   **Weaknesses:**
-    *   Limited community adoption (0 stars/forks/watchers, 1 contributor).
-    *   No dedicated documentation directory (relies solely on README).
-    *   Missing contribution guidelines.
-    *   Missing license information (README mentions MIT and points to a LICENSE file, but the file itself is not in the digest).
-    *   **Critically missing tests.**
-    *   No CI/CD configuration.
-    *   Potential security vulnerabilities due to lack of visible input validation in server actions and reliance on API key security for backend calls.
-*   **Missing or Buggy Features (based on standard practices):**
-    *   Test suite implementation (Unit, Integration, E2E).
-    *   CI/CD pipeline integration.
-    *   Configuration file examples (beyond `.env.local` structure in README).
-    *   Containerization (e.g., Dockerfile).
-    *   Robust error handling and reporting mechanisms.
-    *   Explicit input validation and sanitization in server actions/API interactions.
+### Strengths
+
+*   **Active Development:** Repository updated recently, indicating ongoing work.
+*   **Comprehensive README:** Provides good context, setup instructions, and architecture overview.
+*   **Modern Tech Stack:** Utilizes current technologies like Next.js 14, TypeScript, React Query, Wagmi/Viem, and Shadcn UI.
+*   **Clear Structure:** Follows Next.js App Router conventions with logical separation of concerns (components, hooks, actions, providers).
+
+### Weaknesses
+
+*   **Limited Community Adoption:** Zero stars, watchers, or forks suggest minimal external usage or visibility.
+*   **Missing Documentation:** Lacks a dedicated docs directory, contribution guidelines, and a LICENSE file (though README mentions MIT).
+*   **No Testing:** Absence of a test suite (unit, integration, e2e) is a significant gap for ensuring correctness and preventing regressions.
+*   **No CI/CD:** Missing automated build, test, and deployment pipelines.
+*   **Basic Security:** Relies on basic API key auth for internal calls; secret management needs improvement for production.
+
+### Missing or Buggy Features
+
+*   **Test Suite Implementation:** No evidence of any testing framework or tests.
+*   **CI/CD Pipeline Integration:** No configuration files for CI/CD services (e.g., GitHub Actions).
+*   **Configuration File Examples:** While `.env.local` is mentioned, an example file (`.env.example`) is usually helpful.
+*   **Containerization:** No Dockerfile or docker-compose setup for easier environment management and deployment.
+*   **Robust Error Handling:** Current error handling in actions primarily logs to console, lacking user feedback mechanisms or propagation.
 
 ## Project Summary
 
-*   **Primary Purpose/Goal:** To provide a client-facing web application for users to interact with the "3 Wheeler Bike Club" Celo smart contracts (`FleetOrderBook`, `FleetOrderToken`). It enables browsing, purchasing (fractional or full), and managing investments in three-wheeler vehicle fleets.
-*   **Problem Solved:** Creates a user-friendly interface for non-technical users to participate in a specific DeFi/Real-World Asset (RWA) investment opportunity on the Celo blockchain, abstracting away direct contract interactions. It also handles user authentication and potentially payment processing (via Paystack).
-*   **Target Users/Beneficiaries:** Investors interested in fractional ownership of three-wheeler fleets managed by the 3 Wheeler Bike Club, potentially focusing on users in specific African markets (Ghana mentioned via currency).
+*   **Primary purpose/goal:** To provide a client-facing web application for users to interact with the 3-Wheeler Bike Club's fleet investment platform built on the Celo blockchain.
+*   **Problem solved:** Creates a user interface for browsing, purchasing (full or fractional), and managing investments in three-wheeler vehicle fleets, leveraging blockchain contracts (FleetOrderBook, FleetOrderToken) for ownership and order tracking.
+*   **Target users/beneficiaries:** Individuals looking to invest in fractional or full ownership of three-wheeler fleets operating within the 3-Wheeler Bike Club ecosystem, and existing owners managing their assets.
 
 ## Technology Stack
 
-*   **Main Programming Languages:** TypeScript (dominant), CSS, JavaScript (minimal config files).
-*   **Key Frameworks and Libraries:**
-    *   **Framework:** Next.js 14 (App Router)
-    *   **UI:** React 18, Tailwind CSS, Shadcn UI, Radix UI, Framer Motion, Embla Carousel, Lucide Icons
-    *   **Blockchain:** Wagmi, Viem (for Celo interaction)
-    *   **Authentication:** Privy (`@privy-io/react-auth`, `@privy-io/server-auth`)
-    *   **State Management/Data Fetching:** React Query (`@tanstack/react-query`)
-    *   **Forms:** React Hook Form (`react-hook-form`), Zod (`zod`) for validation (schema defined, usage in forms assumed)
-    *   **Payments:** Paystack (`react-paystack`)
-    *   **Utilities:** clsx, tailwind-merge
-    *   **Potential Backend/API:** Mongoose (dependency suggests MongoDB interaction, likely in the separate backend API called by server actions)
-*   **Inferred Runtime Environment(s):** Node.js (for Next.js development/build/runtime), Browser (for the client-side application).
+*   **Main programming languages identified:** TypeScript (dominant), JavaScript, CSS.
+*   **Key frameworks and libraries visible in the code:** Next.js 14 (App Router), React 18, Tailwind CSS, Shadcn UI, Radix UI, Lucide Icons, Wagmi, Viem, Privy (`@privy-io/react-auth`, `@privy-io/server-auth`), React Query (`@tanstack/react-query`), React Hook Form, Zod, Embla Carousel, Framer Motion, Mongoose, Paystack (`react-paystack`).
+*   **Inferred runtime environment(s):** Node.js (for Next.js server-side aspects and build process), Web Browser (for the client-side application).
 
 ## Architecture and Structure
 
-*   **Overall Project Structure:** Follows the standard Next.js 14 App Router convention. Key directories include `app/` (routing, pages, server actions, layout), `components/` (reusable UI, potentially feature-specific), `hooks/` (custom React hooks for logic/data fetching), `lib/` (utility functions), `providers/` (context providers like Privy, Wagmi, React Query), `public/` (static assets), `utils/` (configuration, constants, helpers).
-*   **Key Modules/Components:**
-    *   `app/`: Core routing (`page.tsx`, `layout.tsx`), feature routes (`fleet/`, `profile/`), server actions (`actions/`).
-    *   `components/`: UI building blocks (`ui/` via Shadcn), feature-specific components (`landing/`, `fleet/`, `profile/`, `topnav/`).
-    *   `hooks/`: Encapsulate data fetching logic for attestations, currency rates, and off-chain orders, interacting with server actions.
-    *   `providers/`: Wrap the application with necessary contexts (Privy for auth, Wagmi for blockchain, React Query).
-    *   `app/actions/`: Server-side functions (Next.js Server Actions) that primarily act as a Backend-for-Frontend (BFF), calling an external API (`process.env.BASE_URL`) for core business logic and data retrieval.
-*   **Code Organization Assessment:** The organization is logical and follows modern React/Next.js practices. Separation into components, hooks, providers, and actions promotes modularity. Use of Shadcn UI enforces consistency in the UI layer. The `actions` folder clearly separates server-side logic proxies.
+*   **Overall project structure observed:** Monorepo structure typical for a Next.js application using the App Router. Key directories include `app/` (routing, pages, server actions), `components/` (UI elements), `hooks/` (custom React hooks for data fetching/logic), `lib/` (shared utilities), `providers/` (context providers), `public/` (static assets), `utils/` (configuration, constants, helpers).
+*   **Key modules/components and their roles:**
+    *   `app/`: Core application routing, page definitions, and server-side logic (actions).
+    *   `components/`: Reusable UI elements built with Shadcn/Radix, organized by feature (fleet, landing, profile) and shared UI (`ui/`). Includes logic for authorized/unauthorized views.
+    *   `hooks/`: Encapsulate data fetching logic by wrapping server actions, managing loading/error states.
+    *   `providers/`: Wraps the application with necessary context providers (Privy for auth, Wagmi for blockchain interaction, React Query for state management).
+    *   `app/actions/`: Server Actions handle backend logic like fetching data from internal APIs, interacting with Privy, and potentially blockchain operations (though contract interaction logic isn't fully visible).
+    *   `utils/`: Contains configuration (`config.ts`), constants, helper functions, and potentially blockchain client setup.
+*   **Code organization assessment:** The organization is logical and follows common practices for Next.js development. The use of path aliases (`@/*`) improves import clarity. Separation of concerns seems well-maintained through components, hooks, and actions.
 
 ## Security Analysis
 
-*   **Authentication & Authorization:** Handled by Privy (`@privy-io/react-auth` client-side, `@privy-io/server-auth` for server-side validation/metadata). Seems robust for user login and session management. Authorization within the app appears based on authentication status (`authenticated` flag from Privy) and potentially custom metadata (`user.customMetadata`).
-*   **Data Validation and Sanitization:** Zod is listed as a dependency and mentioned for schema validation in the README, likely used with React Hook Form. However, there's no explicit evidence in the provided server actions (`app/actions/`) of input validation or sanitization before making calls to the backend API (`BASE_URL`). This is a potential vulnerability (e.g., injection attacks against the backend API).
-*   **Potential Vulnerabilities:**
-    *   Lack of input validation in server actions before calling the backend API.
-    *   Exposure of `NEXT_PUBLIC_` environment variables needs careful management to avoid leaking sensitive information.
-    *   Security of the external API (`BASE_URL`) is unknown and critical to the overall security.
-    *   No evidence of rate limiting or protection against denial-of-service attacks on server actions or API routes.
-    *   Cross-Site Scripting (XSS) is less likely with React, but depends on careful handling of data rendering (e.g., `dangerouslySetInnerHTML`).
-*   **Secret Management:** Uses standard `.env.local` for secrets (`PAYSTACK_KEY`, `PRIVY_APP_SECRET`, `PRIVATE_KEY`, `WHEELER_API_KEY`, etc.). `environment.d.ts` provides type definitions. The `PRIVATE_KEY` environment variable is highly sensitive; its usage context (potentially in the backend API called by actions, or maybe intended for `privy/server-auth` or signing) is critical and needs secure handling. The `WHEELER_API_KEY` is used in server actions to authenticate with the backend API; its security relies on the protection of the server environment.
+*   **Authentication & authorization mechanisms:** Uses Privy (`@privy-io/react-auth`) for user authentication (email login specified) and embedded wallet management. Authorization is handled by checking `authenticated` status from `usePrivy` and potentially user roles/metadata (profile completion check). Smart wallet addresses are used for user identification within the app.
+*   **Data validation and sanitization:** Zod is listed as a dependency for schema validation, mentioned in the README, but its usage isn't visible in the provided action snippets. Input validation is crucial, especially for payment amounts and user profile data. Paystack integration requires careful validation of amounts and references.
+*   **Potential vulnerabilities:**
+    *   **Secret Management:** Use of `.env.local` is standard for development but insufficient for production secrets (`PRIVY_APP_SECRET`, `MONGO`, `PRIVATE_KEY`, `WHEELER_API_KEY`). These need secure handling (e.g., Vault, Doppler, Cloud KMS).
+    *   **`PRIVATE_KEY` Usage:** The presence and potential usage of a `PRIVATE_KEY` (seen in `environment.d.ts` and `utils/client.ts`) is a significant concern. If used improperly (e.g., exposed client-side or handled insecurely server-side), it could lead to compromised funds/identity. Needs strict server-side isolation and secure storage.
+    *   **API Security:** Server actions call internal API endpoints (`${process.env.BASE_URL}/api/...`) using a static API key (`WHEELER_API_KEY`) via `x-api-key` header. The middleware check (`utils/middleware.ts`) is very basic. This internal API needs robust security (authentication, authorization, rate limiting).
+    *   **Input Validation:** Lack of visible server-side input validation in actions could lead to errors or potential injection vulnerabilities if data is passed to databases or external services without sanitization.
+*   **Secret management approach:** Relies on environment variables defined in `environment.d.ts` and loaded from `.env.local`. This is acceptable for development but needs a more secure solution for production deployment.
 
 ## Functionality & Correctness
 
-*   **Core Functionalities Implemented:** Based on the code structure and README: User login/auth (Privy), viewing fleet data (likely fetched via actions/hooks), purchasing fleets (Paystack integration, `postFleetOrderAction`), viewing order history/attestations (hooks fetching data), profile management (`profile/` components, `setCustomPrivyMetadata` action). Celo wallet connection via Wagmi.
-*   **Error Handling Approach:** Basic `try...catch` blocks are present in the server actions (`app/actions/`). They log errors to the console (`console.error`) but often return `undefined` or throw the error upwards. Client-side error handling (displaying user-friendly messages, handling failed API calls from hooks) is not fully evident but likely relies on React Query's error state. The robustness is questionable without tests.
-*   **Edge Case Handling:** No specific evidence of edge case handling (e.g., network failures during purchase, race conditions, invalid user inputs beyond basic form validation) is visible in the digest. This is often revealed during testing, which is absent.
-*   **Testing Strategy:** **No tests are present or mentioned.** This is a major weakness. Lack of unit, integration, and end-to-end tests makes it impossible to verify correctness, prevent regressions, or ensure reliable functionality, especially given the financial nature of the application.
+*   **Core functionalities implemented:** The code digest shows implementation towards:
+    *   User Authentication (Privy).
+    *   Profile Management (view/edit basic info, linked to Privy metadata).
+    *   Fleet Browsing/Viewing (components like `fleet/authorized.tsx`, `Vin.tsx`).
+    *   Fleet Purchase (Paystack integration in `fleet/buy/authorized.tsx`, `postFleetOrderAction`).
+    *   Order History/Status (Data table in `fleet/authorized.tsx`, `useGetFleetOrdersByAddress`).
+    *   Fetching Blockchain-related Attestations (various hooks in `hooks/attestation/`).
+*   **Error handling approach:** Primarily uses `try...catch` blocks within server actions (`app/actions/...`) and custom hooks (`hooks/...`). Errors are often logged to the console (`console.error(error)`), but the actions frequently return `null` or `undefined` on error, which might not provide sufficient feedback to the UI or calling component. Error states are managed in custom hooks via `useState`. Needs improvement for user-facing error messages and potentially centralized error reporting.
+*   **Edge case handling:** No specific evidence of edge case handling (e.g., network failures during payment, race conditions, invalid user inputs beyond basic types) in the provided digest.
+*   **Testing strategy:** Explicitly noted as missing in the GitHub metrics and no test files (`*.test.ts`, `*.spec.ts`) or testing dependencies (like Jest, Vitest, Playwright, Cypress) are visible in `package.json` devDependencies. This is a major gap.
 
 ## Readability & Understandability
 
-*   **Code Style Consistency:** Appears generally consistent, aided by TypeScript and likely Prettier/ESLint (basic ESLint config present). Use of Shadcn UI promotes consistent component usage.
-*   **Documentation Quality:** The `README.md` is comprehensive, explaining the project's purpose, features, tech stack, setup, and structure. Inline code comments seem sparse in the provided files. No dedicated `/docs` folder.
-*   **Naming Conventions:** Variable, function, component, and file names generally follow standard JavaScript/TypeScript conventions (e.g., `camelCase` for variables/functions, `PascalCase` for components/types). Custom hook names (`useGet...`) are descriptive.
-*   **Complexity Management:** Complexity seems managed through componentization, custom hooks for data fetching logic, and context providers. Server actions abstract backend calls. However, components like `fleet/authorized.tsx` show growing complexity with multiple data fetches and conditional rendering logic that could potentially be refactored.
+*   **Code style consistency:** Appears consistent, likely maintained by ESLint/Prettier (inferred from `.eslintrc.json` and standard practices). Follows common TypeScript/React conventions.
+*   **Documentation quality:** The `README.md` is comprehensive and well-written, significantly aiding understanding. However, inline code comments are sparse, making the intent of specific complex logic sections harder to grasp without deeper analysis. No dedicated documentation site or folder.
+*   **Naming conventions:** Generally clear and conventional (PascalCase for components/types, camelCase for variables/functions). Hooks like `useGet...` clearly indicate their purpose.
+*   **Complexity management:** Complexity is managed by breaking down the UI into components (using Shadcn), abstracting data fetching and logic into custom hooks, and using server actions for backend operations. React Query helps manage server state complexity. The structure prevents overly complex individual files.
 
 ## Dependencies & Setup
 
-*   **Dependencies Management:** Standard `package.json` using npm or yarn. Dependencies are modern and well-maintained (Next.js, Privy, Wagmi, Tailwind, Shadcn, React Query). No lock file included in the digest, but standard practice is assumed.
-*   **Installation Process:** Clearly documented in the `README.md` (`git clone`, `cd`, `npm install`). Straightforward for developers familiar with Node.js environments.
-*   **Configuration Approach:** Relies on environment variables defined in `.env.local`. The `README.md` provides a template. `environment.d.ts` ensures type safety for environment variables in TypeScript.
-*   **Deployment Considerations:** Basic Next.js build (`npm run build`) and start (`npm start`) commands are provided. No specific platform recommendations or infrastructure-as-code (IaC) are mentioned. Containerization (Docker) is missing.
+*   **Dependencies management approach:** Uses npm/yarn with a `package.json` file to manage dependencies. Versions seem relatively up-to-date.
+*   **Installation process:** Clearly documented in the `README.md` using standard `git clone` and `npm install` / `yarn install` commands.
+*   **Configuration approach:** Uses environment variables loaded via `.env.local`. `environment.d.ts` provides TypeScript definitions for these variables. Key configurations include RPC URLs, contract addresses, API keys, and Privy IDs/secrets.
+*   **Deployment considerations:** Standard Next.js build (`npm run build`) and start (`npm start`) scripts are provided. However, no specific guidance on production deployment environments, hosting, or necessary infrastructure (database, secret management) is given. Lack of containerization (Docker) might complicate deployment consistency.
 
 ## Evidence of Technical Usage
 
-1.  **Framework/Library Integration (7.5/10):** Strong evidence of integrating Next.js 14 (App Router, Server Actions), React 18, TypeScript. Correct setup of providers for Privy, Wagmi, and React Query. Effective use of Shadcn UI/Radix for component building and Tailwind for styling. Paystack integration via `react-paystack`. Wagmi/Viem configured for Celo.
-2.  **API Design and Implementation (6.0/10):** Uses Next.js Server Actions as a BFF layer. These actions make simple POST requests to an external `BASE_URL` API, passing data and an API key. This is a reasonable pattern, but the design lacks robustness features like versioning, detailed error handling schemas, or input validation within the actions themselves. The quality heavily depends on the unseen `BASE_URL` API.
-3.  **Database Interactions (N/A - Inferred):** Mongoose dependency suggests MongoDB usage, but likely occurs within the external `BASE_URL` API, not directly within this repository's code. The `postFleetOrderAction` suggests interaction with an off-chain data store for orders. No direct DB code is visible for review.
-4.  **Frontend Implementation (7.5/10):** Well-structured React components using functional components and hooks. State management handled by React Query for server state and component state/context where appropriate. Custom hooks effectively encapsulate data fetching. UI built with Shadcn/Radix/Tailwind, indicating a modern approach. Responsive design is claimed via Tailwind/Shadcn. Accessibility benefits from Radix UI, but no specific testing/implementation details are visible.
-5.  **Performance Optimization (6.0/10):** Leverages React Query for client-side caching and request de-duplication. Next.js provides inherent performance benefits (SSR, code splitting). Use of `useEffect`, `useState` is standard. No advanced optimization techniques (e.g., memoization beyond React Query, virtualization, complex image optimization) are evident in the digest. Framer Motion usage might impact performance if not used carefully.
+1.  **Framework/Library Integration (8/10):**
+    *   Correctly utilizes Next.js 14 App Router, Server Actions, and React 18 features.
+    *   Integrates well with Privy for authentication and embedded wallets.
+    *   Leverages Wagmi/Viem effectively for blockchain interactions (config, context).
+    *   Uses React Query for server state management and caching.
+    *   Employs Shadcn UI/Radix/Tailwind following best practices for building a modern, responsive UI.
+    *   Uses Framer Motion and Embla Carousel for UI enhancements.
+
+2.  **API Design and Implementation (6.5/10):**
+    *   Uses Next.js Server Actions as the primary API layer, which is appropriate for this architecture.
+    *   Actions are generally focused but lack robust error handling/reporting back to the client.
+    *   Internal API calls (`fetch` within actions) use a basic API key check, which could be more secure.
+    *   No evidence of API versioning (may not be required for this internal pattern).
+    *   Request/response handling within actions is basic.
+
+3.  **Database Interactions (6/10):**
+    *   Mongoose is a dependency, and `MONGO` env var exists, strongly implying MongoDB usage.
+    *   However, no actual database interaction code (schemas, queries, connection management) is present in the digest.
+    *   Assessment is limited, assuming standard Mongoose patterns are used in the non-visible API routes called by actions.
+
+4.  **Frontend Implementation (8/10):**
+    *   Well-structured UI components using Shadcn/Radix UI.
+    *   State management handled by React Query for server state and `useState` for local component state.
+    *   Responsive design implemented via Tailwind CSS.
+    *   Accessibility is likely decent due to Radix UI, but no specific accessibility testing or considerations are mentioned.
+    *   Custom hooks effectively encapsulate data fetching and related state.
+
+5.  **Performance Optimization (7/10):**
+    *   React Query provides client-side caching.
+    *   Next.js App Router offers inherent performance benefits (RSCs, code splitting).
+    *   Server Actions reduce client-side bundle size for backend logic.
+    *   Asynchronous operations are used (actions, hooks).
+    *   No evidence of advanced optimization techniques (e.g., complex caching strategies, image optimization beyond Next/Image defaults, algorithmic optimization).
+
+**Overall Technical Usage Score: 7.5/10** (Average of sub-scores, rounded)
 
 ## Suggestions & Next Steps
 
-1.  **Implement Comprehensive Testing:** Introduce unit tests (e.g., for utils, hooks), integration tests (e.g., component interactions, action calls), and end-to-end tests (e.g., user flows like login, purchase). This is critical for ensuring correctness and preventing regressions, especially for a financial application. Frameworks like Jest, React Testing Library, and Playwright/Cypress are recommended.
+1.  **Implement Comprehensive Testing:** Introduce unit tests (e.g., Vitest/Jest) for hooks, utils, and potentially action logic mocks. Add integration tests for component interactions and data flow. Consider end-to-end tests (e.g., Playwright/Cypress) for critical user flows like login, purchase, and viewing fleet details. This is crucial for stability and maintainability.
 2.  **Enhance Security:**
-    *   Implement robust input validation and sanitization within all Server Actions (`app/actions/`) before interacting with the backend API (`BASE_URL`), potentially using Zod schemas.
-    *   Review all `NEXT_PUBLIC_` environment variables to ensure no sensitive information is exposed client-side.
-    *   Carefully manage the `WHEELER_API_KEY` and especially the `PRIVATE_KEY` (ensure it's only used server-side in a secure context, if absolutely necessary, and consider alternatives like KMS).
-    *   Consider adding rate limiting to server actions/API routes.
-3.  **Improve Error Handling:** Refine error handling in server actions and hooks. Ensure errors from the backend API (`BASE_URL`) are propagated correctly and handled gracefully in the UI, providing meaningful feedback to the user instead of just logging to the console or failing silently. Implement a centralized error reporting service (e.g., Sentry).
-4.  **Add CI/CD Pipeline:** Set up a CI/CD pipeline (e.g., GitHub Actions) to automate linting, testing, building, and potentially deployment on code pushes/merges. This improves code quality and development velocity.
-5.  **Expand Documentation:** Create contribution guidelines (`CONTRIBUTING.md`). Add inline comments for complex logic sections. Consider adding ADRs (Architecture Decision Records) for significant design choices. Ensure the `LICENSE` file is present.
+    *   Implement robust production secret management (e.g., HashiCorp Vault, Doppler, AWS/GCP Secrets Manager) instead of relying solely on env vars loaded from files.
+    *   Thoroughly review and secure the usage of `PRIVATE_KEY` if it's necessary for server-side operations. Ensure it's never exposed client-side and stored securely.
+    *   Strengthen internal API security beyond the static API key (e.g., using JWTs derived from the authenticated user session).
+    *   Implement server-side input validation using Zod (as planned) within all server actions and API routes handling user input.
+3.  **Improve Error Handling & User Feedback:** Refine `try...catch` blocks in actions and hooks to return meaningful error information instead of just logging. Propagate errors to the UI layer to display user-friendly messages (e.g., using toast notifications or inline error states) instead of silent failures. Consider integrating an error reporting service (e.g., Sentry).
+4.  **Establish CI/CD Pipeline:** Configure a CI/CD pipeline (e.g., GitHub Actions) to automate linting, testing, building, and potentially deploying the application on commits/merges. This improves development workflow and ensures code quality.
+5.  **Add Containerization:** Include a `Dockerfile` and potentially `docker-compose.yml` to containerize the application, simplifying development setup, ensuring environment consistency, and easing deployment.
 
-## Potential Future Development Directions
+**Potential Future Development Directions:**
 
 *   Implement the "Add a 3-Wheeler" feature (currently disabled).
-*   Develop more sophisticated fleet management features (e.g., performance tracking, maintenance logs - likely dependent on backend API).
+*   Develop features hinted at by UI elements (e.g., Messages, Notifications).
+*   Expand token management features (transfers, potentially staking/governance).
 *   Integrate more payment options (Stripe, MiniPay mentioned as disabled).
-*   Build out community features (messaging mentioned via icon).
-*   Introduce user roles and permissions if needed.
-*   Enhance analytics and reporting dashboards for users.
-*   Explore further Celo features or integrations (e.g., Celo stablecoins beyond configuration, governance).
-*   Add internationalization (i18n) support.
+*   Build out analytics dashboards for fleet owners.
+*   Add detailed documentation (API docs if applicable, contribution guidelines, architecture deep-dive).
+*   Implement internationalization (i18n) if targeting users in multiple language regions.
