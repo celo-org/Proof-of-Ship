@@ -24,8 +24,8 @@
 ### Previous month work done
 Implemented paypal payment processor, replenishing tokens, other fixes and new features implemented as per users demands
 
-- [Paypal Integration](https://github.com/normiedottech/normie.tech/pull/48)
-- [Replenishing Tokens](https://github.com/normiedottech/normie.tech/pull/43)
+- [Paypal Integration]()
+- [Replenishing Tokens]()
 
 ## Problem
 Web3 businesses lose 85% of potential customers who want to pay with cards but can’t navigate crypto wallets, KYC hurdles, or volatile settlements.
