@@ -1,12 +1,26 @@
 
 ## 🚀 Hey Builders,
 
-First off, amazing work on your PoS submissions — every project, whether early-stage or more advanced, brings something exciting to the table. Just a few quick reminders and encouragements to help you keep leveling up:
+First off, amazing work on your PoS submissions — every project, whether early-stage or more advanced, brings us a lot of joy to review. Just a few quick reminders and encouragements to help you keep leveling up:
 
-### 🔄 Keep Things Updated
+### 🔄 General Completeness of Submission
 - **Update your video** every time you add new functionality — this isn’t just for the judges, it’s great training for yourself. Show off your progress.
-- **Update your deck** to match your latest build and clarify your narrative. A good story makes your tech more powerful.
-- Make sure **smart contracts and repositories are correctly connected** to KarmaGAP. This boosts your visibility and gives reviewers confidence in your project’s depth.
+- **Update your deck** to match your latest build and clarify your narrative. A good story makes your tech more powerful. A good founder works constantly on improving their deck!!
+- **Update your README** to match the information on KarmaGAP. This will be used by the agent to compare the techincal implementations and you want it to be up to date to get the best score possible. Discrepancies between README and technical implementation lead to loss of points. 
+- Make sure **smart contracts and repositories are correctly connected** to KarmaGAP. This is the data we are using to evaluate your project. If it's not connected, it won't count into your score!
+
+### Presentation IRL and in the video
+
+Please remember that your presentation is the most important thing of your project. This is what people see. So, please follow the guide provided
+
+- Time distribution
+  - **1 min** intro to the idea, please use a deck or graphics or something visually pleasing. People have a short attention span and when you just talk over the startscreen of your dap, you loose them. Add highlights of the updates of the month
+  - **2 min** walkthrough. Please pre-record and don't do a live demo. Add a voice over, but please with your own voice and not with AI. 
+  - **1 min** roadmap, team, challenges, architecture. Create a personal relationship to the viewer.
+- Practice your live presentation. Imagine the founders of Celo are watching this and probably a VC. Make sure you stand out. 
+- Make sure your tech works. Invest in a better mic and check your recording afterwards for quality. In the end your online communication counts a lot and if people don't understand you, they won't be able to see your fill potential. 
+- If you are using AI generated slides, please make sure to check them. I saw so many references to tech that was not in fact used. Don't overload your presentation with AI generated content, it will be too much. 
+- Please make sure you don't have too much text on the slides. You will loose the judge and not manage to fully present your idea.
 
 ### 🤖 On Using AI
 - If you're using AI tools (for slides, docs, UI, etc.), that's awesome — just **review the output**. It’s your vision; make sure the tech reflects it.
