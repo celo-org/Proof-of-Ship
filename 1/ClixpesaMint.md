@@ -25,7 +25,7 @@ users to overdraw their wallet for amounts up to $100. Users can be charged a lo
 normal loan and therefore increase the volume of spend among our users.
 
 - **Clipesa x Partner Protocols**:
-Clixpesa contracts have since existed as silos in the ecosystem, we seek to intergrate partner protocols to our new
+Clixpesa contracts have since existed as silos in the ecosystem, we seek to integrate partner protocols to our new
 contracts to add yield to savings and also connect to liquidity pools in the ecosystem
 
 ## Detailed description of the work you did during the contest

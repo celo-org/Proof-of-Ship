@@ -83,7 +83,7 @@ Token-Gated Content: Access to NFTs or other content is unlocked upon providing 
 
 ---
 
-Make The project available to all people and artists, onboard more artists, tie up with local hubs, theaters and venues that host open mic, art workshops and exhibition to provide visiblity to artists directly or via fans.
+Make The project available to all people and artists, onboard more artists, tie up with local hubs, theaters and venues that host open mic, art workshops and exhibition to provide visibility to artists directly or via fans.
 
 ---
 
