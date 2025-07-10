@@ -16,7 +16,9 @@ Generated: 2025-07-02 00:13:08
 |------------|----------|--------------|-------------|--------------|----------|----------|
 | jerydam/faucetdrop | 4.0/10 | 6.0/10 | 7.5/10 | 6.0/10 | 8.0/10 | 6.2/10 |
 | jerydam/Faucet-smartcontract | 5.0/10 | 5.5/10 | 7.0/10 | 8.0/10 | 6.5/10 | 6.4/10 |
+| jerydam/fauctdrop-backend | 2.0/10 | 5.5/10 | 6.0/10 | 8.0/10 | 6.0/10 | 5.5/10 |
 | Chrispin-m/vort3x | 3.0/10 | 5.0/10 | 7.5/10 | 9.0/10 | 6.0/10 | 6.1/10 |
+| Overtime-Org/Overtime | 4.0/10 | 7.0/10 | 6.0/10 | 8.0/10 | 7.5/10 | 6.5/10 |
 | 3-Wheeler-Bike-Club/3-wheeler-bike-club-invoice-distro | 4.0/10 | 6.0/10 | 7.5/10 | 8.0/10 | 6.0/10 | 6.3/10 |
 | 3-Wheeler-Bike-Club/3-wheeler-bike-club-fleet-app | 3.5/10 | 6.0/10 | 7.5/10 | 8.5/10 | 7.0/10 | 6.5/10 |
 | 3-Wheeler-Bike-Club/3-wheeler-bike-club-team-app | 3.5/10 | 6.5/10 | 7.0/10 | 8.0/10 | 7.0/10 | 6.4/10 |
