@@ -81,7 +81,7 @@ Now, onto your personalized feedback. Each note below is tailored to your projec
 
 **General Feedback:**
 - Please have your pitch in a proper pitch deck, like canva, that you can share.
-- Could not find the farcaster app.
+- Could not find the farcaster app on farcaster.
 - Add farcaster user name search.
 - Next steps should include the creator part.
 - how they can make money etc.
@@ -91,7 +91,7 @@ Now, onto your personalized feedback. Each note below is tailored to your projec
 - Maybe collab with Minth project.
 - Nice project, but not sure about real usability.
 - using metrics from 2021, when there was a NFT bubble, reality is much different now - looks unrealistic for investors when the market size is from 2021.
-- I'm not sure about the scalability of the project in terms of financial sustenability.
+- I'm not sure about the scalability of the project in terms of financial sustainability.
 
 ---
 
@@ -119,12 +119,12 @@ Now, onto your personalized feedback. Each note below is tailored to your projec
 [View on KarmaGAP](https://gap.karmahq.xyz/project/esusu)
 
 **General Feedback:**
-- you need to get users.
+
 - good user numbers already.
 - share more about that in the video and your updates.
 - I mean also non technical updates.
 - Make sure it works as a farcaster app and a normal app for testing.
-- Links to suer testing and ambassador program are leading to a 404 good dollar page.
+- Links to user testing and ambassador program are leading to a 404 good dollar page.
 - great that you integrated Good Dollar.
 - The scroll in the Farcaster app does not properly work.
 - the page is cutoff in the bottom where we have the menu bar.
@@ -148,7 +148,7 @@ Now, onto your personalized feedback. Each note below is tailored to your projec
 - right now I only sign the transaction for my movie.
 - I should be able to provide a comment as well.
 - The state management is not working.
-- when I reload the page, my votes are not saved.
+- when I reload the page, my votes are not saved/ reflected in the FE.
 - Farcaster Frame feature does not work.
 - should all be a Farcaster Frame or TG MiniApp.
 - would make sense to add incentives and gamification.
@@ -163,7 +163,7 @@ Now, onto your personalized feedback. Each note below is tailored to your projec
 [View on KarmaGAP](https://gap.karmahq.xyz/project/sovereign-seas)
 
 **General Feedback:**
-- great that you added the Farcaster Frame.
+- great that you added the Farcaster miniapp.
 - Good UI update.
 - Good job making it more Stable.
 - like to have the dynamic swap for the voting.
@@ -173,7 +173,7 @@ Now, onto your personalized feedback. Each note below is tailored to your projec
 - But it works in farcaster.
 - for minipay, you would have to make the user experience much more simple with only voting in stablecoins and much more simple user flow.
 - great job in adding good dollar and self.
-- should have shown that n the video.
+- should have shown that in the video.
 
 ---
 
@@ -184,7 +184,7 @@ Now, onto your personalized feedback. Each note below is tailored to your projec
 
 **General Feedback:**
 - please use the video as the chance to share updates from the last month and what you worked on.
-- doesn't need to be techncial, can also be user testing etc.
+- doesn't need to be technical, can also be user testing etc.
 - updates on partnership with bibyt is exciting.
 - go for it! you are on the right path.
 - Make sure to check the technical feedback.
@@ -201,13 +201,13 @@ Now, onto your personalized feedback. Each note below is tailored to your projec
 
 **General Feedback:**
 - Make sure all of your team has filled out your profile on KarmaGAP.
-- don't have Johns information here, only in the deck.
-- to the farcaster app, add the possibility to share my saving circle in a miniapp.
+- don't have Johns information on KarmaGAP, only in the deck.
+- to the farcaster app, add the possibility to share my saving circle in a frame.
 - good solid clean design.
 - works well.
 - no bugs.
 - Real and useful use case.
-- I think this idea is super useful, but he 5% fee  in very transaction is a bit high, would people be willing to pay that?
+- I think this idea is super useful, but the 5% fee  in very transaction is a bit high, would people be willing to pay that?
 - A GTM with a human journey/funnel acquisition could help understand these points as well.
 
 ---
@@ -228,7 +228,7 @@ Now, onto your personalized feedback. Each note below is tailored to your projec
 - use a library for that.
 - how does the verification between collector and recycler work?
 - also, are you using AI to analyze the picture or how do you create a proof?
-- Interesting model, few doubts about integrity of proofs and quality of wsate reciclyng submissions.
+- Interesting model, few doubts about integrity of proofs and quality of waste recycling submissions.
 - There's a strong user case and business model there.
 - What is the strategy for onboarding users on all levels?
 - I see this only working with a solid gtm.
@@ -304,7 +304,7 @@ Now, onto your personalized feedback. Each note below is tailored to your projec
 - please always have a live deployment for us to test.
 - like the community and learning approach a lot.
 - Please use AI.
-- before you can charge communities, you need to get users and offer this for free.
+- before you can charge communities, you need to get users and offer this for free. Show what value you bring. 
 - now with AI, the cost is not to create the material but to offer the users.
 - maybe it would be interesting to have some sor tof game strategy here to incentivize people to participate - rewards, leadership, etc.
 
@@ -345,7 +345,7 @@ Now, onto your personalized feedback. Each note below is tailored to your projec
 [View on KarmaGAP](https://gap.karmahq.xyz/project/juz-mini-apps)
 
 **General Feedback:**
-- no deck, demo or video but transactions on GH and onchain.
+- no deck, demo or video but updates to GitHub and transactions onchain.
 - Mention Celo in their repository.
 
 ---
@@ -371,12 +371,12 @@ Now, onto your personalized feedback. Each note below is tailored to your projec
 - NFT gallery did not work for me.
 - Still not clear what the goal is here.
 - a few questions.
-- Who are your users.
-- What are they doing with the NFT later?
-- is this also a marketplace?
-- who are your competitors?
-- How are you making money.
-- What fees are you taking?
+  - Who are your users.
+  - What are they doing with the NFT later?
+  - is this also a marketplace?
+  - who are your competitors?
+  - How are you making money.
+  - What fees are you taking?
 
 ---
 
@@ -386,7 +386,7 @@ Now, onto your personalized feedback. Each note below is tailored to your projec
 [View on KarmaGAP](https://gap.karmahq.xyz/project/stable-sl)
 
 **General Feedback:**
-- I realize that you did not update the UI.
+- Update the UI to match OKX wallet or take OneRamp as example for clean design
 - I thought in your demo all of it was your app.
 - and that you build a wallet around the infra.
 - But realizing now, that there has not been an update and the user experience and the UI is still super clunky and does not look trustworthy.
@@ -424,7 +424,7 @@ Now, onto your personalized feedback. Each note below is tailored to your projec
 
 **General Feedback:**
 - competitor analysis is not extensive.
-- there are no other protocols doing P2P lending?
+- there are no other protocols doing P2P lending? 
 - why are you the only one and what benefits does it add.
 - beginning of the video should support what you are saying wth slides.
 - simple slides with not too much text.
@@ -525,7 +525,7 @@ Now, onto your personalized feedback. Each note below is tailored to your projec
 **General Feedback:**
 - wallet connect did not work.
 - could be used by the community.
-- only tow days of commits and not transactions.
+- only two days of commits and no transactions.
 
 ---
 
@@ -616,11 +616,11 @@ Now, onto your personalized feedback. Each note below is tailored to your projec
 - Not really web2 friendly.
 - consider using account abstraction.
 - Please also update your user profiles in Karma, so ecosystem partners are able to reach out.
-- app should not be to download.
-- don't trust that.
-- so won't be able to test it.
-- Also, you should add your contract, but not the cUSD contract.
-- If you want to make sure to track your transactions, make sure that you are signed up to proof of impact.
+- app should not be to download, have a live deployment
+  - don't trust that.
+  - so won't be able to test it.
+- Also, you should add your contract, but not the cUSD contract. please remove that. 
+  - If you want to make sure to track your transactions, make sure that you are signed up to proof of impact.
 
 ---
 
@@ -721,6 +721,6 @@ Now, onto your personalized feedback. Each note below is tailored to your projec
 
 **General Feedback:**
 - no updates in the last month.
-- reach out.
+
 
 ---
