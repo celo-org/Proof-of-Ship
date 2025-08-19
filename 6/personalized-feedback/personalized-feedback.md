@@ -132,6 +132,8 @@ Now, onto your personalized feedback. Each note below is tailored to your projec
 - Work on the design and color scheme.
 - Matching components, right now, there is a lot of different rounding going on.
 - Present in mobile view and explain what you are doing, without sound the video does not make too much sense.
+- Explain the utility better. not clear from the demo
+
 
 
 ---
@@ -324,6 +326,9 @@ Now, onto your personalized feedback. Each note below is tailored to your projec
 - After you save money, would be nice to see a UX at the top saying how much money you saved and your returns so far.
 - Lots of potential here.
 - Would be nice to see more users testing it and getting more user feedback.
+- Explain how liquidations work etc. - Liquidations: We leverage on mento oracle prices and if your collateral drops below 150% of your loan, it is liquidation eligible. During a liquidation, the protocol will only seize enough collateral as principal plus accrued interest and 5% (to treasury) and repay debt (including unwinding Aave positions for dollar‑backed assets) and return any remainder to you.
+- seems buggy. 
+- overall great idea! 
 
 
 ---
@@ -510,6 +515,7 @@ Now, onto your personalized feedback. Each note below is tailored to your projec
 **Feedback:**
 - Submission incomplete, there should be a contract deployed and some txs from the user testing.
 - Would be great to have a video walkthrough.
+- was not clear how Mento is used
 
 
 ---
@@ -545,6 +551,7 @@ Now, onto your personalized feedback. Each note below is tailored to your projec
 - Good project for Colombians, they integrate cCOP, cUSD & cEUR and plans to integrate more.
 - 4 of 4 milestones accomplished, 18 commits and 3 txn during the season
 - Grant marked as completed.
+- We would like to see a bit of customization in time and currency selected. otherwise really awesome!
 
 
 ---
@@ -611,6 +618,7 @@ Smart Contract: hardhat
 - Good UI.
 - Are you having users/transactions? How are you tracking them? Looks like your project is working and the next step is to onboard users?
 - What value do you offer compared to MiniPay? More stablecoins?
+- Intersting offramp use case to mobile wallets. Would be good to see onramp integrations
 
 
 ---
@@ -633,7 +641,7 @@ Smart Contract: hardhat
 [View on KarmaGAP](https://gap.karmahq.xyz/project/fx-remit)
 
 **Feedback:**
-- What value do you add on top of Mento swap?
+- You basically bundle a send and swap in one txn and wrap it in a UI. Fee seems high but really like the project.
 - I would like to see spot order etc., clear buckets for the different stablecoins, check out Revolut design.
 - App design too AI created, add personalized style.
 - Simplified international payments platform with a user-friendly dashboard, has commits and transactions in the last 30 days.
@@ -715,6 +723,7 @@ Smart Contract: hardhat
 **Feedback:**
 - Unify the design, align the landing page more to the design of the rest of the dapp.
 - Landing page is AI created, doesn't match.
+- It just seems like wrapper to swap and stake. Add FX functionalities.
 
 
 ---
@@ -881,6 +890,7 @@ Smart Contract: hardhat
 - Consider personalizing the style/components/very AI created.
 - Looking forward to see how you onboard merchants.
 - Hardest part.
+- FX swaps were not visible in the demo. Could not be found in the code. it'd be cool if they support acceptance of any currency into the vendors local currency. e.g. cUSD or USDT into cCOP (facilitated by Mento swaps)
 
 
 ---
@@ -1170,3 +1180,5 @@ Smart Contract: hardhat
 - Make the vault option more prominent, hard to find when you have to scroll down.
 - How it works is moved to the bottom in the mobile view.
 - After depositing, the TVL amount for the Vault just had the status "Loading..." but didn't update.
+- cool idea with vaults. Can the user swap into other assets automatically to chase higher yielding opps. 
+- not sure the need for an NFT.
