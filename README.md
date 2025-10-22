@@ -4,7 +4,7 @@
 > 
 > ℹ️ **Want to join?** 
 > 
-> Register for Proof-of-Ship now on our [event platform](https://celo.lemonade.social/e/4JkhOXcD). Don't forget to claim your collectible.
+> Register for [Proof-of-Ship](https://celo-devs.beehiiv.com/subscribe).
 > 
 
 ## What is Proof-of-Ship?
@@ -16,9 +16,8 @@ Learn more about the contest [here](https://celoplatform.notion.site/Build-With-
 **Here’s how it works:**
 
 - ✅ **Submit your project** [KarmaGap](https://gap.karmahq.xyz/) for what you plan to ship this month. Follow this [GUIDE](https://docs.gap.karmahq.xyz/how-to-guides/integrations/celo-proof-of-ship) to add your project to the latest Proof of Ship Season.
-- ✅ **Sign up** to the [Monthly Proof of Ship](https://celo.lemonade.social/events) contest
 - ✅ **Ship code, share updates** on GitHub & Farcaster, and let AI track your progress.
-- ✅ The **Top projects** are selected for the **Jokerace contest** and invited to present at the **live Builder Showcase**.
+- ✅ The **Top projects** are selected for the **community contest** and invited to present at the **live Builder Showcase**.
 - ✅ **Winner announced live** at the end of the Builder Showcase.
 - ✅ **Keep building & keep earning each month**—returning builders unlock **bigger rewards** over time!
 
@@ -48,33 +47,6 @@ Your Project should have the following information:
    - Mention all libraries and frameworks used
    - Provide feedback to any issues you encountered with the implementation
    - If you are building something more complex, make sure to add visuals to explain the architecture of your project.
-
-
-## Judging
-
-- **33% - AI Agent vote:**
-  - Technical implementation
-  - Builders commit activity
-  - Completeness of submission
-- **33% - Celo Team judging**
-- **33% - Community Vote**
-- **1% - Luck**
-
-
-
-📆 **Key Dates:**
-- **March 1st - 24th:** Submissions open
-    - Register your project on [KarmaGAP](https://gap.karmahq.xyz/)
-    - Apply for [Proof of Ship](https://celo.lemonade.social/events)
-- **Ongoing:** Share updates on KarmaGAP & Farcaster, and let AI track your progress.
-- **March 24th:** Project Submission Deadline.
-- **March 24th:** 9 AM GMT - Submission Close. The later you submit the less we can guarantee that we got all your information
-- **March 24th - 25th:** Internal evaluation.
-- **March 26th:** Top 10 projects will be contacted and their project will be uploaded for the JokeRace competition.
-- **March 26th - 28th:** JokeRace community voting is open.
-- **March 28th:** 3 PM GMT - Builders Showcase - and final voting hour (this is when most people vote so this will be fun)
-- **March 28th:** 4 PM GMT - Winners Announcement
-
 
 
 🚖 **Tracks:**
