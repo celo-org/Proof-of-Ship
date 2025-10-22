@@ -58,6 +58,6 @@ While any project on Celo is eligible, we highly encourage projects that fit int
 - **Infra & Dev Tools:** Improve developer tooling (such as [Celo Composer](https://github.com/celo-org/celo-composer) or [Composer Kit](https://github.com/celo-org/composer-kit)) or create projects and tutorials that leverage existing developer tooling (such as [Thirdweb](https://thirdweb.com/celo)).
 
 
-*Find FAQ and more details on timeline, eligibility, and judging creteria, on the [Proof of Ship Notion](https://celoplatform.notion.site/Build-With-Celo-Proof-of-Ship-17cd5cb803de8060ba10d22a72b549f8).*
+*Find FAQ and more details on timeline, eligibility, and judging criteria, on the [Proof of Ship Notion](https://celoplatform.notion.site/Build-With-Celo-Proof-of-Ship-17cd5cb803de8060ba10d22a72b549f8).*
 
 
